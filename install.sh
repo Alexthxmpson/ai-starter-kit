@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 # AI Starter Kit installer
 # From Alexander Alberts' AI event in Bali.
-# Creates your AI workspace and installs Claude Code.
+# Fresh install:  ./install.sh          (or the curl one-liner in the README)
+# Update later:   ./install.sh --update (adds new skills and docs, never touches your files)
 
 set -euo pipefail
 
 REPO_URL="https://github.com/Alexthxmpson/ai-starter-kit.git"
 DEFAULT_WORKSPACE="$HOME/ai-workspace"
+MODE="install"
+[ "${1:-}" = "--update" ] && MODE="update"
 
 bold()  { printf "\033[1m%s\033[0m\n" "$1"; }
 ok()    { printf "  \033[32m✓\033[0m %s\n" "$1"; }
@@ -15,7 +18,11 @@ fail()  { printf "  \033[31m✗\033[0m %s\n" "$1"; }
 
 echo ""
 bold "AI Starter Kit"
-echo "  Workspace + starter skills from the Bali AI event."
+if [ "$MODE" = "update" ]; then
+  echo "  Update mode: adding anything new, never touching your existing files."
+else
+  echo "  Workspace + starter skills from the Bali AI event."
+fi
 echo ""
 
 # ---------- 1. Check the machine ----------
@@ -41,12 +48,8 @@ ok "git found"
 
 if ! command -v node >/dev/null 2>&1; then
   fail "Node.js is not installed."
-  if [ "$OS" = "Darwin" ]; then
-    echo "    Easiest fix: install from https://nodejs.org (LTS version), then run this again."
-    echo "    Or with Homebrew: brew install node"
-  else
-    echo "    Install the LTS version from https://nodejs.org, then run this again."
-  fi
+  echo "    Install the LTS version from https://nodejs.org, then run this again."
+  [ "$OS" = "Darwin" ] && echo "    Or with Homebrew: brew install node"
   exit 1
 fi
 
@@ -74,51 +77,77 @@ else
   fi
 fi
 
-# ---------- 3. Create the workspace ----------
-bold "[3/4] Your workspace"
+# ---------- 3. Create or update the workspace ----------
+if [ "$MODE" = "update" ]; then bold "[3/4] Updating your workspace"; else bold "[3/4] Your workspace"; fi
 
 WORKSPACE="$DEFAULT_WORKSPACE"
-if [ -t 0 ]; then
+if [ -t 0 ] && [ "$MODE" = "install" ]; then
   printf "  Where should your workspace live? [%s] " "$DEFAULT_WORKSPACE"
   read -r ANSWER || true
   if [ -n "${ANSWER:-}" ]; then WORKSPACE="$ANSWER"; fi
 fi
-
-# Find the workspace template: next to this script, or clone the repo to get it
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || echo "")"
-TEMPLATE=""
-if [ -n "$SCRIPT_DIR" ] && [ -d "$SCRIPT_DIR/workspace" ]; then
-  TEMPLATE="$SCRIPT_DIR/workspace"
-else
-  TMP_CLONE="$(mktemp -d)"
-  echo "  Fetching the kit..."
-  git clone --depth 1 --quiet "$REPO_URL" "$TMP_CLONE/kit"
-  TEMPLATE="$TMP_CLONE/kit/workspace"
+if [ "$MODE" = "update" ] && [ ! -d "$WORKSPACE" ]; then
+  fail "No workspace found at $WORKSPACE. Run a fresh install first (without --update)."
+  exit 1
 fi
 
+# Find the kit source: next to this script, or clone the repo fresh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || echo "")"
+KIT=""
+if [ -n "$SCRIPT_DIR" ] && [ -d "$SCRIPT_DIR/workspace" ]; then
+  KIT="$SCRIPT_DIR"
+else
+  TMP_CLONE="$(mktemp -d)"
+  echo "  Fetching the latest kit..."
+  git clone --depth 1 --quiet "$REPO_URL" "$TMP_CLONE/kit"
+  KIT="$TMP_CLONE/kit"
+fi
+TEMPLATE="$KIT/workspace"
+
 mkdir -p "$WORKSPACE"
+ADDED=0
 # Copy without overwriting anything that already exists
 (cd "$TEMPLATE" && find . -type d -exec mkdir -p "$WORKSPACE/{}" \;)
-(cd "$TEMPLATE" && find . -type f | while read -r f; do
+while read -r f; do
   dest="$WORKSPACE/${f#./}"
   if [ -e "$dest" ]; then
-    warn "kept your existing ${f#./}"
+    [ "$MODE" = "install" ] && warn "kept your existing ${f#./}"
   else
-    cp "$f" "$dest"
+    cp "$TEMPLATE/$f" "$dest"
+    ADDED=$((ADDED+1))
+    [ "$MODE" = "update" ] && ok "added ${f#./}"
   fi
-done)
-ok "Workspace ready at $WORKSPACE"
+done < <(cd "$TEMPLATE" && find . -type f)
+
+# Ship the guides too
+mkdir -p "$WORKSPACE/docs/guides"
+for g in "$KIT"/docs/*.md; do
+  [ -e "$g" ] || continue
+  dest="$WORKSPACE/docs/guides/$(basename "$g")"
+  if [ ! -e "$dest" ]; then cp "$g" "$dest"; ADDED=$((ADDED+1)); fi
+done
+
+if [ "$MODE" = "update" ] && [ "$ADDED" -eq 0 ]; then
+  ok "Already up to date. Nothing new to add."
+else
+  ok "Workspace ready at $WORKSPACE ($ADDED new files)"
+fi
 
 # ---------- 4. Done ----------
-bold "[4/4] Done. Next steps:"
+bold "[4/4] Done. Your skills:"
+echo ""
+for s in "$WORKSPACE/.claude/commands/"*.md; do
+  printf "    /%s\n" "$(basename "$s" .md)"
+done
+echo ""
+echo "  Next steps:"
 echo ""
 echo "    cd $WORKSPACE"
 echo "    claude"
 echo ""
 echo "  Sign in when it asks (Claude subscription or API key)."
-echo "  Then try your first skill:"
-echo ""
-echo "    /brain-dump I want to build a dashboard for my weekly numbers"
+echo "  Then try: /brain-dump I want a dashboard for my weekly numbers"
+echo "  Guides live in $WORKSPACE/docs/guides/"
 echo ""
 bold "Go create magic."
 echo ""
