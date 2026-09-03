@@ -1,7 +1,7 @@
 # The Workspace, Folder by Folder
 
 ```
-ai-workspace/
+ai-command-center/
 ├── CLAUDE.md
 ├── .claude/
 │   └── commands/

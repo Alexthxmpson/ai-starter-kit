@@ -37,7 +37,7 @@ The most important skill in this kit is `/skill-creator`: it interviews you abou
 ## Piece 4: The workspace
 
 ```
-ai-workspace/
+ai-command-center/
 ├── CLAUDE.md              ← read by your AI at the start of every session
 ├── .claude/commands/      ← your skills
 ├── projects/              ← one folder per build
@@ -49,7 +49,7 @@ The folder most people miss is `context/handoffs/`. Every work session ends with
 
 ## First session checklist
 
-1. `cd ~/ai-workspace` and run `claude`
+1. `cd ~/ai-command-center` and run `claude`
 2. Open `CLAUDE.md` and fill in the "About me" section: what your business is, who you serve, what you are building
 3. Run your first `/brain-dump` on something real
 4. End with `/handoff`

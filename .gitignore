@@ -1,0 +1,18 @@
+# Personal: never committed, survives git pull
+.env
+/CLAUDE.md
+context/about-me/*
+!context/about-me/.gitkeep
+context/business/*
+!context/business/.gitkeep
+context/handoffs/*
+!context/handoffs/.gitkeep
+projects/*
+!projects/.gitkeep
+docs/apis/*
+!docs/apis/.gitkeep
+
+# System
+node_modules/
+.DS_Store
+.vercel
