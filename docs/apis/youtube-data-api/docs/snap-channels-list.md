@@ -1,0 +1,1054 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - region "developers.google.com uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic." [ref=e4]:
+      - paragraph [ref=e5]:
+        - text: developers.google.com uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+        - link "Learn more about how Google uses cookies. Opens in a new tab." [ref=e6] [cursor=pointer]:
+          - /url: https://policies.google.com/technologies/cookies?hl=en
+          - text: Learn more
+      - button "OK, got it" [ref=e7] [cursor=pointer]
+    - banner:
+      - generic:
+        - generic [ref=e10]:
+          - text: menu
+          - generic [ref=e11]:
+            - link "YouTube" [ref=e12] [cursor=pointer]:
+              - /url: https://developers.google.com/youtube
+              - img "YouTube" [ref=e15]
+            - list "Product breadcrumb" [ref=e17]:
+              - listitem [ref=e18]:
+                - link "YouTube" [ref=e19] [cursor=pointer]:
+                  - /url: https://developers.google.com/youtube
+              - listitem [ref=e20]:
+                - generic [ref=e21]: chevron_right
+                - link "Data API" [ref=e22] [cursor=pointer]:
+                  - /url: https://developers.google.com/youtube/v3
+          - generic [ref=e27]:
+            - combobox "Search" [ref=e28]
+            - img [ref=e30]
+            - generic [ref=e33]: /
+          - generic "Select your language preference." [ref=e34]:
+            - button "English" [ref=e688] [cursor=pointer]:
+              - img
+              - generic [ref=e36]: English
+              - img
+          - link "Sign in" [ref=e39] [cursor=pointer]:
+            - /url: https://developers.google.com/_d/signin?continue=https%3A%2F%2Fdevelopers.google.com%2Fyoutube%2Fv3%2Fdocs%2Fchannels%2Flist&prompt=select_account
+        - navigation "Lower tabs" [ref=e44]:
+          - link "Home" [ref=e46] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3
+          - link "Guides" [ref=e48] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/getting-started
+          - link "Reference, selected" [ref=e50] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/docs
+            - text: Reference
+          - link "Samples" [ref=e52] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/code_samples
+          - link "Support" [ref=e54] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/support
+          - text: arrow_drop_down
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - text: filter_list
+        - searchbox "Type to filter" [ref=e58]
+        - text: close
+      - navigation "Side menu" [ref=e59]:
+        - text: arrow_back chevron_right
+        - generic [ref=e60]:
+          - text: arrow_forward arrow_forward arrow_forward arrow_forward
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Overview" [ref=e64] [cursor=pointer]:
+                - /url: /youtube/v3/docs
+                - generic [ref=e65]: Overview
+            - listitem [ref=e66]:
+              - generic [ref=e67]:
+                - generic [ref=e68] [cursor=pointer]: arrow_drop_down
+                - button "Activities" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]: Activities
+            - listitem [ref=e71]:
+              - generic [ref=e72]:
+                - generic [ref=e73] [cursor=pointer]: arrow_drop_down
+                - button "Captions" [ref=e74] [cursor=pointer]:
+                  - generic [ref=e75]: Captions
+            - listitem [ref=e76]:
+              - generic [ref=e77]:
+                - generic [ref=e78] [cursor=pointer]: arrow_drop_down
+                - button "ChannelBanners" [ref=e79] [cursor=pointer]:
+                  - generic [ref=e80]:
+                    - text: Channel
+                    - text: Banners
+            - listitem [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e83] [cursor=pointer]: arrow_drop_down
+                - button "Channels" [ref=e84] [cursor=pointer]:
+                  - generic [ref=e85]: Channels
+                - list [ref=e86]:
+                  - listitem [ref=e87]:
+                    - link "Overview" [ref=e88] [cursor=pointer]:
+                      - /url: /youtube/v3/docs/channels
+                      - generic [ref=e89]: Overview
+                  - listitem [ref=e90]:
+                    - link "list" [ref=e91] [cursor=pointer]:
+                      - /url: /youtube/v3/docs/channels/list
+                      - generic [ref=e92]: list
+                  - listitem [ref=e93]:
+                    - link "update" [ref=e94] [cursor=pointer]:
+                      - /url: /youtube/v3/docs/channels/update
+                      - generic [ref=e95]: update
+            - listitem [ref=e96]:
+              - generic [ref=e97]:
+                - generic [ref=e98] [cursor=pointer]: arrow_drop_down
+                - button "ChannelSections" [ref=e99] [cursor=pointer]:
+                  - generic [ref=e100]:
+                    - text: Channel
+                    - text: Sections
+            - listitem [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103] [cursor=pointer]: arrow_drop_down
+                - button "Comments" [ref=e104] [cursor=pointer]:
+                  - generic [ref=e105]: Comments
+            - listitem [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108] [cursor=pointer]: arrow_drop_down
+                - button "CommentThreads" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110]:
+                    - text: Comment
+                    - text: Threads
+            - listitem [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113] [cursor=pointer]: arrow_drop_down
+                - button "i18nLanguages" [ref=e114] [cursor=pointer]:
+                  - generic [ref=e115]:
+                    - text: i18n
+                    - text: Languages
+            - listitem [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118] [cursor=pointer]: arrow_drop_down
+                - button "i18nRegions" [ref=e119] [cursor=pointer]:
+                  - generic [ref=e120]:
+                    - text: i18n
+                    - text: Regions
+            - listitem [ref=e121]:
+              - generic [ref=e122]:
+                - generic [ref=e123] [cursor=pointer]: arrow_drop_down
+                - button "Members" [ref=e124] [cursor=pointer]:
+                  - generic [ref=e125]: Members
+            - listitem [ref=e126]:
+              - generic [ref=e127]:
+                - generic [ref=e128] [cursor=pointer]: arrow_drop_down
+                - button "MembershipsLevels" [ref=e129] [cursor=pointer]:
+                  - generic [ref=e130]:
+                    - text: Memberships
+                    - text: Levels
+            - listitem [ref=e131]:
+              - generic [ref=e132]:
+                - generic [ref=e133] [cursor=pointer]: arrow_drop_down
+                - button "PlaylistImages" [ref=e134] [cursor=pointer]:
+                  - generic [ref=e135]:
+                    - text: Playlist
+                    - text: Images
+            - listitem [ref=e136]:
+              - generic [ref=e137]:
+                - generic [ref=e138] [cursor=pointer]: arrow_drop_down
+                - button "PlaylistItems" [ref=e139] [cursor=pointer]:
+                  - generic [ref=e140]:
+                    - text: Playlist
+                    - text: Items
+            - listitem [ref=e141]:
+              - generic [ref=e142]:
+                - generic [ref=e143] [cursor=pointer]: arrow_drop_down
+                - button "Playlists" [ref=e144] [cursor=pointer]:
+                  - generic [ref=e145]: Playlists
+            - listitem [ref=e146]:
+              - generic [ref=e147]:
+                - generic [ref=e148] [cursor=pointer]: arrow_drop_down
+                - button "Search" [ref=e149] [cursor=pointer]:
+                  - generic [ref=e150]: Search
+            - listitem [ref=e151]:
+              - generic [ref=e152]:
+                - generic [ref=e153] [cursor=pointer]: arrow_drop_down
+                - button "Subscriptions" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155]: Subscriptions
+            - listitem [ref=e156]:
+              - generic [ref=e157]:
+                - generic [ref=e158] [cursor=pointer]: arrow_drop_down
+                - button "Thumbnails" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]: Thumbnails
+            - listitem [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163] [cursor=pointer]: arrow_drop_down
+                - button "VideoAbuseReportReasons" [ref=e164] [cursor=pointer]:
+                  - generic [ref=e165]:
+                    - text: Video
+                    - text: Abuse
+                    - text: Report
+                    - text: Reasons
+            - listitem [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168] [cursor=pointer]: arrow_drop_down
+                - button "VideoCategories" [ref=e169] [cursor=pointer]:
+                  - generic [ref=e170]:
+                    - text: Video
+                    - text: Categories
+            - listitem [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e173] [cursor=pointer]: arrow_drop_down
+                - button "Videos" [ref=e174] [cursor=pointer]:
+                  - generic [ref=e175]: Videos
+            - listitem [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178] [cursor=pointer]: arrow_drop_down
+                - button "Watermarks" [ref=e179] [cursor=pointer]:
+                  - generic [ref=e180]: Watermarks
+            - listitem [ref=e181]:
+              - link "Standard Query Parameters" [ref=e182] [cursor=pointer]:
+                - /url: https://cloud.google.com/apis/docs/system-parameters
+                - generic [ref=e183]: Standard Query Parameters
+                - generic [ref=e184]: open_in_new
+            - listitem [ref=e185]:
+              - generic [ref=e186]:
+                - generic [ref=e187] [cursor=pointer]: arrow_drop_down
+                - button "YouTube Data API Errors" [ref=e188] [cursor=pointer]:
+                  - generic [ref=e189]:
+                    - text: You
+                    - text: Tube Data API Errors
+    - button "Hide side navigation" [expanded] [ref=e190] [cursor=pointer]:
+      - generic [ref=e191]: chevron_left
+    - generic [ref=e192]:
+      - main [ref=e193]:
+        - generic [ref=e234]:
+          - article [ref=e235]:
+            - navigation [ref=e236]:
+              - list "Breadcrumb" [ref=e237]:
+                - listitem [ref=e238]:
+                  - link "Home" [ref=e239] [cursor=pointer]:
+                    - /url: https://developers.google.com/
+                - listitem [ref=e240]:
+                  - generic [ref=e241]: chevron_right
+                  - link "Products" [ref=e242] [cursor=pointer]:
+                    - /url: https://developers.google.com/products
+                - listitem [ref=e243]:
+                  - generic [ref=e244]: chevron_right
+                  - link "YouTube" [ref=e245] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube
+                - listitem [ref=e246]:
+                  - generic [ref=e247]: chevron_right
+                  - link "Data API" [ref=e248] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube/v3
+                - listitem [ref=e249]:
+                  - generic [ref=e250]: chevron_right
+                  - link "Reference" [ref=e251] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube/v3/docs
+              - form "Was this helpful?" [ref=e690]:
+                - generic [ref=e691]: Was this helpful?
+                - generic [ref=e692]:
+                  - button "Helpful" [ref=e693] [cursor=pointer]:
+                    - img
+                  - button "Not helpful" [ref=e694] [cursor=pointer]:
+                    - img
+            - 'heading "Channels: list" [level=1] [ref=e252]':
+              - text: "Channels: list"
+              - listbox "Bookmark collections drop down" [ref=e256] [cursor=pointer]:
+                - button "Open dropdown" [ref=e257]:
+                  - generic:
+                    - generic [ref=e258]: bookmark_border
+                    - text: bookmark
+                  - text: arrow_drop_down
+            - text: expand_more more_horiz
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - text: "Note: The"
+                - code [ref=e262]: channel
+                - text: resource's
+                - code [ref=e263]:
+                  - link "statistics.subscriberCount" [ref=e264] [cursor=pointer]:
+                    - /url: /youtube/v3/docs/channels#statistics.subscriberCount
+                - text: property value has been updated to reflect a YouTube policy change that affects the way that subscriber counts are displayed. For more information, see
+                - link "Revision History" [ref=e265] [cursor=pointer]:
+                  - /url: /youtube/v3/revision_history#release_notes_09_10_2019
+                - text: or the
+                - link "YouTube Help Center" [ref=e266] [cursor=pointer]:
+                  - /url: https://support.google.com/youtube/answer/6051134
+                - text: .
+              - generic [ref=e267]:
+                - paragraph [ref=e268]:
+                  - text: Returns a collection of zero or more
+                  - code [ref=e269]:
+                    - strong [ref=e270]: channel
+                  - text: resources that match the request criteria.
+                - paragraph [ref=e271]:
+                  - text: "Quota impact: A call to this method has a"
+                  - link "quota cost" [ref=e272] [cursor=pointer]:
+                    - /url: /youtube/v3/getting-started#quota
+                  - text: of 1 unit.
+              - 'heading "Common use cases Copy link to this section: Common use cases" [level=2] [ref=e273]':
+                - heading "Common use cases" [level=2] [ref=e274]
+                - 'button "Copy link to this section: Common use cases" [ref=e275] [cursor=pointer]': link
+              - iframe [ref=e277]:
+                - generic [active] [ref=f125e1]:
+                  - paragraph [ref=f125e2]: The table below shows common use cases for this method. You can click on a use case name to load sample parameter values in the APIs Explorer. Or you can see code samples for a use case in the fullscreen APIs Explorer by clicking on the code icon below a use case name. In the fullscreen UI, you can update parameter and property values and the code samples will dynamically update to reflect the values you enter.
+                  - table [ref=f125e3]:
+                    - rowgroup [ref=f125e4]:
+                      - row "Use cases" [ref=f125e5]:
+                        - columnheader "Use cases" [ref=f125e6]
+                      - row "list (by channel ID) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by channel ID)' example for the channels.list method. This example retrieves channel data for the GoogleDevelopers YouTube channel. It uses the id request parameter to identify the channel by its YouTube channel ID." [ref=f125e7]:
+                        - cell "list (by channel ID) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by channel ID)' example for the channels.list method." [ref=f125e8]:
+                          - link "list (by channel ID)" [ref=f125e9] [cursor=pointer]:
+                            - /url: "#"
+                          - img "Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by channel ID)' example for the channels.list method." [ref=f125e10] [cursor=pointer]
+                        - cell "This example retrieves channel data for the GoogleDevelopers YouTube channel. It uses the id request parameter to identify the channel by its YouTube channel ID." [ref=f125e11]:
+                          - text: This example retrieves channel data for the
+                          - code [ref=f125e12]: GoogleDevelopers
+                          - text: YouTube channel. It uses the
+                          - code [ref=f125e13]:
+                            - link "id" [ref=f125e14] [cursor=pointer]:
+                              - /url: /youtube/v3/docs/channels/list#id
+                          - text: request parameter to identify the channel by its YouTube channel ID.
+                      - row "list (by YouTube handle) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by YouTube handle)' example for the channels.list method. This example retrieves channel data for the \"Google for Developers\" YouTube channel. It uses the forHandle request parameter to identify the channel by its YouTube handle." [ref=f125e15]:
+                        - cell "list (by YouTube handle) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by YouTube handle)' example for the channels.list method." [ref=f125e16]:
+                          - link "list (by YouTube handle)" [ref=f125e17] [cursor=pointer]:
+                            - /url: "#"
+                          - img "Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by YouTube handle)' example for the channels.list method." [ref=f125e18] [cursor=pointer]
+                        - cell "This example retrieves channel data for the \"Google for Developers\" YouTube channel. It uses the forHandle request parameter to identify the channel by its YouTube handle." [ref=f125e19]:
+                          - text: This example retrieves channel data for the "Google for Developers" YouTube channel. It uses the
+                          - code [ref=f125e20]:
+                            - link "forHandle" [ref=f125e21] [cursor=pointer]:
+                              - /url: /youtube/v3/docs/channels/list#forHandle
+                          - text: request parameter to identify the channel by its YouTube handle.
+                      - row "list (by YouTube username) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by YouTube username)' example for the channels.list method. This example retrieves channel data for the GoogleDevelopers YouTube channel. It uses the forUsername request parameter to identify the channel by its YouTube username." [ref=f125e22]:
+                        - cell "list (by YouTube username) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by YouTube username)' example for the channels.list method." [ref=f125e23]:
+                          - link "list (by YouTube username)" [ref=f125e24] [cursor=pointer]:
+                            - /url: "#"
+                          - img "Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (by YouTube username)' example for the channels.list method." [ref=f125e25] [cursor=pointer]
+                        - cell "This example retrieves channel data for the GoogleDevelopers YouTube channel. It uses the forUsername request parameter to identify the channel by its YouTube username." [ref=f125e26]:
+                          - text: This example retrieves channel data for the
+                          - code [ref=f125e27]: GoogleDevelopers
+                          - text: YouTube channel. It uses the
+                          - code [ref=f125e28]:
+                            - link "forUsername" [ref=f125e29] [cursor=pointer]:
+                              - /url: /youtube/v3/docs/channels/list#forUsername
+                          - text: request parameter to identify the channel by its YouTube username.
+                      - row "list (my channel) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (my channel)' example for the channels.list method. This example retrieves the channel data for the authorized user's YouTube channel. It uses the mine request parameter to indicate that the API should only return channels owned by the user authorizing the request." [ref=f125e30]:
+                        - cell "list (my channel) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (my channel)' example for the channels.list method." [ref=f125e31]:
+                          - link "list (my channel)" [ref=f125e32] [cursor=pointer]:
+                            - /url: "#"
+                          - img "Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (my channel)' example for the channels.list method." [ref=f125e33] [cursor=pointer]
+                        - cell "This example retrieves the channel data for the authorized user's YouTube channel. It uses the mine request parameter to indicate that the API should only return channels owned by the user authorizing the request." [ref=f125e34]:
+                          - text: This example retrieves the channel data for the authorized user's YouTube channel. It uses the
+                          - code [ref=f125e35]:
+                            - link "mine" [ref=f125e36] [cursor=pointer]:
+                              - /url: /youtube/v3/docs/channels/list#mine
+                          - text: request parameter to indicate that the API should only return channels owned by the user authorizing the request.
+                      - row "list (channels managed by a content owner) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (channels managed by a content owner)' example for the channels.list method. This example retrieves a list of channels managed by the specified YouTube content owner." [ref=f125e37]:
+                        - cell "list (channels managed by a content owner) Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (channels managed by a content owner)' example for the channels.list method." [ref=f125e38]:
+                          - link "list (channels managed by a content owner)" [ref=f125e39] [cursor=pointer]:
+                            - /url: "#"
+                          - img "Code symbol that, when clicked, opens the fullscreen APIs Explorer widget and populates it with values for the 'list (channels managed by a content owner)' example for the channels.list method." [ref=f125e40] [cursor=pointer]
+                        - cell "This example retrieves a list of channels managed by the specified YouTube content owner." [ref=f125e41]
+              - generic [ref=e278]:
+                - 'heading "Request Copy link to this section: Request" [level=2] [ref=e279]':
+                  - heading "Request" [level=2] [ref=e280]
+                  - 'button "Copy link to this section: Request" [ref=e281] [cursor=pointer]': link
+                - generic [ref=e282]:
+                  - 'heading "HTTP request Copy link to this section: HTTP request" [level=3] [ref=e283]':
+                    - heading "HTTP request" [level=3] [ref=e284]
+                    - 'button "Copy link to this section: HTTP request" [ref=e285] [cursor=pointer]': link
+                  - generic [ref=e286]:
+                    - group "Action buttons" [ref=e695]:
+                      - button "Explain this code" [ref=e696] [cursor=pointer]:
+                        - img [ref=e697]
+                      - button "Dark code theme" [ref=e700] [cursor=pointer]: brightness_medium
+                      - text: brightness_medium
+                    - generic [ref=e287]: GET https://www.googleapis.com/youtube/v3/channels
+                - generic [ref=e288]:
+                  - 'heading "Authorization Copy link to this section: Authorization" [level=3] [ref=e289]':
+                    - heading "Authorization" [level=3] [ref=e290]
+                    - 'button "Copy link to this section: Authorization" [ref=e291] [cursor=pointer]': link
+                  - paragraph [ref=e292]:
+                    - text: A request that retrieves the
+                    - code [ref=e293]: auditDetails
+                    - text: part for a
+                    - code [ref=e294]: channel
+                    - text: resource must provide an authorization token that contains the
+                    - code [ref=e295]: https://www.googleapis.com/auth/youtubepartner-channel-audit
+                    - text: scope. In addition, any token that uses that scope must be revoked when the MCN decides to accept or reject the channel or within two weeks of the date that the token was issued.
+                - generic [ref=e296]:
+                  - heading "Parameters" [level=3] [ref=e297]
+                  - paragraph [ref=e298]: The following table lists the parameters that this query supports. All of the parameters listed are query parameters.
+                  - table [ref=e300]:
+                    - rowgroup [ref=e301]:
+                      - row "Parameters" [ref=e302]:
+                        - columnheader "Parameters" [ref=e303]
+                    - rowgroup [ref=e304]:
+                      - row "Required parameters" [ref=e305]:
+                        - cell "Required parameters" [ref=e306]
+                      - 'row "part string The part parameter specifies a comma-separated list of one or more channel resource properties that the API response will include. If the parameter identifies a property that contains child properties, the child properties will be included in the response. For example, in a channel resource, the contentDetails property contains other properties, such as the uploads properties. As such, if you set part=contentDetails, the API response will also contain all of those nested properties. The following list contains the part names that you can include in the parameter value: auditDetails brandingSettings contentDetails contentOwnerDetails id localizations snippet statistics status topicDetails" [ref=e307]':
+                        - cell "part" [ref=e308]:
+                          - code [ref=e309]: part
+                        - 'cell "string The part parameter specifies a comma-separated list of one or more channel resource properties that the API response will include. If the parameter identifies a property that contains child properties, the child properties will be included in the response. For example, in a channel resource, the contentDetails property contains other properties, such as the uploads properties. As such, if you set part=contentDetails, the API response will also contain all of those nested properties. The following list contains the part names that you can include in the parameter value: auditDetails brandingSettings contentDetails contentOwnerDetails id localizations snippet statistics status topicDetails" [ref=e310]':
+                          - code [ref=e311]: string
+                          - text: The
+                          - code [ref=e312]:
+                            - strong [ref=e313]: part
+                          - text: parameter specifies a comma-separated list of one or more
+                          - code [ref=e314]: channel
+                          - text: resource properties that the API response will include.
+                          - text: If the parameter identifies a property that contains child properties, the child properties will be included in the response. For example, in a
+                          - code [ref=e315]: channel
+                          - text: resource, the
+                          - code [ref=e316]:
+                            - text: content
+                            - text: Details
+                          - text: property contains other properties, such as the
+                          - code [ref=e317]: uploads
+                          - text: properties. As such, if you set
+                          - code [ref=e318]:
+                            - strong [ref=e319]:
+                              - text: part=content
+                              - text: Details
+                          - text: ", the API response will also contain all of those nested properties."
+                          - text: The following list contains the
+                          - code [ref=e320]: part
+                          - text: "names that you can include in the parameter value:"
+                          - list [ref=e321]:
+                            - listitem [ref=e322]:
+                              - code [ref=e323]: auditDetails
+                            - listitem [ref=e324]:
+                              - code [ref=e325]: brandingSettings
+                            - listitem [ref=e326]:
+                              - code [ref=e327]: contentDetails
+                            - listitem [ref=e328]:
+                              - code [ref=e329]: contentOwnerDetails
+                            - listitem [ref=e330]:
+                              - code [ref=e331]: id
+                            - listitem [ref=e332]:
+                              - code [ref=e333]: localizations
+                            - listitem [ref=e334]:
+                              - code [ref=e335]: snippet
+                            - listitem [ref=e336]:
+                              - code [ref=e337]: statistics
+                            - listitem [ref=e338]:
+                              - code [ref=e339]: status
+                            - listitem [ref=e340]:
+                              - code [ref=e341]: topicDetails
+                      - row "Filters (specify exactly one of the following parameters)" [ref=e342]:
+                        - cell "Filters (specify exactly one of the following parameters)" [ref=e343]:
+                          - generic [ref=e344]: Filters (specify exactly one of the following parameters)
+                      - row "categoryId string This parameter has been deprecated. The categoryId parameter specified a YouTube guide category and could be used to request YouTube channels associated with that category." [ref=e345]:
+                        - cell "categoryId" [ref=e346]:
+                          - code [ref=e347]:
+                            - text: category
+                            - text: Id
+                        - cell "string This parameter has been deprecated. The categoryId parameter specified a YouTube guide category and could be used to request YouTube channels associated with that category." [ref=e348]:
+                          - code [ref=e349]: string
+                          - text: This parameter has been deprecated. The
+                          - code [ref=e350]:
+                            - strong [ref=e351]:
+                              - text: category
+                              - text: Id
+                          - text: parameter specified a
+                          - link "YouTube guide category" [ref=e352] [cursor=pointer]:
+                            - /url: /youtube/v3/docs/guideCategories
+                          - text: and could be used to request YouTube channels associated with that category.
+                      - row "forHandle string The forHandle parameter specifies a YouTube handle, thereby requesting the channel associated with that handle. The parameter value can be prepended with an @ symbol. For example, to retrieve the resource for the \"Google for Developers\" channel, set the forHandle parameter value to either GoogleDevelopers or @GoogleDevelopers." [ref=e353]:
+                        - cell "forHandle" [ref=e354]:
+                          - code [ref=e355]:
+                            - text: for
+                            - text: Handle
+                        - cell "string The forHandle parameter specifies a YouTube handle, thereby requesting the channel associated with that handle. The parameter value can be prepended with an @ symbol. For example, to retrieve the resource for the \"Google for Developers\" channel, set the forHandle parameter value to either GoogleDevelopers or @GoogleDevelopers." [ref=e356]:
+                          - code [ref=e357]: string
+                          - text: The
+                          - code [ref=e358]:
+                            - strong [ref=e359]:
+                              - text: for
+                              - text: Handle
+                          - text: parameter specifies a YouTube handle, thereby requesting the channel associated with that handle. The parameter value can be prepended with an
+                          - code [ref=e360]: "@"
+                          - text: symbol. For example, to retrieve the resource for the "Google for Developers" channel, set the
+                          - code [ref=e361]:
+                            - text: for
+                            - text: Handle
+                          - text: parameter value to either
+                          - code [ref=e362]:
+                            - text: Google
+                            - text: Developers
+                          - text: or
+                          - code [ref=e363]:
+                            - text: "@Google"
+                            - text: Developers
+                          - text: .
+                      - row "forUsername string The forUsername parameter specifies a YouTube username, thereby requesting the channel associated with that username." [ref=e364]:
+                        - cell "forUsername" [ref=e365]:
+                          - code [ref=e366]:
+                            - text: for
+                            - text: Username
+                        - cell "string The forUsername parameter specifies a YouTube username, thereby requesting the channel associated with that username." [ref=e367]:
+                          - code [ref=e368]: string
+                          - text: The
+                          - code [ref=e369]:
+                            - strong [ref=e370]:
+                              - text: for
+                              - text: Username
+                          - text: parameter specifies a YouTube username, thereby requesting the channel associated with that username.
+                      - row "id string The id parameter specifies a comma-separated list of the YouTube channel ID(s) for the resource(s) that are being retrieved. In a channel resource, the id property specifies the channel's YouTube channel ID." [ref=e371]:
+                        - cell "id" [ref=e372]:
+                          - code [ref=e373]: id
+                        - cell "string The id parameter specifies a comma-separated list of the YouTube channel ID(s) for the resource(s) that are being retrieved. In a channel resource, the id property specifies the channel's YouTube channel ID." [ref=e374]:
+                          - code [ref=e375]: string
+                          - text: The
+                          - code [ref=e376]:
+                            - strong [ref=e377]: id
+                          - text: parameter specifies a comma-separated list of the YouTube channel ID(s) for the resource(s) that are being retrieved. In a
+                          - code [ref=e378]: channel
+                          - text: resource, the
+                          - code [ref=e379]: id
+                          - text: property specifies the channel's YouTube channel ID.
+                      - 'row "managedByMe boolean This parameter can only be used in a properly authorized request. Note: This parameter is intended exclusively for YouTube content partners. Set this parameter''s value to true to instruct the API to only return channels managed by the content owner that the onBehalfOfContentOwner parameter specifies. The user must be authenticated as a CMS account linked to the specified content owner and onBehalfOfContentOwner must be provided." [ref=e380]':
+                        - cell "managedByMe" [ref=e381]:
+                          - code [ref=e382]:
+                            - text: managed
+                            - text: By
+                            - text: Me
+                        - 'cell "boolean This parameter can only be used in a properly authorized request. Note: This parameter is intended exclusively for YouTube content partners. Set this parameter''s value to true to instruct the API to only return channels managed by the content owner that the onBehalfOfContentOwner parameter specifies. The user must be authenticated as a CMS account linked to the specified content owner and onBehalfOfContentOwner must be provided." [ref=e383]':
+                          - code [ref=e384]: boolean
+                          - text: This parameter can only be used in a properly
+                          - link "authorized request" [ref=e385] [cursor=pointer]:
+                            - /url: /youtube/v3/guides/authentication
+                          - text: .
+                          - strong [ref=e386]: "Note:"
+                          - text: This parameter is intended exclusively for YouTube content partners.
+                          - text: Set this parameter's value to
+                          - code [ref=e387]: "true"
+                          - text: to instruct the API to only return channels managed by the content owner that the
+                          - code [ref=e388]:
+                            - strong [ref=e389]:
+                              - text: "on"
+                              - text: Behalf
+                              - text: Of
+                              - text: Content
+                              - text: Owner
+                          - text: parameter specifies. The user must be authenticated as a CMS account linked to the specified content owner and
+                          - code [ref=e390]:
+                            - strong [ref=e391]:
+                              - text: "on"
+                              - text: Behalf
+                              - text: Of
+                              - text: Content
+                              - text: Owner
+                          - text: must be provided.
+                      - row "mine boolean This parameter can only be used in a properly authorized request. Set this parameter's value to true to instruct the API to only return channels owned by the authenticated user." [ref=e392]:
+                        - cell "mine" [ref=e393]:
+                          - code [ref=e394]: mine
+                        - cell "boolean This parameter can only be used in a properly authorized request. Set this parameter's value to true to instruct the API to only return channels owned by the authenticated user." [ref=e395]:
+                          - code [ref=e396]: boolean
+                          - text: This parameter can only be used in a properly
+                          - link "authorized request" [ref=e397] [cursor=pointer]:
+                            - /url: /youtube/v3/guides/authentication
+                          - text: . Set this parameter's value to
+                          - code [ref=e398]: "true"
+                          - text: to instruct the API to only return channels owned by the authenticated user.
+                      - row "Optional parameters" [ref=e399]:
+                        - cell "Optional parameters" [ref=e400]
+                      - row "hl string The hl parameter instructs the API to retrieve localized resource metadata for a specific application language that the YouTube website supports. The parameter value must be a language code included in the list returned by the i18nLanguages.list method. If localized resource details are available in that language, the resource's snippet.localized object will contain the localized values. However, if localized details are not available, the snippet.localized object will contain resource details in the resource's default language." [ref=e401]:
+                        - cell "hl" [ref=e402]:
+                          - code [ref=e403]: hl
+                        - cell "string The hl parameter instructs the API to retrieve localized resource metadata for a specific application language that the YouTube website supports. The parameter value must be a language code included in the list returned by the i18nLanguages.list method. If localized resource details are available in that language, the resource's snippet.localized object will contain the localized values. However, if localized details are not available, the snippet.localized object will contain resource details in the resource's default language." [ref=e404]:
+                          - code [ref=e405]: string
+                          - text: The
+                          - code [ref=e406]:
+                            - strong [ref=e407]: hl
+                          - text: parameter instructs the API to retrieve localized resource metadata for a specific
+                          - link "application language that the YouTube website supports" [ref=e408] [cursor=pointer]:
+                            - /url: /youtube/v3/docs/i18nLanguages
+                          - text: . The parameter value must be a language code included in the list returned by the
+                          - code [ref=e409]:
+                            - link "i18nLanguages.list" [ref=e410] [cursor=pointer]:
+                              - /url: /youtube/v3/docs/i18nLanguages/list
+                          - text: method.
+                          - text: If localized resource details are available in that language, the resource's
+                          - code [ref=e411]: snippet.localized
+                          - text: object will contain the localized values. However, if localized details are not available, the
+                          - code [ref=e412]: snippet.localized
+                          - text: object will contain resource details in the resource's
+                          - link "default language" [ref=e413] [cursor=pointer]:
+                            - /url: /youtube/v3/docs/channels#snippet.defaultLanguage
+                          - text: .
+                      - row "maxResults unsigned integer The maxResults parameter specifies the maximum number of items that should be returned in the result set. Acceptable values are 0 to 50, inclusive. The default value is 5." [ref=e414]:
+                        - cell "maxResults" [ref=e415]:
+                          - code [ref=e416]: maxResults
+                        - cell "unsigned integer The maxResults parameter specifies the maximum number of items that should be returned in the result set. Acceptable values are 0 to 50, inclusive. The default value is 5." [ref=e417]:
+                          - code [ref=e418]: unsigned integer
+                          - text: The
+                          - code [ref=e419]:
+                            - strong [ref=e420]: maxResults
+                          - text: parameter specifies the maximum number of items that should be returned in the result set. Acceptable values are
+                          - code [ref=e421]: "0"
+                          - text: to
+                          - code [ref=e422]: "50"
+                          - text: ", inclusive. The default value is"
+                          - code [ref=e423]: "5"
+                          - text: .
+                      - 'row "onBehalfOfContentOwner string This parameter can only be used in a properly authorized request. Note: This parameter is intended exclusively for YouTube content partners. The onBehalfOfContentOwner parameter indicates that the request''s authorization credentials identify a YouTube CMS user who is acting on behalf of the content owner specified in the parameter value. This parameter is intended for YouTube content partners that own and manage many different YouTube channels. It allows content owners to authenticate once and get access to all their video and channel data, without having to provide authentication credentials for each individual channel. The CMS account that the user authenticates with must be linked to the specified YouTube content owner." [ref=e424]':
+                        - cell "onBehalfOfContentOwner" [ref=e425]:
+                          - code [ref=e426]: onBehalfOfContentOwner
+                        - 'cell "string This parameter can only be used in a properly authorized request. Note: This parameter is intended exclusively for YouTube content partners. The onBehalfOfContentOwner parameter indicates that the request''s authorization credentials identify a YouTube CMS user who is acting on behalf of the content owner specified in the parameter value. This parameter is intended for YouTube content partners that own and manage many different YouTube channels. It allows content owners to authenticate once and get access to all their video and channel data, without having to provide authentication credentials for each individual channel. The CMS account that the user authenticates with must be linked to the specified YouTube content owner." [ref=e427]':
+                          - code [ref=e428]: string
+                          - text: This parameter can only be used in a properly
+                          - link "authorized request" [ref=e429] [cursor=pointer]:
+                            - /url: /youtube/v3/guides/authentication
+                          - text: .
+                          - strong [ref=e430]: "Note:"
+                          - text: This parameter is intended exclusively for YouTube content partners.
+                          - text: The
+                          - code [ref=e431]:
+                            - strong [ref=e432]: onBehalfOfContentOwner
+                          - text: parameter indicates that the request's authorization credentials identify a YouTube CMS user who is acting on behalf of the content owner specified in the parameter value. This parameter is intended for YouTube content partners that own and manage many different YouTube channels. It allows content owners to authenticate once and get access to all their video and channel data, without having to provide authentication credentials for each individual channel. The CMS account that the user authenticates with must be linked to the specified YouTube content owner.
+                      - row "pageToken string The pageToken parameter identifies a specific page in the result set that should be returned. In an API response, the nextPageToken and prevPageToken properties identify other pages that could be retrieved." [ref=e433]:
+                        - cell "pageToken" [ref=e434]:
+                          - code [ref=e435]: pageToken
+                        - cell "string The pageToken parameter identifies a specific page in the result set that should be returned. In an API response, the nextPageToken and prevPageToken properties identify other pages that could be retrieved." [ref=e436]:
+                          - code [ref=e437]: string
+                          - text: The
+                          - code [ref=e438]:
+                            - strong [ref=e439]: pageToken
+                          - text: parameter identifies a specific page in the result set that should be returned. In an API response, the
+                          - code [ref=e440]: nextPageToken
+                          - text: and
+                          - code [ref=e441]: prevPageToken
+                          - text: properties identify other pages that could be retrieved.
+                - generic [ref=e442]:
+                  - heading "Request body" [level=3] [ref=e443]
+                  - paragraph [ref=e444]: Do not provide a request body when calling this method.
+              - generic [ref=e445]:
+                - heading "Response" [level=2] [ref=e446]
+                - generic [ref=e447]:
+                  - paragraph [ref=e448]: "If successful, this method returns a response body with the following structure:"
+                  - generic [ref=e450]:
+                    - text: "{ \"kind\": \"youtube#channelListResponse\", \"etag\":"
+                    - generic [ref=e701]:
+                      - text: close
+                      - generic "Edit etag" [ref=e702] [cursor=pointer]:
+                        - text: etag
+                        - button "edit" [ref=e703]
+                    - text: ", \"nextPageToken\":"
+                    - generic [ref=e704]:
+                      - text: close
+                      - generic "Edit string" [ref=e705] [cursor=pointer]:
+                        - text: string
+                        - button "edit" [ref=e706]
+                    - text: ", \"prevPageToken\":"
+                    - generic [ref=e707]:
+                      - text: close
+                      - generic "Edit string" [ref=e708] [cursor=pointer]:
+                        - text: string
+                        - button "edit" [ref=e709]
+                    - text: ", \"pageInfo\": { \"totalResults\":"
+                    - generic [ref=e710]:
+                      - text: close
+                      - generic "Edit integer" [ref=e711] [cursor=pointer]:
+                        - text: integer
+                        - button "edit" [ref=e712]
+                    - text: ", \"resultsPerPage\":"
+                    - generic [ref=e713]:
+                      - text: close
+                      - generic "Edit integer" [ref=e714] [cursor=pointer]:
+                        - text: integer
+                        - button "edit" [ref=e715]
+                    - text: "}, \"items\": ["
+                    - link "channel Resource" [ref=e461] [cursor=pointer]:
+                      - /url: /youtube/v3/docs/channels#resource
+                    - text: "] }"
+                - generic [ref=e462]:
+                  - heading "Properties" [level=3] [ref=e463]
+                  - paragraph [ref=e464]: "The following table defines the properties that appear in this resource:"
+                  - table [ref=e466]:
+                    - rowgroup [ref=e467]:
+                      - row "Properties" [ref=e468]:
+                        - columnheader "Properties" [ref=e469]
+                    - rowgroup [ref=e470]:
+                      - row "kind string Identifies the API resource's type. The value will be youtube#channelListResponse." [ref=e471]:
+                        - cell "kind" [ref=e472]:
+                          - code [ref=e473]: kind
+                        - cell "string Identifies the API resource's type. The value will be youtube#channelListResponse." [ref=e474]:
+                          - code [ref=e475]: string
+                          - text: Identifies the API resource's type. The value will be
+                          - code [ref=e476]: youtube#channelListResponse
+                          - text: .
+                      - row "etag etag The Etag of this resource." [ref=e477]:
+                        - cell "etag" [ref=e478]:
+                          - code [ref=e479]: etag
+                        - cell "etag The Etag of this resource." [ref=e480]:
+                          - code [ref=e481]: etag
+                          - text: The Etag of this resource.
+                      - row "nextPageToken string The token that can be used as the value of the pageToken parameter to retrieve the next page in the result set." [ref=e482]:
+                        - cell "nextPageToken" [ref=e483]:
+                          - code [ref=e484]: nextPageToken
+                        - cell "string The token that can be used as the value of the pageToken parameter to retrieve the next page in the result set." [ref=e485]:
+                          - code [ref=e486]: string
+                          - text: The token that can be used as the value of the
+                          - code [ref=e487]: pageToken
+                          - text: parameter to retrieve the next page in the result set.
+                      - row "prevPageToken string The token that can be used as the value of the pageToken parameter to retrieve the previous page in the result set. Note that this property is not included in the API response if the corresponding API request set the managedByMe parameter to true." [ref=e488]:
+                        - cell "prevPageToken" [ref=e489]:
+                          - code [ref=e490]: prevPageToken
+                        - cell "string The token that can be used as the value of the pageToken parameter to retrieve the previous page in the result set. Note that this property is not included in the API response if the corresponding API request set the managedByMe parameter to true." [ref=e491]:
+                          - code [ref=e492]: string
+                          - text: The token that can be used as the value of the
+                          - code [ref=e493]: pageToken
+                          - text: parameter to retrieve the previous page in the result set. Note that this property is not included in the API response if the corresponding API request set the
+                          - code [ref=e494]:
+                            - link "managedByMe" [ref=e495] [cursor=pointer]:
+                              - /url: "#managedByMe"
+                          - text: parameter to
+                          - code [ref=e496]: "true"
+                          - text: .
+                      - row "pageInfo object The pageInfo object encapsulates paging information for the result set." [ref=e497]:
+                        - cell "pageInfo" [ref=e498]:
+                          - code [ref=e499]: pageInfo
+                        - cell "object The pageInfo object encapsulates paging information for the result set." [ref=e500]:
+                          - code [ref=e501]: object
+                          - text: The
+                          - code [ref=e502]: pageInfo
+                          - text: object encapsulates paging information for the result set.
+                      - row "pageInfo.totalResults integer The total number of results in the result set." [ref=e503]:
+                        - cell "pageInfo.totalResults" [ref=e504]:
+                          - code [ref=e505]: pageInfo.totalResults
+                        - cell "integer The total number of results in the result set." [ref=e506]:
+                          - code [ref=e507]: integer
+                          - text: The total number of results in the result set.
+                      - row "pageInfo.resultsPerPage integer The number of results included in the API response." [ref=e508]:
+                        - cell "pageInfo.resultsPerPage" [ref=e509]:
+                          - code [ref=e510]: pageInfo.resultsPerPage
+                        - cell "integer The number of results included in the API response." [ref=e511]:
+                          - code [ref=e512]: integer
+                          - text: The number of results included in the API response.
+                      - row "items[] list A list of channels that match the request criteria." [ref=e513]:
+                        - cell "items[]" [ref=e514]:
+                          - code [ref=e515]: items[]
+                        - cell "list A list of channels that match the request criteria." [ref=e516]:
+                          - code [ref=e517]: list
+                          - text: A list of channels that match the request criteria.
+              - generic [ref=e518]:
+                - heading "Errors" [level=2] [ref=e519]
+                - paragraph [ref=e520]:
+                  - text: The following table identifies error messages that the API could return in response to a call to this method. For more details, see
+                  - link "YouTube Data API - Errors" [ref=e521] [cursor=pointer]:
+                    - /url: /youtube/v3/docs/errors
+                  - text: .
+                - table [ref=e523]:
+                  - rowgroup [ref=e524]:
+                    - row "Error type Error detail Description" [ref=e525]:
+                      - columnheader "Error type" [ref=e526]
+                      - columnheader "Error detail" [ref=e527]
+                      - columnheader "Description" [ref=e528]
+                  - rowgroup [ref=e529]:
+                    - row "badRequest (400) invalidCriteria A maximum of one of the following filters may be specified:id, categoryId, mine, managedByMe, forHandle, forUsername. In case of content owner authentication via the onBehalfOfContentOwner parameter, only the id or managedByMe may be specified." [ref=e530]:
+                      - cell "badRequest (400)" [ref=e531]:
+                        - code [ref=e532]: badRequest (400)
+                      - cell "invalidCriteria" [ref=e533]:
+                        - code [ref=e534]: invalidCriteria
+                      - cell "A maximum of one of the following filters may be specified:id, categoryId, mine, managedByMe, forHandle, forUsername. In case of content owner authentication via the onBehalfOfContentOwner parameter, only the id or managedByMe may be specified." [ref=e535]:
+                        - text: "A maximum of one of the following filters may be specified:"
+                        - code [ref=e536]: id
+                        - text: ","
+                        - code [ref=e537]: categoryId
+                        - text: ","
+                        - code [ref=e538]: mine
+                        - text: ","
+                        - code [ref=e539]: managedByMe
+                        - text: ","
+                        - code [ref=e540]: forHandle
+                        - text: ","
+                        - code [ref=e541]: forUsername
+                        - text: . In case of content owner authentication via the
+                        - code [ref=e542]: onBehalfOfContentOwner
+                        - text: parameter, only the
+                        - code [ref=e543]: id
+                        - text: or
+                        - code [ref=e544]: managedByMe
+                        - text: may be specified.
+                    - row "forbidden (403) channelForbidden The channel specified by the id parameter does not support the request or the request is not properly authorized." [ref=e545]:
+                      - cell "forbidden (403)" [ref=e546]:
+                        - code [ref=e547]: forbidden (403)
+                      - cell "channelForbidden" [ref=e548]:
+                        - code [ref=e549]: channelForbidden
+                      - cell "The channel specified by the id parameter does not support the request or the request is not properly authorized." [ref=e550]:
+                        - text: The channel specified by the
+                        - code [ref=e551]: id
+                        - text: parameter does not support the request or the request is not properly authorized.
+                    - row "notFound (404) categoryNotFound The category identified by the categoryId parameter cannot be found. Use the guideCategories.list method to retrieve a list of valid values." [ref=e552]:
+                      - cell "notFound (404)" [ref=e553]:
+                        - code [ref=e554]: notFound (404)
+                      - cell "categoryNotFound" [ref=e555]:
+                        - code [ref=e556]: categoryNotFound
+                      - cell "The category identified by the categoryId parameter cannot be found. Use the guideCategories.list method to retrieve a list of valid values." [ref=e557]:
+                        - text: The category identified by the
+                        - code [ref=e558]: categoryId
+                        - text: parameter cannot be found. Use the
+                        - link "guideCategories.list" [ref=e559] [cursor=pointer]:
+                          - /url: /youtube/v3/docs/guideCategories/list
+                        - text: method to retrieve a list of valid values.
+                    - row "notFound (404) channelNotFound The channel specified in the id parameter cannot be found." [ref=e560]:
+                      - cell "notFound (404)" [ref=e561]:
+                        - code [ref=e562]: notFound (404)
+                      - cell "channelNotFound" [ref=e563]:
+                        - code [ref=e564]: channelNotFound
+                      - cell "The channel specified in the id parameter cannot be found." [ref=e565]:
+                        - text: The channel specified in the
+                        - code [ref=e566]: id
+                        - text: parameter cannot be found.
+              - generic [ref=e568]:
+                - heading "Try it!" [level=2] [ref=e569]
+                - paragraph [ref=e570]: Use the APIs Explorer to call this API and see the API request and response.
+            - form "Was this helpful?" [ref=e717]:
+              - generic [ref=e718]: Was this helpful?
+              - generic [ref=e719]:
+                - button "Helpful" [ref=e720] [cursor=pointer]:
+                  - img
+                - button "Not helpful" [ref=e721] [cursor=pointer]:
+                  - img
+          - generic [ref=e571]:
+            - paragraph [ref=e572]:
+              - text: Except as otherwise noted, the content of this page is licensed under the
+              - link "Creative Commons Attribution 4.0 License" [ref=e573] [cursor=pointer]:
+                - /url: https://creativecommons.org/licenses/by/4.0/
+              - text: ", and code samples are licensed under the"
+              - link "Apache 2.0 License" [ref=e574] [cursor=pointer]:
+                - /url: https://www.apache.org/licenses/LICENSE-2.0
+              - text: . For details, see the
+              - link "Google Developers Site Policies" [ref=e575] [cursor=pointer]:
+                - /url: https://developers.google.com/site-policies
+              - text: . Java is a registered trademark of Oracle and/or its affiliates.
+            - paragraph [ref=e576]: Last updated 2025-08-28 UTC.
+      - navigation "Promotions" [ref=e578]:
+        - list [ref=e579]:
+          - listitem [ref=e580]:
+            - link "Blog Blog" [ref=e581] [cursor=pointer]:
+              - /url: https://blog.youtube
+              - img "Blog" [ref=e583]
+              - text: Blog
+            - generic [ref=e584]: The latest news on the YouTube blog
+          - listitem [ref=e585]:
+            - link "GitHub GitHub" [ref=e586] [cursor=pointer]:
+              - /url: https://github.com/youtube/api-samples
+              - img "GitHub" [ref=e588]
+              - text: GitHub
+            - generic [ref=e589]: Find API code samples and other YouTube open-source projects.
+          - listitem [ref=e590]:
+            - link "Issue Tracker Issue Tracker" [ref=e591] [cursor=pointer]:
+              - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - img "Issue Tracker" [ref=e593]
+              - text: Issue Tracker
+            - generic [ref=e594]: Something wrong? Send us a bug report!
+          - listitem [ref=e595]:
+            - link "Stack Overflow Stack Overflow" [ref=e596] [cursor=pointer]:
+              - /url: http://stackoverflow.com/questions/ask?tags=youtube-api
+              - img "Stack Overflow" [ref=e598]
+              - text: Stack Overflow
+            - generic [ref=e599]: Ask a question under the youtube-api tag
+          - listitem [ref=e600]:
+            - link "Videos Videos" [ref=e601] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/YouTubeDev
+              - img "Videos" [ref=e603]
+              - text: Videos
+            - generic [ref=e604]: Check out the YouTube Developer Relations team's YouTube channel
+      - navigation "Footer links" [ref=e606]:
+        - list [ref=e607]:
+          - listitem [ref=e608]:
+            - heading "Tools" [level=3] [ref=e609]
+            - list [ref=e610]:
+              - listitem [ref=e611]:
+                - link "Google APIs Explorer" [ref=e612] [cursor=pointer]:
+                  - /url: https://developers.google.com/apis-explorer/#p/
+              - listitem [ref=e613]:
+                - link "YouTube Player Demo" [ref=e614] [cursor=pointer]:
+                  - /url: /youtube/youtube_player_demo
+              - listitem [ref=e615]:
+                - link "Configure a Subscribe Button" [ref=e616] [cursor=pointer]:
+                  - /url: /youtube/youtube_subscribe_button
+          - listitem [ref=e617]:
+            - heading "Issue Tracker" [level=3] [ref=e618]
+            - list [ref=e619]:
+              - listitem [ref=e620]:
+                - link "File a bug" [ref=e621] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - listitem [ref=e622]:
+                - link "Request a feature" [ref=e623] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - listitem [ref=e624]:
+                - link "See open issues" [ref=e625] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues?q=componentid:186600
+          - listitem [ref=e626]:
+            - heading "Product Info" [level=3] [ref=e627]
+            - list [ref=e628]:
+              - listitem [ref=e629]:
+                - link "Terms of Service" [ref=e630] [cursor=pointer]:
+                  - /url: /youtube/terms
+              - listitem [ref=e631]:
+                - link "Branding Guidelines" [ref=e632] [cursor=pointer]:
+                  - /url: /youtube/branding_guidelines
+              - listitem [ref=e633]:
+                - link "Monetization Guidelines" [ref=e634] [cursor=pointer]:
+                  - /url: /youtube/creating_monetizable_applications
+              - listitem [ref=e635]:
+                - link "APIs subject to Deprecation Policy" [ref=e636] [cursor=pointer]:
+                  - /url: /youtube/youtube-api-list
+      - generic [ref=e638]:
+        - navigation "Other Google Developers websites" [ref=e639]:
+          - link "Google Developers" [ref=e640] [cursor=pointer]:
+            - /url: https://developers.google.com/
+            - img "Google Developers" [ref=e642]
+          - list [ref=e643]:
+            - listitem [ref=e644]:
+              - link "Android" [ref=e645] [cursor=pointer]:
+                - /url: //developer.android.com
+            - listitem [ref=e646]:
+              - link "Chrome" [ref=e647] [cursor=pointer]:
+                - /url: //developer.chrome.com/home
+            - listitem [ref=e648]:
+              - link "Firebase" [ref=e649] [cursor=pointer]:
+                - /url: //firebase.google.com
+            - listitem [ref=e650]:
+              - link "Google Cloud Platform" [ref=e651] [cursor=pointer]:
+                - /url: //cloud.google.com
+            - listitem [ref=e652]:
+              - link "Google AI" [ref=e653] [cursor=pointer]:
+                - /url: //ai.google.dev/
+            - listitem [ref=e654]:
+              - link "All products" [ref=e655] [cursor=pointer]:
+                - /url: /products
+        - navigation "Utility links" [ref=e656]:
+          - list [ref=e657]:
+            - listitem [ref=e658]:
+              - link "Terms" [ref=e659] [cursor=pointer]:
+                - /url: /terms/site-terms
+            - listitem [ref=e660]:
+              - text: "|"
+              - link "Privacy" [ref=e661] [cursor=pointer]:
+                - /url: //policies.google.com/privacy
+            - text: "|"
+          - generic "Select your language preference." [ref=e662]:
+            - button "English" [ref=e722] [cursor=pointer]:
+              - img
+              - generic [ref=e664]: English
+              - img
+      - generic [ref=e666]:
+        - toolbar "Side panel menu" [ref=e667]:
+          - button "Info" [ref=e668] [cursor=pointer]:
+            - img [ref=e670]
+            - generic [ref=e673]: Info
+          - button "Chat" [ref=e674] [cursor=pointer]:
+            - img [ref=e676]
+            - generic [ref=e679]: Chat
+          - button "API" [ref=e723] [cursor=pointer]:
+            - img [ref=e682]
+            - generic [ref=e684]: API
+        - generic [ref=e724]:
+          - generic [ref=e726]:
+            - heading "APIs Explorer" [level=2] [ref=e727]
+            - generic [ref=e728]:
+              - button "Send feedback" [ref=e730] [cursor=pointer]: bug_report
+              - button "Fullscreen" [ref=e731] [cursor=pointer]: fullscreen
+              - button "Close" [ref=e732] [cursor=pointer]: close
+          - iframe [ref=e735]:
+            - generic [ref=f126e3]:
+              - generic [ref=f126e6]:
+                - text: Call this method on live data and see the result. Experiment with authorization and field settings. For help, check the
+                - link "APIs Explorer documentation" [ref=f126e7] [cursor=pointer]:
+                  - /url: https://developers.google.com/explorer-help/
+                - text: .
+              - generic [ref=f126e9]:
+                - generic [ref=f126e10]:
+                  - generic [ref=f126e11]: Request parameters
+                  - generic [ref=f126e12]:
+                    - generic [ref=f126e13]: part
+                    - generic [ref=f126e17]:
+                      - textbox "string" [ref=f126e19]
+                      - button [ref=f126e20]:
+                        - img [ref=f126e21]: add
+                  - generic [ref=f126e24]:
+                    - generic [ref=f126e25]: categoryId
+                    - textbox "string" [ref=f126e29]
+                  - generic [ref=f126e30]:
+                    - generic [ref=f126e31]: forHandle
+                    - textbox "string" [ref=f126e35]
+                  - generic [ref=f126e36]:
+                    - generic [ref=f126e37]: forUsername
+                    - textbox "string" [ref=f126e41]
+                  - generic [ref=f126e42]:
+                    - generic [ref=f126e43]: hl
+                    - textbox "string" [ref=f126e47]
+                  - generic [ref=f126e48]:
+                    - generic [ref=f126e49]: id
+                    - generic [ref=f126e53]:
+                      - textbox "string" [ref=f126e55]
+                      - button [ref=f126e56]:
+                        - img [ref=f126e57]: add
+                  - generic [ref=f126e60]:
+                    - generic [ref=f126e61]: managedByMe
+                    - combobox [ref=f126e69] [cursor=pointer]:
+                      - img [ref=f126e75]
+                  - generic [ref=f126e77]:
+                    - generic [ref=f126e78]: maxResults
+                    - textbox "integer" [ref=f126e82]
+                  - generic [ref=f126e83]:
+                    - generic [ref=f126e84]: mine
+                    - combobox [ref=f126e92] [cursor=pointer]:
+                      - img [ref=f126e98]
+                  - generic [ref=f126e100]:
+                    - generic [ref=f126e101]: mySubscribers
+                    - combobox [ref=f126e109] [cursor=pointer]:
+                      - img [ref=f126e115]
+                  - generic [ref=f126e117]:
+                    - generic [ref=f126e118]: onBehalfOfContentOwner
+                    - textbox "string" [ref=f126e122]
+                  - generic [ref=f126e123]:
+                    - generic [ref=f126e124]: pageToken
+                    - textbox "string" [ref=f126e128]
+                  - button "Show standard parameters" [ref=f126e129] [cursor=pointer]:
+                    - text: Show standard parameters
+                    - img [ref=f126e130]: expand_more
+                - generic [ref=f126e132]:
+                  - generic [ref=f126e133]:
+                    - text: Credentials
+                    - generic [ref=f126e135]:
+                      - generic [ref=f126e136]: How do I get the credentials I need?
+                      - generic [ref=f126e137]: Use an API key or OAuth 2.0 to request or verify permissions.
+                      - link "Learn more" [ref=f126e138] [cursor=pointer]:
+                        - /url: credentials_faq.html
+                        - text: Learn more
+                        - img [ref=f126e139]: launch
+                  - generic [ref=f126e140]:
+                    - generic [ref=f126e142]:
+                      - generic [ref=f126e144] [cursor=pointer]:
+                        - generic [ref=f126e145]:
+                          - checkbox "Google OAuth 2.0" [checked] [ref=f126e146]
+                          - generic:
+                            - img
+                        - generic [ref=f126e147]: Google OAuth 2.0
+                      - generic [ref=f126e148]:
+                        - text: OAuth 2.0 provides authenticated access to an API.
+                        - button "Show scopes" [ref=f126e150] [cursor=pointer]:
+                          - text: Show scopes
+                          - img [ref=f126e151]: expand_more
+                    - generic [ref=f126e153]:
+                      - generic [ref=f126e155] [cursor=pointer]:
+                        - generic [ref=f126e156]:
+                          - checkbox "API key" [checked] [ref=f126e157]
+                          - generic:
+                            - img
+                        - generic [ref=f126e158]: API key
+                      - generic [ref=f126e159]: An API key is a unique string that lets you access an API.
+                - button "Execute" [ref=f126e161]:
+                  - generic [ref=f126e162]: Execute
+              - generic [ref=f126e167]:
+                - text: By clicking above, I agree that my use of the APIs Explorer is governed by the
+                - link "Terms" [ref=f126e168] [cursor=pointer]:
+                  - /url: https://www.google.com/policies/terms/
+                - text: and
+                - link "Privacy Policy" [ref=f126e169] [cursor=pointer]:
+                  - /url: https://www.google.com/policies/privacy/
+                - text: .

@@ -1,0 +1,1517 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - region "developers.google.com uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic." [ref=e564]:
+      - paragraph [ref=e565]:
+        - text: developers.google.com uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+        - link "Learn more about how Google uses cookies. Opens in a new tab." [ref=e566] [cursor=pointer]:
+          - /url: https://policies.google.com/technologies/cookies?hl=en
+          - text: Learn more
+      - button "OK, got it" [ref=e567] [cursor=pointer]
+    - banner:
+      - generic:
+        - generic [ref=e8]:
+          - text: menu
+          - generic [ref=e9]:
+            - link "YouTube" [ref=e10] [cursor=pointer]:
+              - /url: https://developers.google.com/youtube
+              - img "YouTube" [ref=e13]
+            - list "Product breadcrumb" [ref=e15]:
+              - listitem [ref=e16]:
+                - link "YouTube" [ref=e17] [cursor=pointer]:
+                  - /url: https://developers.google.com/youtube
+              - listitem [ref=e18]:
+                - generic [ref=e19]: chevron_right
+                - link "Data API" [ref=e20] [cursor=pointer]:
+                  - /url: https://developers.google.com/youtube/v3
+          - generic [ref=e571]:
+            - combobox "Search" [ref=e572]
+            - img [ref=e574]
+            - generic [ref=e577]: /
+          - generic "Select your language preference." [ref=e578]:
+            - button "English" [ref=e579] [cursor=pointer]:
+              - img
+              - generic [ref=e580]: English
+              - img
+          - link "Sign in" [ref=e582] [cursor=pointer]:
+            - /url: https://developers.google.com/_d/signin?continue=https%3A%2F%2Fdevelopers.google.com%2Fyoutube%2Fv3%2Fguides%2Fauth%2Fclient-side-web-apps&prompt=select_account
+        - navigation "Lower tabs" [ref=e27]:
+          - link "Home" [ref=e29] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3
+          - link "Guides, selected" [ref=e31] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/getting-started
+            - text: Guides
+          - link "Reference" [ref=e33] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/docs
+          - link "Samples" [ref=e35] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/code_samples
+          - link "Support" [ref=e37] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/support
+          - text: arrow_drop_down
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - text: filter_list
+        - searchbox "Type to filter" [ref=e40]
+        - text: close
+      - navigation "Side menu" [ref=e41]:
+        - text: arrow_back chevron_right
+        - generic [ref=e42]:
+          - text: arrow_forward arrow_forward arrow_forward arrow_forward
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "Overview" [ref=e46] [cursor=pointer]:
+                - /url: /youtube/v3/getting-started
+                - generic [ref=e47]: Overview
+            - listitem [ref=e48]:
+              - link "Client Libraries" [ref=e49] [cursor=pointer]:
+                - /url: /youtube/v3/libraries
+                - generic [ref=e50]: Client Libraries
+            - listitem [ref=e51]:
+              - generic [ref=e53]: Authorize Requests
+              - list [ref=e54]:
+                - listitem [ref=e55]:
+                  - link "Overview" [ref=e56] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/authentication
+                    - generic [ref=e57]: Overview
+                - listitem [ref=e58]:
+                  - link "Get Auth Credentials" [ref=e59] [cursor=pointer]:
+                    - /url: /youtube/registering_an_application
+                    - generic [ref=e60]: Get Auth Credentials
+                - listitem [ref=e61]:
+                  - link "Server-side Web Apps" [ref=e62] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/auth/server-side-web-apps
+                    - generic [ref=e63]: Server-side Web Apps
+                - listitem [ref=e64]:
+                  - link "Client-side Web Apps" [ref=e65] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/auth/client-side-web-apps
+                    - generic [ref=e66]: Client-side Web Apps
+                - listitem [ref=e67]:
+                  - link "Installed Apps" [ref=e68] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/auth/installed-apps
+                    - generic [ref=e69]: Installed Apps
+                - listitem [ref=e70]:
+                  - link "Devices" [ref=e71] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/auth/devices
+                    - generic [ref=e72]: Devices
+            - listitem [ref=e73]:
+              - generic [ref=e75]: Quickstarts
+              - list [ref=e76]:
+                - listitem [ref=e77]:
+                  - link "Android" [ref=e78] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/android
+                    - generic [ref=e79]: Android
+                - listitem [ref=e80]:
+                  - link "Apps Script" [ref=e81] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/apps-script
+                    - generic [ref=e82]: Apps Script
+                - listitem [ref=e83]:
+                  - link "Go" [ref=e84] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/go
+                    - generic [ref=e85]: Go
+                - listitem [ref=e86]:
+                  - link "iOS" [ref=e87] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/ios
+                    - generic [ref=e88]: iOS
+                - listitem [ref=e89]:
+                  - link "Java" [ref=e90] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/java
+                    - generic [ref=e91]: Java
+                - listitem [ref=e92]:
+                  - link "JavaScript" [ref=e93] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/js
+                    - generic [ref=e94]: JavaScript
+                - listitem [ref=e95]:
+                  - link "Node.js" [ref=e96] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/nodejs
+                    - generic [ref=e97]: Node.js
+                - listitem [ref=e98]:
+                  - link "PHP" [ref=e99] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/php
+                    - generic [ref=e100]: PHP
+                - listitem [ref=e101]:
+                  - link "Python" [ref=e102] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/python
+                    - generic [ref=e103]: Python
+                - listitem [ref=e104]:
+                  - link "Ruby" [ref=e105] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/ruby
+                    - generic [ref=e106]: Ruby
+            - listitem [ref=e107]:
+              - generic [ref=e109]: Guides and Tutorials
+              - list [ref=e110]:
+                - listitem [ref=e111]:
+                  - link "Quota costs for API requests" [ref=e112] [cursor=pointer]:
+                    - /url: /youtube/v3/determine_quota_cost
+                    - generic [ref=e113]: Quota costs for API requests
+                - listitem [ref=e114]:
+                  - link "Quota and Compliance Audits" [ref=e115] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/quota_and_compliance_audits
+                    - generic [ref=e116]: Quota and Compliance Audits
+                - listitem [ref=e117]:
+                  - link "Upload a Video" [ref=e118] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/uploading_a_video
+                    - generic [ref=e119]: Upload a Video
+                - listitem [ref=e120]:
+                  - link "Send Resumable Uploads" [ref=e121] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/using_resumable_upload_protocol
+                    - generic [ref=e122]: Send Resumable Uploads
+                - listitem [ref=e123]:
+                  - link "Find MadeForKids video status" [ref=e124] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/made_for_kids_status
+                    - generic [ref=e125]: Find MadeForKids video status
+                - listitem [ref=e126]:
+                  - link "Subscribe to Push Notifications" [ref=e127] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/push_notifications
+                    - generic [ref=e128]: Subscribe to Push Notifications
+                - listitem [ref=e129]:
+                  - link "Work with Channel IDs" [ref=e130] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/working_with_channel_ids
+                    - generic [ref=e131]: Work with Channel IDs
+                - listitem [ref=e132]:
+                  - link "Move from ClientLogin to OAuth" [ref=e133] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/moving_to_oauth
+                    - generic [ref=e134]: Move from ClientLogin to OAuth
+            - listitem [ref=e135]:
+              - link "Sample Requests" [ref=e136] [cursor=pointer]:
+                - /url: /youtube/v3/sample_requests
+                - generic [ref=e137]: Sample Requests
+            - listitem [ref=e138]:
+              - generic [ref=e140]: Implementation Guide
+              - list [ref=e141]:
+                - listitem [ref=e142]:
+                  - link "Overview" [ref=e143] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation
+                    - generic [ref=e144]: Overview
+                - listitem [ref=e145]:
+                  - link "Activities" [ref=e146] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/activities
+                    - generic [ref=e147]: Activities
+                - listitem [ref=e148]:
+                  - link "Captions" [ref=e149] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/captions
+                    - generic [ref=e150]: Captions
+                - listitem [ref=e151]:
+                  - link "Channels" [ref=e152] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/channels
+                    - generic [ref=e153]: Channels
+                - listitem [ref=e154]:
+                  - link "Comments" [ref=e155] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/comments
+                    - generic [ref=e156]: Comments
+                - listitem [ref=e157]:
+                  - link "Pagination" [ref=e158] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/pagination
+                    - generic [ref=e159]: Pagination
+                - listitem [ref=e160]:
+                  - link "Partial responses" [ref=e161] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/partial
+                    - generic [ref=e162]: Partial responses
+                - listitem [ref=e163]:
+                  - link "Playlists" [ref=e164] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/playlists
+                    - generic [ref=e165]: Playlists
+                - listitem [ref=e166]:
+                  - link "Ratings" [ref=e167] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/ratings
+                    - generic [ref=e168]: Ratings
+                - listitem [ref=e169]:
+                  - link "Search requests" [ref=e170] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/search
+                    - generic [ref=e171]: Search requests
+                - listitem [ref=e172]:
+                  - link "Subscriptions" [ref=e173] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/subscriptions
+                    - generic [ref=e174]: Subscriptions
+                - listitem [ref=e175]:
+                  - link "Videos" [ref=e176] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/videos
+                    - generic [ref=e177]: Videos
+            - listitem [ref=e178]:
+              - generic [ref=e180]: Tools
+              - list [ref=e181]:
+                - listitem [ref=e182]:
+                  - link "APIs Explorer" [ref=e183] [cursor=pointer]:
+                    - /url: https://developers.google.com/apis-explorer/#p/youtube/v3/
+                    - generic [ref=e184]: APIs Explorer
+                    - generic [ref=e185]: open_in_new
+    - button "Hide side navigation" [expanded] [ref=e584] [cursor=pointer]:
+      - generic [ref=e585]: chevron_left
+    - generic [ref=e186]:
+      - main [ref=e187]:
+        - generic [ref=e189]:
+          - article [ref=e190]:
+            - navigation [ref=e191]:
+              - list "Breadcrumb" [ref=e192]:
+                - listitem [ref=e193]:
+                  - link "Home" [ref=e194] [cursor=pointer]:
+                    - /url: https://developers.google.com/
+                - listitem [ref=e195]:
+                  - generic [ref=e196]: chevron_right
+                  - link "Products" [ref=e197] [cursor=pointer]:
+                    - /url: https://developers.google.com/products
+                - listitem [ref=e198]:
+                  - generic [ref=e199]: chevron_right
+                  - link "YouTube" [ref=e200] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube
+                - listitem [ref=e201]:
+                  - generic [ref=e202]: chevron_right
+                  - link "Data API" [ref=e203] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube/v3
+                - listitem [ref=e204]:
+                  - generic [ref=e205]: chevron_right
+                  - link "Guides" [ref=e206] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube/v3/getting-started
+              - form "Was this helpful?" [ref=e587]:
+                - generic [ref=e588]: Was this helpful?
+                - generic [ref=e589]:
+                  - button "Helpful" [ref=e590] [cursor=pointer]:
+                    - img
+                  - button "Not helpful" [ref=e591] [cursor=pointer]:
+                    - img
+            - heading "Using OAuth 2.0 for JavaScript Web Applications" [level=1] [ref=e207]:
+              - text: Using OAuth 2.
+              - text: 0 for Java
+              - text: Script Web Applications
+              - listbox "Bookmark collections drop down" [ref=e595] [cursor=pointer]:
+                - button "Open dropdown" [ref=e596]:
+                  - generic:
+                    - generic [ref=e597]: bookmark_border
+                    - text: bookmark
+                  - text: arrow_drop_down
+            - text: expand_more more_horiz
+            - generic [ref=e208]:
+              - region "Page Summary" [ref=e209]:
+                - button "Page Summary" [ref=e210] [cursor=pointer]:
+                  - img "Spark icon" [ref=e211]
+                  - heading "Page Summary" [level=2] [ref=e213]
+                  - generic: expand_more
+              - paragraph [ref=e214]: This document explains how to implement OAuth 2.0 authorization to access the YouTube Data API from a JavaScript web application. OAuth 2.0 allows users to share specific data with an application while keeping their usernames, passwords, and other information private. For example, an application can use OAuth 2.0 to obtain permission to upload videos to a user's YouTube channel.
+              - paragraph [ref=e215]:
+                - text: This OAuth 2.0 flow is called the
+                - emphasis [ref=e216]: implicit grant flow
+                - text: . It is designed for applications that access APIs only while the user is present at the application. These applications are not able to store confidential information.
+              - paragraph [ref=e217]: In this flow, your app opens a Google URL that uses query parameters to identify your app and the type of API access that the app requires. You can open the URL in the current browser window or a popup. The user can authenticate with Google and grant the requested permissions. Google then redirects the user back to your app. The redirect includes an access token, which your app verifies and then uses to make API requests.
+              - 'heading "Google APIs Client Library and Google Identity Services Copy link to this section: Google APIs Client Library and Google Identity Services" [level=2] [ref=e598]':
+                - heading "Google APIs Client Library and Google Identity Services" [level=2] [ref=e599]
+                - 'button "Copy link to this section: Google APIs Client Library and Google Identity Services" [ref=e600] [cursor=pointer]': link
+              - paragraph [ref=e219]:
+                - text: If you use
+                - link "Google APIs client library for JavaScript" [ref=e220] [cursor=pointer]:
+                  - /url: /api-client-library/javascript
+                - text: to make authorized calls to Google, you should use
+                - link "Google Identity Services" [ref=e221] [cursor=pointer]:
+                  - /url: /identity/oauth2/web/guides/overview
+                - text: JavaScript library to handle the OAuth 2.0 flow. Please see Google identity Services'
+                - link "token model" [ref=e222] [cursor=pointer]:
+                  - /url: /identity/oauth2/web/guides/use-token-model
+                - text: ", which is based upon the OAuth 2.0"
+                - emphasis [ref=e223]: implicit grant
+                - text: flow.
+              - complementary [ref=e224]:
+                - paragraph [ref=e225]:
+                  - text: "Note: Given the security implications of getting the implementation correct, we strongly encourage you to use OAuth 2.0 libraries such as Google identity Services'"
+                  - link "token model" [ref=e226] [cursor=pointer]:
+                    - /url: /identity/oauth2/web/guides/use-token-model
+                  - text: when interacting with Google's OAuth 2.0 endpoints. It is a best practice to use well-debugged code provided by others, and it will help you protect yourself and your users.
+                - paragraph [ref=e227]: Rest of this page details how to interact with Google's OAuth 2.0 endpoints directly without using any OAuth 2.0 library.
+              - 'heading "Prerequisites Copy link to this section: Prerequisites" [level=2] [ref=e601]':
+                - heading "Prerequisites" [level=2] [ref=e602]
+                - 'button "Copy link to this section: Prerequisites" [ref=e603] [cursor=pointer]': link
+              - 'heading "Enable APIs for your project Copy link to this section: Enable APIs for your project" [level=3] [ref=e604]':
+                - heading "Enable APIs for your project" [level=3] [ref=e605]
+                - 'button "Copy link to this section: Enable APIs for your project" [ref=e606] [cursor=pointer]': link
+              - paragraph [ref=e230]: Any application that calls Google APIs needs to enable those APIs in the API Console.
+              - paragraph [ref=e231]: "To enable an API for your project:"
+              - list [ref=e232]:
+                - listitem [ref=e233]:
+                  - link "Open the API Library" [ref=e234] [cursor=pointer]:
+                    - /url: https://console.developers.google.com/apis/library
+                  - text: in the Google API Console.
+                - listitem [ref=e235]: If prompted, select a project, or create a new one.
+                - listitem [ref=e236]: Use the Library page to find and enable the YouTube Data API. Find any other APIs that your application will use and enable those, too.
+              - 'heading "Create authorization credentials Copy link to this section: Create authorization credentials" [level=3] [ref=e607]':
+                - heading "Create authorization credentials" [level=3] [ref=e608]
+                - 'button "Copy link to this section: Create authorization credentials" [ref=e609] [cursor=pointer]': link
+              - paragraph [ref=e238]: Any application that uses OAuth 2.0 to access Google APIs must have authorization credentials that identify the application to Google's OAuth 2.0 server. The following steps explain how to create credentials for your project. Your applications can then use the credentials to access APIs that you have enabled for that project.
+              - list [ref=e239]:
+                - listitem [ref=e240]:
+                  - text: Go to the
+                  - link "Clients page" [ref=e241] [cursor=pointer]:
+                    - /url: https://console.developers.google.com/auth/clients
+                  - text: .
+                - listitem [ref=e242]: Click Create Client.
+                - listitem [ref=e243]: Select the Web application application type.
+                - listitem [ref=e244]:
+                  - text: Complete the form. Applications that use JavaScript to make authorized Google API requests must specify authorized JavaScript origins. The origins identify the domains from which your application can send requests to the OAuth 2.0 server. These origins must adhere to
+                  - link "Google’s validation rules" [ref=e245] [cursor=pointer]:
+                    - /url: "#origin-validation"
+                  - text: .
+              - heading "Identify access scopes" [level=3] [ref=e246]
+              - paragraph [ref=e247]: Scopes enable your application to only request access to the resources that it needs while also enabling users to control the amount of access that they grant to your application. Thus, there may be an inverse relationship between the number of scopes requested and the likelihood of obtaining user consent.
+              - paragraph [ref=e248]: Before you start implementing OAuth 2.0 authorization, we recommend that you identify the scopes that your app will need permission to access.
+              - paragraph [ref=e249]: "The YouTube Data API v3 uses the following scopes:"
+              - table [ref=e250]:
+                - rowgroup [ref=e251]:
+                  - row "Scope Description" [ref=e252]:
+                    - columnheader "Scope" [ref=e253]
+                    - columnheader "Description" [ref=e254]
+                - rowgroup [ref=e255]:
+                  - row "https://www.googleapis.com/auth/youtube Manage your YouTube account" [ref=e256]:
+                    - cell "https://www.googleapis.com/auth/youtube" [ref=e257]:
+                      - code [ref=e258]:
+                        - text: https:/
+                        - text: /
+                        - text: www.
+                        - text: googleapis.
+                        - text: com/
+                        - text: auth/
+                        - text: youtube
+                    - cell "Manage your YouTube account" [ref=e259]
+                  - row "https://www.googleapis.com/auth/youtube.channel-memberships.creator See a list of your current active channel members, their current level, and when they became a member" [ref=e260]:
+                    - cell "https://www.googleapis.com/auth/youtube.channel-memberships.creator" [ref=e261]:
+                      - code [ref=e262]:
+                        - text: https:/
+                        - text: /
+                        - text: www.
+                        - text: googleapis.
+                        - text: com/
+                        - text: auth/
+                        - text: youtube.
+                        - text: channel-memberships.
+                        - text: creator
+                    - cell "See a list of your current active channel members, their current level, and when they became a member" [ref=e263]
+                  - row "https://www.googleapis.com/auth/youtube.force-ssl See, edit, and permanently delete your YouTube videos, ratings, comments and captions" [ref=e264]:
+                    - cell "https://www.googleapis.com/auth/youtube.force-ssl" [ref=e265]:
+                      - code [ref=e266]:
+                        - text: https:/
+                        - text: /
+                        - text: www.
+                        - text: googleapis.
+                        - text: com/
+                        - text: auth/
+                        - text: youtube.
+                        - text: force-ssl
+                    - cell "See, edit, and permanently delete your YouTube videos, ratings, comments and captions" [ref=e267]
+                  - row "https://www.googleapis.com/auth/youtube.readonly View your YouTube account" [ref=e268]:
+                    - cell "https://www.googleapis.com/auth/youtube.readonly" [ref=e269]:
+                      - code [ref=e270]:
+                        - text: https:/
+                        - text: /
+                        - text: www.
+                        - text: googleapis.
+                        - text: com/
+                        - text: auth/
+                        - text: youtube.
+                        - text: readonly
+                    - cell "View your YouTube account" [ref=e271]
+                  - row "https://www.googleapis.com/auth/youtube.upload Manage your YouTube videos" [ref=e272]:
+                    - cell "https://www.googleapis.com/auth/youtube.upload" [ref=e273]:
+                      - code [ref=e274]:
+                        - text: https:/
+                        - text: /
+                        - text: www.
+                        - text: googleapis.
+                        - text: com/
+                        - text: auth/
+                        - text: youtube.
+                        - text: upload
+                    - cell "Manage your YouTube videos" [ref=e275]
+                  - row "https://www.googleapis.com/auth/youtubepartner View and manage your assets and associated content on YouTube" [ref=e276]:
+                    - cell "https://www.googleapis.com/auth/youtubepartner" [ref=e277]:
+                      - code [ref=e278]:
+                        - text: https:/
+                        - text: /
+                        - text: www.
+                        - text: googleapis.
+                        - text: com/
+                        - text: auth/
+                        - text: youtubepartner
+                    - cell "View and manage your assets and associated content on YouTube" [ref=e279]
+                  - row "https://www.googleapis.com/auth/youtubepartner-channel-audit View private information of your YouTube channel relevant during the audit process with a YouTube partner" [ref=e280]:
+                    - cell "https://www.googleapis.com/auth/youtubepartner-channel-audit" [ref=e281]:
+                      - code [ref=e282]:
+                        - text: https:/
+                        - text: /
+                        - text: www.
+                        - text: googleapis.
+                        - text: com/
+                        - text: auth/
+                        - text: youtubepartner-channel-audit
+                    - cell "View private information of your YouTube channel relevant during the audit process with a YouTube partner" [ref=e283]
+              - paragraph [ref=e284]:
+                - text: The
+                - link "OAuth 2.0 API Scopes" [ref=e285] [cursor=pointer]:
+                  - /url: /identity/protocols/oauth2/scopes
+                - text: document contains a full list of scopes that you might use to access Google APIs.
+              - complementary [ref=e286]:
+                - text: warning If your public application uses scopes that permit access to certain user data, it must complete a verification process. If you see
+                - strong [ref=e287]: unverified app
+                - text: on the screen when testing your application, you must submit a verification request to remove it. Find out more about
+                - link "unverified apps" [ref=e288] [cursor=pointer]:
+                  - /url: https://support.google.com/cloud/answer/7454865
+                - text: and get answers to
+                - link "frequently asked questions about app verification" [ref=e289] [cursor=pointer]:
+                  - /url: https://support.google.com/cloud/answer/9110914
+                - text: in the Help Center.
+              - heading "Obtaining OAuth 2.0 access tokens" [level=2] [ref=e290]:
+                - text: Obtaining OAuth 2.
+                - text: 0 access tokens
+              - paragraph [ref=e291]: The following steps show how your application interacts with Google's OAuth 2.0 server to obtain a user's consent to perform an API request on the user's behalf. Your application must have that consent before it can execute a Google API request that requires user authorization.
+              - 'heading "Step 1: Redirect to Google''s OAuth 2.0 server" [level=3] [ref=e292]':
+                - text: "Step 1: Redirect to Google's OAuth 2."
+                - text: 0 server
+              - paragraph [ref=e293]: To request permission to access a user's data, redirect the user to Google's OAuth 2.0 server.
+              - generic [ref=e611]:
+                - tablist [ref=e612]:
+                  - generic [ref=e613]:
+                    - tab "OAuth 2.0 Endpoints" [selected] [ref=e614]:
+                      - button "OAuth 2.0 Endpoints" [expanded] [ref=e615] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "OAuth 2.0 Endpoints" [ref=e616]:
+                  - paragraph [ref=e617]:
+                    - text: Generate a URL to request access from Google's OAuth 2.0 endpoint at
+                    - code [ref=e618]: https://accounts.google.com/o/oauth2/v2/auth
+                    - text: . This endpoint is accessible over HTTPS; plain HTTP connections are refused.
+                  - paragraph [ref=e619]: "The Google authorization server supports the following query string parameters for web server applications:"
+                  - table [ref=e621]:
+                    - rowgroup [ref=e622]:
+                      - row "Parameters" [ref=e623]:
+                        - columnheader "Parameters" [ref=e624]
+                    - rowgroup [ref=e625]:
+                      - row "client_id Required The client ID for your application. You can find this value in the Cloud Console Clients page." [ref=e626]:
+                        - cell "client_id" [ref=e627]:
+                          - code [ref=e628]: client_id
+                        - cell "Required The client ID for your application. You can find this value in the Cloud Console Clients page." [ref=e629]:
+                          - strong [ref=e630]: Required
+                          - paragraph [ref=e631]:
+                            - text: The client ID for your application. You can find this value in the Cloud Console
+                            - link "Clients page" [ref=e632] [cursor=pointer]:
+                              - /url: https://console.developers.google.com/auth/clients
+                            - text: .
+                      - row "redirect_uri Required Determines where the API server redirects the user after the user completes the authorization flow. The value must exactly match one of the authorized redirect URIs for the OAuth 2.0 client, which you configured in your client's Cloud Console Clients page. If this value doesn't match an authorized redirect URI for the provided client_id you will get a redirect_uri_mismatch error. Note that the http or https scheme, case, and trailing slash ('/') must all match." [ref=e633]:
+                        - cell "redirect_uri" [ref=e634]:
+                          - code [ref=e635]: redirect_uri
+                        - cell "Required Determines where the API server redirects the user after the user completes the authorization flow. The value must exactly match one of the authorized redirect URIs for the OAuth 2.0 client, which you configured in your client's Cloud Console Clients page. If this value doesn't match an authorized redirect URI for the provided client_id you will get a redirect_uri_mismatch error. Note that the http or https scheme, case, and trailing slash ('/') must all match." [ref=e636]:
+                          - strong [ref=e637]: Required
+                          - paragraph [ref=e638]:
+                            - text: Determines where the API server redirects the user after the user completes the authorization flow. The value must exactly match one of the authorized redirect URIs for the OAuth 2.0 client, which you configured in your client's Cloud Console
+                            - link "Clients page" [ref=e639] [cursor=pointer]:
+                              - /url: https://console.developers.google.com/auth/clients
+                            - text: . If this value doesn't match an authorized redirect URI for the provided
+                            - code [ref=e640]: client_id
+                            - text: you will get a
+                            - code [ref=e641]: redirect_uri_mismatch
+                            - text: error.
+                          - paragraph [ref=e642]:
+                            - text: Note that the
+                            - code [ref=e643]: http
+                            - text: or
+                            - code [ref=e644]: https
+                            - text: scheme, case, and trailing slash ('
+                            - code [ref=e645]: /
+                            - text: "') must all match."
+                      - row "response_type Required JavaScript applications need to set the parameter's value to token. This value instructs the Google Authorization Server to return the access token as a name=value pair in the fragment identifier of the URI (#) to which the user is redirected after completing the authorization process." [ref=e646]:
+                        - cell "response_type" [ref=e647]:
+                          - code [ref=e648]: response_type
+                        - cell "Required JavaScript applications need to set the parameter's value to token. This value instructs the Google Authorization Server to return the access token as a name=value pair in the fragment identifier of the URI (#) to which the user is redirected after completing the authorization process." [ref=e649]:
+                          - strong [ref=e650]: Required
+                          - paragraph [ref=e651]:
+                            - text: JavaScript applications need to set the parameter's value to
+                            - code [ref=e652]: token
+                            - text: . This value instructs the Google Authorization Server to return the access token as a name=value pair in the fragment identifier of the URI (
+                            - code [ref=e653]: "#"
+                            - text: ) to which the user is redirected after completing the authorization process.
+                      - row [ref=e654]:
+                        - cell "scope" [ref=e655]:
+                          - code [ref=e656]: scope
+                        - cell [ref=e657]:
+                          - strong [ref=e658]: Required
+                          - paragraph [ref=e659]: A space-delimited list of scopes that identify the resources that your application could access on the user's behalf. These values inform the consent screen that Google displays to the user.
+                          - paragraph [ref=e660]: Scopes enable your application to only request access to the resources that it needs while also enabling users to control the amount of access that they grant to your application. Thus, there is an inverse relationship between the number of scopes requested and the likelihood of obtaining user consent.
+                          - paragraph [ref=e661]: "The YouTube Data API v3 uses the following scopes:"
+                          - table [ref=e663]:
+                            - rowgroup [ref=e664]:
+                              - row "Scope Description" [ref=e665]:
+                                - columnheader "Scope" [ref=e666]
+                                - columnheader "Description" [ref=e667]
+                            - rowgroup [ref=e668]:
+                              - row "https://www.googleapis.com/auth/youtube Manage your YouTube account" [ref=e669]:
+                                - cell "https://www.googleapis.com/auth/youtube" [ref=e670]:
+                                  - code [ref=e671]:
+                                    - text: https://www.
+                                    - text: googleapis.
+                                    - text: com/
+                                    - text: auth/
+                                    - text: youtube
+                                - cell "Manage your YouTube account" [ref=e672]
+                              - row "https://www.googleapis.com/auth/youtube.channel-memberships.creator See a list of your current active channel members, their current level, and when they became a member" [ref=e673]:
+                                - cell "https://www.googleapis.com/auth/youtube.channel-memberships.creator" [ref=e674]:
+                                  - code [ref=e675]:
+                                    - text: https://www.
+                                    - text: googleapis.
+                                    - text: com/
+                                    - text: auth/
+                                    - text: youtube.
+                                    - text: channel-memberships.
+                                    - text: creator
+                                - cell "See a list of your current active channel members, their current level, and when they became a member" [ref=e676]
+                              - row "https://www.googleapis.com/auth/youtube.force-ssl See, edit, and permanently delete your YouTube videos, ratings, comments and captions" [ref=e677]:
+                                - cell "https://www.googleapis.com/auth/youtube.force-ssl" [ref=e678]:
+                                  - code [ref=e679]:
+                                    - text: https://www.
+                                    - text: googleapis.
+                                    - text: com/
+                                    - text: auth/
+                                    - text: youtube.
+                                    - text: force-ssl
+                                - cell "See, edit, and permanently delete your YouTube videos, ratings, comments and captions" [ref=e680]
+                              - row "https://www.googleapis.com/auth/youtube.readonly View your YouTube account" [ref=e681]:
+                                - cell "https://www.googleapis.com/auth/youtube.readonly" [ref=e682]:
+                                  - code [ref=e683]:
+                                    - text: https://www.
+                                    - text: googleapis.
+                                    - text: com/
+                                    - text: auth/
+                                    - text: youtube.
+                                    - text: readonly
+                                - cell "View your YouTube account" [ref=e684]
+                              - row "https://www.googleapis.com/auth/youtube.upload Manage your YouTube videos" [ref=e685]:
+                                - cell "https://www.googleapis.com/auth/youtube.upload" [ref=e686]:
+                                  - code [ref=e687]:
+                                    - text: https://www.
+                                    - text: googleapis.
+                                    - text: com/
+                                    - text: auth/
+                                    - text: youtube.
+                                    - text: upload
+                                - cell "Manage your YouTube videos" [ref=e688]
+                              - row "https://www.googleapis.com/auth/youtubepartner View and manage your assets and associated content on YouTube" [ref=e689]:
+                                - cell "https://www.googleapis.com/auth/youtubepartner" [ref=e690]:
+                                  - code [ref=e691]:
+                                    - text: https://www.
+                                    - text: googleapis.
+                                    - text: com/
+                                    - text: auth/
+                                    - text: youtubepartner
+                                - cell "View and manage your assets and associated content on YouTube" [ref=e692]
+                              - row "https://www.googleapis.com/auth/youtubepartner-channel-audit View private information of your YouTube channel relevant during the audit process with a YouTube partner" [ref=e693]:
+                                - cell "https://www.googleapis.com/auth/youtubepartner-channel-audit" [ref=e694]:
+                                  - code [ref=e695]:
+                                    - text: https://www.
+                                    - text: googleapis.
+                                    - text: com/
+                                    - text: auth/
+                                    - text: youtubepartner-channel-audit
+                                - cell "View private information of your YouTube channel relevant during the audit process with a YouTube partner" [ref=e696]
+                          - paragraph [ref=e697]:
+                            - text: The
+                            - link "OAuth 2.0 API Scopes" [ref=e698] [cursor=pointer]:
+                              - /url: /identity/protocols/oauth2/scopes
+                            - text: document provides a full list of scopes that you might use to access Google APIs.
+                          - paragraph [ref=e699]:
+                            - text: We recommend that your application request access to authorization scopes in context whenever possible. By requesting access to user data in context, using
+                            - link "incremental authorization" [ref=e700] [cursor=pointer]:
+                              - /url: "#incrementalAuth"
+                            - text: ", you help users to understand why your application needs the access it is requesting."
+                      - row [ref=e701]:
+                        - cell "state" [ref=e702]:
+                          - code [ref=e703]: state
+                        - cell [ref=e704]:
+                          - strong [ref=e705]: Recommended
+                          - paragraph [ref=e706]:
+                            - text: Specifies any string value that your application uses to maintain state between your authorization request and the authorization server's response. The server returns the exact value that you send as a
+                            - code [ref=e707]: name=value
+                            - text: pair in the URL fragment identifier (
+                            - code [ref=e708]: "#"
+                            - text: ) of the
+                            - code [ref=e709]: redirect_uri
+                            - text: after the user consents to or denies your application's access request.
+                          - paragraph [ref=e710]:
+                            - text: You can use this parameter for several purposes, such as directing the user to the correct resource in your application, sending nonces, and mitigating cross-site request forgery. Since your
+                            - code [ref=e711]: redirect_uri
+                            - text: can be guessed, using a
+                            - code [ref=e712]: state
+                            - text: value can increase your assurance that an incoming connection is the result of an authentication request. If you generate a random string or encode the hash of a cookie or another value that captures the client's state, you can validate the response to additionally ensure that the request and response originated in the same browser, providing protection against attacks such as
+                            - link "cross-site request forgery" [ref=e713] [cursor=pointer]:
+                              - /url: https://datatracker.ietf.org/doc/html/rfc6749#section-10.12
+                            - text: . See the
+                            - link "OpenID Connect" [ref=e714] [cursor=pointer]:
+                              - /url: /identity/protocols/oauth2/openid-connect#createxsrftoken
+                            - text: documentation for an example of how to create and confirm a
+                            - code [ref=e715]: state
+                            - text: token.
+                          - complementary [ref=e716]:
+                            - text: "Important: The OAuth client must prevent CSRF as called out in the"
+                            - link "OAuth2 Specification" [ref=e717] [cursor=pointer]:
+                              - /url: https://datatracker.ietf.org/doc/html/rfc6749#section-10.12
+                            - text: . One way to achieve this is by using the
+                            - code [ref=e718]: state
+                            - text: parameter to maintain state between your authorization request and the authorization server's response.
+                      - row "include_granted_scopes Optional Enables applications to use incremental authorization to request access to additional scopes in context. If you set this parameter's value to true and the authorization request is granted, then the new access token will also cover any scopes to which the user previously granted the application access. See the incremental authorization section for examples." [ref=e719]:
+                        - cell "include_granted_scopes" [ref=e720]:
+                          - code [ref=e721]: include_granted_scopes
+                        - cell "Optional Enables applications to use incremental authorization to request access to additional scopes in context. If you set this parameter's value to true and the authorization request is granted, then the new access token will also cover any scopes to which the user previously granted the application access. See the incremental authorization section for examples." [ref=e722]:
+                          - strong [ref=e723]: Optional
+                          - paragraph [ref=e724]:
+                            - text: Enables applications to use incremental authorization to request access to additional scopes in context. If you set this parameter's value to
+                            - code [ref=e725]: "true"
+                            - text: and the authorization request is granted, then the new access token will also cover any scopes to which the user previously granted the application access. See the
+                            - link "incremental authorization" [ref=e726] [cursor=pointer]:
+                              - /url: "#incrementalAuth"
+                            - text: section for examples.
+                      - row "enable_granular_consent Optional Defaults to true. If set to false, more granular Google Account permissions will be disabled for OAuth client IDs created before 2019. No effect for newer OAuth client IDs, since more granular permissions is always enabled for them. When Google enables granular permissions for an application, this parameter will no longer have any effect." [ref=e727]:
+                        - cell "enable_granular_consent" [ref=e728]:
+                          - code [ref=e729]: enable_granular_consent
+                        - cell "Optional Defaults to true. If set to false, more granular Google Account permissions will be disabled for OAuth client IDs created before 2019. No effect for newer OAuth client IDs, since more granular permissions is always enabled for them. When Google enables granular permissions for an application, this parameter will no longer have any effect." [ref=e730]:
+                          - strong [ref=e731]: Optional
+                          - paragraph [ref=e732]:
+                            - text: Defaults to
+                            - code [ref=e733]: "true"
+                            - text: . If set to
+                            - code [ref=e734]: "false"
+                            - text: ","
+                            - link "more granular Google Account permissions" [ref=e735] [cursor=pointer]:
+                              - /url: /identity/protocols/oauth2/resources/granular-permissions
+                            - text: will be disabled for OAuth client IDs created before 2019. No effect for newer OAuth client IDs, since more granular permissions is always enabled for them.
+                          - paragraph [ref=e736]: When Google enables granular permissions for an application, this parameter will no longer have any effect.
+                      - row "login_hint Optional If your application knows which user is trying to authenticate, it can use this parameter to provide a hint to the Google Authentication Server. The server uses the hint to simplify the login flow either by prefilling the email field in the sign-in form or by selecting the appropriate multi-login session. Set the parameter value to an email address or sub identifier, which is equivalent to the user's Google ID." [ref=e737]:
+                        - cell "login_hint" [ref=e738]:
+                          - code [ref=e739]: login_hint
+                        - cell "Optional If your application knows which user is trying to authenticate, it can use this parameter to provide a hint to the Google Authentication Server. The server uses the hint to simplify the login flow either by prefilling the email field in the sign-in form or by selecting the appropriate multi-login session. Set the parameter value to an email address or sub identifier, which is equivalent to the user's Google ID." [ref=e740]:
+                          - strong [ref=e741]: Optional
+                          - paragraph [ref=e742]: If your application knows which user is trying to authenticate, it can use this parameter to provide a hint to the Google Authentication Server. The server uses the hint to simplify the login flow either by prefilling the email field in the sign-in form or by selecting the appropriate multi-login session.
+                          - paragraph [ref=e743]:
+                            - text: Set the parameter value to an email address or
+                            - code [ref=e744]: sub
+                            - text: identifier, which is equivalent to the user's Google ID.
+                      - 'row "prompt Optional A space-delimited, case-sensitive list of prompts to present the user. If you don''t specify this parameter, the user will be prompted only the first time your project requests access. See Prompting re-consent for more information. Possible values are: none Don''t display any authentication or consent screens. Must not be specified with other values. consent Prompt the user for consent. select_account Prompt the user to select an account." [ref=e745]':
+                        - cell "prompt" [ref=e746]:
+                          - code [ref=e747]: prompt
+                        - 'cell "Optional A space-delimited, case-sensitive list of prompts to present the user. If you don''t specify this parameter, the user will be prompted only the first time your project requests access. See Prompting re-consent for more information. Possible values are: none Don''t display any authentication or consent screens. Must not be specified with other values. consent Prompt the user for consent. select_account Prompt the user to select an account." [ref=e748]':
+                          - strong [ref=e749]: Optional
+                          - paragraph [ref=e750]:
+                            - text: A space-delimited, case-sensitive list of prompts to present the user. If you don't specify this parameter, the user will be prompted only the first time your project requests access. See
+                            - link "Prompting re-consent" [ref=e751] [cursor=pointer]:
+                              - /url: /identity/protocols/oauth2/openid-connect#re-consent
+                            - text: for more information.
+                          - paragraph [ref=e752]: "Possible values are:"
+                          - table [ref=e754]:
+                            - rowgroup [ref=e755]:
+                              - row "none Don't display any authentication or consent screens. Must not be specified with other values." [ref=e756]:
+                                - cell "none" [ref=e757]:
+                                  - code [ref=e758]: none
+                                - cell "Don't display any authentication or consent screens. Must not be specified with other values." [ref=e759]
+                              - row "consent Prompt the user for consent." [ref=e760]:
+                                - cell "consent" [ref=e761]:
+                                  - code [ref=e762]: consent
+                                - cell "Prompt the user for consent." [ref=e763]
+                              - row "select_account Prompt the user to select an account." [ref=e764]:
+                                - cell "select_account" [ref=e765]:
+                                  - code [ref=e766]: select_account
+                                - cell "Prompt the user to select an account." [ref=e767]
+                  - heading "Sample redirect to Google's authorization server" [level=4] [ref=e768]
+                  - paragraph [ref=e769]:
+                    - text: The sample URL below requests offline access (
+                    - code [ref=e770]: access_type=offline
+                    - text: ) to a scope that permits access to view the user's YouTube account. It uses incremental authorization to ensure that the new access token covers any scopes to which the user previously granted the application access. The URL also sets values for the required
+                    - code [ref=e771]: redirect_uri
+                    - text: ","
+                    - code [ref=e772]: response_type
+                    - text: ", and"
+                    - code [ref=e773]: client_id
+                    - text: parameters as well as for the
+                    - code [ref=e774]: state
+                    - text: parameter. The URL contains line breaks and spaces for readability.
+                  - generic [ref=e776]: https://accounts.google.com/o/oauth2/v2/auth? scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly& include_granted_scopes=true& state=state_parameter_passthrough_value& redirect_uri=http%3A%2F%2Flocalhost%2Foauth2callback& response_type=token& client_id=client_id
+                  - paragraph [ref=e777]: After you create the request URL, redirect the user to it.
+                  - heading "JavaScript sample code" [level=4] [ref=e778]
+                  - paragraph [ref=e779]: The following JavaScript snippet shows how to initiate the authorization flow in JavaScript without using the Google APIs Client Library for JavaScript. Since this OAuth 2.0 endpoint does not support Cross-Origin Resource Sharing (CORS), the snippet creates a form that opens the request to that endpoint.
+                  - generic [ref=e781]:
+                    - text: "/* * Create form to request access token from Google's OAuth 2.0 server. */ function oauthSignIn() { // Google's OAuth 2.0 endpoint for requesting an access token var oauth2Endpoint = 'https://accounts.google.com/o/oauth2/v2/auth'; // Create <form> element to submit parameters to OAuth 2.0 endpoint. var form = document.createElement('form'); form.setAttribute('method', 'GET'); // Send as a GET request. form.setAttribute('action', oauth2Endpoint); // Parameters to pass to OAuth 2.0 endpoint. var params = {'client_id':"
+                    - generic [ref=e782]:
+                      - text: "'"
+                      - generic [ref=e784]:
+                        - text: close
+                        - generic "Edit YOUR_CLIENT_ID" [ref=e785] [cursor=pointer]:
+                          - text: YOUR_CLIENT_ID
+                          - button "edit" [ref=e786]
+                      - text: "'"
+                    - text: ", 'redirect_uri':"
+                    - generic [ref=e787]:
+                      - text: "'"
+                      - generic [ref=e789]:
+                        - text: close
+                        - generic "Edit YOUR_REDIRECT_URI" [ref=e790] [cursor=pointer]:
+                          - text: YOUR_REDIRECT_URI
+                          - button "edit" [ref=e791]
+                      - text: "'"
+                    - text: ", 'response_type': 'token', 'scope': 'https://www.googleapis.com/auth/youtube.force-ssl', 'include_granted_scopes': 'true', 'state': 'pass-through value'}; // Add form parameters as hidden input values. for (var p in params) { var input = document.createElement('input'); input.setAttribute('type', 'hidden'); input.setAttribute('name', p); input.setAttribute('value', params[p]); form.appendChild(input); } // Add form to page and submit it to open the OAuth 2.0 endpoint. document.body.appendChild(form); form.submit(); }"
+              - 'heading "Step 2: Google prompts user for consent" [level=3] [ref=e294]'
+              - paragraph [ref=e295]: In this step, the user decides whether to grant your application the requested access. At this stage, Google displays a consent window that shows the name of your application and the Google API services that it is requesting permission to access with the user's authorization credentials and a summary of the scopes of access to be granted. The user can then consent to grant access to one or more scopes requested by your application or refuse the request.
+              - paragraph [ref=e296]: Your application doesn't need to do anything at this stage as it waits for the response from Google's OAuth 2.0 server indicating whether any access was granted. That response is explained in the following step.
+              - region "Errors" [ref=e297]:
+                - heading "Errors" [level=4] [ref=e298]
+                - paragraph [ref=e299]: "Requests to Google's OAuth 2.0 authorization endpoint may display user-facing error messages instead of the expected authentication and authorization flows. Common error codes and suggested resolutions are:"
+                - region "admin_policy_enforced" [ref=e300]:
+                  - heading "admin_policy_enforced" [level=5] [ref=e301]:
+                    - code [ref=e302]: admin_policy_enforced
+                  - paragraph [ref=e303]:
+                    - text: The Google Account is unable to authorize one or more scopes requested due to the policies of their Google Workspace administrator. See the Google Workspace Admin help article
+                    - link "Control which third-party & internal apps access Google Workspace data" [ref=e304] [cursor=pointer]:
+                      - /url: https://support.google.com/a/answer/7281227
+                    - text: for more information about how an administrator may restrict access to all scopes or sensitive and restricted scopes until access is explicitly granted to your OAuth client ID.
+                - region "disallowed_useragent" [ref=e305]:
+                  - heading "disallowed_useragent" [level=5] [ref=e306]:
+                    - code [ref=e307]: disallowed_useragent
+                  - paragraph [ref=e308]:
+                    - text: The authorization endpoint is displayed inside an embedded user-agent disallowed by Google's
+                    - link "OAuth 2.0 Policies" [ref=e309] [cursor=pointer]:
+                      - /url: /identity/protocols/oauth2/policies#browsers
+                    - text: .
+                  - paragraph [ref=e310]:
+                    - text: iOS and macOS developers may encounter this error when opening authorization requests in
+                    - link "WKWebView" [ref=e311] [cursor=pointer]:
+                      - /url: https://developer.apple.com/documentation/webkit/wkwebview
+                      - code [ref=e312]: WKWebView
+                    - text: . Developers should instead use iOS libraries such as
+                    - link "Google Sign-In for iOS" [ref=e313] [cursor=pointer]:
+                      - /url: /identity/sign-in/ios
+                    - text: or OpenID Foundation's
+                    - link "AppAuth for iOS" [ref=e314] [cursor=pointer]:
+                      - /url: https://openid.github.io/AppAuth-iOS/
+                    - text: .
+                  - paragraph [ref=e315]:
+                    - text: Web developers may encounter this error when an iOS or macOS app opens a general web link in an embedded user-agent and a user navigates to Google's OAuth 2.0 authorization endpoint from your site. Developers should allow general links to open in the default link handler of the operating system, which includes both
+                    - link "Universal Links" [ref=e316] [cursor=pointer]:
+                      - /url: https://developer.apple.com/ios/universal-links/
+                    - text: handlers or the default browser app. The
+                    - link "SFSafariViewController" [ref=e317] [cursor=pointer]:
+                      - /url: https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller
+                      - code [ref=e318]: SFSafariViewController
+                    - text: library is also a supported option.
+                - region "org_internal" [ref=e319]:
+                  - heading "org_internal" [level=5] [ref=e320]:
+                    - code [ref=e321]: org_internal
+                  - paragraph [ref=e322]:
+                    - text: The OAuth client ID in the request is part of a project limiting access to Google Accounts in a specific
+                    - link "Google Cloud Organization" [ref=e323] [cursor=pointer]:
+                      - /url: https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#organizations
+                    - text: . For more information about this configuration option see the
+                    - link "User type" [ref=e324] [cursor=pointer]:
+                      - /url: https://support.google.com/cloud/answer/10311615#user-type
+                    - text: section in the Setting up your OAuth consent screen help article.
+                - region "invalid_client" [ref=e325]:
+                  - heading "invalid_client" [level=5] [ref=e326]:
+                    - code [ref=e327]: invalid_client
+                  - paragraph [ref=e328]:
+                    - text: The origin from which the request was made is not authorized for this client. See
+                    - code [ref=e329]:
+                      - link "origin_mismatch" [ref=e330] [cursor=pointer]:
+                        - /url: "#authorization-errors-origin-mismatch"
+                    - text: .
+                - region "deleted_client" [ref=e331]:
+                  - heading "deleted_client" [level=5] [ref=e332]:
+                    - code [ref=e333]: deleted_client
+                  - paragraph [ref=e334]:
+                    - text: The OAuth client being used to make the request has been deleted. Deletion can happen manually or automatically in the case of
+                    - link "unused clients" [ref=e335] [cursor=pointer]:
+                      - /url: https://support.google.com/cloud/answer/15549257#unused-client-deletion
+                    - text: . Deleted clients can be restored within 30 days of the deletion.
+                    - link "Learn more" [ref=e336] [cursor=pointer]:
+                      - /url: https://support.google.com/cloud/answer/15549257#delete-oauth-clients
+                    - text: .
+                - region "invalid_grant" [ref=e337]:
+                  - heading "invalid_grant" [level=5] [ref=e338]:
+                    - code [ref=e339]: invalid_grant
+                  - paragraph [ref=e340]:
+                    - text: When using
+                    - link "incremental authorization" [ref=e341] [cursor=pointer]:
+                      - /url: "#incrementalAuth"
+                    - text: ", the token may have expired or has been invalidated. Authenticate the user again and ask for user consent to obtain new tokens. If you are continuing to see this error, ensure that your application has been configured correctly and that you are using the correct tokens and parameters in your request. Otherwise, the user account may have been deleted or disabled."
+                - region "origin_mismatch" [ref=e342]:
+                  - heading "origin_mismatch" [level=5] [ref=e343]:
+                    - code [ref=e344]: origin_mismatch
+                  - paragraph [ref=e345]:
+                    - text: The scheme, domain, and/or port of the JavaScript originating the authorization request may not match an authorized JavaScript origin URI registered for the OAuth client ID. Review authorized JavaScript origins in the Google Cloud Console
+                    - link "Clients page" [ref=e346] [cursor=pointer]:
+                      - /url: https://console.developers.google.com/auth/clients
+                    - text: .
+                - region "redirect_uri_mismatch" [ref=e347]:
+                  - heading "redirect_uri_mismatch" [level=5] [ref=e348]:
+                    - code [ref=e349]: redirect_uri_mismatch
+                  - paragraph [ref=e350]:
+                    - text: The
+                    - code [ref=e351]: redirect_uri
+                    - text: passed in the authorization request does not match an authorized redirect URI for the OAuth client ID. Review authorized redirect URIs in the Google Cloud Console
+                    - link "Clients page" [ref=e352] [cursor=pointer]:
+                      - /url: https://console.developers.google.com/auth/clients
+                    - text: .
+                  - paragraph [ref=e353]:
+                    - text: The scheme, domain, and/or port of the JavaScript originating the authorization request may not match an authorized JavaScript origin URI registered for the OAuth client ID. Review authorized JavaScript origins in the Google Cloud Console
+                    - link "Clients page" [ref=e354] [cursor=pointer]:
+                      - /url: https://console.developers.google.com/auth/clients
+                    - text: .
+                  - paragraph [ref=e355]:
+                    - text: The
+                    - code [ref=e356]: redirect_uri
+                    - text: parameter may refer to the OAuth out-of-band (OOB) flow that has been deprecated and is no longer supported. Refer to the
+                    - link "migration guide" [ref=e357] [cursor=pointer]:
+                      - /url: /identity/protocols/oauth2/resources/oob-migration
+                    - text: to update your integration.
+                - region "invalid_request" [ref=e358]:
+                  - heading "invalid_request" [level=5] [ref=e359]:
+                    - code [ref=e360]: invalid_request
+                  - paragraph [ref=e361]: "There was something wrong with the request you made. This could be due to a number of reasons:"
+                  - list [ref=e362]:
+                    - listitem [ref=e363]: The request was not properly formatted
+                    - listitem [ref=e364]: The request was missing required parameters
+                    - listitem [ref=e365]: The request uses an authorization method that Google doesn't support. Verify your OAuth integration uses a recommended integration method
+              - 'heading "Step 3: Handle the OAuth 2.0 server response" [level=3] [ref=e366]'
+              - generic [ref=e792]:
+                - tablist [ref=e793]:
+                  - generic [ref=e794]:
+                    - tab "OAuth 2.0 Endpoints" [selected] [ref=e795]:
+                      - button "OAuth 2.0 Endpoints" [expanded] [ref=e796] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "OAuth 2.0 Endpoints" [ref=e797]:
+                  - complementary [ref=e798]:
+                    - text: "Important: Before handling the OAuth 2.0 response, you should confirm that the"
+                    - code [ref=e799]: state
+                    - text: received from Google matches the
+                    - code [ref=e800]: state
+                    - text: sent in the authorization request. This verification helps to ensure that the user, not a malicious script, is making the request and reduces the risk of
+                    - link "CSRF attacks" [ref=e801] [cursor=pointer]:
+                      - /url: https://datatracker.ietf.org/doc/html/rfc6749#section-10.12
+                    - text: .
+                  - paragraph [ref=e802]:
+                    - text: The OAuth 2.0 server sends a response to the
+                    - code [ref=e803]: redirect_uri
+                    - text: specified in your access token request.
+                  - paragraph [ref=e804]: "If the user approves the request, then the response contains an access token. If the user does not approve the request, the response contains an error message. The access token or error message is returned on the hash fragment of the redirect URI, as shown below:"
+                  - list [ref=e805]:
+                    - listitem [ref=e806]:
+                      - paragraph [ref=e807]: "An access token response:"
+                      - generic [ref=e809]: https://oauth2.example.com/callback#access_token=4/P7q7W91&token_type=Bearer&expires_in=3600
+                      - paragraph [ref=e810]:
+                        - text: In addition to the
+                        - code [ref=e811]: access_token
+                        - text: parameter, the fragment string also contains the
+                        - code [ref=e812]: token_type
+                        - text: parameter, which is always set to
+                        - code [ref=e813]: Bearer
+                        - text: ", and the"
+                        - code [ref=e814]: expires_in
+                        - text: parameter, which specifies the lifetime of the token, in seconds. If the
+                        - code [ref=e815]: state
+                        - text: parameter was specified in the access token request, its value is also included in the response.
+                    - listitem [ref=e816]:
+                      - text: "An error response:"
+                      - generic [ref=e818]: https://oauth2.example.com/callback#error=access_denied
+                  - complementary [ref=e819]: "Note: Your application should ignore any additional, unrecognized fields included in the query string."
+                  - heading "Sample OAuth 2.0 server response" [level=4] [ref=e820]
+                  - paragraph [ref=e821]: "You can test this flow by clicking on the following sample URL, which requests read-only access to view metadata for files in your Google Drive and read-only access to view your Google Calendar events:"
+                  - link "https://accounts.google.com/o/oauth2/v2/auth? scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly& include_granted_scopes=true& state=state_parameter_passthrough_value& redirect_uri=http%3A%2F%2Flocalhost%2Foauth2callback& response_type=token& client_id=client_id" [ref=e824] [cursor=pointer]:
+                    - /url: https://accounts.google.com/o/oauth2/v2/auth?scope=https%3A//www.googleapis.com/auth/drive.metadata.readonly%20https%3A//www.googleapis.com/auth/calendar.readonly&state=state_parameter_passthrough_value&redirect_uri=https%3A//developers.google.com/oauthplayground&response_type=token&client_id=407408718192.apps.googleusercontent.com
+                  - paragraph [ref=e825]:
+                    - text: After completing the OAuth 2.0 flow, your browser redirects you to the
+                    - link "OAuth 2.0 Playground" [ref=e826] [cursor=pointer]:
+                      - /url: https://developers.google.com/oauthplayground/
+                    - text: ", a tool for testing OAuth flows. You will see that the OAuth 2.0 Playground has automatically captured the authorization code."
+              - 'heading "Step 4: Check which scopes users granted" [level=3] [ref=e367]'
+              - paragraph [ref=e368]: When requesting multiple permissions (scopes), users may not grant your app access to all of them. Your app must verify which scopes were actually granted and gracefully handle situations where some permissions are denied, typically by disabling the features that rely on those denied scopes.
+              - paragraph [ref=e369]:
+                - text: However, there are exceptions. Google Workspace Enterprise apps with
+                - link "domain-wide delegation of authority" [ref=e370] [cursor=pointer]:
+                  - /url: https://support.google.com/a/answer/162106
+                - text: ", or apps marked as"
+                - link "Trusted" [ref=e371] [cursor=pointer]:
+                  - /url: https://support.google.com/a/answer/7281227#zippy=%2Cchange-access-from-the-app-list
+                - text: ", bypass the granular permissions consent screen. For these apps, users won't see the granular permission consent screen. Instead, your app will either receive all requested scopes or none."
+              - paragraph [ref=e372]:
+                - text: For more detailed information, see
+                - link "How to handle granular permissions" [ref=e373] [cursor=pointer]:
+                  - /url: /identity/protocols/oauth2/resources/granular-permissions
+                - text: .
+              - generic [ref=e827]:
+                - tablist [ref=e828]:
+                  - generic [ref=e829]:
+                    - tab "OAuth 2.0 Endpoints" [selected] [ref=e830]:
+                      - button "OAuth 2.0 Endpoints" [expanded] [ref=e831] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "OAuth 2.0 Endpoints" [ref=e832]:
+                  - paragraph [ref=e833]:
+                    - text: To check whether the user has granted your application access to a particular scope, exam the
+                    - code [ref=e834]: scope
+                    - text: field in the access token response. The scopes of access granted by the access_token expressed as a list of space-delimited, case-sensitive strings.
+                  - paragraph [ref=e835]: "For example, the following sample access token response indicates that the user has granted your application permission to see, edit, and permanently delete user's YouTube videos, ratings, comments and captions:"
+                  - generic [ref=e837]:
+                    - text: "{ \"access_token\": \"1/fFAGRNJru1FTz70BzhT3Zg\", \"expires_in\": 3920, \"token_type\": \"Bearer\","
+                    - generic [ref=e838]: "\"scope\": \"https://www.googleapis.com/auth/youtube.force-ssl\""
+                    - text: ", \"refresh_token\": \"1//xEoDL4iW3cxlI7yDbSRFYNG01kVKM2C-259HOF2aQbI\" }"
+              - heading "Calling Google APIs" [level=2] [ref=e374]
+              - generic [ref=e839]:
+                - tablist [ref=e840]:
+                  - generic [ref=e841]:
+                    - tab "OAuth 2.0 Endpoints" [selected] [ref=e842]:
+                      - button "OAuth 2.0 Endpoints" [expanded] [ref=e843] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "OAuth 2.0 Endpoints" [ref=e844]:
+                  - paragraph [ref=e845]:
+                    - text: After your application obtains an access token, you can use the token to make calls to a Google API on behalf of a given user account if the scope(s) of access required by the API have been granted. To do this, include the access token in a request to the API by including either an
+                    - code [ref=e846]: access_token
+                    - text: query parameter or an
+                    - code [ref=e847]: Authorization
+                    - text: HTTP header
+                    - code [ref=e848]: Bearer
+                    - text: value. When possible, the HTTP header is preferable, because query strings tend to be visible in server logs. In most cases you can use a client library to set up your calls to Google APIs (for example, when
+                    - link "calling the YouTube Data API" [ref=e849] [cursor=pointer]:
+                      - /url: /youtube/v3/docs
+                    - text: ).
+                  - paragraph [ref=e850]: Note that the YouTube Data API supports service accounts only for YouTube content owners that own and manage multiple YouTube channels, such as record labels and movie studios.
+                  - paragraph [ref=e851]:
+                    - text: You can try out all the Google APIs and view their scopes at the
+                    - link "OAuth 2.0 Playground" [ref=e852] [cursor=pointer]:
+                      - /url: https://developers.google.com/oauthplayground/
+                    - text: .
+                  - heading "HTTP GET examples" [level=4] [ref=e853]
+                  - paragraph [ref=e854]:
+                    - text: A call to the
+                    - link "youtube.channels" [ref=e855] [cursor=pointer]:
+                      - /url: /youtube/v3/docs/channels/list
+                      - code [ref=e856]: youtube.channels
+                    - text: endpoint (the YouTube Data API) using the
+                    - code [ref=e857]: "Authorization: Bearer"
+                    - text: "HTTP header might look like the following. Note that you need to specify your own access token:"
+                  - paragraph
+                  - generic [ref=e859]:
+                    - text: "GET /youtube/v3/channels?part=snippet&mine=true HTTP/1.1 Host: www.googleapis.com"
+                    - strong [ref=e860]:
+                      - text: "Authorization: Bearer"
+                      - generic [ref=e862]: access_token
+                  - paragraph [ref=e863]:
+                    - text: Here is a call to the same API for the authenticated user using the
+                    - code [ref=e864]: access_token
+                    - text: "query string parameter:"
+                  - generic [ref=e866]:
+                    - text: GET https://www.googleapis.com/youtube/v3/channels?access_token=
+                    - generic [ref=e868]: access_token
+                    - text: "&part=snippet&mine=true"
+                  - heading "curl examples" [level=4] [ref=e869]:
+                    - code [ref=e870]: curl
+                    - text: examples
+                  - paragraph [ref=e871]:
+                    - text: You can test these commands with the
+                    - code [ref=e872]: curl
+                    - text: "command-line application. Here's an example that uses the HTTP header option (preferred):"
+                  - generic [ref=e874]:
+                    - text: "$curl -H \"Authorization: Bearer"
+                    - generic [ref=e876]:
+                      - text: close
+                      - generic "Edit access_token" [ref=e877] [cursor=pointer]:
+                        - text: access_token
+                        - button "edit" [ref=e878]
+                    - text: "\" https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true"
+                  - paragraph [ref=e879]: "Or, alternatively, the query string parameter option:"
+                  - generic [ref=e881]:
+                    - text: $curl https://www.googleapis.com/youtube/v3/channels?access_token=
+                    - generic [ref=e883]:
+                      - text: close
+                      - generic "Edit access_token" [ref=e884] [cursor=pointer]:
+                        - text: access_token
+                        - button "edit" [ref=e885]
+                    - text: "&part=snippet&mine=true"
+                  - heading "JavaScript sample code" [level=4] [ref=e886]
+                  - paragraph [ref=e887]:
+                    - text: The code snippet below demonstrates how to use CORS (Cross-origin resource sharing) to send a request to a Google API. This example does not use the Google APIs Client Library for JavaScript. However, even if you are not using the client library, the
+                    - link "CORS support" [ref=e888] [cursor=pointer]:
+                      - /url: https://github.com/google/google-api-javascript-client/blob/master/docs/cors.md
+                    - text: guide in that library's documentation will likely help you to better understand these requests.
+                  - paragraph [ref=e889]:
+                    - text: In this code snippet, the
+                    - code [ref=e890]: access_token
+                    - text: variable represents the token you have obtained to make API requests on the authorized user's behalf. The
+                    - link "complete example" [ref=e891] [cursor=pointer]:
+                      - /url: "#example"
+                    - text: demonstrates how to store that token in the browser's local storage and retrieve it when making an API request.
+                  - generic [ref=e893]: "var xhr = new XMLHttpRequest(); xhr.open('GET', 'https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true&' + 'access_token=' + params['access_token']); xhr.onreadystatechange = function (e) { console.log(xhr.response); }; xhr.send(null);"
+              - heading "Complete example" [level=2] [ref=e375]
+              - generic [ref=e894]:
+                - tablist [ref=e895]:
+                  - generic [ref=e896]:
+                    - tab "OAuth 2.0 Endpoints" [selected] [ref=e897]:
+                      - button "OAuth 2.0 Endpoints" [expanded] [ref=e898] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "OAuth 2.0 Endpoints" [ref=e899]:
+                  - paragraph [ref=e900]: This code sample demonstrates how to complete the OAuth 2.0 flow in JavaScript without using the Google APIs Client Library for JavaScript. The code is for an HTML page that displays a button to try an API request. If you click the button, the code checks to see whether the page has stored an API access token in your browser's local storage. If so, it executes the API request. Otherwise, it initiates the OAuth 2.0 flow.
+                  - paragraph [ref=e901]: "For the OAuth 2.0 flow, the page follows these steps:"
+                  - list [ref=e902]:
+                    - listitem [ref=e903]:
+                      - text: It directs the user to Google's OAuth 2.0 server, which requests access to the
+                      - code [ref=e904]: https://www.googleapis.com/auth/youtube.force-ssl
+                      - text: scope.
+                    - listitem [ref=e905]: After granting (or denying) access to one or more requested scopes, the user is redirected to the original page, which parses the access token from the fragment identifier string.
+                    - listitem [ref=e906]: The page checks which scopes user has granted access to the application.
+                    - listitem [ref=e907]:
+                      - paragraph [ref=e908]: If the user has granted access to the requested scope()s, the page uses the access token to make the sample API request.
+                      - paragraph [ref=e909]:
+                        - text: This API request calls the YouTube Data API's
+                        - code [ref=e910]: channels.list
+                        - text: method to retrieve data about the authorized user's YouTube channel.
+                    - listitem [ref=e911]: If the request executes successfully, the API response is logged in the browser's debugging console.
+                  - paragraph [ref=e912]:
+                    - text: You can revoke access to the app through the
+                    - link "Permissions" [ref=e913] [cursor=pointer]:
+                      - /url: https://myaccount.google.com/permissions
+                    - text: page for your Google Account. The app is listed as the application name provided in the branding page within the OAuth consent screen during client ID creation.
+                  - paragraph [ref=e914]:
+                    - text: To run this code locally, you need to set values for the
+                    - code [ref=e915]: YOUR_CLIENT_ID
+                    - text: and
+                    - code [ref=e916]: YOUR_REDIRECT_URI
+                    - text: variables that correspond to your
+                    - link "authorization credentials" [ref=e917] [cursor=pointer]:
+                      - /url: "#creatingcred"
+                    - text: . The
+                    - code [ref=e918]: YOUR_REDIRECT_URI
+                    - text: variable should be set to the same URL where the page is being served. The value must exactly match one of the authorized redirect URIs for the OAuth 2.0 client, which you configured in the Cloud Console Clients page. If this value doesn't match an authorized URI, you will get a
+                    - code [ref=e919]: redirect_uri_mismatch
+                    - text: error. Your project must also have
+                    - link "enabled the appropriate API" [ref=e920] [cursor=pointer]:
+                      - /url: "#enable-apis"
+                    - text: for this request.
+                  - generic [ref=e922]:
+                    - text: <html><head></head><body> <script> var YOUR_CLIENT_ID = '
+                    - generic [ref=e924]:
+                      - text: close
+                      - generic "Edit REPLACE_THIS_VALUE" [ref=e925] [cursor=pointer]:
+                        - text: REPLACE_THIS_VALUE
+                        - button "edit" [ref=e926]
+                    - text: "'; var YOUR_REDIRECT_URI = '"
+                    - generic [ref=e928]:
+                      - text: close
+                      - generic "Edit REPLACE_THIS_VALUE" [ref=e929] [cursor=pointer]:
+                        - text: REPLACE_THIS_VALUE
+                        - button "edit" [ref=e930]
+                    - text: "'; // Parse query string to see if page request is coming from OAuth 2.0 server. var fragmentString = location.hash.substring(1); var params = {}; var regex = /([^&=]+)=([^&]*)/g, m; while (m = regex.exec(fragmentString)) { params[decodeURIComponent(m[1])] = decodeURIComponent(m[2]); } if (Object.keys(params).length > 0 && params['state']) { if (params['state'] == localStorage.getItem('state')) { localStorage.setItem('oauth2-test-params', JSON.stringify(params) ); trySampleRequest(); } else { console.log('State mismatch. Possible CSRF attack'); } } // Function to generate a random state value function generateCryptoRandomState() { const randomValues = new Uint32Array(2); window.crypto.getRandomValues(randomValues); // Encode as UTF-8 const utf8Encoder = new TextEncoder(); const utf8Array = utf8Encoder.encode( String.fromCharCode.apply(null, randomValues) ); // Base64 encode the UTF-8 data return btoa(String.fromCharCode.apply(null, utf8Array)) .replace(/\\+/g, '-') .replace(/\\//g, '_') .replace(/=+$/, ''); } // If there's an access token, try an API request. // Otherwise, start OAuth 2.0 flow. function trySampleRequest() { var params = JSON.parse(localStorage.getItem('oauth2-test-params')); if (params && params['access_token']) { var xhr = new XMLHttpRequest(); xhr.open('GET', 'https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true&' + 'access_token=' + params['access_token']); xhr.onreadystatechange = function (e) { if (xhr.readyState === 4 && xhr.status === 200) { console.log(xhr.response); } else if (xhr.readyState === 4 && xhr.status === 401) { // Token invalid, so prompt for user permission. oauth2SignIn(); } }; xhr.send(null); } else { oauth2SignIn(); } } /* * Create form to request access token from Google's OAuth 2.0 server. */ function oauth2SignIn() { // create random state value and store in local storage var state = generateCryptoRandomState(); localStorage.setItem('state', state); // Google's OAuth 2.0 endpoint for requesting an access token var oauth2Endpoint = 'https://accounts.google.com/o/oauth2/v2/auth'; // Create element to open OAuth 2.0 endpoint in new window. var form = document.createElement('form'); form.setAttribute('method', 'GET'); // Send as a GET request. form.setAttribute('action', oauth2Endpoint); // Parameters to pass to OAuth 2.0 endpoint. var params = {'client_id': YOUR_CLIENT_ID, 'redirect_uri': YOUR_REDIRECT_URI, 'scope': 'https://www.googleapis.com/auth/youtube.force-ssl', 'state': state, 'include_granted_scopes': 'true', 'response_type': 'token'}; // Add form parameters as hidden input values. for (var p in params) { var input = document.createElement('input'); input.setAttribute('type', 'hidden'); input.setAttribute('name', p); input.setAttribute('value', params[p]); form.appendChild(input); } // Add form to page and submit it to open the OAuth 2.0 endpoint. document.body.appendChild(form); form.submit(); } </script> <button onclick=\"trySampleRequest();\">Try sample request</button> </body></html>"
+              - heading "JavaScript origin validation rules" [level=2] [ref=e376]
+              - paragraph [ref=e377]:
+                - text: Google applies the following validation rules to JavaScript origins in order to help developers keep their applications secure. Your JavaScript origins must adhere to these rules. See
+                - link "RFC 3986 section 3" [ref=e378] [cursor=pointer]:
+                  - /url: https://tools.ietf.org/html/rfc3986#section-3
+                - text: for the definition of domain, host and scheme, mentioned below.
+              - table [ref=e379]:
+                - rowgroup [ref=e380]:
+                  - row "Validation rules" [ref=e381]:
+                    - columnheader "Validation rules" [ref=e382]
+                - rowgroup [ref=e383]:
+                  - row "Scheme JavaScript origins must use the HTTPS scheme, not plain HTTP. Localhost URIs (including localhost IP address URIs) are exempt from this rule." [ref=e384]:
+                    - cell "Scheme" [ref=e385]:
+                      - link "Scheme" [ref=e386] [cursor=pointer]:
+                        - /url: https://tools.ietf.org/html/rfc3986#section-3.1
+                    - cell "JavaScript origins must use the HTTPS scheme, not plain HTTP. Localhost URIs (including localhost IP address URIs) are exempt from this rule." [ref=e387]:
+                      - paragraph [ref=e388]: JavaScript origins must use the HTTPS scheme, not plain HTTP. Localhost URIs (including localhost IP address URIs) are exempt from this rule.
+                  - row "Host Hosts cannot be raw IP addresses. Localhost IP addresses are exempted from this rule." [ref=e389]:
+                    - cell "Host" [ref=e390]:
+                      - link "Host" [ref=e391] [cursor=pointer]:
+                        - /url: https://tools.ietf.org/html/rfc3986#section-3.2.2
+                    - cell "Hosts cannot be raw IP addresses. Localhost IP addresses are exempted from this rule." [ref=e392]:
+                      - paragraph [ref=e393]: Hosts cannot be raw IP addresses. Localhost IP addresses are exempted from this rule.
+                  - row "Domain Host TLDs (Top Level Domains) must belong to the public suffix list. Host domains cannot be “googleusercontent.com”. JavaScript origins cannot contain URL shortener domains (e.g. goo.gl) unless the app owns the domain." [ref=e394]:
+                    - cell "Domain" [ref=e395]:
+                      - link "Domain" [ref=e396] [cursor=pointer]:
+                        - /url: https://tools.ietf.org/html/rfc1034
+                    - cell "Host TLDs (Top Level Domains) must belong to the public suffix list. Host domains cannot be “googleusercontent.com”. JavaScript origins cannot contain URL shortener domains (e.g. goo.gl) unless the app owns the domain." [ref=e397]:
+                      - listitem [ref=e398]:
+                        - text: Host TLDs (
+                        - link "Top Level Domains" [ref=e399] [cursor=pointer]:
+                          - /url: https://tools.ietf.org/id/draft-liman-tld-names-00.html
+                        - text: ) must belong to the
+                        - link "public suffix list" [ref=e400] [cursor=pointer]:
+                          - /url: https://publicsuffix.org/list/
+                        - text: .
+                      - listitem [ref=e401]:
+                        - text: Host domains cannot be
+                        - code [ref=e402]: “googleusercontent.com”
+                        - text: .
+                      - listitem [ref=e403]:
+                        - text: JavaScript origins cannot contain URL shortener domains (e.g.
+                        - code [ref=e404]: goo.gl
+                        - text: ) unless the app owns the domain.
+                  - row "Userinfo JavaScript origins cannot contain the userinfo subcomponent." [ref=e405]:
+                    - cell "Userinfo" [ref=e406]:
+                      - link "Userinfo" [ref=e407] [cursor=pointer]:
+                        - /url: https://tools.ietf.org/html/rfc3986#section-3.2.1
+                    - cell "JavaScript origins cannot contain the userinfo subcomponent." [ref=e408]:
+                      - paragraph [ref=e409]: JavaScript origins cannot contain the userinfo subcomponent.
+                  - row "Path JavaScript origins cannot contain the path component." [ref=e410]:
+                    - cell "Path" [ref=e411]:
+                      - link "Path" [ref=e412] [cursor=pointer]:
+                        - /url: https://tools.ietf.org/html/rfc3986#section-3.3
+                    - cell "JavaScript origins cannot contain the path component." [ref=e413]:
+                      - paragraph [ref=e414]: JavaScript origins cannot contain the path component.
+                  - row "Query JavaScript origins cannot contain the query component." [ref=e415]:
+                    - cell "Query" [ref=e416]:
+                      - link "Query" [ref=e417] [cursor=pointer]:
+                        - /url: https://tools.ietf.org/html/rfc3986#section-3.4
+                    - cell "JavaScript origins cannot contain the query component." [ref=e418]:
+                      - paragraph [ref=e419]: JavaScript origins cannot contain the query component.
+                  - row "Fragment JavaScript origins cannot contain the fragment component." [ref=e420]:
+                    - cell "Fragment" [ref=e421]:
+                      - link "Fragment" [ref=e422] [cursor=pointer]:
+                        - /url: https://tools.ietf.org/html/rfc3986#section-3.5
+                    - cell "JavaScript origins cannot contain the fragment component." [ref=e423]:
+                      - paragraph [ref=e424]: JavaScript origins cannot contain the fragment component.
+                  - 'row "Characters JavaScript origins cannot contain certain characters including: Wildcard characters (''*'') Non-printable ASCII characters Invalid percent encodings (any percent encoding that does not follow URL-encoding form of a percent sign followed by two hexadecimal digits) Null characters (an encoded NULL character, e.g., %00, %C0%80)" [ref=e425]':
+                    - cell "Characters" [ref=e426]
+                    - 'cell "JavaScript origins cannot contain certain characters including: Wildcard characters (''*'') Non-printable ASCII characters Invalid percent encodings (any percent encoding that does not follow URL-encoding form of a percent sign followed by two hexadecimal digits) Null characters (an encoded NULL character, e.g., %00, %C0%80)" [ref=e427]':
+                      - text: "JavaScript origins cannot contain certain characters including:"
+                      - list [ref=e428]:
+                        - listitem [ref=e429]:
+                          - text: Wildcard characters (
+                          - code [ref=e430]: "'*'"
+                          - text: )
+                        - listitem [ref=e431]: Non-printable ASCII characters
+                        - listitem [ref=e432]: Invalid percent encodings (any percent encoding that does not follow URL-encoding form of a percent sign followed by two hexadecimal digits)
+                        - listitem [ref=e433]:
+                          - text: Null characters (an encoded NULL character, e.g.,
+                          - code [ref=e434]: "%00"
+                          - text: ","
+                          - code [ref=e435]: "%C0%80"
+                          - text: )
+              - heading "Incremental authorization" [level=2] [ref=e436]
+              - paragraph [ref=e437]: In the OAuth 2.0 protocol, your app requests authorization to access resources, which are identified by scopes. It is considered a best user-experience practice to request authorization for resources at the time you need them. To enable that practice, Google's authorization server supports incremental authorization. This feature lets you request scopes as they are needed and, if the user grants permission for the new scope, returns an authorization code that may be exchanged for a token containing all scopes the user has granted the project.
+              - paragraph [ref=e438]: For example, suppose an app helps users identify interesting local events. The app lets users view videos about the events, rate the videos, and add the videos to playlists. Users can also use the app to add events to their Google Calendars.
+              - paragraph [ref=e439]:
+                - text: In this case, at sign-in time, the app might not need or request access to any scopes. However, if the user tried to rate a video, add a video to a playlist, or perform another YouTube action, the app could request access to the
+                - code [ref=e440]: https://www.googleapis.com/auth/youtube.force-ssl
+                - text: scope. Similarly, the app could request access to the
+                - code [ref=e441]: https://www.googleapis.com/auth/calendar
+                - text: scope if the user tried to add a calendar event.
+              - paragraph [ref=e442]: "The following rules apply to an access token obtained from an incremental authorization:"
+              - list [ref=e443]:
+                - listitem [ref=e444]: The token can be used to access resources corresponding to any of the scopes rolled into the new, combined authorization.
+                - listitem [ref=e445]:
+                  - text: When you use the refresh token for the combined authorization to obtain an access token, the access token represents the combined authorization and can be used for any of the
+                  - code [ref=e446]: scope
+                  - text: values included in the response.
+                - listitem [ref=e447]: The combined authorization includes all scopes that the user granted to the API project even if the grants were requested from different clients. For example, if a user granted access to one scope using an application's desktop client and then granted another scope to the same application via a mobile client, the combined authorization would include both scopes.
+                - listitem [ref=e448]: If you revoke a token that represents a combined authorization, access to all of that authorization's scopes on behalf of the associated user are revoked simultaneously.
+              - complementary [ref=e449]:
+                - text: "error Caution: choosing to include granted scopes will automatically add scopes previously granted by the user to your authorization request. A warning or error page may be displayed if your app is not currently approved to request all scopes that may be returned in the response. See"
+                - link "Unverified apps" [ref=e450] [cursor=pointer]:
+                  - /url: https://support.google.com/cloud/answer/7454865
+                - text: for more information.
+              - paragraph [ref=e451]: The code samples below show how to add scopes to an existing access token. This approach allows your app to avoid having to manage multiple access tokens.
+              - generic [ref=e932]:
+                - tablist [ref=e933]:
+                  - generic [ref=e934]:
+                    - tab "OAuth 2.0 Endpoints" [selected] [ref=e935]:
+                      - button "OAuth 2.0 Endpoints" [expanded] [ref=e936] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "OAuth 2.0 Endpoints" [ref=e937]:
+                  - paragraph [ref=e938]: In this example, the calling application requests access to retrieve the user's YouTube Analytics data in addition to any other access that the user has already granted to the application.
+                  - paragraph [ref=e939]:
+                    - text: To add scopes to an existing access token, include the
+                    - code [ref=e940]: include_granted_scopes
+                    - text: parameter in your
+                    - link "request to Google's OAuth 2.0 server" [ref=e941] [cursor=pointer]:
+                      - /url: "#redirecting"
+                    - text: .
+                  - paragraph [ref=e942]:
+                    - text: The following code snippet demonstrates how to do that. The snippet assumes that you have stored the scopes for which your access token is valid in the browser's local storage. (The
+                    - link "complete example" [ref=e943] [cursor=pointer]:
+                      - /url: "#example"
+                    - text: code stores a list of scopes for which the access token is valid by setting the
+                    - code [ref=e944]: oauth2-test-params.scope
+                    - text: property in the browser's local storage.)
+                  - paragraph [ref=e945]:
+                    - text: The snippet compares the scopes for which the access token is valid to the scope you want to use for a particular query. If the access token does not cover that scope, the OAuth 2.0 flow starts. Here, the
+                    - code [ref=e946]: oauth2SignIn
+                    - text: function is the same as the one that was provided in
+                    - link "step 2" [ref=e947] [cursor=pointer]:
+                      - /url: "#redirecting"
+                    - text: (and that is provided later in the
+                    - link "complete example" [ref=e948] [cursor=pointer]:
+                      - /url: "#example"
+                    - text: ).
+                  - generic [ref=e950]: "var SCOPE = 'https://www.googleapis.com/auth/youtube.force-ssl'; var params = JSON.parse(localStorage.getItem('oauth2-test-params')); var current_scope_granted = false; if (params.hasOwnProperty('scope')) { var scopes = params['scope'].split(' '); for (var s = 0; s < scopes.length; s++) { if (SCOPE == scopes[s]) { current_scope_granted = true; } } } if (!current_scope_granted) { oauth2SignIn(); // This function is defined elsewhere in this document. } else { // Since you already have access, you can proceed with the API request. }"
+              - heading "Token revocation" [level=2] [ref=e452]
+              - paragraph [ref=e453]:
+                - text: In some cases a user may wish to revoke access given to an application. A user can revoke access by visiting
+                - link "Account Settings" [ref=e454] [cursor=pointer]:
+                  - /url: https://myaccount.google.com/permissions
+                - text: . See the
+                - link "Remove site or app access section of the Third-party sites & apps with access to your account" [ref=e455] [cursor=pointer]:
+                  - /url: https://support.google.com/accounts/answer/3466521#remove-access
+                - text: support document for more information.
+              - paragraph [ref=e456]: It is also possible for an application to programmatically revoke the access given to it. Programmatic revocation is important in instances where a user unsubscribes, removes an application, or the API resources required by an app have significantly changed. In other words, part of the removal process can include an API request to ensure the permissions previously granted to the application are removed.
+              - generic [ref=e951]:
+                - tablist [ref=e952]:
+                  - generic [ref=e953]:
+                    - tab "OAuth 2.0 Endpoints" [selected] [ref=e954]:
+                      - button "OAuth 2.0 Endpoints" [expanded] [ref=e955] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "OAuth 2.0 Endpoints" [ref=e956]:
+                  - paragraph [ref=e957]:
+                    - text: To programmatically revoke a token, your application makes a request to
+                    - code [ref=e958]: https://oauth2.googleapis.com/revoke
+                    - text: "and includes the token as a parameter:"
+                  - generic [ref=e960]:
+                    - text: $curl -d -X -POST --header "Content-type:application/x-www-form-urlencoded" \ https://oauth2.googleapis.com/revoke?token=
+                    - generic [ref=e962]:
+                      - text: close
+                      - 'generic "Edit {token}" [ref=e963] [cursor=pointer]':
+                        - text: "{token}"
+                        - button "edit" [ref=e964]
+                  - paragraph [ref=e965]: The token can be an access token or a refresh token. If the token is an access token and it has a corresponding refresh token, the refresh token will also be revoked.
+                  - complementary [ref=e966]: "Note: Google's OAuth 2.0 endpoint for revoking tokens supports JSONP and form submissions. It does not support Cross-origin Resource Sharing (CORS)."
+                  - paragraph [ref=e967]:
+                    - text: If the revocation is successfully processed, then the HTTP status code of the response is
+                    - code [ref=e968]: "200"
+                    - text: . For error conditions, an HTTP status code
+                    - code [ref=e969]: "400"
+                    - text: is returned along with an error code.
+                  - paragraph [ref=e970]:
+                    - text: The following JavaScript snippet shows how to revoke a token in JavaScript without using the Google APIs Client Library for JavaScript. Since the Google's OAuth 2.0 endpoint for revoking tokens does not support Cross-origin Resource Sharing (CORS), the code creates a form and submits the form to the endpoint rather than using the
+                    - code [ref=e971]: XMLHttpRequest()
+                    - text: method to post the request.
+                  - generic [ref=e973]: "function revokeAccess(accessToken) { // Google's OAuth 2.0 endpoint for revoking access tokens. var revokeTokenEndpoint = 'https://oauth2.googleapis.com/revoke'; // Create <form> element to use to POST data to the OAuth 2.0 endpoint. var form = document.createElement('form'); form.setAttribute('method', 'post'); form.setAttribute('action', revokeTokenEndpoint); // Add access token to the form so it is set as value of 'token' parameter. // This corresponds to the sample curl request, where the URL is: // https://oauth2.googleapis.com/revoke?token={token} var tokenField = document.createElement('input'); tokenField.setAttribute('type', 'hidden'); tokenField.setAttribute('name', 'token'); tokenField.setAttribute('value', accessToken); form.appendChild(tokenField); // Add form to page and submit it to actually revoke the token. document.body.appendChild(form); form.submit(); }"
+                  - complementary [ref=e974]: "lightbulb_outline Key Point: Revocation removes all OAuth 2.0 scopes previously granted to a project, invalidating any issued access or refresh tokens for all clients registered under that project."
+              - complementary [ref=e457]: "Note: Following a successful revocation response, it might take some time before the revocation has full effect."
+              - generic [ref=e458]:
+                - heading "Implementing Cross-Account Protection" [level=2] [ref=e459]
+                - paragraph [ref=e460]: An additional step you should take to protect your users' accounts is implementing Cross-Account Protection by utilizing Google's Cross-Account Protection Service. This service lets you subscribe to security event notifications which provide information to your application about major changes to the user account. You can then use the information to take action depending on how you decide to respond to events.
+                - paragraph [ref=e461]: "Some examples of the event types sent to your app by Google's Cross-Account Protection Service are:"
+                - list [ref=e462]:
+                  - listitem [ref=e463]:
+                    - code [ref=e464]: https://schemas.openid.net/secevent/risc/event-type/sessions-revoked
+                  - listitem [ref=e465]:
+                    - code [ref=e466]: https://schemas.openid.net/secevent/oauth/event-type/token-revoked
+                  - listitem [ref=e467]:
+                    - code [ref=e468]: https://schemas.openid.net/secevent/risc/event-type/account-disabled
+                - paragraph [ref=e469]:
+                  - text: See the
+                  - link "Protect user accounts with Cross-Account Protection page" [ref=e470] [cursor=pointer]:
+                    - /url: https://developers.google.com/identity/protocols/risc
+                  - text: for more information on how to implement Cross Account Protection and for the full list of available events.
+            - form "Was this helpful?" [ref=e976]:
+              - generic [ref=e977]: Was this helpful?
+              - generic [ref=e978]:
+                - button "Helpful" [ref=e979] [cursor=pointer]:
+                  - img
+                - button "Not helpful" [ref=e980] [cursor=pointer]:
+                  - img
+          - generic [ref=e472]:
+            - paragraph [ref=e473]:
+              - text: Except as otherwise noted, the content of this page is licensed under the
+              - link "Creative Commons Attribution 4.0 License" [ref=e474] [cursor=pointer]:
+                - /url: https://creativecommons.org/licenses/by/4.0/
+              - text: ", and code samples are licensed under the"
+              - link "Apache 2.0 License" [ref=e475] [cursor=pointer]:
+                - /url: https://www.apache.org/licenses/LICENSE-2.0
+              - text: . For details, see the
+              - link "Google Developers Site Policies" [ref=e476] [cursor=pointer]:
+                - /url: https://developers.google.com/site-policies
+              - text: . Java is a registered trademark of Oracle and/or its affiliates.
+            - paragraph [ref=e477]: Last updated 2026-02-15 UTC.
+      - navigation "Promotions" [ref=e479]:
+        - list [ref=e480]:
+          - listitem [ref=e481]:
+            - link "Blog Blog" [ref=e482] [cursor=pointer]:
+              - /url: https://blog.youtube
+              - img "Blog" [ref=e484]
+              - text: Blog
+            - generic [ref=e485]: The latest news on the YouTube blog
+          - listitem [ref=e486]:
+            - link "GitHub GitHub" [ref=e487] [cursor=pointer]:
+              - /url: https://github.com/youtube/api-samples
+              - img "GitHub" [ref=e489]
+              - text: GitHub
+            - generic [ref=e490]: Find API code samples and other YouTube open-source projects.
+          - listitem [ref=e491]:
+            - link "Issue Tracker Issue Tracker" [ref=e492] [cursor=pointer]:
+              - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - img "Issue Tracker" [ref=e494]
+              - text: Issue Tracker
+            - generic [ref=e495]: Something wrong? Send us a bug report!
+          - listitem [ref=e496]:
+            - link "Stack Overflow Stack Overflow" [ref=e497] [cursor=pointer]:
+              - /url: http://stackoverflow.com/questions/ask?tags=youtube-api
+              - img "Stack Overflow" [ref=e499]
+              - text: Stack Overflow
+            - generic [ref=e500]: Ask a question under the youtube-api tag
+          - listitem [ref=e501]:
+            - link "Videos Videos" [ref=e502] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/YouTubeDev
+              - img "Videos" [ref=e504]
+              - text: Videos
+            - generic [ref=e505]: Check out the YouTube Developer Relations team's YouTube channel
+      - navigation "Footer links" [ref=e507]:
+        - list [ref=e508]:
+          - listitem [ref=e509]:
+            - heading "Tools" [level=3] [ref=e510]
+            - list [ref=e511]:
+              - listitem [ref=e512]:
+                - link "Google APIs Explorer" [ref=e513] [cursor=pointer]:
+                  - /url: https://developers.google.com/apis-explorer/#p/
+              - listitem [ref=e514]:
+                - link "YouTube Player Demo" [ref=e515] [cursor=pointer]:
+                  - /url: /youtube/youtube_player_demo
+              - listitem [ref=e516]:
+                - link "Configure a Subscribe Button" [ref=e517] [cursor=pointer]:
+                  - /url: /youtube/youtube_subscribe_button
+          - listitem [ref=e518]:
+            - heading "Issue Tracker" [level=3] [ref=e519]
+            - list [ref=e520]:
+              - listitem [ref=e521]:
+                - link "File a bug" [ref=e522] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - listitem [ref=e523]:
+                - link "Request a feature" [ref=e524] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - listitem [ref=e525]:
+                - link "See open issues" [ref=e526] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues?q=componentid:186600
+          - listitem [ref=e527]:
+            - heading "Product Info" [level=3] [ref=e528]
+            - list [ref=e529]:
+              - listitem [ref=e530]:
+                - link "Terms of Service" [ref=e531] [cursor=pointer]:
+                  - /url: /youtube/terms
+              - listitem [ref=e532]:
+                - link "Branding Guidelines" [ref=e533] [cursor=pointer]:
+                  - /url: /youtube/branding_guidelines
+              - listitem [ref=e534]:
+                - link "Monetization Guidelines" [ref=e535] [cursor=pointer]:
+                  - /url: /youtube/creating_monetizable_applications
+              - listitem [ref=e536]:
+                - link "APIs subject to Deprecation Policy" [ref=e537] [cursor=pointer]:
+                  - /url: /youtube/youtube-api-list
+      - generic [ref=e539]:
+        - navigation "Other Google Developers websites" [ref=e540]:
+          - link "Google Developers" [ref=e541] [cursor=pointer]:
+            - /url: https://developers.google.com/
+            - img "Google Developers" [ref=e543]
+          - list [ref=e544]:
+            - listitem [ref=e545]:
+              - link "Android" [ref=e546] [cursor=pointer]:
+                - /url: //developer.android.com
+            - listitem [ref=e547]:
+              - link "Chrome" [ref=e548] [cursor=pointer]:
+                - /url: //developer.chrome.com/home
+            - listitem [ref=e549]:
+              - link "Firebase" [ref=e550] [cursor=pointer]:
+                - /url: //firebase.google.com
+            - listitem [ref=e551]:
+              - link "Google Cloud Platform" [ref=e552] [cursor=pointer]:
+                - /url: //cloud.google.com
+            - listitem [ref=e553]:
+              - link "Google AI" [ref=e554] [cursor=pointer]:
+                - /url: //ai.google.dev/
+            - listitem [ref=e555]:
+              - link "All products" [ref=e556] [cursor=pointer]:
+                - /url: /products
+        - navigation "Utility links" [ref=e557]:
+          - list [ref=e558]:
+            - listitem [ref=e559]:
+              - link "Terms" [ref=e560] [cursor=pointer]:
+                - /url: /terms/site-terms
+            - listitem [ref=e561]:
+              - text: "|"
+              - link "Privacy" [ref=e562] [cursor=pointer]:
+                - /url: //policies.google.com/privacy
+            - text: "|"
+          - generic "Select your language preference." [ref=e981]:
+            - button "English" [ref=e982] [cursor=pointer]:
+              - img
+              - generic [ref=e983]: English
+              - img
+      - generic [ref=e985]:
+        - toolbar "Side panel menu" [ref=e986]:
+          - button "Info" [ref=e987] [cursor=pointer]:
+            - img [ref=e989]
+            - generic [ref=e992]: Info
+          - button "Chat" [ref=e993] [cursor=pointer]:
+            - img [ref=e995]
+            - generic [ref=e998]: Chat
+          - button "API" [ref=e999] [cursor=pointer]:
+            - img [ref=e1001]
+            - generic [ref=e1003]: API
+        - generic [ref=e1005]:
+          - generic [ref=e1007]:
+            - heading "Page info" [level=2] [ref=e1008]
+            - generic [ref=e1009]:
+              - button "Send feedback" [ref=e1011] [cursor=pointer]: bug_report
+              - button "Fullscreen" [ref=e1012] [cursor=pointer]: fullscreen
+              - button "Close" [ref=e1013] [cursor=pointer]: close
+          - generic [ref=e1016]:
+            - heading "On this page" [level=3] [ref=e1018]
+            - navigation [ref=e1020]:
+              - list [ref=e1021]:
+                - listitem [ref=e1022]:
+                  - link "Google APIs Client Library and Google Identity Services" [ref=e1023] [cursor=pointer]:
+                    - /url: "#gapi-gis"
+                    - generic [ref=e1024]: Google APIs Client Library and Google Identity Services
+                - listitem [ref=e1025]:
+                  - link "Prerequisites" [ref=e1026] [cursor=pointer]:
+                    - /url: "#prerequisites"
+                    - generic [ref=e1027]: Prerequisites
+                  - list [ref=e1028]:
+                    - listitem [ref=e1029]:
+                      - link "Enable APIs for your project" [ref=e1030] [cursor=pointer]:
+                        - /url: "#enable-apis"
+                        - generic [ref=e1031]: Enable APIs for your project
+                    - listitem [ref=e1032]:
+                      - link "Create authorization credentials" [ref=e1033] [cursor=pointer]:
+                        - /url: "#creatingcred"
+                        - generic [ref=e1034]: Create authorization credentials
+                    - listitem [ref=e1035]:
+                      - link "Identify access scopes" [ref=e1036] [cursor=pointer]:
+                        - /url: "#identify-access-scopes"
+                        - generic [ref=e1037]: Identify access scopes
+                - listitem [ref=e1038]:
+                  - link "Obtaining OAuth 2.0 access tokens" [ref=e1039] [cursor=pointer]:
+                    - /url: "#obtainingaccesstokens"
+                    - generic [ref=e1040]: Obtaining OAuth 2.0 access tokens
+                  - list [ref=e1041]:
+                    - listitem [ref=e1042]:
+                      - 'link "Step 1: Redirect to Google''s OAuth 2.0 server" [ref=e1043] [cursor=pointer]':
+                        - /url: "#redirecting"
+                        - generic [ref=e1044]: "Step 1: Redirect to Google's OAuth 2.0 server"
+                    - listitem [ref=e1045]:
+                      - 'link "Step 2: Google prompts user for consent" [ref=e1046] [cursor=pointer]':
+                        - /url: "#userconsentprompt"
+                        - generic [ref=e1047]: "Step 2: Google prompts user for consent"
+                    - listitem [ref=e1048]:
+                      - 'link "Step 3: Handle the OAuth 2.0 server response" [ref=e1049] [cursor=pointer]':
+                        - /url: "#handlingresponse"
+                        - generic [ref=e1050]: "Step 3: Handle the OAuth 2.0 server response"
+                    - listitem [ref=e1051]:
+                      - 'link "Step 4: Check which scopes users granted" [ref=e1052] [cursor=pointer]':
+                        - /url: "#check-granted-scopes"
+                        - generic [ref=e1053]: "Step 4: Check which scopes users granted"
+                - listitem [ref=e1054]:
+                  - link "Calling Google APIs" [ref=e1055] [cursor=pointer]:
+                    - /url: "#callinganapi"
+                    - generic [ref=e1056]: Calling Google APIs
+                - listitem [ref=e1057]:
+                  - link "Complete example" [ref=e1058] [cursor=pointer]:
+                    - /url: "#example"
+                    - generic [ref=e1059]: Complete example
+                - listitem [ref=e1060]:
+                  - link "JavaScript origin validation rules" [ref=e1061] [cursor=pointer]:
+                    - /url: "#origin-validation"
+                    - generic [ref=e1062]: JavaScript origin validation rules
+                - listitem [ref=e1063]:
+                  - link "Incremental authorization" [ref=e1064] [cursor=pointer]:
+                    - /url: "#incrementalAuth"
+                    - generic [ref=e1065]: Incremental authorization
+                - listitem [ref=e1066]:
+                  - link "Token revocation" [ref=e1067] [cursor=pointer]:
+                    - /url: "#tokenrevoke"
+                    - generic [ref=e1068]: Token revocation
+                - listitem [ref=e1069]:
+                  - link "Implementing Cross-Account Protection" [ref=e1070] [cursor=pointer]:
+                    - /url: "#cross-account-protection"
+                    - generic [ref=e1071]: Implementing Cross-Account Protection

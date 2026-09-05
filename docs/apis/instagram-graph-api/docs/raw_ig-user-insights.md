@@ -1,0 +1,1321 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - link "Meta logo" [ref=e12] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "Meta logo" [ref=e14]
+        - tablist [ref=e23]:
+          - tab "Docs" [selected] [ref=e24] [cursor=pointer]:
+            - generic [ref=e27]: Docs
+          - tab "Tools" [ref=e29] [cursor=pointer]:
+            - generic [ref=e32]: Tools
+          - tab "Support" [ref=e34] [cursor=pointer]:
+            - generic [ref=e37]: Support
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e46]: Search input
+          - textbox "Search input" [ref=e57]:
+            - /placeholder: Search...
+        - link "Login" [ref=e58] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?is_work_accounts=true&login_options[0]=FB&login_options[1]=SSO&config_ref=biz_login_tool_flavor_dfc&app=436761779744620&next=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-platform%2Fapi-reference%2Finstagram-user%2Finsights%3Fnav_ref%3Dbiz_unified_f3_login_page_to_dfc
+          - generic [ref=e61]: Login
+    - generic [ref=e64]:
+      - navigation "Breadcrumb" [ref=e68]:
+        - generic [ref=e69]:
+          - link "Docs" [ref=e70] [cursor=pointer]:
+            - /url: /docs/
+            - heading "Docs" [level=3] [ref=e71]
+          - link "Instagram Platform" [ref=e73] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+            - heading "Instagram Platform" [level=3] [ref=e74]
+          - link "API Reference" [ref=e76] [cursor=pointer]:
+            - /url: /docs/instagram-platform/reference
+            - heading "API Reference" [level=3] [ref=e77]
+          - link "IG User" [ref=e79] [cursor=pointer]:
+            - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user
+            - heading "IG User" [level=3] [ref=e80]
+          - link "Insights" [ref=e82] [cursor=pointer]:
+            - /url: /docs/instagram-platform/api-reference/instagram-user/insights
+            - heading "Insights" [level=3] [ref=e83]
+      - generic [ref=e84]:
+        - generic [ref=e1141]:
+          - link "Instagram Platform" [ref=e1143] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+          - list [ref=e1144]:
+            - listitem [ref=e1145]:
+              - link "Overview" [ref=e1146] [cursor=pointer]:
+                - /url: /docs/instagram-platform/overview
+            - listitem [ref=e1147]:
+              - link "Webhooks" [ref=e1148] [cursor=pointer]:
+                - /url: /docs/instagram-platform/webhooks
+            - listitem [ref=e1149]:
+              - link "Create an App" [ref=e1150] [cursor=pointer]:
+                - /url: /docs/instagram-platform/create-an-instagram-app
+            - listitem [ref=e1151]:
+              - link "Instagram API with Instagram Login" [ref=e1152] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-instagram-login
+            - listitem [ref=e1153]:
+              - link "Instagram API with Facebook Login" [ref=e1154] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-facebook-login
+            - listitem [ref=e1155]:
+              - link "Publish Content" [ref=e1156] [cursor=pointer]:
+                - /url: /docs/instagram-platform/content-publishing
+            - listitem [ref=e1157]:
+              - link "Comment Moderation" [ref=e1158] [cursor=pointer]:
+                - /url: /docs/instagram-platform/comment-moderation
+            - listitem [ref=e1159]:
+              - link "Private Replies" [ref=e1160] [cursor=pointer]:
+                - /url: /docs/instagram-platform/private-replies
+            - listitem [ref=e1161]:
+              - link "Insights" [ref=e1162] [cursor=pointer]:
+                - /url: /docs/instagram-platform/insights
+            - listitem [ref=e1163]:
+              - link "Sharing to Feed" [ref=e1164] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-feed
+            - listitem [ref=e1165]:
+              - link "Sharing to Stories" [ref=e1166] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-stories
+            - listitem [ref=e1167]:
+              - link "oEmbed" [ref=e1168] [cursor=pointer]:
+                - /url: /docs/instagram-platform/oembed
+            - listitem [ref=e1169]:
+              - link "Embed Button" [ref=e1170] [cursor=pointer]:
+                - /url: /docs/instagram-platform/embed-button
+            - listitem [ref=e1171]:
+              - link "Self Messaging" [ref=e1172] [cursor=pointer]:
+                - /url: /docs/instagram-platform/self-messaging
+            - listitem [ref=e1173]:
+              - link "API Reference" [ref=e1174] [cursor=pointer]:
+                - /url: /docs/instagram-platform/reference
+              - list [ref=e1176]:
+                - listitem [ref=e1177]:
+                  - link "Error Codes" [ref=e1178] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/error-codes
+                - listitem [ref=e1179]:
+                  - link "Access Token" [ref=e1180] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/access_token
+                - listitem [ref=e1181]:
+                  - link "IG Comment" [ref=e1182] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-comment
+                - listitem [ref=e1183]:
+                  - link "IG Container" [ref=e1184] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-container
+                - listitem [ref=e1185]:
+                  - link "IG Hashtag Search" [ref=e1186] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-hashtag-search
+                - listitem [ref=e1187]:
+                  - link "IG Hashtag" [ref=e1188] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-hashtag
+                - listitem [ref=e1189]:
+                  - link "IG Media" [ref=e1190] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/instagram-media
+                - listitem [ref=e1191]:
+                  - link "IG User" [ref=e1192] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user
+                  - list [ref=e1194]:
+                    - listitem [ref=e1195]:
+                      - link "Available Catalogs" [ref=e1196] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/available_catalogs
+                    - listitem [ref=e1197]:
+                      - link "Business Discovery" [ref=e1198] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/business_discovery
+                    - listitem [ref=e1199]:
+                      - link "Catalog Product Search" [ref=e1200] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/catalog_product_search
+                    - listitem [ref=e1201]:
+                      - link "Connected Threads User" [ref=e1202] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/connected_threads_user
+                    - listitem [ref=e1203]:
+                      - link "Content Publishing Limit" [ref=e1204] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/content_publishing_limit
+                    - listitem [ref=e1205]:
+                      - link "Insights" [ref=e1206] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/api-reference/instagram-user/insights
+                    - listitem [ref=e1207]:
+                      - link "Instagram-Backed Threads User" [ref=e1208] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/instagram_backed_threads_user
+                    - listitem [ref=e1209]:
+                      - link "Live Media" [ref=e1210] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/live_media
+                    - listitem [ref=e1211]:
+                      - link "Media" [ref=e1212] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/media
+                    - listitem [ref=e1213]:
+                      - link "Media Publish" [ref=e1214] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/media_publish
+                    - listitem [ref=e1215]:
+                      - link "Mentions" [ref=e1216] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentions
+                    - listitem [ref=e1217]:
+                      - link "Mentioned Comment" [ref=e1218] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentioned_comment
+                    - listitem [ref=e1219]:
+                      - link "Mentioned Media" [ref=e1220] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentioned_media
+                    - listitem [ref=e1221]:
+                      - link "Product Appeal" [ref=e1222] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/product_appeal
+                    - listitem [ref=e1223]:
+                      - link "Recently Searched Hashtags" [ref=e1224] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/recently_searched_hashtags
+                    - listitem [ref=e1225]:
+                      - link "Stories" [ref=e1226] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/stories
+                    - listitem [ref=e1227]:
+                      - link "Tags" [ref=e1228] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/tags
+                - listitem [ref=e1229]:
+                  - link "/me" [ref=e1230] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/me
+                - listitem [ref=e1231]:
+                  - link "Oauth Authorize" [ref=e1232] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/oauth-authorize
+                - listitem [ref=e1233]:
+                  - link "Page" [ref=e1234] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/page
+                - listitem [ref=e1235]:
+                  - link "Refresh Access Token" [ref=e1236] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/refresh_access_token
+            - listitem [ref=e1237]:
+              - link "App Review" [ref=e1238] [cursor=pointer]:
+                - /url: /docs/instagram-platform/app-review
+            - listitem [ref=e1239]:
+              - link "Support" [ref=e1240] [cursor=pointer]:
+                - /url: /docs/instagram-platform/support
+            - listitem [ref=e1241]:
+              - link "Changelog" [ref=e1242] [cursor=pointer]:
+                - /url: /docs/instagram-platform/changelog
+        - generic [ref=e134]:
+          - generic [ref=e136]:
+            - generic [ref=e138]:
+              - heading "Instagram Account Insights" [level=1] [ref=e139]
+              - paragraph [ref=e140]: Represents social interaction metrics on your app user's Instagram business or creator account.
+              - paragraph [ref=e141]:
+                - text: In this guide, we use
+                - strong [ref=e142]: Instagram user
+                - text: and
+                - strong [ref=e143]: Instagram account
+                - text: interchangeably.
+              - paragraph [ref=e146]: Available for the Instagram API with Facebook Login and Instagram API with Instagram Login.
+              - generic [ref=e148]:
+                - paragraph [ref=e149]: "The following metrics have been deprecated for v22.0 and will be deprecated for all versions on April 21, 2025:"
+                - list [ref=e150]:
+                  - listitem [ref=e151]:
+                    - code [ref=e152]: impressions
+                - paragraph [ref=e153]:
+                  - text: Introducing the new
+                  - code [ref=e154]: views
+                  - text: metric with
+                  - code [ref=e155]: total_value
+                  - text: metric type and with breakdowns for
+                  - code [ref=e156]: follower_type
+                  - text: and
+                  - code [ref=e157]: media_product_type
+                  - text: .
+                - paragraph [ref=e158]:
+                  - text: Visit the
+                  - link "Instagram Platform Changelog" [ref=e159] [cursor=pointer]:
+                    - /url: https://developers.facebook.com/docs/instagram-platform/changelog
+                  - text: for more information.
+            - generic [ref=e161]:
+              - heading "Creating" [level=2] [ref=e162]
+              - paragraph [ref=e163]: This operation is not supported.
+              - link [ref=e164] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e167]:
+              - heading "Reading" [level=2] [ref=e168]
+              - paragraph [ref=e169]:
+                - strong [ref=e170]:
+                  - code [ref=e171]: GET /<YOUR_APP_USERS_INSTAGRAM_ACCOUNT_ID>/insights
+              - paragraph [ref=e172]: Returns insights on your app user's Instagram business or creator account.
+              - heading "Requirements" [level=3] [ref=e173]
+              - table [ref=e177]:
+                - rowgroup [ref=e178]:
+                  - row "Instagram API with Instagram Login Instagram API with Facebook Login" [ref=e179]:
+                    - columnheader [ref=e180]
+                    - columnheader "Instagram API with Instagram Login" [ref=e181]
+                    - columnheader "Instagram API with Facebook Login" [ref=e182]
+                - rowgroup [ref=e183]:
+                  - row "Access Tokens Instagram User access token Facebook User access token" [ref=e184]:
+                    - cell "Access Tokens" [ref=e185]:
+                      - paragraph [ref=e186]:
+                        - strong [ref=e187]: Access Tokens
+                    - cell "Instagram User access token" [ref=e188]:
+                      - list [ref=e189]:
+                        - listitem [ref=e190]: Instagram User access token
+                    - cell "Facebook User access token" [ref=e191]:
+                      - list [ref=e192]:
+                        - listitem [ref=e193]:
+                          - link "Facebook User access token" [ref=e194] [cursor=pointer]:
+                            - /url: /docs/facebook-login/access-tokens/#usertokens
+                  - row "Host URL graph.instagram.com graph.facebook.com" [ref=e195]:
+                    - cell "Host URL" [ref=e196]:
+                      - paragraph [ref=e197]:
+                        - strong [ref=e198]: Host URL
+                    - cell "graph.instagram.com" [ref=e199]:
+                      - paragraph [ref=e200]:
+                        - code [ref=e201]: graph.instagram.com
+                    - cell "graph.facebook.com" [ref=e202]:
+                      - paragraph [ref=e203]:
+                        - code [ref=e204]: graph.facebook.com
+                  - row "Login Type Business Login for Instagram Facebook Login for Business" [ref=e205]:
+                    - cell "Login Type" [ref=e206]:
+                      - paragraph [ref=e207]:
+                        - strong [ref=e208]: Login Type
+                    - cell "Business Login for Instagram" [ref=e209]:
+                      - paragraph [ref=e210]: Business Login for Instagram
+                    - cell "Facebook Login for Business" [ref=e211]:
+                      - paragraph [ref=e212]: Facebook Login for Business
+                  - 'row "Permissions instagram_business_basic instagram_business_manage_insights instagram_basic instagram_manage_insights pages_read_engagement If the app user was granted a role on the Page connected to your app user''s Instagram professional account via the Business Manager, your app will also need: ads_management ads_read" [ref=e213]':
+                    - cell "Permissions" [ref=e214]:
+                      - link "Permissions" [ref=e215] [cursor=pointer]:
+                        - /url: /docs/permissions/reference#i
+                    - cell "instagram_business_basic instagram_business_manage_insights" [ref=e216]:
+                      - list [ref=e217]:
+                        - listitem [ref=e218]:
+                          - code [ref=e219]: instagram_business_basic
+                        - listitem [ref=e220]:
+                          - code [ref=e221]: instagram_business_manage_insights
+                    - 'cell "instagram_basic instagram_manage_insights pages_read_engagement If the app user was granted a role on the Page connected to your app user''s Instagram professional account via the Business Manager, your app will also need: ads_management ads_read" [ref=e222]':
+                      - list [ref=e223]:
+                        - listitem [ref=e224]:
+                          - code [ref=e225]: instagram_basic
+                        - listitem [ref=e226]:
+                          - code [ref=e227]: instagram_manage_insights
+                        - listitem [ref=e228]:
+                          - code [ref=e229]: pages_read_engagement
+                      - paragraph [ref=e230]:
+                        - text: If the app user was granted a role on the
+                        - link "Page" [ref=e231] [cursor=pointer]:
+                          - /url: /docs/instagram-api/overview#pages
+                        - text: "connected to your app user's Instagram professional account via the Business Manager, your app will also need:"
+                      - list [ref=e232]:
+                        - listitem [ref=e233]:
+                          - code [ref=e234]: ads_management
+                        - listitem [ref=e235]:
+                          - code [ref=e236]: ads_read
+              - heading "Limitations" [level=3] [ref=e237]
+              - list [ref=e238]:
+                - listitem [ref=e239]:
+                  - code [ref=e240]: follower_count
+                  - text: and
+                  - code [ref=e241]: online_followers
+                  - text: metrics are not available on Instagram business or creator accounts with fewer than 100 followers.
+                - listitem [ref=e242]:
+                  - text: Insights data for the
+                  - code [ref=e243]: online_followers
+                  - text: metric is only available for the last 30 days.
+                - listitem [ref=e244]:
+                  - text: If insights data you are requesting does not exist or is currently unavailable, the API will return an empty data set instead of
+                  - code [ref=e245]: "0"
+                  - text: for individual metrics.
+                - listitem [ref=e246]: Demographic metrics only return the top 45 performers.
+                - listitem [ref=e247]: Only viewers for whom we have demographic data are used in demographic metric calculations.
+                - listitem [ref=e248]: Summing demographic metric values may result in a value less than the follower count (see previous bullet point).
+                - listitem [ref=e249]: Data used to calculate metrics may be delayed up to 48 hours.
+              - heading "Request Syntax" [level=3] [ref=e250]
+              - generic [ref=e251]: GET https://<HOST_URL>/<API_VERSION>/<APP_USERS_INSTAGRAM_ACCOUNT_ID>/insights ?metric=<COMMA_SEPARATED_LIST_OF_METRICS> &period=<PERIOD> &timeframe=<TIMEFRAME> &metric_type=<METRIC_TYPE> &breakdown=<BREAKDOWN_METRIC> &since=<START_TIME> &until=<STOP_TIME> &access_token=<INSTAGRAM_USER_ACCESS_TOKEN>
+              - heading "Host Path Parameters" [level=3] [ref=e252]
+              - generic [ref=e253]: GET https://<HOST_URL>/<API_VERSION>/<APP_USERS_INSTAGRAM_ACCOUNT_ID>/insights
+              - table [ref=e255]:
+                - rowgroup [ref=e256]:
+                  - row "Placeholder Value" [ref=e257]:
+                    - columnheader "Placeholder" [ref=e258]
+                    - columnheader "Value" [ref=e259]
+                - rowgroup [ref=e260]:
+                  - 'row "<API_VERSION> The latest version is: v25.0 The API version your app is using when making calls to Meta servers. Learn more about API versioning." [ref=e261]':
+                    - 'cell "<API_VERSION> The latest version is: v25.0" [ref=e262]':
+                      - paragraph [ref=e263]:
+                        - code [ref=e264]: <API_VERSION>
+                      - generic [ref=e265]:
+                        - paragraph [ref=e266]: "The latest version is:"
+                        - code [ref=e267]: v25.0
+                    - cell "The API version your app is using when making calls to Meta servers. Learn more about API versioning." [ref=e268]:
+                      - paragraph [ref=e269]:
+                        - text: The API version your app is using when making calls to Meta servers.
+                        - link "Learn more about API versioning." [ref=e270] [cursor=pointer]:
+                          - /url: /docs/graph-api/guides/versioning
+                  - row "<APP_USERS_INSTAGRAM_ACCOUNT_ID> Required. The ID of your app user's Instagram professional account." [ref=e271]:
+                    - cell "<APP_USERS_INSTAGRAM_ACCOUNT_ID>" [ref=e272]:
+                      - paragraph [ref=e273]:
+                        - code [ref=e274]: <APP_USERS_INSTAGRAM_ACCOUNT_ID>
+                    - cell "Required. The ID of your app user's Instagram professional account." [ref=e275]:
+                      - paragraph [ref=e276]:
+                        - strong [ref=e277]: Required.
+                        - text: The ID of your app user's Instagram professional account.
+                  - row "<HOST_URL> Required. The ID of your app user's Instagram professional account." [ref=e278]:
+                    - cell "<HOST_URL>" [ref=e279]:
+                      - paragraph [ref=e280]:
+                        - code [ref=e281]: <HOST_URL>
+                    - cell "Required. The ID of your app user's Instagram professional account." [ref=e282]:
+                      - paragraph [ref=e283]:
+                        - strong [ref=e284]: Required.
+                        - text: The ID of your app user's Instagram professional account.
+              - heading "Parameters" [level=3] [ref=e285]
+              - table [ref=e287]:
+                - rowgroup [ref=e288]:
+                  - row "Key Value" [ref=e289]:
+                    - columnheader "Key" [ref=e290]
+                    - columnheader "Value" [ref=e291]
+                - rowgroup [ref=e292]:
+                  - row "access_token Required. The app user's Facebook User or Instagram access token." [ref=e293]:
+                    - cell "access_token" [ref=e294]:
+                      - paragraph [ref=e295]:
+                        - code [ref=e296]: access_token
+                    - cell "Required. The app user's Facebook User or Instagram access token." [ref=e297]:
+                      - paragraph [ref=e298]:
+                        - strong [ref=e299]: Required.
+                        - text: The app user's Facebook User or Instagram access token.
+                  - row "breakdown Designates how to break down result set into subsets. contact_button_type – Divides results by profile component in the native app. follow_type – Breaks down results by followers or non-followers. media_product_type – Breaks down results by surface where Instagram users view or interact with your app user's media." [ref=e300]:
+                    - cell "breakdown" [ref=e301]:
+                      - paragraph [ref=e302]:
+                        - code [ref=e303]: breakdown
+                    - cell "Designates how to break down result set into subsets. contact_button_type – Divides results by profile component in the native app. follow_type – Breaks down results by followers or non-followers. media_product_type – Breaks down results by surface where Instagram users view or interact with your app user's media." [ref=e304]:
+                      - paragraph [ref=e305]: Designates how to break down result set into subsets.
+                      - list [ref=e306]:
+                        - listitem [ref=e307]:
+                          - code [ref=e308]: contact_button_type
+                          - text: – Divides results by profile component in the native app.
+                        - listitem [ref=e309]:
+                          - code [ref=e310]: follow_type
+                          - text: – Breaks down results by followers or non-followers.
+                        - listitem [ref=e311]:
+                          - code [ref=e312]: media_product_type
+                          - text: – Breaks down results by surface where Instagram users view or interact with your app user's media.
+                  - row "metric Required. Comma-separated list of Metrics you want returned. <COMMA_SEPARATED_LIST_OF_METRICS>" [ref=e313]:
+                    - cell "metric" [ref=e314]:
+                      - paragraph [ref=e315]:
+                        - code [ref=e316]: metric
+                    - cell "Required. Comma-separated list of Metrics you want returned. <COMMA_SEPARATED_LIST_OF_METRICS>" [ref=e317]:
+                      - paragraph [ref=e318]:
+                        - strong [ref=e319]: Required.
+                        - text: Comma-separated list of
+                        - link "Metrics" [ref=e320] [cursor=pointer]:
+                          - /url: "#metrics"
+                        - text: you want returned.
+                      - paragraph [ref=e321]:
+                        - code [ref=e322]: <COMMA_SEPARATED_LIST_OF_METRICS>
+                  - row "metric_type Designates if you want the responses aggregated by time period or as a simple total. See Metric Type. <METRIC_TYPE>" [ref=e323]:
+                    - cell "metric_type" [ref=e324]:
+                      - paragraph [ref=e325]:
+                        - code [ref=e326]: metric_type
+                    - cell "Designates if you want the responses aggregated by time period or as a simple total. See Metric Type. <METRIC_TYPE>" [ref=e327]:
+                      - paragraph [ref=e328]:
+                        - text: Designates if you want the responses aggregated by time period or as a simple total. See
+                        - link "Metric Type" [ref=e329] [cursor=pointer]:
+                          - /url: "#metric-type"
+                        - text: .
+                        - code [ref=e330]: <METRIC_TYPE>
+                  - row "period Required. Period aggregation. <PERIOD>" [ref=e331]:
+                    - cell "period" [ref=e332]:
+                      - paragraph [ref=e333]:
+                        - code [ref=e334]: period
+                    - cell "Required. Period aggregation. <PERIOD>" [ref=e335]:
+                      - paragraph [ref=e336]:
+                        - strong [ref=e337]: Required.
+                        - link "Period" [ref=e338] [cursor=pointer]:
+                          - /url: "#period"
+                        - text: aggregation.
+                        - code [ref=e339]: <PERIOD>
+                  - row "since Unix timestamp indicating start of range. See Range. <START_TIME>" [ref=e340]:
+                    - cell "since" [ref=e341]:
+                      - paragraph [ref=e342]:
+                        - code [ref=e343]: since
+                    - cell "Unix timestamp indicating start of range. See Range. <START_TIME>" [ref=e344]:
+                      - paragraph [ref=e345]:
+                        - text: Unix timestamp indicating start of range. See
+                        - link "Range" [ref=e346] [cursor=pointer]:
+                          - /url: "#range-2"
+                        - text: .
+                        - code [ref=e347]: <START_TIME>
+                  - row "timeframe Required for demographics-related metrics. Designates how far to look back for data. See Timeframe. <TIMEFRAME>" [ref=e348]:
+                    - cell "timeframe" [ref=e349]:
+                      - paragraph [ref=e350]:
+                        - code [ref=e351]: timeframe
+                    - cell "Required for demographics-related metrics. Designates how far to look back for data. See Timeframe. <TIMEFRAME>" [ref=e352]:
+                      - paragraph [ref=e353]:
+                        - strong [ref=e354]: Required for demographics-related metrics.
+                        - text: Designates how far to look back for data. See
+                        - link "Timeframe" [ref=e355] [cursor=pointer]:
+                          - /url: "#timeframe"
+                        - text: .
+                        - code [ref=e356]: <TIMEFRAME>
+                  - row "until Unix timestamp indicating end of range. See Range. <STOP_TIME>" [ref=e357]:
+                    - cell "until" [ref=e358]:
+                      - paragraph [ref=e359]:
+                        - code [ref=e360]: until
+                    - cell "Unix timestamp indicating end of range. See Range. <STOP_TIME>" [ref=e361]:
+                      - paragraph [ref=e362]:
+                        - text: Unix timestamp indicating end of range. See
+                        - link "Range" [ref=e363] [cursor=pointer]:
+                          - /url: "#range-2"
+                        - text: .
+                        - code [ref=e364]: <STOP_TIME>
+              - heading "Breakdown" [level=3] [ref=e365]
+              - generic [ref=e366]:
+                - paragraph [ref=e367]:
+                  - text: If you request
+                  - code [ref=e368]: metric_type=total_value
+                  - text: ", you can also specify one or more breakdowns, and the results will be broken down into smaller sets based on the specified breakdown. Values can be:"
+                - list [ref=e369]:
+                  - listitem [ref=e370]:
+                    - code [ref=e371]: contact_button_type
+                    - text: "— Break down results by profile UI component that viewers tapped or clicked. Response values can be:"
+                    - list [ref=e372]:
+                      - listitem [ref=e373]:
+                        - code [ref=e374]: BOOK_NOW
+                      - listitem [ref=e375]:
+                        - code [ref=e376]: CALL
+                      - listitem [ref=e377]:
+                        - code [ref=e378]: DIRECTION
+                      - listitem [ref=e379]:
+                        - code [ref=e380]: EMAIL
+                      - listitem [ref=e381]:
+                        - code [ref=e382]: INSTANT_EXPERIENCE
+                      - listitem [ref=e383]:
+                        - code [ref=e384]: TEXT
+                      - listitem [ref=e385]:
+                        - code [ref=e386]: UNDEFINED
+                  - listitem [ref=e387]:
+                    - code [ref=e388]: follow_type
+                    - text: "— Break down results by followers or non-followers. Response values can be:"
+                    - list [ref=e389]:
+                      - listitem [ref=e390]:
+                        - code [ref=e391]: FOLLOWER
+                      - listitem [ref=e392]:
+                        - code [ref=e393]: NON_FOLLOWER
+                      - listitem [ref=e394]:
+                        - code [ref=e395]: UNKNOWN
+                  - listitem [ref=e396]:
+                    - code [ref=e397]: media_product_type
+                    - text: "— Break down results by the surface where viewers viewed or interacted with the app user's media. Response values can be:"
+                    - list [ref=e398]:
+                      - listitem [ref=e399]:
+                        - code [ref=e400]: AD
+                      - listitem [ref=e401]:
+                        - code [ref=e402]: FEED
+                      - listitem [ref=e403]:
+                        - code [ref=e404]: REELS
+                      - listitem [ref=e405]:
+                        - code [ref=e406]: STORY
+                - paragraph [ref=e407]:
+                  - text: Refer to the
+                  - link "Metrics" [ref=e408] [cursor=pointer]:
+                    - /url: "#metrics"
+                  - text: table to determine which metrics are compatible with a breakdown. If you request a metric that doesn't support a breakdown, the API will return an error (
+                  - code [ref=e409]: "\"An unknown error has occurred.\""
+                  - text: ), so be careful if requesting multiple metrics in a single query.
+                - paragraph [ref=e410]:
+                  - text: If you request
+                  - code [ref=e411]: metric_type=time_series
+                  - text: ", breakdowns will not be included in the response."
+                - heading "Metric Type" [level=3] [ref=e412]
+                - paragraph [ref=e413]: "You can designate how you want results aggregated, either by time period or as a simple total (with breakdowns, if requested). Values can be:"
+                - list [ref=e414]:
+                  - listitem [ref=e415]:
+                    - code [ref=e416]: time_series
+                    - text: — Tells the API to aggregate results by time period. See
+                    - link "Period" [ref=e417] [cursor=pointer]:
+                      - /url: "#period"
+                    - text: .
+                  - listitem [ref=e418]:
+                    - code [ref=e419]: total_value
+                    - text: — Tells the API to return results as a simple total. If breakdowns are included in the request, the result set will be further broken down by the specific breakdowns. See
+                    - link "Breakdown" [ref=e420] [cursor=pointer]:
+                      - /url: "#breakdown"
+                    - text: .
+                - heading "Period" [level=3] [ref=e421]
+                - paragraph [ref=e422]: Tells the API which time frame to use when aggregating results. Only compatible with interaction-related metrics.
+                - heading "Timeframe" [level=3] [ref=e423]
+                - paragraph [ref=e424]:
+                  - text: Tells the API how far to look back for data when requesting demographic-related metrics. This value overrides the
+                  - code [ref=e425]: since
+                  - text: and
+                  - code [ref=e426]: until
+                  - text: parameters.
+                - heading "Range" [level=3] [ref=e427]
+                - paragraph [ref=e428]:
+                  - text: Assign UNIX timestamps to the
+                  - code [ref=e429]: since
+                  - text: and
+                  - code [ref=e430]: until
+                  - text: parameters to define a range. The API will only include data created within this range (inclusive). If you do not include these parameters, the API will look back 24 hours.
+                - paragraph [ref=e431]:
+                  - text: For demographics-related metrics, the
+                  - code [ref=e432]: timeframe
+                  - text: parameter overrides these values. See
+                  - link "Timeframe" [ref=e433] [cursor=pointer]:
+                    - /url: "#timeframe"
+                  - text: .
+              - heading "Metrics" [level=3] [ref=e434]
+              - heading "Interaction Metrics" [level=4] [ref=e435]
+              - table [ref=e438]:
+                - rowgroup [ref=e439]:
+                  - row "Metric Period Timeframe Breakdown Metric Type Description" [ref=e440]:
+                    - columnheader "Metric" [ref=e441]
+                    - columnheader "Period" [ref=e442]
+                    - columnheader "Timeframe" [ref=e443]
+                    - columnheader "Breakdown" [ref=e444]
+                    - columnheader "Metric Type" [ref=e445]
+                    - columnheader "Description" [ref=e446]
+                - rowgroup [ref=e447]:
+                  - row "accounts_engaged day n/a n/a total_value The number of accounts that have interacted with your content, including in ads. Content includes posts, stories, reels, videos and live videos. Interactions can include actions such as likes, saves, comments, shares or replies. This metric is estimated." [ref=e448]:
+                    - cell "accounts_engaged" [ref=e449]:
+                      - paragraph [ref=e450]:
+                        - code [ref=e451]: accounts_engaged
+                    - cell "day" [ref=e452]:
+                      - paragraph [ref=e453]:
+                        - code [ref=e454]: day
+                    - cell "n/a" [ref=e455]:
+                      - paragraph [ref=e456]: n/a
+                    - cell "n/a" [ref=e457]:
+                      - paragraph [ref=e458]: n/a
+                    - cell "total_value" [ref=e459]:
+                      - paragraph [ref=e460]:
+                        - code [ref=e461]: total_value
+                    - cell "The number of accounts that have interacted with your content, including in ads. Content includes posts, stories, reels, videos and live videos. Interactions can include actions such as likes, saves, comments, shares or replies. This metric is estimated." [ref=e462]:
+                      - paragraph [ref=e463]: The number of accounts that have interacted with your content, including in ads. Content includes posts, stories, reels, videos and live videos. Interactions can include actions such as likes, saves, comments, shares or replies.
+                      - paragraph [ref=e464]: This metric is estimated.
+                  - row "comments day n/a media_product_type total_value The number of comments on your posts, reels, videos and live videos. This metric is in development." [ref=e465]:
+                    - cell "comments" [ref=e466]:
+                      - paragraph [ref=e467]:
+                        - code [ref=e468]: comments
+                    - cell "day" [ref=e469]:
+                      - paragraph [ref=e470]:
+                        - code [ref=e471]: day
+                    - cell "n/a" [ref=e472]:
+                      - paragraph [ref=e473]: n/a
+                    - cell "media_product_type" [ref=e474]:
+                      - paragraph [ref=e475]:
+                        - code [ref=e476]: media_product_type
+                    - cell "total_value" [ref=e477]:
+                      - paragraph [ref=e478]:
+                        - code [ref=e479]: total_value
+                    - cell "The number of comments on your posts, reels, videos and live videos. This metric is in development." [ref=e480]:
+                      - paragraph [ref=e481]: The number of comments on your posts, reels, videos and live videos.
+                      - paragraph [ref=e482]:
+                        - text: This metric is
+                        - link "in development" [ref=e483] [cursor=pointer]:
+                          - /url: https://business.facebook.com/business/help/metrics-labeling
+                        - text: .
+                  - 'row "engaged_audience_demographics lifetime One of: last_14_days, last_30_days, last_90_days, prev_month, this_month, this_week age, city, country, gender total_value The demographic characteristics of the engaged audience, including countries, cities and gender distribution. this_month returns the data in the last 30 days and this_week returns data in the last 7 days. Does not support since or until. See Range for more information. Not returned if the IG User has less than 100 engagements during the timeframe. Note: The last_14_days, last_30_days, last_90_days and prev_month timeframes will no longer be supported beginning with v20.0. See the changelog for more information." [ref=e484]':
+                    - cell "engaged_audience_demographics" [ref=e485]:
+                      - paragraph [ref=e486]:
+                        - code [ref=e487]: engaged_audience_demographics
+                    - cell "lifetime" [ref=e488]:
+                      - paragraph [ref=e489]:
+                        - code [ref=e490]: lifetime
+                    - 'cell "One of: last_14_days, last_30_days, last_90_days, prev_month, this_month, this_week" [ref=e491]':
+                      - paragraph [ref=e492]: "One of:"
+                      - paragraph [ref=e493]:
+                        - code [ref=e494]: last_14_days
+                        - text: ","
+                        - code [ref=e495]: last_30_days
+                        - text: ","
+                        - code [ref=e496]: last_90_days
+                        - text: ","
+                        - code [ref=e497]: prev_month
+                        - text: ","
+                        - code [ref=e498]: this_month
+                        - text: ","
+                        - code [ref=e499]: this_week
+                    - cell "age, city, country, gender" [ref=e500]:
+                      - paragraph [ref=e501]:
+                        - code [ref=e502]: age
+                        - text: ","
+                        - code [ref=e503]: city
+                        - text: ","
+                        - code [ref=e504]: country
+                        - text: ","
+                        - code [ref=e505]: gender
+                    - cell "total_value" [ref=e506]:
+                      - paragraph [ref=e507]:
+                        - code [ref=e508]: total_value
+                    - 'cell "The demographic characteristics of the engaged audience, including countries, cities and gender distribution. this_month returns the data in the last 30 days and this_week returns data in the last 7 days. Does not support since or until. See Range for more information. Not returned if the IG User has less than 100 engagements during the timeframe. Note: The last_14_days, last_30_days, last_90_days and prev_month timeframes will no longer be supported beginning with v20.0. See the changelog for more information." [ref=e509]':
+                      - paragraph [ref=e510]:
+                        - text: The demographic characteristics of the engaged audience, including countries, cities and gender distribution.
+                        - code [ref=e511]: this_month
+                        - text: returns the data in the last 30 days and
+                        - code [ref=e512]: this_week
+                        - text: returns data in the last 7 days.
+                      - paragraph [ref=e513]:
+                        - text: Does not support
+                        - code [ref=e514]: since
+                        - text: or
+                        - code [ref=e515]: until
+                        - text: . See
+                        - link "Range" [ref=e516] [cursor=pointer]:
+                          - /url: "#range-2"
+                        - text: for more information.
+                      - paragraph [ref=e517]: Not returned if the IG User has less than 100 engagements during the timeframe.
+                      - paragraph [ref=e518]:
+                        - strong [ref=e519]: "Note:"
+                        - text: The
+                        - code [ref=e520]: last_14_days
+                        - text: ","
+                        - code [ref=e521]: last_30_days
+                        - text: ","
+                        - code [ref=e522]: last_90_days
+                        - text: and
+                        - code [ref=e523]: prev_month
+                        - text: timeframes will no longer be supported beginning with v20.0. See the
+                        - link "changelog" [ref=e524] [cursor=pointer]:
+                          - /url: /docs/instagram-api/changelog#may-21--2024
+                        - text: for more information.
+                  - row "follows_and_unfollows day n/a follow_type total_value The number of accounts that followed you and the number of accounts that unfollowed you or left Instagram in the selected time period. Not returned if the IG User has less than 100 followers." [ref=e525]:
+                    - cell "follows_and_unfollows" [ref=e526]:
+                      - paragraph [ref=e527]:
+                        - code [ref=e528]: follows_and_unfollows
+                    - cell "day" [ref=e529]:
+                      - paragraph [ref=e530]:
+                        - code [ref=e531]: day
+                    - cell "n/a" [ref=e532]:
+                      - paragraph [ref=e533]: n/a
+                    - cell "follow_type" [ref=e534]:
+                      - paragraph [ref=e535]:
+                        - code [ref=e536]: follow_type
+                    - cell "total_value" [ref=e537]:
+                      - paragraph [ref=e538]:
+                        - code [ref=e539]: total_value
+                    - cell "The number of accounts that followed you and the number of accounts that unfollowed you or left Instagram in the selected time period. Not returned if the IG User has less than 100 followers." [ref=e540]:
+                      - paragraph [ref=e541]: The number of accounts that followed you and the number of accounts that unfollowed you or left Instagram in the selected time period.
+                      - paragraph [ref=e542]: Not returned if the IG User has less than 100 followers.
+                  - 'row "follower_demographics lifetime One of: last_14_days, last_30_days, last_90_days, prev_month, this_month, this_week age, city, country, gender total_value The demographic characteristics of followers, including countries, cities and gender distribution. Does not support since or until. See Range for more information. Not returned if the IG User has less than 100 followers." [ref=e543]':
+                    - cell "follower_demographics" [ref=e544]:
+                      - paragraph [ref=e545]:
+                        - code [ref=e546]: follower_demographics
+                    - cell "lifetime" [ref=e547]:
+                      - paragraph [ref=e548]:
+                        - code [ref=e549]: lifetime
+                    - 'cell "One of: last_14_days, last_30_days, last_90_days, prev_month, this_month, this_week" [ref=e550]':
+                      - paragraph [ref=e551]: "One of:"
+                      - paragraph [ref=e552]:
+                        - code [ref=e553]: last_14_days
+                        - text: ","
+                        - code [ref=e554]: last_30_days
+                        - text: ","
+                        - code [ref=e555]: last_90_days
+                        - text: ","
+                        - code [ref=e556]: prev_month
+                        - text: ","
+                        - code [ref=e557]: this_month
+                        - text: ","
+                        - code [ref=e558]: this_week
+                    - cell "age, city, country, gender" [ref=e559]:
+                      - paragraph [ref=e560]:
+                        - code [ref=e561]: age
+                        - text: ","
+                        - code [ref=e562]: city
+                        - text: ","
+                        - code [ref=e563]: country
+                        - text: ","
+                        - code [ref=e564]: gender
+                    - cell "total_value" [ref=e565]:
+                      - paragraph [ref=e566]:
+                        - code [ref=e567]: total_value
+                    - cell "The demographic characteristics of followers, including countries, cities and gender distribution. Does not support since or until. See Range for more information. Not returned if the IG User has less than 100 followers." [ref=e568]:
+                      - paragraph [ref=e569]: The demographic characteristics of followers, including countries, cities and gender distribution.
+                      - paragraph [ref=e570]:
+                        - text: Does not support
+                        - code [ref=e571]: since
+                        - text: or
+                        - code [ref=e572]: until
+                        - text: . See
+                        - link "Range" [ref=e573] [cursor=pointer]:
+                          - /url: "#range-2"
+                        - text: for more information.
+                      - paragraph [ref=e574]: Not returned if the IG User has less than 100 followers.
+                  - row "impressions Deprecated for v22.0+ and all versions April 21, 2025. day n/a n/a total_value, time_series The number of times your posts, stories, reels, videos and live videos were on screen, including in ads." [ref=e575]:
+                    - cell "impressions Deprecated for v22.0+ and all versions April 21, 2025." [ref=e576]:
+                      - paragraph [ref=e577]:
+                        - code [ref=e578]: impressions
+                        - strong [ref=e579]: Deprecated for v22.0+ and all versions April 21, 2025.
+                    - cell "day" [ref=e580]:
+                      - paragraph [ref=e581]:
+                        - code [ref=e582]: day
+                    - cell "n/a" [ref=e583]:
+                      - paragraph [ref=e584]: n/a
+                    - cell "n/a" [ref=e585]:
+                      - paragraph [ref=e586]: n/a
+                    - cell "total_value, time_series" [ref=e587]:
+                      - paragraph [ref=e588]:
+                        - code [ref=e589]: total_value
+                        - text: ","
+                        - code [ref=e590]: time_series
+                    - cell "The number of times your posts, stories, reels, videos and live videos were on screen, including in ads." [ref=e591]:
+                      - paragraph [ref=e592]: The number of times your posts, stories, reels, videos and live videos were on screen, including in ads.
+                  - row "likes day n/a media_product_type total_value The number of likes on your posts, reels, and videos." [ref=e593]:
+                    - cell "likes" [ref=e594]:
+                      - paragraph [ref=e595]:
+                        - code [ref=e596]: likes
+                    - cell "day" [ref=e597]:
+                      - paragraph [ref=e598]:
+                        - code [ref=e599]: day
+                    - cell "n/a" [ref=e600]:
+                      - paragraph [ref=e601]: n/a
+                    - cell "media_product_type" [ref=e602]:
+                      - paragraph [ref=e603]:
+                        - code [ref=e604]: media_product_type
+                    - cell "total_value" [ref=e605]:
+                      - paragraph [ref=e606]:
+                        - code [ref=e607]: total_value
+                    - cell "The number of likes on your posts, reels, and videos." [ref=e608]:
+                      - paragraph [ref=e609]: The number of likes on your posts, reels, and videos.
+                  - row "profile_links_taps day n/a contact_button_type total_value The number of taps on your business address, call button, email button and text button." [ref=e610]:
+                    - cell "profile_links_taps" [ref=e611]:
+                      - paragraph [ref=e612]:
+                        - code [ref=e613]: profile_links_taps
+                    - cell "day" [ref=e614]:
+                      - paragraph [ref=e615]:
+                        - code [ref=e616]: day
+                    - cell "n/a" [ref=e617]:
+                      - paragraph [ref=e618]: n/a
+                    - cell "contact_button_type" [ref=e619]:
+                      - paragraph [ref=e620]:
+                        - code [ref=e621]: contact_button_type
+                    - cell "total_value" [ref=e622]:
+                      - paragraph [ref=e623]:
+                        - code [ref=e624]: total_value
+                    - cell "The number of taps on your business address, call button, email button and text button." [ref=e625]:
+                      - paragraph [ref=e626]: The number of taps on your business address, call button, email button and text button.
+                  - row "reach day n/a media_product_type, follow_type total_value, time_series The number of unique accounts that have seen your content, at least once, including in ads. Content includes posts, stories, reels, videos and live videos. Reach is different from impressions, which may include multiple views of your content by the same accounts. This metric is estimated." [ref=e627]:
+                    - cell "reach" [ref=e628]:
+                      - paragraph [ref=e629]:
+                        - code [ref=e630]: reach
+                    - cell "day" [ref=e631]:
+                      - paragraph [ref=e632]:
+                        - code [ref=e633]: day
+                    - cell "n/a" [ref=e634]:
+                      - paragraph [ref=e635]: n/a
+                    - cell "media_product_type, follow_type" [ref=e636]:
+                      - paragraph [ref=e637]:
+                        - code [ref=e638]: media_product_type
+                        - text: ","
+                        - code [ref=e639]: follow_type
+                    - cell "total_value, time_series" [ref=e640]:
+                      - paragraph [ref=e641]:
+                        - code [ref=e642]: total_value
+                        - text: ","
+                        - code [ref=e643]: time_series
+                    - cell "The number of unique accounts that have seen your content, at least once, including in ads. Content includes posts, stories, reels, videos and live videos. Reach is different from impressions, which may include multiple views of your content by the same accounts. This metric is estimated." [ref=e644]:
+                      - paragraph [ref=e645]: The number of unique accounts that have seen your content, at least once, including in ads. Content includes posts, stories, reels, videos and live videos. Reach is different from impressions, which may include multiple views of your content by the same accounts.
+                      - paragraph [ref=e646]: This metric is estimated.
+                  - row "replies day n/a n/a total_value The number of replies you received from your story, including text replies and quick reaction replies." [ref=e647]:
+                    - cell "replies" [ref=e648]:
+                      - paragraph [ref=e649]:
+                        - code [ref=e650]: replies
+                    - cell "day" [ref=e651]:
+                      - paragraph [ref=e652]:
+                        - code [ref=e653]: day
+                    - cell "n/a" [ref=e654]:
+                      - paragraph [ref=e655]: n/a
+                    - cell "n/a" [ref=e656]:
+                      - paragraph [ref=e657]: n/a
+                    - cell "total_value" [ref=e658]:
+                      - paragraph [ref=e659]:
+                        - code [ref=e660]: total_value
+                    - cell "The number of replies you received from your story, including text replies and quick reaction replies." [ref=e661]:
+                      - paragraph [ref=e662]: The number of replies you received from your story, including text replies and quick reaction replies.
+                  - row "reposts day n/a n/a total_value The number of reposts of your posts, stories, reels, and videos." [ref=e663]:
+                    - cell "reposts" [ref=e664]:
+                      - paragraph [ref=e665]:
+                        - code [ref=e666]: reposts
+                    - cell "day" [ref=e667]:
+                      - paragraph [ref=e668]:
+                        - code [ref=e669]: day
+                    - cell "n/a" [ref=e670]:
+                      - paragraph [ref=e671]: n/a
+                    - cell "n/a" [ref=e672]:
+                      - paragraph [ref=e673]: n/a
+                    - cell "total_value" [ref=e674]:
+                      - paragraph [ref=e675]:
+                        - code [ref=e676]: total_value
+                    - cell "The number of reposts of your posts, stories, reels, and videos." [ref=e677]:
+                      - paragraph [ref=e678]: The number of reposts of your posts, stories, reels, and videos.
+                  - row "saves day n/a media_product_type total_value The number of saves of your posts, reels, and videos." [ref=e679]:
+                    - cell "saves" [ref=e680]:
+                      - paragraph [ref=e681]:
+                        - code [ref=e682]: saves
+                    - cell "day" [ref=e683]:
+                      - paragraph [ref=e684]:
+                        - code [ref=e685]: day
+                    - cell "n/a" [ref=e686]:
+                      - paragraph [ref=e687]: n/a
+                    - cell "media_product_type" [ref=e688]:
+                      - paragraph [ref=e689]:
+                        - code [ref=e690]: media_product_type
+                    - cell "total_value" [ref=e691]:
+                      - paragraph [ref=e692]:
+                        - code [ref=e693]: total_value
+                    - cell "The number of saves of your posts, reels, and videos." [ref=e694]:
+                      - paragraph [ref=e695]: The number of saves of your posts, reels, and videos.
+                  - row "shares day n/a media_product_type total_value The number of shares of your posts, stories, reels, videos and live videos." [ref=e696]:
+                    - cell "shares" [ref=e697]:
+                      - paragraph [ref=e698]:
+                        - code [ref=e699]: shares
+                    - cell "day" [ref=e700]:
+                      - paragraph [ref=e701]:
+                        - code [ref=e702]: day
+                    - cell "n/a" [ref=e703]:
+                      - paragraph [ref=e704]: n/a
+                    - cell "media_product_type" [ref=e705]:
+                      - paragraph [ref=e706]:
+                        - code [ref=e707]: media_product_type
+                    - cell "total_value" [ref=e708]:
+                      - paragraph [ref=e709]:
+                        - code [ref=e710]: total_value
+                    - cell "The number of shares of your posts, stories, reels, videos and live videos." [ref=e711]:
+                      - paragraph [ref=e712]: The number of shares of your posts, stories, reels, videos and live videos.
+                  - row "total_interactions day n/a media_product_type total_value The total number of post interactions, story interactions, reels interactions, video interactions and live video interactions, including any interactions on boosted content." [ref=e713]:
+                    - cell "total_interactions" [ref=e714]:
+                      - paragraph [ref=e715]:
+                        - code [ref=e716]: total_interactions
+                    - cell "day" [ref=e717]:
+                      - paragraph [ref=e718]:
+                        - code [ref=e719]: day
+                    - cell "n/a" [ref=e720]:
+                      - paragraph [ref=e721]: n/a
+                    - cell "media_product_type" [ref=e722]:
+                      - paragraph [ref=e723]:
+                        - code [ref=e724]: media_product_type
+                    - cell "total_value" [ref=e725]:
+                      - paragraph [ref=e726]:
+                        - code [ref=e727]: total_value
+                    - cell "The total number of post interactions, story interactions, reels interactions, video interactions and live video interactions, including any interactions on boosted content." [ref=e728]:
+                      - paragraph [ref=e729]: The total number of post interactions, story interactions, reels interactions, video interactions and live video interactions, including any interactions on boosted content.
+                  - row "views day n/a follower_type, media_product_type total_value The number of times your content was played or displayed. Content includes reels, posts, stories. This metric is in development." [ref=e730]:
+                    - cell "views" [ref=e731]:
+                      - paragraph [ref=e732]:
+                        - code [ref=e733]: views
+                    - cell "day" [ref=e734]:
+                      - paragraph [ref=e735]:
+                        - code [ref=e736]: day
+                    - cell "n/a" [ref=e737]:
+                      - paragraph [ref=e738]: n/a
+                    - cell "follower_type, media_product_type" [ref=e739]:
+                      - paragraph [ref=e740]:
+                        - code [ref=e741]: follower_type
+                        - text: ","
+                        - code [ref=e742]: media_product_type
+                    - cell "total_value" [ref=e743]:
+                      - paragraph [ref=e744]:
+                        - code [ref=e745]: total_value
+                    - cell "The number of times your content was played or displayed. Content includes reels, posts, stories. This metric is in development." [ref=e746]:
+                      - paragraph [ref=e747]: The number of times your content was played or displayed. Content includes reels, posts, stories.
+                      - paragraph [ref=e748]:
+                        - text: This metric is
+                        - link "in development" [ref=e749] [cursor=pointer]:
+                          - /url: https://business.facebook.com/business/help/metrics-labeling
+                        - text: .
+              - heading "Response" [level=3] [ref=e750]
+              - paragraph [ref=e751]: "A JSON object containing the results of your query. Results can include the following data, based on your query specifications:"
+              - generic [ref=e752]: "{ \"data\": [ { \"name\": \"{data}\", \"period\": \"<PERIOD>\", \"title\": \"{title}\", \"description\": \"{description}\", \"total_value\": { \"value\": {value}, \"breakdowns\": [ { \"dimension_keys\": [ \"{key-1}\", \"{key-2\", ... ], \"results\": [ { \"dimension_values\": [ \"{value-1}\", \"{value-2}\", ... ], \"value\": {value}, \"end_time\": \"{end-time}\" }, ... ] } ] }, \"id\": \"{id}\" } ], \"paging\": { \"previous\": \"{previous}\", \"next\": \"{next}\" } }"
+              - heading "Response Contents" [level=3] [ref=e753]
+              - table [ref=e755]:
+                - rowgroup [ref=e756]:
+                  - row "Property Value Type Description" [ref=e757]:
+                    - columnheader "Property" [ref=e758]
+                    - columnheader "Value Type" [ref=e759]
+                    - columnheader "Description" [ref=e760]
+                - rowgroup [ref=e761]:
+                  - row "breakdowns Array An array of objects describing the breakdowns requested and their results. Only returned if metric_type=total_values is requested." [ref=e762]:
+                    - cell "breakdowns" [ref=e763]:
+                      - paragraph [ref=e764]:
+                        - code [ref=e765]: breakdowns
+                    - cell "Array" [ref=e766]:
+                      - paragraph [ref=e767]: Array
+                    - cell "An array of objects describing the breakdowns requested and their results. Only returned if metric_type=total_values is requested." [ref=e768]:
+                      - paragraph [ref=e769]:
+                        - text: An array of objects describing the
+                        - link "breakdowns" [ref=e770] [cursor=pointer]:
+                          - /url: "#breakdown"
+                        - text: requested and their results.
+                      - paragraph [ref=e771]:
+                        - text: Only returned if
+                        - code [ref=e772]: metric_type=total_values
+                        - text: is requested.
+                  - row "data Array An array of objects describing your results." [ref=e773]:
+                    - cell "data" [ref=e774]:
+                      - paragraph [ref=e775]:
+                        - code [ref=e776]: data
+                    - cell "Array" [ref=e777]:
+                      - paragraph [ref=e778]: Array
+                    - cell "An array of objects describing your results." [ref=e779]:
+                      - paragraph [ref=e780]: An array of objects describing your results.
+                  - row "description String Metric description." [ref=e781]:
+                    - cell "description" [ref=e782]:
+                      - paragraph [ref=e783]:
+                        - code [ref=e784]: description
+                    - cell "String" [ref=e785]:
+                      - paragraph [ref=e786]: String
+                    - cell "Metric description." [ref=e787]:
+                      - paragraph [ref=e788]:
+                        - link "Metric" [ref=e789] [cursor=pointer]:
+                          - /url: "#metrics"
+                        - text: description.
+                  - row "dimension_keys Array An array of strings describing breakdowns requested in the query. Can be used as keys corresponding to values in individual breakdown sets. Only returned if metric_type=total_values is requested." [ref=e790]:
+                    - cell "dimension_keys" [ref=e791]:
+                      - paragraph [ref=e792]:
+                        - code [ref=e793]: dimension_keys
+                    - cell "Array" [ref=e794]:
+                      - paragraph [ref=e795]: Array
+                    - cell "An array of strings describing breakdowns requested in the query. Can be used as keys corresponding to values in individual breakdown sets. Only returned if metric_type=total_values is requested." [ref=e796]:
+                      - paragraph [ref=e797]:
+                        - text: An array of strings describing
+                        - link "breakdowns" [ref=e798] [cursor=pointer]:
+                          - /url: "#breakdown"
+                        - text: requested in the query. Can be used as keys corresponding to values in individual breakdown sets.
+                      - paragraph [ref=e799]:
+                        - text: Only returned if
+                        - code [ref=e800]: metric_type=total_values
+                        - text: is requested.
+                  - row "dimension_values Array An array of strings describing breakdown set values. Values can be mapped to dimension_keys. Only returned if metric_type=total_values is requested." [ref=e801]:
+                    - cell "dimension_values" [ref=e802]:
+                      - paragraph [ref=e803]:
+                        - code [ref=e804]: dimension_values
+                    - cell "Array" [ref=e805]:
+                      - paragraph [ref=e806]: Array
+                    - cell "An array of strings describing breakdown set values. Values can be mapped to dimension_keys. Only returned if metric_type=total_values is requested." [ref=e807]:
+                      - paragraph [ref=e808]:
+                        - text: An array of strings describing
+                        - link "breakdown" [ref=e809] [cursor=pointer]:
+                          - /url: "#breakdown"
+                        - text: set values. Values can be mapped to
+                        - code [ref=e810]: dimension_keys
+                        - text: .
+                      - paragraph [ref=e811]:
+                        - text: Only returned if
+                        - code [ref=e812]: metric_type=total_values
+                        - text: is requested.
+                  - 'row "end_time String ISO 8601 timestamp with time and offset. For example: 2022-08-01T07:00:00+0000" [ref=e813]':
+                    - cell "end_time" [ref=e814]:
+                      - paragraph [ref=e815]:
+                        - code [ref=e816]: end_time
+                    - cell "String" [ref=e817]:
+                      - paragraph [ref=e818]: String
+                    - 'cell "ISO 8601 timestamp with time and offset. For example: 2022-08-01T07:00:00+0000" [ref=e819]':
+                      - paragraph [ref=e820]:
+                        - text: "ISO 8601 timestamp with time and offset. For example:"
+                        - code [ref=e821]: 2022-08-01T07:00:00+0000
+                  - row "id String A string describing the query's path parameters." [ref=e822]:
+                    - cell "id" [ref=e823]:
+                      - paragraph [ref=e824]:
+                        - code [ref=e825]: id
+                    - cell "String" [ref=e826]:
+                      - paragraph [ref=e827]: String
+                    - cell "A string describing the query's path parameters." [ref=e828]:
+                      - paragraph [ref=e829]: A string describing the query's path parameters.
+                  - row "name String Metric requested." [ref=e830]:
+                    - cell "name" [ref=e831]:
+                      - paragraph [ref=e832]:
+                        - code [ref=e833]: name
+                    - cell "String" [ref=e834]:
+                      - paragraph [ref=e835]: String
+                    - cell "Metric requested." [ref=e836]:
+                      - paragraph [ref=e837]:
+                        - link "Metric" [ref=e838] [cursor=pointer]:
+                          - /url: "#metrics"
+                        - text: requested.
+                  - row "next String URL to retrieve the next page of results. See Paginated Results for more information." [ref=e839]:
+                    - cell "next" [ref=e840]:
+                      - paragraph [ref=e841]:
+                        - code [ref=e842]: next
+                    - cell "String" [ref=e843]:
+                      - paragraph [ref=e844]: String
+                    - cell "URL to retrieve the next page of results. See Paginated Results for more information." [ref=e845]:
+                      - paragraph [ref=e846]:
+                        - text: URL to retrieve the next page of results. See
+                        - link "Paginated Results" [ref=e847] [cursor=pointer]:
+                          - /url: /docs/graph-api/results
+                        - text: for more information.
+                  - row "paging Object An object containing URLs used to request the next set of results. See Paginated Results for more information." [ref=e848]:
+                    - cell "paging" [ref=e849]:
+                      - paragraph [ref=e850]:
+                        - code [ref=e851]: paging
+                    - cell "Object" [ref=e852]:
+                      - paragraph [ref=e853]: Object
+                    - cell "An object containing URLs used to request the next set of results. See Paginated Results for more information." [ref=e854]:
+                      - paragraph [ref=e855]:
+                        - text: An object containing URLs used to request the next set of results. See
+                        - link "Paginated Results" [ref=e856] [cursor=pointer]:
+                          - /url: /docs/graph-api/results
+                        - text: for more information.
+                  - row "period String Period requested." [ref=e857]:
+                    - cell "period" [ref=e858]:
+                      - paragraph [ref=e859]:
+                        - code [ref=e860]: period
+                    - cell "String" [ref=e861]:
+                      - paragraph [ref=e862]: String
+                    - cell "Period requested." [ref=e863]:
+                      - paragraph [ref=e864]:
+                        - link "Period" [ref=e865] [cursor=pointer]:
+                          - /url: "#period"
+                        - text: requested.
+                  - row "previous String URL to retrieve the previous page of results. See Paginated Results for more information." [ref=e866]:
+                    - cell "previous" [ref=e867]:
+                      - paragraph [ref=e868]:
+                        - code [ref=e869]: previous
+                    - cell "String" [ref=e870]:
+                      - paragraph [ref=e871]: String
+                    - cell "URL to retrieve the previous page of results. See Paginated Results for more information." [ref=e872]:
+                      - paragraph [ref=e873]:
+                        - text: URL to retrieve the previous page of results. See
+                        - link "Paginated Results" [ref=e874] [cursor=pointer]:
+                          - /url: /docs/graph-api/results
+                        - text: for more information.
+                  - row "results Array An array of objects describing each breakdown set. Only returned if metric_type=total_values is requested." [ref=e875]:
+                    - cell "results" [ref=e876]:
+                      - paragraph [ref=e877]:
+                        - code [ref=e878]: results
+                    - cell "Array" [ref=e879]:
+                      - paragraph [ref=e880]: Array
+                    - cell "An array of objects describing each breakdown set. Only returned if metric_type=total_values is requested." [ref=e881]:
+                      - paragraph [ref=e882]:
+                        - text: An array of objects describing each
+                        - link "breakdown" [ref=e883] [cursor=pointer]:
+                          - /url: "#breakdown"
+                        - text: set.
+                      - paragraph [ref=e884]:
+                        - text: Only returned if
+                        - code [ref=e885]: metric_type=total_values
+                        - text: is requested.
+                  - row "title String Metric title." [ref=e886]:
+                    - cell "title" [ref=e887]:
+                      - paragraph [ref=e888]:
+                        - code [ref=e889]: title
+                    - cell "String" [ref=e890]:
+                      - paragraph [ref=e891]: String
+                    - cell "Metric title." [ref=e892]:
+                      - paragraph [ref=e893]:
+                        - link "Metric" [ref=e894] [cursor=pointer]:
+                          - /url: "#metrics"
+                        - text: title.
+                  - row "total_value Object Object describing requested breakdown values (if breakdowns were requested)." [ref=e895]:
+                    - cell "total_value" [ref=e896]:
+                      - paragraph [ref=e897]:
+                        - code [ref=e898]: total_value
+                    - cell "Object" [ref=e899]:
+                      - paragraph [ref=e900]: Object
+                    - cell "Object describing requested breakdown values (if breakdowns were requested)." [ref=e901]:
+                      - paragraph [ref=e902]:
+                        - text: Object describing requested
+                        - link "breakdown" [ref=e903] [cursor=pointer]:
+                          - /url: "#breakdown"
+                        - text: values (if breakdowns were requested).
+                  - row "value Integer For data.total_value.value, sum of requested metric values. For data.total_value.breakdowns.results.value, sum of breakdown set values. Only returned if metric_type=total_values is requested." [ref=e904]:
+                    - cell "value" [ref=e905]:
+                      - paragraph [ref=e906]:
+                        - code [ref=e907]: value
+                    - cell "Integer" [ref=e908]:
+                      - paragraph [ref=e909]: Integer
+                    - cell "For data.total_value.value, sum of requested metric values. For data.total_value.breakdowns.results.value, sum of breakdown set values. Only returned if metric_type=total_values is requested." [ref=e910]:
+                      - paragraph [ref=e911]:
+                        - text: For
+                        - code [ref=e912]: data.total_value.value
+                        - text: ", sum of requested"
+                        - link "metric" [ref=e913] [cursor=pointer]:
+                          - /url: "#metrics"
+                        - text: values.
+                      - paragraph [ref=e914]:
+                        - text: For
+                        - code [ref=e915]: data.total_value.breakdowns.results.value
+                        - text: ", sum of"
+                        - link "breakdown" [ref=e916] [cursor=pointer]:
+                          - /url: "#breakdown"
+                        - text: set values. Only returned if
+                        - code [ref=e917]: metric_type=total_values
+                        - text: is requested.
+              - link [ref=e918] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e921]:
+              - heading "Examples" [level=2] [ref=e922]
+              - heading "Interaction Metrics" [level=3] [ref=e923]
+              - generic [ref=e924]:
+                - text: curl -i -X GET \ "https://graph.facebook.com/
+                - code [ref=e925]: v25.0
+                - text: /17841405822304914/insights?metric=reach&period=day&breakdown=media_product_type&metric_type=total_value&since=1658991600&access_token=EAAOc..."
+              - heading "Response" [level=4] [ref=e926]
+              - generic [ref=e927]: "{ \"data\": [ { \"name\": \"reach\", \"period\": \"day\", \"title\": \"Accounts reached\", \"description\": \"The number of unique accounts that have seen your content, at least once, including in ads. Content includes posts, stories, reels, videos and live videos. Reach is different from impressions, which may include multiple views of your content by the same accounts. This metric is estimated and in development.\", \"total_value\": { \"value\": 224, \"breakdowns\": [ { \"dimension_keys\": [ \"media_product_type\" ], \"results\": [ { \"dimension_values\": [ \"CAROUSEL_CONTAINER\" ], \"value\": 100 }, { \"dimension_values\": [ \"POST\" ], \"value\": 124 } ] } ] }, \"id\": \"17841405309211844/insights/reach/day\" } ], \"paging\": { \"previous\": \"https://graph.face...\", \"next\": \"https://graph.face...\" }"
+              - heading "Demographic Metrics" [level=3] [ref=e928]
+              - generic [ref=e929]:
+                - text: curl -i -X GET \ "https://graph.facebook.com/
+                - code [ref=e930]: v25.0
+                - text: /17841405822304914/insights?metric=engaged_audience_demographics&period=lifetime&timeframe=last_90_days&breakdowns=country&metric_type=total_value&access_token=EAAOc..."
+              - heading "Response" [level=4] [ref=e931]
+              - generic [ref=e932]: "{ \"data\": [ { \"name\": \"engaged_audience_demographics\", \"period\": \"lifetime\", \"title\": \"Engaged audience demographics\", \"description\": \"The demographic characteristics of the engaged audience, including countries, cities and gender distribution.\", \"total_value\": { \"breakdowns\": [ { \"dimension_keys\": [ \"timeframe\", \"country\" ], \"results\": [ { \"dimension_values\": [ \"LAST_90_DAYS\", \"AR\" ], \"value\": 1 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"RU\" ], \"value\": 1 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"MA\" ], \"value\": 1 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"LA\" ], \"value\": 1 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"IQ\" ], \"value\": 2 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"MX\" ], \"value\": 1 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"FR\" ], \"value\": 1 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"ES\" ], \"value\": 3 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"NL\" ], \"value\": 1 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"TR\" ], \"value\": 1 }, { \"dimension_values\": [ \"LAST_90_DAYS\", \"US\" ], \"value\": 7 } ] } ] }, \"id\": \"17841401130346306/insights/engaged_audience_demographics/lifetime\" } ] }"
+              - link [ref=e933] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e936]:
+              - heading "Updating" [level=2] [ref=e937]
+              - paragraph [ref=e938]: This operation is not supported.
+              - link [ref=e939] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e942]:
+              - heading "Deleting" [level=2] [ref=e943]
+              - paragraph [ref=e944]: This operation is not supported.
+              - link [ref=e945] [cursor=pointer]:
+                - /url: "#"
+          - link [ref=e949] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e954]:
+          - generic [ref=e955]: On This Page
+          - link "Instagram Account Insights" [ref=e957] [cursor=pointer]:
+            - /url: "#instagram-account-insights"
+          - link "Creating" [ref=e959] [cursor=pointer]:
+            - /url: "#creating"
+          - link "Reading" [ref=e961] [cursor=pointer]:
+            - /url: "#reading"
+          - link "Requirements" [ref=e965] [cursor=pointer]:
+            - /url: "#requirements"
+          - link "Limitations" [ref=e969] [cursor=pointer]:
+            - /url: "#limitations"
+          - link "Request Syntax" [ref=e973] [cursor=pointer]:
+            - /url: "#request-syntax"
+          - link "Host Path Parameters" [ref=e977] [cursor=pointer]:
+            - /url: "#host-path-parameters"
+          - link "Parameters" [ref=e981] [cursor=pointer]:
+            - /url: "#parameters"
+          - link "Breakdown" [ref=e985] [cursor=pointer]:
+            - /url: "#breakdown"
+          - link "Metric Type" [ref=e989] [cursor=pointer]:
+            - /url: "#metric-type"
+          - link "Period" [ref=e993] [cursor=pointer]:
+            - /url: "#period"
+          - link "Timeframe" [ref=e997] [cursor=pointer]:
+            - /url: "#timeframe"
+          - link "Range" [ref=e1001] [cursor=pointer]:
+            - /url: "#range"
+          - link "Metrics" [ref=e1005] [cursor=pointer]:
+            - /url: "#metrics"
+          - link "Response" [ref=e1009] [cursor=pointer]:
+            - /url: "#response"
+          - link "Response Contents" [ref=e1013] [cursor=pointer]:
+            - /url: "#response-contents"
+          - link "Examples" [ref=e1015] [cursor=pointer]:
+            - /url: "#examples"
+          - link "Interaction Metrics" [ref=e1019] [cursor=pointer]:
+            - /url: "#interaction-metrics"
+          - link "Demographic Metrics" [ref=e1023] [cursor=pointer]:
+            - /url: "#demographic-metrics"
+          - link "Updating" [ref=e1025] [cursor=pointer]:
+            - /url: "#updating"
+          - link "Deleting" [ref=e1027] [cursor=pointer]:
+            - /url: "#deleting"
+    - contentinfo [ref=e1031]:
+      - generic [ref=e1032]:
+        - separator [ref=e1033]
+        - generic [ref=e1035]:
+          - generic [ref=e1037]:
+            - generic [ref=e1039]:
+              - generic [ref=e1040]:
+                - img "Meta"
+              - list [ref=e1042]:
+                - listitem:
+                  - link "Facebook":
+                    - /url: https://www.facebook.com/MetaforDevelopers
+                    - img "Facebook"
+                - listitem:
+                  - link "Instagram":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                    - img "Instagram"
+                - listitem:
+                  - link "X":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                    - img "X"
+                - listitem:
+                  - link "LinkedIn":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                    - img "LinkedIn"
+                - listitem:
+                  - link "YouTube":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                    - img "YouTube"
+            - generic [ref=e1044]:
+              - generic [ref=e1047]:
+                - heading "Build with Meta" [level=2] [ref=e1048]:
+                  - generic [ref=e1049]: Build with Meta
+                - list [ref=e1050]:
+                  - listitem [ref=e1051]:
+                    - link "AI" [ref=e1053] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                  - listitem [ref=e1054]:
+                    - link "Meta Horizon" [ref=e1056] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                  - listitem [ref=e1057]:
+                    - link "Social technologies" [ref=e1059] [cursor=pointer]:
+                      - /url: /social-technologies/
+                  - listitem [ref=e1060]:
+                    - link "Wearables" [ref=e1062] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+              - generic [ref=e1065]:
+                - heading "News" [level=2] [ref=e1066]:
+                  - generic [ref=e1067]: News
+                - list [ref=e1068]:
+                  - listitem [ref=e1069]:
+                    - link "Meta for Developers" [ref=e1071] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                  - listitem [ref=e1072]:
+                    - link "Blog" [ref=e1074] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=e1075]:
+                    - link "Success stories" [ref=e1077] [cursor=pointer]:
+                      - /url: /success-stories/
+              - generic [ref=e1080]:
+                - heading "Support" [level=2] [ref=e1081]:
+                  - generic [ref=e1082]: Support
+                - list [ref=e1083]:
+                  - listitem [ref=e1084]:
+                    - link "Developer Support" [ref=e1086] [cursor=pointer]:
+                      - /url: /support/
+                  - listitem [ref=e1087]:
+                    - link "Bug tool" [ref=e1089] [cursor=pointer]:
+                      - /url: /support/bugs/
+                  - listitem [ref=e1090]:
+                    - link "Platform status" [ref=e1092] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                  - listitem [ref=e1093]:
+                    - link "Developer community forum" [ref=e1095] [cursor=pointer]:
+                      - /url: https://www.facebook.com/groups/fbdevelopers/
+                  - listitem [ref=e1096]:
+                    - link "Report an incident" [ref=e1098] [cursor=pointer]:
+                      - /url: /incident/report/
+              - generic [ref=e1101]:
+                - heading "About us" [level=2] [ref=e1102]:
+                  - generic [ref=e1103]: About us
+                - list [ref=e1104]:
+                  - listitem [ref=e1105]:
+                    - link "About" [ref=e1107] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AT6ItIJrBk0Vj39wbutRoZcZTTMX6LXBsbWk48u1jHf3JB9JyCqL5MJM_zxSWz3SqXKYLWKvyERV0u8_Z0pUpUdxFAp0YpDiK3hf_rPYv2uvTHgN9nwn5OKNcj6gqQVGjKAy9KYPocjCFXsXUeN1HownQjamKAW8XHBC2g
+                  - listitem [ref=e1108]:
+                    - link "Careers" [ref=e1110] [cursor=pointer]:
+                      - /url: https://www.facebook.com/careers
+              - generic [ref=e1113]:
+                - heading "Terms and policies" [level=2] [ref=e1114]:
+                  - generic [ref=e1115]: Terms and policies
+                - list [ref=e1116]:
+                  - listitem [ref=e1117]:
+                    - link "Responsible platform initiatives" [ref=e1119] [cursor=pointer]:
+                      - /url: /products/responsible-platform-initiatives/
+                  - listitem [ref=e1120]:
+                    - link "Platform terms" [ref=e1122] [cursor=pointer]:
+                      - /url: /terms/dfc_platform_terms/
+                  - listitem [ref=e1123]:
+                    - link "Developer policies" [ref=e1125] [cursor=pointer]:
+                      - /url: /devpolicy/
+                  - listitem [ref=e1126]:
+                    - link "Privacy policy" [ref=e1128] [cursor=pointer]:
+                      - /url: https://www.facebook.com/about/privacy
+                  - listitem [ref=e1129]:
+                    - link "Cookies" [ref=e1131] [cursor=pointer]:
+                      - /url: https://www.facebook.com/help/cookies
+          - button "Change language" [ref=e1136] [cursor=pointer]:
+            - generic [ref=e1138]: English (US)

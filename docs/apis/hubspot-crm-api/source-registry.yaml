@@ -1,0 +1,426 @@
+---
+# HubSpot CRM API — Source Registry
+# Synthesized from 6 research agents (round-1)
+# Date: 2026-03-18
+# Format: Authority/Recency/Objectivity/Methodology/Relevance scored 1-5
+
+sources:
+  - id: hs-docs-main
+    url: https://developers.hubspot.com/docs/api/overview
+    title: "HubSpot Developer Documentation — API Overview"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Primary source. Official HubSpot developer portal. Updated continuously."
+
+  - id: hs-docs-contacts
+    url: https://developers.hubspot.com/docs/api/crm/contacts
+    title: "HubSpot CRM Contacts API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Core contacts CRUD. Covered in Agent 1."
+
+  - id: hs-docs-companies
+    url: https://developers.hubspot.com/docs/api/crm/companies
+    title: "HubSpot CRM Companies API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Core companies CRUD. Covered in Agent 1."
+
+  - id: hs-docs-deals
+    url: https://developers.hubspot.com/docs/api/crm/deals
+    title: "HubSpot CRM Deals API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Core deals CRUD + pipeline stages. Covered in Agents 1 & 2."
+
+  - id: hs-docs-tickets
+    url: https://developers.hubspot.com/docs/api/crm/tickets
+    title: "HubSpot CRM Tickets API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite_score: 4.8
+    category: official-docs
+    notes: "Service Hub tickets. Covered in Agent 1."
+
+  - id: hs-docs-properties
+    url: https://developers.hubspot.com/docs/api/crm/properties
+    title: "HubSpot CRM Properties API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Custom + standard properties, all types. Covered in Agent 2."
+
+  - id: hs-docs-pipelines
+    url: https://developers.hubspot.com/docs/api/crm/pipelines
+    title: "HubSpot Pipelines API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Deal and ticket pipelines. Covered in Agent 2."
+
+  - id: hs-docs-associations-v4
+    url: https://developers.hubspot.com/docs/api/crm/associations
+    title: "HubSpot Associations API v4"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Primary associations reference. Covered in Agents 1 & 4."
+
+  - id: hs-docs-engagements
+    url: https://developers.hubspot.com/docs/api/crm/engagements
+    title: "HubSpot Engagements API (Notes, Tasks, Calls, Meetings, Emails)"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Full engagements reference. Covered in Agent 4."
+
+  - id: hs-docs-search
+    url: https://developers.hubspot.com/docs/api/crm/search
+    title: "HubSpot CRM Search API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Complete search spec including operators and pagination. Covered in Agents 1 & 5."
+
+  - id: hs-docs-webhooks
+    url: https://developers.hubspot.com/docs/api/webhooks
+    title: "HubSpot Webhooks API v3"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Webhook setup, event types, HMAC. Covered in Agents 3 & 6."
+
+  - id: hs-docs-webhooks-v4
+    url: https://developers.hubspot.com/docs/api/webhooks/v4
+    title: "HubSpot Webhooks Journal API v4 (Beta)"
+    authority: 5
+    recency: 4
+    objectivity: 5
+    methodology: 4
+    relevance: 4
+    composite_score: 4.4
+    category: official-docs
+    notes: "Beta API — partial coverage. Covered in Agent 3."
+
+  - id: hs-docs-oauth
+    url: https://developers.hubspot.com/docs/api/oauth-quickstart-guide
+    title: "HubSpot OAuth 2.0 Quickstart Guide"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "OAuth flow reference. Covered in Agent 1."
+
+  - id: hs-docs-private-apps
+    url: https://developers.hubspot.com/docs/api/private-apps
+    title: "HubSpot Private Apps Documentation"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Recommended auth method. Covered in Agent 1."
+
+  - id: hs-docs-custom-objects
+    url: https://developers.hubspot.com/docs/api/crm/crm-custom-objects
+    title: "HubSpot CRM Custom Objects API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Full custom object schema lifecycle. Covered in Agents 2 & 6."
+
+  - id: hs-docs-schemas
+    url: https://developers.hubspot.com/docs/api/crm/crm-custom-objects#schema
+    title: "HubSpot CRM Object Schemas"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite_score: 4.8
+    category: official-docs
+    notes: "Schema definition and metadata. Covered in Agent 2."
+
+  - id: hs-docs-import
+    url: https://developers.hubspot.com/docs/api/crm/imports
+    title: "HubSpot Import API"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite_score: 4.8
+    category: official-docs
+    notes: "Bulk CSV import. Covered in Agent 6."
+
+  - id: hs-docs-lists
+    url: https://developers.hubspot.com/docs/api/crm/lists
+    title: "HubSpot Lists API (ILS v3)"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite_score: 4.8
+    category: official-docs
+    notes: "Dynamic/static/manual lists. Covered in Agent 6."
+
+  - id: hs-docs-timeline-events
+    url: https://developers.hubspot.com/docs/api/crm/timeline-events
+    title: "HubSpot Timeline Events API (CRM Extensions)"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite_score: 4.8
+    category: official-docs
+    notes: "Custom timeline event types. Covered in Agents 4 & 6."
+
+  - id: hs-docs-workflow-extensions
+    url: https://developers.hubspot.com/docs/api/automation/custom-workflow-actions
+    title: "HubSpot Workflow Extensions — Custom Actions"
+    authority: 5
+    recency: 4
+    objectivity: 5
+    methodology: 4
+    relevance: 4
+    composite_score: 4.4
+    category: official-docs
+    notes: "Workflow custom action setup. Covered in Agent 6."
+
+  - id: hs-docs-ui-extensions
+    url: https://developers.hubspot.com/docs/guides/crm-cards/ui-extensions
+    title: "HubSpot CRM UI Extensions"
+    authority: 5
+    recency: 4
+    objectivity: 5
+    methodology: 4
+    relevance: 3
+    composite_score: 4.2
+    category: official-docs
+    notes: "React-based CRM cards. Partially covered in Agent 6."
+
+  - id: hs-docs-rate-limits
+    url: https://developers.hubspot.com/docs/api/usage-details
+    title: "HubSpot API Usage Details & Rate Limits"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Plan-tier limits, headers, 429 structure. Covered in Agents 1, 3 & 6."
+
+  - id: hs-docs-scopes
+    url: https://developers.hubspot.com/docs/api/working-with-oauth#scopes
+    title: "HubSpot OAuth Scopes Reference"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Full scopes list. Covered in Agent 1."
+
+  - id: hs-github-python-sdk
+    url: https://github.com/HubSpot/hubspot-api-python
+    title: "HubSpot API Python Client (GitHub)"
+    authority: 5
+    recency: 5
+    objectivity: 4
+    methodology: 4
+    relevance: 5
+    composite_score: 4.6
+    category: official-sdk
+    notes: "Official Python SDK v12. Covered in Agent 6."
+
+  - id: hs-github-nodejs-sdk
+    url: https://github.com/HubSpot/hubspot-api-nodejs
+    title: "HubSpot API Node.js Client (GitHub)"
+    authority: 5
+    recency: 5
+    objectivity: 4
+    methodology: 4
+    relevance: 5
+    composite_score: 4.6
+    category: official-sdk
+    notes: "Official Node.js SDK v13.4. Covered in Agent 6."
+
+  - id: hs-pypi-sdk
+    url: https://pypi.org/project/hubspot-api-client/
+    title: "hubspot-api-client on PyPI"
+    authority: 4
+    recency: 5
+    objectivity: 4
+    methodology: 4
+    relevance: 4
+    composite_score: 4.2
+    category: package-registry
+    notes: "Python package metadata, version history. Covered in Agent 6."
+
+  - id: hs-npm-sdk
+    url: https://www.npmjs.com/package/@hubspot/api-client
+    title: "@hubspot/api-client on npm"
+    authority: 4
+    recency: 5
+    objectivity: 4
+    methodology: 4
+    relevance: 4
+    composite_score: 4.2
+    category: package-registry
+    notes: "Node.js package metadata. Covered in Agent 6."
+
+  - id: hookdeck-hs-webhooks
+    url: https://hookdeck.com/webhooks/platforms/how-to-implement-hubspot-webhooks
+    title: "Hookdeck: How to Implement HubSpot Webhooks"
+    authority: 3
+    recency: 4
+    objectivity: 3
+    methodology: 4
+    relevance: 5
+    composite_score: 3.8
+    category: third-party-tutorial
+    notes: "Good practical guide for webhook testing. Covered in Agent 3."
+
+  - id: hs-community-search-limits
+    url: https://community.hubspot.com/t5/APIs-Integrations/CRM-Search-API-10000-record-limit/td-p/
+    title: "HubSpot Community: CRM Search API 10,000 record limit discussion"
+    authority: 3
+    recency: 3
+    objectivity: 3
+    methodology: 3
+    relevance: 4
+    composite_score: 3.2
+    category: community
+    notes: "User discussion on 10K workarounds. Referenced in Agent 5."
+
+  - id: agentsapis-hs
+    url: https://agentsapis.com/hubspot-api-agent-patterns
+    title: "AI Agent Patterns for HubSpot API"
+    authority: 3
+    recency: 4
+    objectivity: 3
+    methodology: 3
+    relevance: 5
+    composite_score: 3.6
+    category: third-party-article
+    notes: "AI agent integration patterns. Referenced in Agent 5."
+
+  - id: insightsalesglobal-hs
+    url: https://insightsalesglobal.com/hubspot-api-automation
+    title: "InsightSalesGlobal: HubSpot API Automation Patterns"
+    authority: 2
+    recency: 3
+    objectivity: 3
+    methodology: 3
+    relevance: 4
+    composite_score: 3.0
+    category: third-party-article
+    notes: "Sales automation patterns. Referenced in Agent 5."
+
+  - id: aiagentlearn-hs
+    url: https://aiagentlearn.site/hubspot-crm-api-integration
+    title: "AI Agent Learn: HubSpot CRM API Integration"
+    authority: 2
+    recency: 3
+    objectivity: 3
+    methodology: 3
+    relevance: 4
+    composite_score: 3.0
+    category: third-party-article
+    notes: "AI integration guide. Referenced in Agent 5."
+
+  - id: hs-changelog
+    url: https://developers.hubspot.com/changelog
+    title: "HubSpot Developer Changelog"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 4
+    relevance: 4
+    composite_score: 4.6
+    category: official-docs
+    notes: "API versioning and deprecation notices. Referenced in Agent 3."
+
+  - id: hs-docs-pipeline-audit
+    url: https://developers.hubspot.com/docs/api/crm/pipelines#pipeline-audit-logs
+    title: "HubSpot Pipeline Audit Logs API"
+    authority: 5
+    recency: 4
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite_score: 4.6
+    category: official-docs
+    notes: "Audit log endpoints. Covered in Agent 2."
+
+  - id: hs-docs-batch-operations
+    url: https://developers.hubspot.com/docs/api/crm/batch-operations
+    title: "HubSpot CRM Batch Operations Reference"
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite_score: 5.0
+    category: official-docs
+    notes: "Batch create/update/read/archive for all object types. Covered in Agents 4, 5 & 6."

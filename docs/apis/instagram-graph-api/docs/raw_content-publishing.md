@@ -1,0 +1,730 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e462]:
+      - generic [ref=e463]:
+        - link "Meta logo" [ref=e465] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "Meta logo" [ref=e467]
+        - tablist [ref=e476]:
+          - tab "Docs" [selected] [ref=e477] [cursor=pointer]:
+            - generic [ref=e480]: Docs
+          - tab "Tools" [ref=e482] [cursor=pointer]:
+            - generic [ref=e485]: Tools
+          - tab "Support" [ref=e487] [cursor=pointer]:
+            - generic [ref=e490]: Support
+      - generic [ref=e492]:
+        - generic [ref=e493]:
+          - generic [ref=e499]: Search input
+          - textbox "Search input" [ref=e510]:
+            - /placeholder: Search...
+        - link "Login" [ref=e511] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?is_work_accounts=true&login_options[0]=FB&login_options[1]=SSO&config_ref=biz_login_tool_flavor_dfc&app=436761779744620&next=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-platform%2Fcontent-publishing%3Fnav_ref%3Dbiz_unified_f3_login_page_to_dfc
+          - generic [ref=e514]: Login
+    - generic [ref=e15]:
+      - navigation "Breadcrumb" [ref=e19]:
+        - generic [ref=e20]:
+          - link "Docs" [ref=e21] [cursor=pointer]:
+            - /url: /docs/
+            - heading "Docs" [level=3] [ref=e22]
+          - link "Instagram Platform" [ref=e24] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+            - heading "Instagram Platform" [level=3] [ref=e25]
+          - link "Publish Content" [ref=e27] [cursor=pointer]:
+            - /url: /docs/instagram-platform/content-publishing
+            - heading "Publish Content" [level=3] [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e662]:
+          - link "Instagram Platform" [ref=e664] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+          - list [ref=e665]:
+            - listitem [ref=e666]:
+              - link "Overview" [ref=e667] [cursor=pointer]:
+                - /url: /docs/instagram-platform/overview
+            - listitem [ref=e668]:
+              - link "Webhooks" [ref=e669] [cursor=pointer]:
+                - /url: /docs/instagram-platform/webhooks
+            - listitem [ref=e670]:
+              - link "Create an App" [ref=e671] [cursor=pointer]:
+                - /url: /docs/instagram-platform/create-an-instagram-app
+            - listitem [ref=e672]:
+              - link "Instagram API with Instagram Login" [ref=e673] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-instagram-login
+            - listitem [ref=e674]:
+              - link "Instagram API with Facebook Login" [ref=e675] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-facebook-login
+            - listitem [ref=e676]:
+              - link "Publish Content" [ref=e677] [cursor=pointer]:
+                - /url: /docs/instagram-platform/content-publishing
+              - list [ref=e679]:
+                - listitem [ref=e680]:
+                  - link "Resumable Uploads" [ref=e681] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/content-publishing/resumable-uploads
+            - listitem [ref=e682]:
+              - link "Comment Moderation" [ref=e683] [cursor=pointer]:
+                - /url: /docs/instagram-platform/comment-moderation
+            - listitem [ref=e684]:
+              - link "Private Replies" [ref=e685] [cursor=pointer]:
+                - /url: /docs/instagram-platform/private-replies
+            - listitem [ref=e686]:
+              - link "Insights" [ref=e687] [cursor=pointer]:
+                - /url: /docs/instagram-platform/insights
+            - listitem [ref=e688]:
+              - link "Sharing to Feed" [ref=e689] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-feed
+            - listitem [ref=e690]:
+              - link "Sharing to Stories" [ref=e691] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-stories
+            - listitem [ref=e692]:
+              - link "oEmbed" [ref=e693] [cursor=pointer]:
+                - /url: /docs/instagram-platform/oembed
+            - listitem [ref=e694]:
+              - link "Embed Button" [ref=e695] [cursor=pointer]:
+                - /url: /docs/instagram-platform/embed-button
+            - listitem [ref=e696]:
+              - link "Self Messaging" [ref=e697] [cursor=pointer]:
+                - /url: /docs/instagram-platform/self-messaging
+            - listitem [ref=e698]:
+              - link "API Reference" [ref=e699] [cursor=pointer]:
+                - /url: /docs/instagram-platform/reference
+            - listitem [ref=e700]:
+              - link "App Review" [ref=e701] [cursor=pointer]:
+                - /url: /docs/instagram-platform/app-review
+            - listitem [ref=e702]:
+              - link "Support" [ref=e703] [cursor=pointer]:
+                - /url: /docs/instagram-platform/support
+            - listitem [ref=e704]:
+              - link "Changelog" [ref=e705] [cursor=pointer]:
+                - /url: /docs/instagram-platform/changelog
+        - generic [ref=e79]:
+          - generic [ref=e81]:
+            - generic [ref=e83]:
+              - heading "Content Publishing" [level=1] [ref=e84]
+              - paragraph [ref=e85]: This guide shows you how to publish single images, videos, reels (single media posts), or posts containing multiple images and videos (carousel posts) on Instagram professional accounts using the Instagram Platform.
+              - paragraph [ref=e89]:
+                - text: On March 24, 2025, we introduced the new
+                - code [ref=e90]: alt_text
+                - text: field for image posts on the
+                - code [ref=e91]: /<INSTAGRAM_PROFESSIONAL_ACCOUNT_ID>/media
+                - text: endpoint. Reels and stories are not supported.
+              - heading "Requirements" [level=2] [ref=e92]
+              - paragraph [ref=e95]:
+                - text: This guide assumes you have read the
+                - link "Instagram Platform Overview" [ref=e96] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/instagram-platform/overview
+                - text: and implemented the needed components for using this API, such as a Meta login flow and a webhooks server to receive notifications.
+              - heading "Media on a public server" [level=4] [ref=e97]
+              - paragraph [ref=e98]: We cURL media used in publishing attempts, so the media must be hosted on a publicly accessible server at the time of the attempt.
+              - heading "Page Publishing Authorization" [level=4] [ref=e99]
+              - paragraph [ref=e100]:
+                - text: An Instagram professional account connected to a
+                - link "Page" [ref=e101] [cursor=pointer]:
+                  - /url: /docs/instagram-api/overview#pages
+                - text: that requires
+                - link "Page Publishing Authorization" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.facebook.com/business/m/one-sheeters/page-publishing-authorization
+                - text: (PPA) cannot be published to until PPA has been completed.
+              - paragraph [ref=e103]:
+                - text: It's possible that an app user may be able to perform
+                - link "Tasks" [ref=e104] [cursor=pointer]:
+                  - /url: /docs/instagram-api/overview#tasks
+                - text: on a Page that initially does not require PPA but later requires it. In this scenario, the app user would not be able to publish content to their Instagram professional account until completing PPA. Since there's no way for you to determine if an app user's Page requires PPA, we recommend that you advise app users to preemptively complete PPA.
+              - paragraph [ref=e105]: "You will need the following:"
+              - table [ref=e109]:
+                - rowgroup [ref=e110]:
+                  - row "Instagram API with Instagram Login Instagram API with Facebook Login" [ref=e111]:
+                    - columnheader [ref=e112]
+                    - columnheader "Instagram API with Instagram Login" [ref=e113]
+                    - columnheader "Instagram API with Facebook Login" [ref=e114]
+                - rowgroup [ref=e115]:
+                  - row "Access Levels Advanced Access Standard Access Advanced Access Standard Access" [ref=e116]:
+                    - cell "Access Levels" [ref=e117]:
+                      - paragraph [ref=e118]:
+                        - strong [ref=e119]: Access Levels
+                    - cell "Advanced Access Standard Access" [ref=e120]:
+                      - list [ref=e121]:
+                        - listitem [ref=e122]: Advanced Access
+                        - listitem [ref=e123]: Standard Access
+                    - cell "Advanced Access Standard Access" [ref=e124]:
+                      - list [ref=e125]:
+                        - listitem [ref=e126]: Advanced Access
+                        - listitem [ref=e127]: Standard Access
+                  - row "Access Tokens Instagram User access token Facebook Page access token" [ref=e128]:
+                    - cell "Access Tokens" [ref=e129]:
+                      - paragraph [ref=e130]:
+                        - strong [ref=e131]: Access Tokens
+                    - cell "Instagram User access token" [ref=e132]:
+                      - list [ref=e133]:
+                        - listitem [ref=e134]: Instagram User access token
+                    - cell "Facebook Page access token" [ref=e135]:
+                      - list [ref=e136]:
+                        - listitem [ref=e137]: Facebook Page access token
+                  - row "Host URL graph.instagram.com graph.facebook.com rupload.facebook.com (For resumable video uploads)" [ref=e138]:
+                    - cell "Host URL" [ref=e139]:
+                      - paragraph [ref=e140]:
+                        - strong [ref=e141]: Host URL
+                    - cell "graph.instagram.com" [ref=e142]:
+                      - paragraph [ref=e143]:
+                        - code [ref=e144]: graph.instagram.com
+                    - cell "graph.facebook.com rupload.facebook.com (For resumable video uploads)" [ref=e145]:
+                      - paragraph [ref=e146]:
+                        - code [ref=e147]: graph.facebook.com
+                        - code [ref=e148]: rupload.facebook.com
+                        - text: (For resumable video uploads)
+                  - row "Login Type Business Login for Instagram Facebook Login for Business" [ref=e149]:
+                    - cell "Login Type" [ref=e150]:
+                      - paragraph [ref=e151]:
+                        - strong [ref=e152]: Login Type
+                    - cell "Business Login for Instagram" [ref=e153]:
+                      - paragraph [ref=e154]: Business Login for Instagram
+                    - cell "Facebook Login for Business" [ref=e155]:
+                      - paragraph [ref=e156]: Facebook Login for Business
+                  - 'row "Permissions instagram_business_basic instagram_business_content_publish instagram_basic instagram_content_publish pages_read_engagement If the app user was granted a role on the Page connected to your app user''s Instagram professional account via the Business Manager, your app will also need: ads_management ads_read" [ref=e157]':
+                    - cell "Permissions" [ref=e158]:
+                      - link "Permissions" [ref=e159] [cursor=pointer]:
+                        - /url: /docs/permissions/reference#i
+                    - cell "instagram_business_basic instagram_business_content_publish" [ref=e160]:
+                      - list [ref=e161]:
+                        - listitem [ref=e162]:
+                          - code [ref=e163]: instagram_business_basic
+                        - listitem [ref=e164]:
+                          - code [ref=e165]: instagram_business_content_publish
+                    - 'cell "instagram_basic instagram_content_publish pages_read_engagement If the app user was granted a role on the Page connected to your app user''s Instagram professional account via the Business Manager, your app will also need: ads_management ads_read" [ref=e166]':
+                      - list [ref=e167]:
+                        - listitem [ref=e168]:
+                          - code [ref=e169]: instagram_basic
+                        - listitem [ref=e170]:
+                          - code [ref=e171]: instagram_content_publish
+                        - listitem [ref=e172]:
+                          - code [ref=e173]: pages_read_engagement
+                      - paragraph [ref=e174]:
+                        - text: If the app user was granted a role on the
+                        - link "Page" [ref=e175] [cursor=pointer]:
+                          - /url: /docs/instagram-api/overview#pages
+                        - text: "connected to your app user's Instagram professional account via the Business Manager, your app will also need:"
+                      - list [ref=e176]:
+                        - listitem [ref=e177]:
+                          - code [ref=e178]: ads_management
+                        - listitem [ref=e179]:
+                          - code [ref=e180]: ads_read
+                  - row "Webhooks" [ref=e181]:
+                    - cell "Webhooks" [ref=e182]:
+                      - paragraph [ref=e183]:
+                        - strong [ref=e184]: Webhooks
+                    - cell [ref=e185]
+                    - cell [ref=e186]
+              - heading "Endpoints" [level=4] [ref=e187]
+              - list [ref=e188]:
+                - listitem [ref=e189]:
+                  - link "/<IG_ID>/media" [ref=e190] [cursor=pointer]:
+                    - /url: /docs/instagram-api/reference/ig-user/media#creating
+                    - code [ref=e191]: /<IG_ID>/media
+                  - text: — Create media container and upload the media
+                  - list [ref=e192]:
+                    - listitem [ref=e193]:
+                      - code [ref=e194]: upload_type=resumable
+                      - text: — Create a resumbable upload session to upload large videos from an area with frequent network interruptions or other transmission failures. Only for apps that have implemented Facebook Login for Business.
+                - listitem [ref=e195]:
+                  - link "/<IG_ID>/media_publish" [ref=e196] [cursor=pointer]:
+                    - /url: /docs/instagram-api/reference/ig-user/media_publish#creating
+                    - code [ref=e197]: /<IG_ID>/media_publish
+                  - text: — publish uploaded media using their media containers.
+                - listitem [ref=e198]:
+                  - link "/<IG_CONTAINER_ID>?fields=status_code" [ref=e199] [cursor=pointer]:
+                    - /url: /docs/instagram-api/reference/ig-container#reading
+                    - code [ref=e200]: /<IG_CONTAINER_ID>?fields=status_code
+                  - text: — check media container publishing eligibility and status.
+                - listitem [ref=e201]:
+                  - paragraph [ref=e202]:
+                    - link "/<IG_ID>/content_publishing_limit" [ref=e203] [cursor=pointer]:
+                      - /url: /docs/instagram-api/reference/ig-user/content_publishing_limit
+                      - code [ref=e204]: /<IG_ID>/content_publishing_limit
+                    - text: — check app user's current publishing rate limit usage.
+                - listitem [ref=e205]:
+                  - paragraph [ref=e206]:
+                    - code [ref=e207]: POST https://rupload.facebook.com/ig-api-upload/<IG_MEDIA_CONTAINER_ID>
+                    - text: — Upload the video to Meta servers
+                - listitem [ref=e208]:
+                  - paragraph [ref=e209]:
+                    - code [ref=e210]: GET /<IG_MEDIA_CONTAINER_ID>?fields=status_code
+                    - text: — Check publishing eligibility and status of the video
+              - heading "HTML URL encoding troubleshooting" [level=4] [ref=e211]
+              - list [ref=e212]:
+                - listitem [ref=e213]: Some of the parameters are supported in list/dict format.
+                - listitem [ref=e214]:
+                  - text: "Some characters need to be encoded into a format that can be transmitted over the Internet. For example:"
+                  - code [ref=e215]: "user_tags=[{username:’ig_user_name’}]"
+                  - text: is encoded to
+                  - code [ref=e216]: user_tags=%5B%7Busername:ig_user_name%7D%5D
+                  - text: where
+                  - code [ref=e217]: "["
+                  - text: is encoded to
+                  - code [ref=e218]: "%5B"
+                  - text: and
+                  - code [ref=e219]: "{"
+                  - text: is encoded to
+                  - code [ref=e220]: "%7B"
+                  - text: . For more conversions, please refer to the HTML URL Encoding standard.
+              - heading "Limitations" [level=3] [ref=e221]
+              - list [ref=e222]:
+                - listitem [ref=e223]: JPEG is the only image format supported. Extended JPEG formats such as MPO and JPS are not supported.
+                - listitem [ref=e224]: Shopping tags are not supported.
+                - listitem [ref=e225]: Branded content tags are not supported.
+                - listitem [ref=e226]: Filters are not supported.
+              - paragraph [ref=e227]: For additional limitations, see each endpoint's reference.
+              - heading "Rate Limit" [level=4] [ref=e228]
+              - paragraph [ref=e229]:
+                - text: Instagram accounts are limited to 100 API-published posts within a 24-hour moving period. Carousels count as a single post. This limit is enforced on the
+                - code [ref=e230]: POST /<IG_ID>/media_publish
+                - text: endpoint when attempting to publish a media container. We recommend that your app also enforce the publishing rate limit, especially if your app allows app users to schedule posts to be published in the future.
+              - paragraph [ref=e231]:
+                - text: To check an Instagram professional account's current rate limit usage, query the
+                - code [ref=e232]: GET /<IG_ID>/content_publishing_limit
+                - text: endpoint.
+            - generic [ref=e234]:
+              - heading "Create a container" [level=2] [ref=e235]
+              - table [ref=e236]:
+                - rowgroup [ref=e237]:
+                  - 'row "In order to publish a media object, it must have a container. To create the media container and upload a media file, send a POST request to the /<IG_ID>/media endpoint with the following parameters: access_token – Set to your app user''s access token image_url or video_url – Set to the path of the image or video. We will cURL your image using the passed in URL so it must be on a public server. media_type — If the container will be for a video, set to VIDEO, REELS, or STORIES. is_carousel_item – If the media will be part of a carousel, set to true upload_type – Set to resumable, if creating a resumable upload session for a large video file Visit the Instagram User Media Endpoint Reference for additional optional parameters." [ref=e238]':
+                    - 'cell "In order to publish a media object, it must have a container. To create the media container and upload a media file, send a POST request to the /<IG_ID>/media endpoint with the following parameters: access_token – Set to your app user''s access token image_url or video_url – Set to the path of the image or video. We will cURL your image using the passed in URL so it must be on a public server. media_type — If the container will be for a video, set to VIDEO, REELS, or STORIES. is_carousel_item – If the media will be part of a carousel, set to true upload_type – Set to resumable, if creating a resumable upload session for a large video file Visit the Instagram User Media Endpoint Reference for additional optional parameters." [ref=e239]':
+                      - paragraph [ref=e240]:
+                        - text: In order to publish a media object, it must have a container. To create the media container and upload a media file, send a
+                        - code [ref=e241]: POST
+                        - text: request to the
+                        - code [ref=e242]: /<IG_ID>/media
+                        - text: "endpoint with the following parameters:"
+                      - list [ref=e243]:
+                        - listitem [ref=e244]:
+                          - code [ref=e245]: access_token
+                          - text: – Set to your app user's access token
+                        - listitem [ref=e246]:
+                          - code [ref=e247]: image_url
+                          - text: or
+                          - code [ref=e248]: video_url
+                          - text: – Set to the path of the image or video. We will cURL your image using the passed in URL so it must be on a public server.
+                        - listitem [ref=e249]:
+                          - code [ref=e250]: media_type
+                          - text: — If the container will be for a video, set to
+                          - code [ref=e251]: VIDEO
+                          - text: ","
+                          - code [ref=e252]: REELS
+                          - text: ", or"
+                          - code [ref=e253]: STORIES
+                          - text: .
+                        - listitem [ref=e254]:
+                          - code [ref=e255]: is_carousel_item
+                          - text: – If the media will be part of a carousel, set to
+                          - code [ref=e256]: "true"
+                        - listitem [ref=e257]:
+                          - code [ref=e258]: upload_type
+                          - text: – Set to
+                          - code [ref=e259]: resumable
+                          - text: ", if creating a resumable upload session for a large video file"
+                      - paragraph [ref=e260]:
+                        - text: Visit the
+                        - link "Instagram User Media Endpoint Reference" [ref=e261] [cursor=pointer]:
+                          - /url: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#query-string-parameters
+                        - text: for additional optional parameters.
+                    - cell [ref=e262]
+              - heading "Example Request" [level=4] [ref=e263]
+              - paragraph [ref=e264]:
+                - emphasis [ref=e265]: Formatted for readability.
+              - generic [ref=e266]: "curl -X POST \"https://<HOST_URL>/<LATEST_API_VERSION>/<IG_ID>/media\" -H \"Content-Type: application/json\" -H \"Authorization: Bearer <ACCESS_TOKEN>\" -d '{ \"image_url\":\"https://www.example.com/images/bronz-fonz.jpg\" }'"
+              - paragraph [ref=e267]: On success, your app receives a JSON response with the Instagram Container ID.
+              - generic [ref=e268]: "{ \"id\": \"<IG_CONTAINER_ID>\" }"
+              - heading "Create a carousel container" [level=3] [ref=e269]
+              - table [ref=e270]:
+                - rowgroup [ref=e271]:
+                  - 'row "To publish up to 10 images, videos, or a combination of the two, in a single post, a carousel post, you must create a carousel container. This carousel containter will contain a list of all media containers. To create the carousel container, send a POST request to the /<IG_ID>/media endpoint with the following parameters: media_type — Set to CAROUSEL. Indicates that the container is for a carousel. children — A comma separated list of up to 10 container IDs of each image and video that should appear in the published carousel." [ref=e272]':
+                    - 'cell "To publish up to 10 images, videos, or a combination of the two, in a single post, a carousel post, you must create a carousel container. This carousel containter will contain a list of all media containers. To create the carousel container, send a POST request to the /<IG_ID>/media endpoint with the following parameters: media_type — Set to CAROUSEL. Indicates that the container is for a carousel. children — A comma separated list of up to 10 container IDs of each image and video that should appear in the published carousel." [ref=e273]':
+                      - paragraph [ref=e274]: To publish up to 10 images, videos, or a combination of the two, in a single post, a carousel post, you must create a carousel container. This carousel containter will contain a list of all media containers.
+                      - paragraph [ref=e275]:
+                        - text: To create the carousel container, send a
+                        - code [ref=e276]: POST
+                        - text: request to the
+                        - code [ref=e277]: /<IG_ID>/media
+                        - text: "endpoint with the following parameters:"
+                      - list [ref=e278]:
+                        - listitem [ref=e279]:
+                          - code [ref=e280]: media_type
+                          - text: — Set to
+                          - code [ref=e281]: CAROUSEL
+                          - text: . Indicates that the container is for a carousel.
+                        - listitem [ref=e282]:
+                          - code [ref=e283]: children
+                          - text: — A comma separated list of up to 10 container IDs of each image and video that should appear in the published carousel.
+                    - cell [ref=e284]
+              - heading "Limitations" [level=4] [ref=e285]
+              - list [ref=e286]:
+                - listitem [ref=e287]: Carousels are limited to 10 images, videos, or a mix of the two.
+                - listitem [ref=e288]: Carousel images are all cropped based on the first image in the carousel, with the default being a 1:1 aspect ratio.
+                - listitem [ref=e289]: Accounts are limited to 50 published posts within a 24-hour period. Publishing a carousel counts as a single post.
+              - heading "Example Request" [level=4] [ref=e290]
+              - paragraph [ref=e291]:
+                - emphasis [ref=e292]: Formatted for readability.
+              - generic [ref=e293]:
+                - text: curl -X POST "https://graph.instagram.com/
+                - code [ref=e294]: v25.0
+                - text: "/90010177253934/media\" -H \"Content-Type: application/json\" -d '{ \"caption\":\"Fruit%20candies\" \"media_type\":\"CAROUSEL\" \"children\":\"<IG_CONTAINER_ID_1>,<IG_CONTAINER_ID_2>,<IG_CONTAINER_ID_3>\" }'"
+              - paragraph [ref=e295]: On success, your app receives a JSON response with the Instagram Carousel Container ID.
+              - generic [ref=e296]: "{ \"id\": \"<IG_CAROUSEL_CONTAINER_ID>\" }"
+              - link [ref=e297] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e300]:
+              - heading "Resumable Upload Session" [level=2] [ref=e301]
+              - paragraph [ref=e302]: If you created a container for a resumable video upload in Step 1, your need to upload the video before it can be published.
+              - paragraph [ref=e303]:
+                - text: Most API calls use the
+                - code [ref=e304]: graph.facebook.com
+                - text: host however, calls to upload videos for Reels use
+                - code [ref=e305]: rupload.facebook.com
+                - text: .
+              - paragraph [ref=e306]: "The following file sources are supported for uploaded video files:"
+              - list [ref=e307]:
+                - listitem [ref=e308]: A file located on your computer
+                - listitem [ref=e309]: A file hosted on a public facing server, such as a CDN
+              - paragraph [ref=e310]:
+                - text: To start the upload session, send a
+                - code [ref=e311]: POST
+                - text: request to the
+                - code [ref=e312]: /<IG_MEDIA_CONTAINER_ID
+                - text: endpoint on the
+                - code [ref=e313]: rupload.facebook.com
+                - text: "host with the following parameters:"
+              - list [ref=e314]:
+                - listitem [ref=e315]:
+                  - code [ref=e316]: access_token
+                - listitem [ref=e317]
+              - heading "Sample request upload a local video file" [level=4] [ref=e318]
+              - paragraph [ref=e319]:
+                - text: With the
+                - code [ref=e320]: ig-container-id
+                - text: returned from a resumable upload session call, upload the video.
+              - list [ref=e321]:
+                - listitem [ref=e322]:
+                  - text: Be sure the host is
+                  - code [ref=e323]: rupload.facebook.com
+                  - text: .
+                - listitem [ref=e324]:
+                  - text: All
+                  - code [ref=e325]: media_type
+                  - text: shares the same flow to upload the video.
+                - listitem [ref=e326]:
+                  - code [ref=e327]: ig-container-id
+                  - text: is the ID returned from resumable upload session calls.
+                - listitem [ref=e328]:
+                  - code [ref=e329]: access-token
+                  - text: is the same one used in previous steps.
+                - listitem [ref=e330]:
+                  - code [ref=e331]: offset
+                  - text: is set to the first byte being upload, generally
+                  - code [ref=e332]: "0"
+                  - text: .
+                - listitem [ref=e333]:
+                  - code [ref=e334]: file_size
+                  - text: is set to the size of your file in bytes.
+                - listitem [ref=e335]:
+                  - code [ref=e336]: Your_file_local_path
+                  - text: is set to the file path of your local file, for example, if uploading a file from, the
+                  - strong [ref=e337]: Downloads
+                  - text: folder on macOS, the path is
+                  - strong [ref=e338]: "@Downloads/example.mov"
+                  - text: .
+              - generic [ref=e339]: "curl -X POST \"https://rupload.facebook.com/ig-api-upload/<API_VERSION>/<IG_MEDIA_CONTAINER_ID>`\" \\ -H \"Authorization: OAuth <ACCESS_TOKEN>\" \\ -H \"offset: 0\" \\ -H \"file_size: Your_file_size_in_bytes\" \\ --data-binary \"@my_video_file.mp4\""
+              - heading "Sample request upload a public hosted video" [level=4] [ref=e340]
+              - generic [ref=e341]: "curl -X POST \"https://rupload.facebook.com/ig-api-upload/<API_VERSION>/<IG_MEDIA_CONTAINER_ID>`\" \\ -H \"Authorization: OAuth <ACCESS_TOKEN>\" \\ -H \"file_url: https://example_hosted_video.com\""
+              - heading "Sample Response" [level=4] [ref=e342]
+              - generic [ref=e343]: "// Success Response Message { \"success\":true, \"message\":\"Upload successful.\" } // Failure Response Message { \"debug_info\":{ \"retriable\":false, \"type\":\"ProcessingFailedError\", \"message\":\"{\\\"success\\\":false,\\\"error\\\":{\\\"message\\\":\\\"unauthorized user request\\\"}}\" } }"
+              - link [ref=e344] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e347]:
+              - heading "Publish the container" [level=2] [ref=e348]
+              - paragraph [ref=e349]: To publish the media,
+              - paragraph [ref=e350]:
+                - text: Send a
+                - code [ref=e351]: POST
+                - text: request to the
+                - code [ref=e352]: /<IG_ID>/media_publish
+                - text: "endpoint with the following parameters:"
+              - list [ref=e353]:
+                - listitem [ref=e354]:
+                  - code [ref=e355]: creation_id
+                  - text: set to the container ID, either for a single media container or a carousel container
+              - heading "Example Request" [level=4] [ref=e356]
+              - paragraph [ref=e357]:
+                - emphasis [ref=e358]: Formatted for readability.
+              - generic [ref=e359]: "curl -X POST \"https://<HOST_URL>/<LATEST_API_VERSION>/<IG_ID>/media_publish\" -H \"Content-Type: application/json\" -H \"Authorization: Bearer <ACCESS_TOKEN>\" -d '{ \"creation_id\":\"<IG_CONTAINER_ID>\" }'"
+              - paragraph [ref=e360]: On success, your app receives a JSON response with the Instagram Media ID.
+              - generic [ref=e361]: "{ \"id\": \"<IG_MEDIA_ID>\" }"
+              - link [ref=e362] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e365]:
+              - heading "Reels posts" [level=2] [ref=e366]
+              - paragraph [ref=e367]:
+                - text: Reels are short-form videos that appears in the
+                - strong [ref=e368]: Reels
+                - text: tab of the Instagram app. To publish a reel, create a container for the video and include the
+                - code [ref=e369]: media_type=REELS
+                - text: parameter along with the path to the video using the
+                - code [ref=e370]: video_url
+                - text: parameter.
+              - paragraph [ref=e371]:
+                - text: If you publish a reel and then request its
+                - code [ref=e372]: media_type
+                - text: field, the value returned is
+                - code [ref=e373]: VIDEO
+                - text: . To determine if a published video has been designated as a reel, request its
+                - code [ref=e374]: media_product_type
+                - text: field instead.
+              - paragraph [ref=e375]:
+                - text: You can use the
+                - link "code sample on GitHub (insta_reels_publishing_api_sample)" [ref=e376] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Ffbsamples%2Freels_publishing_apis%2Ftree%2Fmain%2Finsta_reels_publishing_api_sample&h=AT4pCCxXP5L9i2bWkWhaM-OiidGiCPWbOFdcu9-Ps78aiaEnhTCCfghiLAFpmMYMZw4j1FuYqbZ-lj3F30YSAZQgxgnnawxy8MLOKfiqLu_bMG_WlqZ8Md6ON6LSd8DGyHlnDf4kb4qDBCPBNdf4N8O2qgHVOS6d8Ree25vk8VkuxjnEJR0
+                - text: to learn how to publish Reels to Instagram.
+              - link [ref=e377] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e380]:
+              - heading "Trial Reels posts" [level=2] [ref=e381]
+              - paragraph [ref=e382]:
+                - text: Trial reels are reels that are only shared to non-followers. To publish a trial reel, create a container for the video and include a valid
+                - code [ref=e383]: trial_params
+                - text: parameter along with the parameters required to create reels.
+                - code [ref=e384]: trial_params
+                - text: "consists of the following fields:"
+              - table [ref=e386]:
+                - rowgroup [ref=e387]:
+                  - row "Field Name Description" [ref=e388]:
+                    - columnheader "Field Name" [ref=e389]
+                    - columnheader "Description" [ref=e390]
+                - rowgroup [ref=e391]:
+                  - 'row "graduation_strategy The graduation strategy specifies the conditions to graduate a reel (convert the trial reel to a reel, sharing it to followers). Possible values: MANUAL — The trial reel can be manually graduated in the native app. SS_PERFORMANCE — The trial reel will be automatically graduated if the trial reel performs well." [ref=e392]':
+                    - cell "graduation_strategy" [ref=e393]:
+                      - paragraph [ref=e394]:
+                        - code [ref=e395]: graduation_strategy
+                    - 'cell "The graduation strategy specifies the conditions to graduate a reel (convert the trial reel to a reel, sharing it to followers). Possible values: MANUAL — The trial reel can be manually graduated in the native app. SS_PERFORMANCE — The trial reel will be automatically graduated if the trial reel performs well." [ref=e396]':
+                      - paragraph [ref=e397]: "The graduation strategy specifies the conditions to graduate a reel (convert the trial reel to a reel, sharing it to followers). Possible values:"
+                      - list [ref=e398]:
+                        - listitem [ref=e399]:
+                          - code [ref=e400]: MANUAL
+                          - text: — The trial reel can be manually graduated in the native app.
+                        - listitem [ref=e401]:
+                          - code [ref=e402]: SS_PERFORMANCE
+                          - text: — The trial reel will be automatically graduated if the trial reel performs well.
+              - heading "Example Request" [level=4] [ref=e403]
+              - paragraph [ref=e404]:
+                - emphasis [ref=e405]: Formatted for readability.
+              - generic [ref=e406]:
+                - text: curl -X POST "https://graph.instagram.com/
+                - code [ref=e407]: v25.0
+                - text: "/90010177253934/media\" -H \"Content-Type: application/json\" -d '{ \"media_type\":\"REELS\" \"video_url\":\"https://www.example.com/videos/bronz-fonz.mp4\" \"trial_params\":{ “graduation_strategy”: “MANUAL” } }'"
+              - link [ref=e408] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e411]:
+              - heading "Story posts" [level=2] [ref=e412]
+              - paragraph [ref=e413]:
+                - text: To publish a reel, create a container for the media object and include the
+                - code [ref=e414]: media_type
+                - text: parameter set to
+                - code [ref=e415]: STORIES
+                - text: .
+              - paragraph [ref=e416]:
+                - text: If you publish a story and then request its
+                - code [ref=e417]: media_type
+                - text: field, the value will be returned as
+                - code [ref=e418]: IMAGE/VIDEO
+                - text: . To determine if a published image/video is a story, request its
+                - code [ref=e419]: media_product_type
+                - text: field instead.
+              - link [ref=e420] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e423]:
+              - heading "Troubleshooting" [level=2] [ref=e424]
+              - paragraph [ref=e425]:
+                - text: If you are able to create a container for a video but the
+                - code [ref=e426]: POST /<IG_ID>/media_publish
+                - text: endpoint does not return the published media ID, you can get the container's publishing status by querying the
+                - code [ref=e427]: GET /<IG_CONTAINER_ID>?fields=status_code
+                - text: "endpoint. This endpoint will return one of the following:"
+              - list [ref=e428]:
+                - listitem [ref=e429]:
+                  - code [ref=e430]: EXPIRED
+                  - text: — The container was not published within 24 hours and has expired.
+                - listitem [ref=e431]:
+                  - code [ref=e432]: ERROR
+                  - text: — The container failed to complete the publishing process.
+                - listitem [ref=e433]:
+                  - code [ref=e434]: FINISHED
+                  - text: — The container and its media object are ready to be published.
+                - listitem [ref=e435]:
+                  - code [ref=e436]: IN_PROGRESS
+                  - text: — The container is still in the publishing process.
+                - listitem [ref=e437]:
+                  - code [ref=e438]: PUBLISHED
+                  - text: — The container's media object has been published.
+              - paragraph [ref=e439]: We recommend querying a container's status once per minute, for no more than 5 minutes.
+              - link [ref=e440] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e443]:
+              - heading "Errors" [level=2] [ref=e444]
+              - paragraph [ref=e445]:
+                - text: See the
+                - link "Error Codes" [ref=e446] [cursor=pointer]:
+                  - /url: /docs/instagram-api/reference/error-codes
+                - text: reference.
+              - link [ref=e447] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e450]:
+              - heading "Next Steps" [level=2] [ref=e451]
+              - paragraph [ref=e452]:
+                - text: Now that you have published to an Instagram professional account, learn how to
+                - link "moderate comments on your media" [ref=e453] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/instagram/platform/instagram-api/comment-moderation
+                - text: .
+              - link [ref=e454] [cursor=pointer]:
+                - /url: "#"
+          - link [ref=e458] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e517]:
+          - generic [ref=e518]: On This Page
+          - link "Content Publishing" [ref=e520] [cursor=pointer]:
+            - /url: "#content-publishing"
+          - link "Requirements" [ref=e522] [cursor=pointer]:
+            - /url: "#requirements"
+          - link "Limitations" [ref=e526] [cursor=pointer]:
+            - /url: "#limitations"
+          - link "Create a container" [ref=e528] [cursor=pointer]:
+            - /url: "#create-a-container"
+          - link "Create a carousel container" [ref=e532] [cursor=pointer]:
+            - /url: "#create-a-carousel-container"
+          - link "Resumable Upload Session" [ref=e534] [cursor=pointer]:
+            - /url: "#resumable-upload-session"
+          - link "Publish the container" [ref=e536] [cursor=pointer]:
+            - /url: "#publish-the-container"
+          - link "Reels posts" [ref=e538] [cursor=pointer]:
+            - /url: "#reels-posts"
+          - link "Trial Reels posts" [ref=e540] [cursor=pointer]:
+            - /url: "#trial-reels-posts"
+          - link "Story posts" [ref=e542] [cursor=pointer]:
+            - /url: "#story-posts"
+          - link "Troubleshooting" [ref=e544] [cursor=pointer]:
+            - /url: "#troubleshooting"
+          - link "Errors" [ref=e546] [cursor=pointer]:
+            - /url: "#errors"
+          - link "Next Steps" [ref=e548] [cursor=pointer]:
+            - /url: "#next-steps"
+    - contentinfo [ref=e552]:
+      - generic [ref=e553]:
+        - separator [ref=e554]
+        - generic [ref=e556]:
+          - generic [ref=e558]:
+            - generic [ref=e560]:
+              - generic [ref=e561]:
+                - img "Meta"
+              - list [ref=e563]:
+                - listitem:
+                  - link "Facebook":
+                    - /url: https://www.facebook.com/MetaforDevelopers
+                    - img "Facebook"
+                - listitem:
+                  - link "Instagram":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                    - img "Instagram"
+                - listitem:
+                  - link "X":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                    - img "X"
+                - listitem:
+                  - link "LinkedIn":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                    - img "LinkedIn"
+                - listitem:
+                  - link "YouTube":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                    - img "YouTube"
+            - generic [ref=e565]:
+              - generic [ref=e568]:
+                - heading "Build with Meta" [level=2] [ref=e569]:
+                  - generic [ref=e570]: Build with Meta
+                - list [ref=e571]:
+                  - listitem [ref=e572]:
+                    - link "AI" [ref=e574] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                  - listitem [ref=e575]:
+                    - link "Meta Horizon" [ref=e577] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                  - listitem [ref=e578]:
+                    - link "Social technologies" [ref=e580] [cursor=pointer]:
+                      - /url: /social-technologies/
+                  - listitem [ref=e581]:
+                    - link "Wearables" [ref=e583] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+              - generic [ref=e586]:
+                - heading "News" [level=2] [ref=e587]:
+                  - generic [ref=e588]: News
+                - list [ref=e589]:
+                  - listitem [ref=e590]:
+                    - link "Meta for Developers" [ref=e592] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                  - listitem [ref=e593]:
+                    - link "Blog" [ref=e595] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=e596]:
+                    - link "Success stories" [ref=e598] [cursor=pointer]:
+                      - /url: /success-stories/
+              - generic [ref=e601]:
+                - heading "Support" [level=2] [ref=e602]:
+                  - generic [ref=e603]: Support
+                - list [ref=e604]:
+                  - listitem [ref=e605]:
+                    - link "Developer Support" [ref=e607] [cursor=pointer]:
+                      - /url: /support/
+                  - listitem [ref=e608]:
+                    - link "Bug tool" [ref=e610] [cursor=pointer]:
+                      - /url: /support/bugs/
+                  - listitem [ref=e611]:
+                    - link "Platform status" [ref=e613] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                  - listitem [ref=e614]:
+                    - link "Developer community forum" [ref=e616] [cursor=pointer]:
+                      - /url: https://www.facebook.com/groups/fbdevelopers/
+                  - listitem [ref=e617]:
+                    - link "Report an incident" [ref=e619] [cursor=pointer]:
+                      - /url: /incident/report/
+              - generic [ref=e622]:
+                - heading "About us" [level=2] [ref=e623]:
+                  - generic [ref=e624]: About us
+                - list [ref=e625]:
+                  - listitem [ref=e626]:
+                    - link "About" [ref=e628] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AT4MbVInb47pMp-6RS3TuNIThdwF0dnfds9SjdmruM7TZuM8Jx3FPSn4rirlG8vDfu1B_6LVSeckYee1rY5YwmFohx8ucXudEeKKm96C5j1Bt6izT5S_Hs49SCXPQo2go-PVKzMaqLjz_cVwNTWKiyBBtoOqorNssaYW2A
+                  - listitem [ref=e629]:
+                    - link "Careers" [ref=e631] [cursor=pointer]:
+                      - /url: https://www.facebook.com/careers
+              - generic [ref=e634]:
+                - heading "Terms and policies" [level=2] [ref=e635]:
+                  - generic [ref=e636]: Terms and policies
+                - list [ref=e637]:
+                  - listitem [ref=e638]:
+                    - link "Responsible platform initiatives" [ref=e640] [cursor=pointer]:
+                      - /url: /products/responsible-platform-initiatives/
+                  - listitem [ref=e641]:
+                    - link "Platform terms" [ref=e643] [cursor=pointer]:
+                      - /url: /terms/dfc_platform_terms/
+                  - listitem [ref=e644]:
+                    - link "Developer policies" [ref=e646] [cursor=pointer]:
+                      - /url: /devpolicy/
+                  - listitem [ref=e647]:
+                    - link "Privacy policy" [ref=e649] [cursor=pointer]:
+                      - /url: https://www.facebook.com/about/privacy
+                  - listitem [ref=e650]:
+                    - link "Cookies" [ref=e652] [cursor=pointer]:
+                      - /url: https://www.facebook.com/help/cookies
+          - button "Change language" [ref=e657] [cursor=pointer]:
+            - generic [ref=e659]: English (US)

@@ -1,0 +1,897 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e586]:
+      - generic [ref=e587]:
+        - link "Meta logo" [ref=e589] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "Meta logo" [ref=e591]
+        - tablist [ref=e600]:
+          - tab "Docs" [selected] [ref=e601] [cursor=pointer]:
+            - generic [ref=e604]: Docs
+          - tab "Tools" [ref=e606] [cursor=pointer]:
+            - generic [ref=e609]: Tools
+          - tab "Support" [ref=e611] [cursor=pointer]:
+            - generic [ref=e614]: Support
+      - generic [ref=e616]:
+        - generic [ref=e617]:
+          - generic [ref=e623]: Search input
+          - textbox "Search input" [ref=e634]:
+            - /placeholder: Search...
+        - link "Login" [ref=e635] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?is_work_accounts=true&login_options[0]=FB&login_options[1]=SSO&config_ref=biz_login_tool_flavor_dfc&app=436761779744620&next=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-platform%2Finstagram-graph-api%2Freference%2Fig-user%3Fnav_ref%3Dbiz_unified_f3_login_page_to_dfc
+          - generic [ref=e638]: Login
+    - generic [ref=e25]:
+      - navigation "Breadcrumb" [ref=e29]:
+        - generic [ref=e30]:
+          - link "Docs" [ref=e31] [cursor=pointer]:
+            - /url: /docs/
+            - heading "Docs" [level=3] [ref=e32]
+          - link "Instagram Platform" [ref=e34] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+            - heading "Instagram Platform" [level=3] [ref=e35]
+          - link "API Reference" [ref=e37] [cursor=pointer]:
+            - /url: /docs/instagram-platform/reference
+            - heading "API Reference" [level=3] [ref=e38]
+          - link "IG User" [ref=e40] [cursor=pointer]:
+            - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user
+            - heading "IG User" [level=3] [ref=e41]
+      - generic [ref=e42]:
+        - generic [ref=e640]:
+          - link "Instagram Platform" [ref=e642] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+          - list [ref=e643]:
+            - listitem [ref=e644]:
+              - link "Overview" [ref=e645] [cursor=pointer]:
+                - /url: /docs/instagram-platform/overview
+            - listitem [ref=e646]:
+              - link "Webhooks" [ref=e647] [cursor=pointer]:
+                - /url: /docs/instagram-platform/webhooks
+            - listitem [ref=e648]:
+              - link "Create an App" [ref=e649] [cursor=pointer]:
+                - /url: /docs/instagram-platform/create-an-instagram-app
+            - listitem [ref=e650]:
+              - link "Instagram API with Instagram Login" [ref=e651] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-instagram-login
+            - listitem [ref=e652]:
+              - link "Instagram API with Facebook Login" [ref=e653] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-facebook-login
+            - listitem [ref=e654]:
+              - link "Publish Content" [ref=e655] [cursor=pointer]:
+                - /url: /docs/instagram-platform/content-publishing
+            - listitem [ref=e656]:
+              - link "Comment Moderation" [ref=e657] [cursor=pointer]:
+                - /url: /docs/instagram-platform/comment-moderation
+            - listitem [ref=e658]:
+              - link "Private Replies" [ref=e659] [cursor=pointer]:
+                - /url: /docs/instagram-platform/private-replies
+            - listitem [ref=e660]:
+              - link "Insights" [ref=e661] [cursor=pointer]:
+                - /url: /docs/instagram-platform/insights
+            - listitem [ref=e662]:
+              - link "Sharing to Feed" [ref=e663] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-feed
+            - listitem [ref=e664]:
+              - link "Sharing to Stories" [ref=e665] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-stories
+            - listitem [ref=e666]:
+              - link "oEmbed" [ref=e667] [cursor=pointer]:
+                - /url: /docs/instagram-platform/oembed
+            - listitem [ref=e668]:
+              - link "Embed Button" [ref=e669] [cursor=pointer]:
+                - /url: /docs/instagram-platform/embed-button
+            - listitem [ref=e670]:
+              - link "Self Messaging" [ref=e671] [cursor=pointer]:
+                - /url: /docs/instagram-platform/self-messaging
+            - listitem [ref=e672]:
+              - link "API Reference" [ref=e673] [cursor=pointer]:
+                - /url: /docs/instagram-platform/reference
+              - list [ref=e675]:
+                - listitem [ref=e676]:
+                  - link "Error Codes" [ref=e677] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/error-codes
+                - listitem [ref=e678]:
+                  - link "Access Token" [ref=e679] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/access_token
+                - listitem [ref=e680]:
+                  - link "IG Comment" [ref=e681] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-comment
+                - listitem [ref=e682]:
+                  - link "IG Container" [ref=e683] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-container
+                - listitem [ref=e684]:
+                  - link "IG Hashtag Search" [ref=e685] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-hashtag-search
+                - listitem [ref=e686]:
+                  - link "IG Hashtag" [ref=e687] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-hashtag
+                - listitem [ref=e688]:
+                  - link "IG Media" [ref=e689] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/instagram-media
+                - listitem [ref=e690]:
+                  - link "IG User" [ref=e691] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user
+                  - list [ref=e693]:
+                    - listitem [ref=e694]:
+                      - link "Available Catalogs" [ref=e695] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/available_catalogs
+                    - listitem [ref=e696]:
+                      - link "Business Discovery" [ref=e697] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/business_discovery
+                    - listitem [ref=e698]:
+                      - link "Catalog Product Search" [ref=e699] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/catalog_product_search
+                    - listitem [ref=e700]:
+                      - link "Connected Threads User" [ref=e701] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/connected_threads_user
+                    - listitem [ref=e702]:
+                      - link "Content Publishing Limit" [ref=e703] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/content_publishing_limit
+                    - listitem [ref=e704]:
+                      - link "Insights" [ref=e705] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/api-reference/instagram-user/insights
+                    - listitem [ref=e706]:
+                      - link "Instagram-Backed Threads User" [ref=e707] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/instagram_backed_threads_user
+                    - listitem [ref=e708]:
+                      - link "Live Media" [ref=e709] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/live_media
+                    - listitem [ref=e710]:
+                      - link "Media" [ref=e711] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/media
+                    - listitem [ref=e712]:
+                      - link "Media Publish" [ref=e713] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/media_publish
+                    - listitem [ref=e714]:
+                      - link "Mentions" [ref=e715] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentions
+                    - listitem [ref=e716]:
+                      - link "Mentioned Comment" [ref=e717] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentioned_comment
+                    - listitem [ref=e718]:
+                      - link "Mentioned Media" [ref=e719] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentioned_media
+                    - listitem [ref=e720]:
+                      - link "Product Appeal" [ref=e721] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/product_appeal
+                    - listitem [ref=e722]:
+                      - link "Recently Searched Hashtags" [ref=e723] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/recently_searched_hashtags
+                    - listitem [ref=e724]:
+                      - link "Stories" [ref=e725] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/stories
+                    - listitem [ref=e726]:
+                      - link "Tags" [ref=e727] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/tags
+                - listitem [ref=e728]:
+                  - link "/me" [ref=e729] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/me
+                - listitem [ref=e730]:
+                  - link "Oauth Authorize" [ref=e731] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/oauth-authorize
+                - listitem [ref=e732]:
+                  - link "Page" [ref=e733] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/page
+                - listitem [ref=e734]:
+                  - link "Refresh Access Token" [ref=e735] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/refresh_access_token
+            - listitem [ref=e736]:
+              - link "App Review" [ref=e737] [cursor=pointer]:
+                - /url: /docs/instagram-platform/app-review
+            - listitem [ref=e738]:
+              - link "Support" [ref=e739] [cursor=pointer]:
+                - /url: /docs/instagram-platform/support
+            - listitem [ref=e740]:
+              - link "Changelog" [ref=e741] [cursor=pointer]:
+                - /url: /docs/instagram-platform/changelog
+        - generic [ref=e92]:
+          - generic [ref=e94]:
+            - generic [ref=e96]:
+              - heading "IG User" [level=1] [ref=e97]
+              - paragraph [ref=e98]:
+                - text: Represents an
+                - link "Instagram Business Account" [ref=e99] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F502981923235522&h=AT6XfSqChorRSMypIChPDLV9HhrLc_aVkgPBzp8NXM_ii-IEVbjOr59mVju2nyMpbADLCrl37h6KYp1NaCIZu1D-copWJlKljH4ZgFAr6SirOW3FWGRbXxMtzQZVvosLplODUVuFeCBIBqigLTNaRqiOFF59-ZPewXb9OA
+                - text: or an
+                - link "Instagram Creator Account" [ref=e100] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F1158274571010880&h=AT7rEzd9QN0ApcUnm0gl-Xs00GU_r5ngRPZndNlbAlOYbCn0q8ClFgP9tiXvUxycOJs9ApLW700hpRou_rYBbyxn4lvInki3KlDCEfIyXCjwEcnP1CpMBkMKLTaBDR2ZqIS1vPdvI5yKYyN2NtFsl2yTbXwB1QiKRuVDtQ
+                - text: .
+              - paragraph [ref=e101]: Throughout our documentation we use "Instagram User" and "Instagram Account" interchangeably. Both represent your app user's Instagram professional account.
+              - generic [ref=e103]:
+                - heading "Requirements" [level=3] [ref=e104]
+                - table [ref=e106]:
+                  - rowgroup [ref=e107]:
+                    - row "Instagram API with Instagram Login Instagram API with Facebook Login" [ref=e108]:
+                      - columnheader [ref=e109]
+                      - columnheader "Instagram API with Instagram Login" [ref=e110]
+                      - columnheader "Instagram API with Facebook Login" [ref=e111]
+                  - rowgroup [ref=e112]:
+                    - row "Access Tokens Instagram User user access token Facebook User access token" [ref=e113]:
+                      - cell "Access Tokens" [ref=e114]:
+                        - paragraph [ref=e115]:
+                          - strong [ref=e116]: Access Tokens
+                      - cell "Instagram User user access token" [ref=e117]:
+                        - list [ref=e118]:
+                          - listitem [ref=e119]: Instagram User user access token
+                      - cell "Facebook User access token" [ref=e120]:
+                        - list [ref=e121]:
+                          - listitem [ref=e122]:
+                            - link "Facebook User access token" [ref=e123] [cursor=pointer]:
+                              - /url: /docs/facebook-login/access-tokens/#usertokens
+                    - row "Host URL graph.instagram.com graph.facebook.com" [ref=e124]:
+                      - cell "Host URL" [ref=e125]:
+                        - paragraph [ref=e126]:
+                          - strong [ref=e127]: Host URL
+                      - cell "graph.instagram.com" [ref=e128]:
+                        - paragraph [ref=e129]:
+                          - code [ref=e130]: graph.instagram.com
+                      - cell "graph.facebook.com" [ref=e131]:
+                        - paragraph [ref=e132]:
+                          - code [ref=e133]: graph.facebook.com
+                    - row "Login Type Business Login for Instagram Facebook Login for Business" [ref=e134]:
+                      - cell "Login Type" [ref=e135]:
+                        - paragraph [ref=e136]:
+                          - strong [ref=e137]: Login Type
+                      - cell "Business Login for Instagram" [ref=e138]:
+                        - paragraph [ref=e139]: Business Login for Instagram
+                      - cell "Facebook Login for Business" [ref=e140]:
+                        - paragraph [ref=e141]: Facebook Login for Business
+                    - 'row "Permissions instagram_business_basic instagram_basic pages_read_engagement If the app user was granted a role via the Business Manager on the Page connected to the targeted IG User, you will also need one of: ads_management ads_read If you are requesting the shopping_product_tag_eligibility field for product tagging, you will also need: catalog_management instagram_shopping_tag_products" [ref=e142]':
+                      - cell "Permissions" [ref=e143]:
+                        - link "Permissions" [ref=e144] [cursor=pointer]:
+                          - /url: /docs/permissions/reference#i
+                      - cell "instagram_business_basic" [ref=e145]:
+                        - list [ref=e146]:
+                          - listitem [ref=e147]:
+                            - code [ref=e148]: instagram_business_basic
+                      - 'cell "instagram_basic pages_read_engagement If the app user was granted a role via the Business Manager on the Page connected to the targeted IG User, you will also need one of: ads_management ads_read If you are requesting the shopping_product_tag_eligibility field for product tagging, you will also need: catalog_management instagram_shopping_tag_products" [ref=e149]':
+                        - list [ref=e150]:
+                          - listitem [ref=e151]:
+                            - code [ref=e152]: instagram_basic
+                          - listitem [ref=e153]:
+                            - code [ref=e154]: pages_read_engagement
+                        - paragraph [ref=e155]:
+                          - text: If the app user was granted a role via the Business Manager on the
+                          - link "Page" [ref=e156] [cursor=pointer]:
+                            - /url: /docs/instagram-api/overview#pages
+                          - text: "connected to the targeted IG User, you will also need one of:"
+                        - list [ref=e157]:
+                          - listitem [ref=e158]:
+                            - code [ref=e159]: ads_management
+                          - listitem [ref=e160]:
+                            - code [ref=e161]: ads_read
+                        - paragraph [ref=e162]:
+                          - text: If you are requesting the
+                          - code [ref=e163]: shopping_product_tag_eligibility
+                          - text: field for
+                          - link "product tagging" [ref=e164] [cursor=pointer]:
+                            - /url: /docs/instagram-api/guides/product-tagging
+                          - text: ", you will also need:"
+                        - list [ref=e165]:
+                          - listitem [ref=e166]:
+                            - code [ref=e167]: catalog_management
+                          - listitem [ref=e168]:
+                            - code [ref=e169]: instagram_shopping_tag_products
+                    - row "Business Roles Not applicable. If you are requesting the shopping_product_tag_eligibility field for product tagging, the app user must have an admin role on the Business Manager that owns the IG User's Instagram Shop." [ref=e170]:
+                      - cell "Business Roles" [ref=e171]:
+                        - paragraph [ref=e172]:
+                          - strong [ref=e173]:
+                            - link "Business Roles" [ref=e174] [cursor=pointer]:
+                              - /url: https://www.facebook.com/business/help/442345745885606
+                      - cell "Not applicable." [ref=e175]:
+                        - paragraph [ref=e176]: Not applicable.
+                      - cell "If you are requesting the shopping_product_tag_eligibility field for product tagging, the app user must have an admin role on the Business Manager that owns the IG User's Instagram Shop." [ref=e177]:
+                        - paragraph [ref=e178]:
+                          - text: If you are requesting the
+                          - code [ref=e179]: shopping_product_tag_eligibility
+                          - text: field for
+                          - link "product tagging" [ref=e180] [cursor=pointer]:
+                            - /url: /docs/instagram-api/guides/product-tagging
+                          - text: ", the app user must have an admin role on the"
+                          - link "Business Manager" [ref=e181] [cursor=pointer]:
+                            - /url: https://business.facebook.com/
+                          - text: that owns the IG User's
+                          - link "Instagram Shop" [ref=e182] [cursor=pointer]:
+                            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F1187859655048322&h=AT7VX5DVHt1Ee55BJ_p30RK-tC9FJQsZzCuXAvtf2E89IoBZyRxaAn3g4arghwEcau4WSWirkPrrd_mHaWBva5lpqVWlSG00_gU9eRbcjYAVVlxWixoD3LqPpNfM9llhuYdodMPhNVVrirT4Fi8kEDH92lntZ95h_1mALQ
+                          - text: .
+                    - row "Instagram Shop Not applicable. If you are requesting the shopping_product_tag_eligibility field for product tagging, the IG User must have an approved Instagram Shop with a product catalog containing products." [ref=e183]:
+                      - cell "Instagram Shop" [ref=e184]:
+                        - paragraph [ref=e185]:
+                          - strong [ref=e186]:
+                            - link "Instagram Shop" [ref=e187] [cursor=pointer]:
+                              - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F1187859655048322%2F&h=AT7hwXaAsOUrNXqfUmw6T_GjuBSiUgDSLzTRjEBMSHT_sT55JBPPdAX0iysfl6Yw13kmnwY9esP_NmK_cZxa2bB3HnZhN7aSLp7jfJ-HXOt5hqr5ziYmd8xHnYlatLoST29o-PT3VU2UyLVCFnfv6KMTlEWBVxQN2HkPAg
+                      - cell "Not applicable." [ref=e188]:
+                        - paragraph [ref=e189]: Not applicable.
+                      - cell "If you are requesting the shopping_product_tag_eligibility field for product tagging, the IG User must have an approved Instagram Shop with a product catalog containing products." [ref=e190]:
+                        - paragraph [ref=e191]:
+                          - text: If you are requesting the
+                          - code [ref=e192]: shopping_product_tag_eligibility
+                          - text: field for
+                          - link "product tagging" [ref=e193] [cursor=pointer]:
+                            - /url: /docs/instagram-api/guides/product-tagging
+                          - text: ", the IG User must have an approved"
+                          - link "Instagram Shop" [ref=e194] [cursor=pointer]:
+                            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F1187859655048322%2F&h=AT7ssuZpRI7nLKZgoWhW8fMzA4L4ZcQ4p_1ZKPg5GZIUicRkWFGGyFMA9OZmczCccEFDWmbcSX8L69ZHfcBJ94IrzljoRfQuhAIrmSUadX4ta7ggyThmemwRwfJ_LItVljPrpow0B0_YhbvhF3kjJsiuvhYadG_RSZpiVQ
+                          - text: with a product catalog containing products.
+            - generic [ref=e196]:
+              - heading "Creating" [level=2] [ref=e197]
+              - paragraph [ref=e198]: This operation is not supported.
+              - link [ref=e199] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e202]:
+              - heading "Reading" [level=2] [ref=e203]
+              - paragraph [ref=e204]:
+                - strong [ref=e205]:
+                  - code [ref=e206]: GET /<IG_USER_ID>
+              - paragraph [ref=e207]: Get fields and edges on an Instagram Business or Creator Account.
+              - paragraph [ref=e211]: If you are migrating from Marketing API Instagram Ads endpoints to Instagram Platform endpoints, be aware that some field names are different.
+              - heading "Request Syntax" [level=3] [ref=e212]
+              - generic [ref=e213]: GET https://graph.facebook.com/<API_VERSION>/<IG_USER_ID> ?fields=<LIST_OF_FIELDS> &access_token=<ACCESS_TOKEN>
+              - heading "Path Parameters" [level=3] [ref=e214]
+              - table [ref=e216]:
+                - rowgroup [ref=e217]:
+                  - row "Placeholder Value" [ref=e218]:
+                    - columnheader "Placeholder" [ref=e219]
+                    - columnheader "Value" [ref=e220]
+                - rowgroup [ref=e221]:
+                  - row "<API_VERSION> API version." [ref=e222]:
+                    - cell "<API_VERSION>" [ref=e223]:
+                      - paragraph [ref=e224]:
+                        - code [ref=e225]: <API_VERSION>
+                    - cell "API version." [ref=e226]:
+                      - paragraph [ref=e227]:
+                        - text: API
+                        - link "version" [ref=e228] [cursor=pointer]:
+                          - /url: /docs/graph-api/guides/versioning
+                        - text: .
+                  - row "<IG_USER_ID> Required. IG User ID." [ref=e229]:
+                    - cell "<IG_USER_ID>" [ref=e230]:
+                      - paragraph [ref=e231]:
+                        - code [ref=e232]: <IG_USER_ID>
+                    - cell "Required. IG User ID." [ref=e233]:
+                      - paragraph [ref=e234]:
+                        - strong [ref=e235]: Required.
+                        - text: IG User ID.
+              - heading "Query String Parameters" [level=3] [ref=e236]
+              - table [ref=e238]:
+                - rowgroup [ref=e239]:
+                  - row "Key Placeholder Value" [ref=e240]:
+                    - columnheader "Key" [ref=e241]
+                    - columnheader "Placeholder" [ref=e242]
+                    - columnheader "Value" [ref=e243]
+                - rowgroup [ref=e244]:
+                  - row "access_token <ACCESS_TOKEN> Required. App user's User access token." [ref=e245]:
+                    - cell "access_token" [ref=e246]:
+                      - paragraph [ref=e247]:
+                        - code [ref=e248]: access_token
+                    - cell "<ACCESS_TOKEN>" [ref=e249]:
+                      - paragraph [ref=e250]:
+                        - code [ref=e251]: <ACCESS_TOKEN>
+                    - cell "Required. App user's User access token." [ref=e252]:
+                      - paragraph [ref=e253]:
+                        - strong [ref=e254]: Required.
+                        - text: App user's
+                        - link "User" [ref=e255] [cursor=pointer]:
+                          - /url: /docs/facebook-login/access-tokens/#usertokens
+                        - text: access token.
+                  - row "fields <LIST_OF_FIELDS> Comma-separated list of IG User fields you want returned for each IG User in the result set." [ref=e256]:
+                    - cell "fields" [ref=e257]:
+                      - paragraph [ref=e258]:
+                        - code [ref=e259]: fields
+                    - cell "<LIST_OF_FIELDS>" [ref=e260]:
+                      - paragraph [ref=e261]:
+                        - code [ref=e262]: <LIST_OF_FIELDS>
+                    - cell "Comma-separated list of IG User fields you want returned for each IG User in the result set." [ref=e263]:
+                      - paragraph [ref=e264]:
+                        - text: Comma-separated list of IG User
+                        - link "fields" [ref=e265] [cursor=pointer]:
+                          - /url: "#fields"
+                        - text: you want returned for each IG User in the result set.
+              - heading "Fields" [level=3] [ref=e266]
+              - paragraph [ref=e267]:
+                - text: Public fields can be returned by an edge using field expansion. Only a few fields will be available for accessing
+                - link "Page-backed Instagram accounts" [ref=e268] [cursor=pointer]:
+                  - /url: /docs/instagram/ads-api/guides/pages-ig-account#pbia
+                - text: .
+              - table [ref=e270]:
+                - rowgroup [ref=e271]:
+                  - row "Field Name Description" [ref=e272]:
+                    - columnheader "Field Name" [ref=e273]
+                    - columnheader "Description" [ref=e274]
+                - rowgroup [ref=e275]:
+                  - row "alt_text Public Descriptive text for images, for accessibility." [ref=e276]:
+                    - cell "alt_text Public" [ref=e277]:
+                      - paragraph [ref=e278]:
+                        - code [ref=e279]: alt_text
+                        - text: Public
+                    - cell "Descriptive text for images, for accessibility." [ref=e280]:
+                      - paragraph [ref=e281]: Descriptive text for images, for accessibility.
+                  - row "biography Public Profile bio text." [ref=e282]:
+                    - cell "biography Public" [ref=e283]:
+                      - paragraph [ref=e284]:
+                        - code [ref=e285]: biography
+                        - text: Public
+                    - cell "Profile bio text." [ref=e286]:
+                      - paragraph [ref=e287]: Profile bio text.
+                  - row "followers_count Public Total number of Instagram users following the user." [ref=e288]:
+                    - cell "followers_count Public" [ref=e289]:
+                      - paragraph [ref=e290]:
+                        - code [ref=e291]: followers_count
+                        - text: Public
+                    - cell "Total number of Instagram users following the user." [ref=e292]:
+                      - paragraph [ref=e293]: Total number of Instagram users following the user.
+                  - row "follows_count Total number of Instagram users the user follows." [ref=e294]:
+                    - cell "follows_count" [ref=e295]:
+                      - paragraph [ref=e296]:
+                        - code [ref=e297]: follows_count
+                    - cell "Total number of Instagram users the user follows." [ref=e298]:
+                      - paragraph [ref=e299]: Total number of Instagram users the user follows.
+                  - row "has_profile_pic Indicates whether your app user's Instagram professional account has a profile picture." [ref=e300]:
+                    - cell "has_profile_pic" [ref=e301]:
+                      - paragraph [ref=e302]:
+                        - code [ref=e303]: has_profile_pic
+                    - cell "Indicates whether your app user's Instagram professional account has a profile picture." [ref=e304]:
+                      - paragraph [ref=e305]: Indicates whether your app user's Instagram professional account has a profile picture.
+                  - row "id Public App-scoped User ID. Available for Page-backed Instagram accounts." [ref=e306]:
+                    - cell "id Public" [ref=e307]:
+                      - paragraph [ref=e308]:
+                        - code [ref=e309]: id
+                        - text: Public
+                    - cell "App-scoped User ID. Available for Page-backed Instagram accounts." [ref=e310]:
+                      - paragraph [ref=e311]: App-scoped User ID. Available for Page-backed Instagram accounts.
+                  - row "is_published Indicates whether your app user's Instagram account is published. Available for Page-backed Instagram accounts." [ref=e312]:
+                    - cell "is_published" [ref=e313]:
+                      - paragraph [ref=e314]:
+                        - code [ref=e315]: is_published
+                    - cell "Indicates whether your app user's Instagram account is published. Available for Page-backed Instagram accounts." [ref=e316]:
+                      - paragraph [ref=e317]: Indicates whether your app user's Instagram account is published. Available for Page-backed Instagram accounts.
+                  - row "legacy_instagram_user_id Your app user's Instagram ID that was created for Marketing API endpoints for v21.0 and older. Available for Page-backed Instagram accounts." [ref=e318]:
+                    - cell "legacy_instagram_user_id" [ref=e319]:
+                      - paragraph [ref=e320]:
+                        - code [ref=e321]: legacy_instagram_user_id
+                    - cell "Your app user's Instagram ID that was created for Marketing API endpoints for v21.0 and older. Available for Page-backed Instagram accounts." [ref=e322]:
+                      - paragraph [ref=e323]: Your app user's Instagram ID that was created for Marketing API endpoints for v21.0 and older. Available for Page-backed Instagram accounts.
+                  - row "media_count Public Total number of IG Media published on your app user's account." [ref=e324]:
+                    - cell "media_count Public" [ref=e325]:
+                      - paragraph [ref=e326]:
+                        - code [ref=e327]: media_count
+                        - text: Public
+                    - cell "Total number of IG Media published on your app user's account." [ref=e328]:
+                      - paragraph [ref=e329]: Total number of IG Media published on your app user's account.
+                  - row "name Your app user's Instagram profile name." [ref=e330]:
+                    - cell "name" [ref=e331]:
+                      - paragraph [ref=e332]:
+                        - code [ref=e333]: name
+                    - cell "Your app user's Instagram profile name." [ref=e334]:
+                      - paragraph [ref=e335]: Your app user's Instagram profile name.
+                  - row "profile_picture_url Your app user's Instagram profile picture URL." [ref=e336]:
+                    - cell "profile_picture_url" [ref=e337]:
+                      - paragraph [ref=e338]:
+                        - code [ref=e339]: profile_picture_url
+                    - cell "Your app user's Instagram profile picture URL." [ref=e340]:
+                      - paragraph [ref=e341]: Your app user's Instagram profile picture URL.
+                  - row "shopping_product_tag_eligibility Returns true if your app user has set up an Instagram Shop and is therefore eligible for product tagging, otherwise returns false." [ref=e342]:
+                    - cell "shopping_product_tag_eligibility" [ref=e343]:
+                      - paragraph [ref=e344]:
+                        - code [ref=e345]: shopping_product_tag_eligibility
+                    - cell "Returns true if your app user has set up an Instagram Shop and is therefore eligible for product tagging, otherwise returns false." [ref=e346]:
+                      - paragraph [ref=e347]:
+                        - text: Returns
+                        - code [ref=e348]: "true"
+                        - text: if your app user has set up an
+                        - link "Instagram Shop" [ref=e349] [cursor=pointer]:
+                          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F1187859655048322%2F&h=AT4IxDbfLNsrQW8gZhMasS80YM_9HDBX-Y7H80ubX-oUDNEcMMMjWi-_-tmqJZOzm0cK67r535bjOvlNiMyqCjgDF7c3aSKdF2FshHHXH_D1JseBy-jnrEvHS95ngz8NSRQx1j-TOhIBnQJA37q4w14_8C3YvyKuomZCpA
+                        - text: and is therefore eligible for product tagging, otherwise returns
+                        - code [ref=e350]: "false"
+                        - text: .
+                  - row "username Public Your app user's Instagram profile username." [ref=e351]:
+                    - cell "username Public" [ref=e352]:
+                      - paragraph [ref=e353]:
+                        - code [ref=e354]: username
+                        - text: Public
+                    - cell "Your app user's Instagram profile username." [ref=e355]:
+                      - paragraph [ref=e356]: Your app user's Instagram profile username.
+                  - row "website Public Your app user's website URL." [ref=e357]:
+                    - cell "website Public" [ref=e358]:
+                      - paragraph [ref=e359]:
+                        - code [ref=e360]: website
+                        - text: Public
+                    - cell "Your app user's website URL." [ref=e361]:
+                      - paragraph [ref=e362]: Your app user's website URL.
+              - heading "Edges" [level=3] [ref=e363]
+              - table [ref=e365]:
+                - rowgroup [ref=e366]:
+                  - row "Edge Description" [ref=e367]:
+                    - columnheader "Edge" [ref=e368]
+                    - columnheader "Description" [ref=e369]
+                - rowgroup [ref=e370]:
+                  - row "agencies A list of businesses that can advertise for this Instagram professional account." [ref=e371]:
+                    - cell "agencies" [ref=e372]:
+                      - paragraph [ref=e373]:
+                        - link "agencies" [ref=e374] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/agencies
+                          - code [ref=e375]: agencies
+                    - cell "A list of businesses that can advertise for this Instagram professional account." [ref=e376]:
+                      - paragraph [ref=e377]: A list of businesses that can advertise for this Instagram professional account.
+                  - row "authorized_adaccounts Ad accounts that can advertise for this Instagram professional account." [ref=e378]:
+                    - cell "authorized_adaccounts" [ref=e379]:
+                      - paragraph [ref=e380]:
+                        - link "authorized_adaccounts" [ref=e381] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/authorized-adaccounts
+                          - code [ref=e382]: authorized_adaccounts
+                    - cell "Ad accounts that can advertise for this Instagram professional account." [ref=e383]:
+                      - paragraph [ref=e384]: Ad accounts that can advertise for this Instagram professional account.
+                  - row "business_discovery Get data about other Instagram Business or Instagram Creator IG Users." [ref=e385]:
+                    - cell "business_discovery" [ref=e386]:
+                      - paragraph [ref=e387]:
+                        - link "business_discovery" [ref=e388] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/business_discovery
+                          - code [ref=e389]: business_discovery
+                    - cell "Get data about other Instagram Business or Instagram Creator IG Users." [ref=e390]:
+                      - paragraph [ref=e391]:
+                        - text: Get data about other Instagram Business or Instagram Creator
+                        - link "IG Users" [ref=e392] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: .
+                  - row "connected_threads_user Represents a Threads account connected to an Instagram account." [ref=e393]:
+                    - cell "connected_threads_user" [ref=e394]:
+                      - paragraph [ref=e395]:
+                        - link "connected_threads_user" [ref=e396] [cursor=pointer]:
+                          - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/connected_threads_user
+                          - code [ref=e397]: connected_threads_user
+                    - cell "Represents a Threads account connected to an Instagram account." [ref=e398]:
+                      - paragraph [ref=e399]: Represents a Threads account connected to an Instagram account.
+                  - row "content_publishing_limit Represents an IG User's current content publishing usage." [ref=e400]:
+                    - cell "content_publishing_limit" [ref=e401]:
+                      - paragraph [ref=e402]:
+                        - link "content_publishing_limit" [ref=e403] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/content_publishing_limit
+                          - code [ref=e404]: content_publishing_limit
+                    - cell "Represents an IG User's current content publishing usage." [ref=e405]:
+                      - paragraph [ref=e406]:
+                        - text: Represents an
+                        - link "IG User's" [ref=e407] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: current
+                        - link "content publishing" [ref=e408] [cursor=pointer]:
+                          - /url: /docs/instagram-api/guides/content-publishing
+                        - text: usage.
+                  - row "insights Represents social interaction metrics on an IG User." [ref=e409]:
+                    - cell "insights" [ref=e410]:
+                      - paragraph [ref=e411]:
+                        - link "insights" [ref=e412] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/insights
+                          - code [ref=e413]: insights
+                    - cell "Represents social interaction metrics on an IG User." [ref=e414]:
+                      - paragraph [ref=e415]:
+                        - text: Represents social interaction metrics on an
+                        - link "IG User" [ref=e416] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: .
+                  - row "instagram_backed_threads_user Represents a Threads account backed by an Instagram account." [ref=e417]:
+                    - cell "instagram_backed_threads_user" [ref=e418]:
+                      - paragraph [ref=e419]:
+                        - link "instagram_backed_threads_user" [ref=e420] [cursor=pointer]:
+                          - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/instagram_backed_threads_user
+                          - code [ref=e421]: instagram_backed_threads_user
+                    - cell "Represents a Threads account backed by an Instagram account." [ref=e422]:
+                      - paragraph [ref=e423]: Represents a Threads account backed by an Instagram account.
+                  - row "live_media Represents a collection of live video IG Media on an IG User." [ref=e424]:
+                    - cell "live_media" [ref=e425]:
+                      - paragraph [ref=e426]:
+                        - link "live_media" [ref=e427] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/live_media
+                          - code [ref=e428]: live_media
+                    - cell "Represents a collection of live video IG Media on an IG User." [ref=e429]:
+                      - paragraph [ref=e430]:
+                        - text: Represents a collection of live video
+                        - link "IG Media" [ref=e431] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: on an
+                        - link "IG User" [ref=e432] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: .
+                  - row "media Represents a collection of IG Media on an IG User." [ref=e433]:
+                    - cell "media" [ref=e434]:
+                      - paragraph [ref=e435]:
+                        - link "media" [ref=e436] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/media
+                          - code [ref=e437]: media
+                    - cell "Represents a collection of IG Media on an IG User." [ref=e438]:
+                      - paragraph [ref=e439]:
+                        - text: Represents a collection of
+                        - link "IG Media" [ref=e440] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: on an
+                        - link "IG User" [ref=e441] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: .
+                  - row "media_publish Publish an IG Container on an Instagram Business IG User." [ref=e442]:
+                    - cell "media_publish" [ref=e443]:
+                      - paragraph [ref=e444]:
+                        - link "media_publish" [ref=e445] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/media_publish
+                          - code [ref=e446]: media_publish
+                    - cell "Publish an IG Container on an Instagram Business IG User." [ref=e447]:
+                      - paragraph [ref=e448]:
+                        - text: Publish an
+                        - link "IG Container" [ref=e449] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-container
+                        - text: on an Instagram Business
+                        - link "IG User" [ref=e450] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: .
+                  - row "mentions Create an IG Comment on an IG Comment or captioned IG Media that an IG User has been @mentioned in by another Instagram user." [ref=e451]:
+                    - cell "mentions" [ref=e452]:
+                      - paragraph [ref=e453]:
+                        - link "mentions" [ref=e454] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/mentions
+                          - code [ref=e455]: mentions
+                    - cell "Create an IG Comment on an IG Comment or captioned IG Media that an IG User has been @mentioned in by another Instagram user." [ref=e456]:
+                      - paragraph [ref=e457]:
+                        - text: Create an
+                        - link "IG Comment" [ref=e458] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-comment
+                        - text: on an IG Comment or captioned
+                        - link "IG Media" [ref=e459] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: that an
+                        - link "IG User" [ref=e460] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: has been @mentioned in by another Instagram user.
+                  - row "mentioned_comment Get data on an IG Comment in which an IG User has been @mentioned by another Instagram user." [ref=e461]:
+                    - cell "mentioned_comment" [ref=e462]:
+                      - paragraph [ref=e463]:
+                        - link "mentioned_comment" [ref=e464] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/mentioned_comment
+                          - code [ref=e465]: mentioned_comment
+                    - cell "Get data on an IG Comment in which an IG User has been @mentioned by another Instagram user." [ref=e466]:
+                      - paragraph [ref=e467]:
+                        - text: Get data on an
+                        - link "IG Comment" [ref=e468] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-comment
+                        - text: in which an
+                        - link "IG User" [ref=e469] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: has been @mentioned by another Instagram user.
+                  - row "mentioned_media Get data on an IG Media in which an IG User has been @mentioned in a caption by another Instagram user." [ref=e470]:
+                    - cell "mentioned_media" [ref=e471]:
+                      - paragraph [ref=e472]:
+                        - link "mentioned_media" [ref=e473] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/mentioned_media
+                          - code [ref=e474]: mentioned_media
+                    - cell "Get data on an IG Media in which an IG User has been @mentioned in a caption by another Instagram user." [ref=e475]:
+                      - paragraph [ref=e476]:
+                        - text: Get data on an
+                        - link "IG Media" [ref=e477] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: in which an
+                        - link "IG User" [ref=e478] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: has been @mentioned in a caption by another Instagram user.
+                  - row "recently_searched_hashtags Get IG Hashtags that an IG User has searched for within the last 7 days." [ref=e479]:
+                    - cell "recently_searched_hashtags" [ref=e480]:
+                      - paragraph [ref=e481]:
+                        - link "recently_searched_hashtags" [ref=e482] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/recently_searched_hashtags
+                          - code [ref=e483]: recently_searched_hashtags
+                    - cell "Get IG Hashtags that an IG User has searched for within the last 7 days." [ref=e484]:
+                      - paragraph [ref=e485]:
+                        - text: Get
+                        - link "IG Hashtags" [ref=e486] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-hashtag
+                        - text: that an
+                        - link "IG User" [ref=e487] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: has searched for within the last 7 days.
+                  - row "stories Represents a collection of story IG Media objects on an IG User." [ref=e488]:
+                    - cell "stories" [ref=e489]:
+                      - paragraph [ref=e490]:
+                        - link "stories" [ref=e491] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/stories
+                          - code [ref=e492]: stories
+                    - cell "Represents a collection of story IG Media objects on an IG User." [ref=e493]:
+                      - paragraph [ref=e494]:
+                        - text: Represents a collection of story
+                        - link "IG Media" [ref=e495] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: objects on an
+                        - link "IG User" [ref=e496] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: .
+                  - row "tags Represents a collection of IG Media in which an IG User has been tagged by another Instagram user." [ref=e497]:
+                    - cell "tags" [ref=e498]:
+                      - paragraph [ref=e499]:
+                        - link "tags" [ref=e500] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/tags
+                          - code [ref=e501]: tags
+                    - cell "Represents a collection of IG Media in which an IG User has been tagged by another Instagram user." [ref=e502]:
+                      - paragraph [ref=e503]:
+                        - text: Represents a collection of
+                        - link "IG Media" [ref=e504] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: in which an
+                        - link "IG User" [ref=e505] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user
+                        - text: has been tagged by another Instagram user.
+                  - row "upcoming_events A list of events this Instagram professional account is hosting." [ref=e506]:
+                    - cell "upcoming_events" [ref=e507]:
+                      - paragraph [ref=e508]:
+                        - link "upcoming_events" [ref=e509] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/upcoming-events
+                          - code [ref=e510]: upcoming_events
+                    - cell "A list of events this Instagram professional account is hosting." [ref=e511]:
+                      - paragraph [ref=e512]: A list of events this Instagram professional account is hosting.
+              - heading "Response" [level=3] [ref=e513]
+              - paragraph [ref=e514]:
+                - text: A JSON-formatted object containing default and requested
+                - link "fields" [ref=e515] [cursor=pointer]:
+                  - /url: "#fields"
+                - text: and
+                - link "edges" [ref=e516] [cursor=pointer]:
+                  - /url: "#edges"
+                - text: .
+              - generic [ref=e517]: "{ \"<FIELD>\":\"<VALUE>\", ... }"
+              - heading "cURL Example" [level=3] [ref=e518]
+              - heading "Request" [level=4] [ref=e519]
+              - generic [ref=e520]:
+                - text: curl -X GET \ 'https://graph.facebook.com/
+                - code [ref=e521]: v25.0
+                - text: /17841405822304914?fields=biography%2Cid%2Cusername%2Cwebsite&access_token=EAACwX...'
+              - heading "Response" [level=4] [ref=e522]
+              - generic [ref=e523]: "{ \"biography\": \"Dino data crunching app\", \"id\": \"17841405822304914\", \"username\": \"metricsaurus\", \"website\": \"http://www.metricsaurus.com/\" }"
+              - link [ref=e524] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e527]:
+              - heading "Updating" [level=2] [ref=e528]
+              - paragraph [ref=e529]: This operation is not supported.
+              - link [ref=e530] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e533]:
+              - heading "Deleting" [level=2] [ref=e534]
+              - paragraph [ref=e535]: This operation is not supported.
+              - link [ref=e536] [cursor=pointer]:
+                - /url: "#"
+          - link [ref=e540] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e545]:
+          - generic [ref=e546]: On This Page
+          - link "IG User" [ref=e548] [cursor=pointer]:
+            - /url: "#ig-user"
+          - link "Creating" [ref=e550] [cursor=pointer]:
+            - /url: "#create"
+          - link "Reading" [ref=e552] [cursor=pointer]:
+            - /url: "#read"
+          - link "Request Syntax" [ref=e556] [cursor=pointer]:
+            - /url: "#request-syntax"
+          - link "Path Parameters" [ref=e560] [cursor=pointer]:
+            - /url: "#path-parameters"
+          - link "Query String Parameters" [ref=e564] [cursor=pointer]:
+            - /url: "#query-string-parameters"
+          - link "Fields" [ref=e568] [cursor=pointer]:
+            - /url: "#fields"
+          - link "Edges" [ref=e572] [cursor=pointer]:
+            - /url: "#edges"
+          - link "Response" [ref=e576] [cursor=pointer]:
+            - /url: "#response"
+          - link "cURL Example" [ref=e580] [cursor=pointer]:
+            - /url: "#curl-example"
+          - link "Updating" [ref=e582] [cursor=pointer]:
+            - /url: "#updating"
+          - link "Deleting" [ref=e584] [cursor=pointer]:
+            - /url: "#deleting"
+    - contentinfo [ref=e745]:
+      - generic [ref=e746]:
+        - separator [ref=e747]
+        - generic [ref=e749]:
+          - generic [ref=e751]:
+            - generic [ref=e753]:
+              - img "Meta" [ref=e755]
+              - list [ref=e757]:
+                - listitem:
+                  - link "Facebook":
+                    - /url: https://www.facebook.com/MetaforDevelopers
+                    - img "Facebook"
+                - listitem:
+                  - link "Instagram":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                    - img "Instagram"
+                - listitem:
+                  - link "X":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                    - img "X"
+                - listitem:
+                  - link "LinkedIn":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                    - img "LinkedIn"
+                - listitem:
+                  - link "YouTube":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                    - img "YouTube"
+            - generic [ref=e759]:
+              - generic [ref=e762]:
+                - heading "Build with Meta" [level=2] [ref=e763]:
+                  - generic [ref=e764]: Build with Meta
+                - list [ref=e765]:
+                  - listitem [ref=e766]:
+                    - link "AI" [ref=e768] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                  - listitem [ref=e769]:
+                    - link "Meta Horizon" [ref=e771] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                  - listitem [ref=e772]:
+                    - link "Social technologies" [ref=e774] [cursor=pointer]:
+                      - /url: /social-technologies/
+                  - listitem [ref=e775]:
+                    - link "Wearables" [ref=e777] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+              - generic [ref=e780]:
+                - heading "News" [level=2] [ref=e781]:
+                  - generic [ref=e782]: News
+                - list [ref=e783]:
+                  - listitem [ref=e784]:
+                    - link "Meta for Developers" [ref=e786] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                  - listitem [ref=e787]:
+                    - link "Blog" [ref=e789] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=e790]:
+                    - link "Success stories" [ref=e792] [cursor=pointer]:
+                      - /url: /success-stories/
+              - generic [ref=e795]:
+                - heading "Support" [level=2] [ref=e796]:
+                  - generic [ref=e797]: Support
+                - list [ref=e798]:
+                  - listitem [ref=e799]:
+                    - link "Developer Support" [ref=e801] [cursor=pointer]:
+                      - /url: /support/
+                  - listitem [ref=e802]:
+                    - link "Bug tool" [ref=e804] [cursor=pointer]:
+                      - /url: /support/bugs/
+                  - listitem [ref=e805]:
+                    - link "Platform status" [ref=e807] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                  - listitem [ref=e808]:
+                    - link "Developer community forum" [ref=e810] [cursor=pointer]:
+                      - /url: https://www.facebook.com/groups/fbdevelopers/
+                  - listitem [ref=e811]:
+                    - link "Report an incident" [ref=e813] [cursor=pointer]:
+                      - /url: /incident/report/
+              - generic [ref=e816]:
+                - heading "About us" [level=2] [ref=e817]:
+                  - generic [ref=e818]: About us
+                - list [ref=e819]:
+                  - listitem [ref=e820]:
+                    - link "About" [ref=e822] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AT41nfUg439p5kvCZYprkhBdzOZBcaSgcaCBarMOfZl_jYJ_nWOwqBEOEr6bm0FslK6xMCwMoF5YsvNUHsDxrHcTxiCDxOkLj14J-seXNe02JIsKgniMpoEcySumMOl6FtBEVRgj-08nVii_PvNuF7op7dHTnpdtFXFsDg
+                  - listitem [ref=e823]:
+                    - link "Careers" [ref=e825] [cursor=pointer]:
+                      - /url: https://www.facebook.com/careers
+              - generic [ref=e828]:
+                - heading "Terms and policies" [level=2] [ref=e829]:
+                  - generic [ref=e830]: Terms and policies
+                - list [ref=e831]:
+                  - listitem [ref=e832]:
+                    - link "Responsible platform initiatives" [ref=e834] [cursor=pointer]:
+                      - /url: /products/responsible-platform-initiatives/
+                  - listitem [ref=e835]:
+                    - link "Platform terms" [ref=e837] [cursor=pointer]:
+                      - /url: /terms/dfc_platform_terms/
+                  - listitem [ref=e838]:
+                    - link "Developer policies" [ref=e840] [cursor=pointer]:
+                      - /url: /devpolicy/
+                  - listitem [ref=e841]:
+                    - link "Privacy policy" [ref=e843] [cursor=pointer]:
+                      - /url: https://www.facebook.com/about/privacy
+                  - listitem [ref=e844]:
+                    - link "Cookies" [ref=e846] [cursor=pointer]:
+                      - /url: https://www.facebook.com/help/cookies
+          - button "Change language" [ref=e851] [cursor=pointer]:
+            - generic [ref=e853]: English (US)

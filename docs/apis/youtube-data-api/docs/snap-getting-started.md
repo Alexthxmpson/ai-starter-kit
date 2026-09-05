@@ -1,0 +1,1173 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - region "developers.google.com uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic." [ref=e816]:
+      - paragraph [ref=e817]:
+        - text: developers.google.com uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+        - link "Learn more about how Google uses cookies. Opens in a new tab." [ref=e818] [cursor=pointer]:
+          - /url: https://policies.google.com/technologies/cookies?hl=en
+          - text: Learn more
+      - button "OK, got it" [ref=e819] [cursor=pointer]
+    - banner:
+      - generic:
+        - generic [ref=e8]:
+          - text: menu
+          - generic [ref=e9]:
+            - link "YouTube" [ref=e10] [cursor=pointer]:
+              - /url: https://developers.google.com/youtube
+              - img "YouTube" [ref=e13]
+            - list "Product breadcrumb" [ref=e15]:
+              - listitem [ref=e16]:
+                - link "YouTube" [ref=e17] [cursor=pointer]:
+                  - /url: https://developers.google.com/youtube
+              - listitem [ref=e18]:
+                - generic [ref=e19]: chevron_right
+                - link "Data API" [ref=e20] [cursor=pointer]:
+                  - /url: https://developers.google.com/youtube/v3
+          - generic [ref=e823]:
+            - combobox "Search" [ref=e824]
+            - img [ref=e826]
+            - generic [ref=e829]: /
+          - generic "Select your language preference." [ref=e830]:
+            - button "Language" [ref=e831] [cursor=pointer]:
+              - img
+              - generic [ref=e832]: Language
+              - img
+          - link "Sign in" [ref=e834] [cursor=pointer]:
+            - /url: https://developers.google.com/_d/signin?continue=https%3A%2F%2Fdevelopers.google.com%2Fyoutube%2Fv3%2Fgetting-started&prompt=select_account
+        - navigation "Lower tabs" [ref=e27]:
+          - link "Home" [ref=e29] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3
+          - link "Guides, selected" [ref=e31] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/getting-started
+            - text: Guides
+          - link "Reference" [ref=e33] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/docs
+          - link "Samples" [ref=e35] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/code_samples
+          - link "Support" [ref=e37] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube/v3/support
+          - text: arrow_drop_down
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - text: filter_list
+        - searchbox "Type to filter" [ref=e40]
+        - text: close
+      - navigation "Side menu" [ref=e41]:
+        - text: arrow_back chevron_right
+        - generic [ref=e42]:
+          - text: arrow_forward arrow_forward arrow_forward arrow_forward
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "Overview" [ref=e46] [cursor=pointer]:
+                - /url: /youtube/v3/getting-started
+                - generic [ref=e47]: Overview
+            - listitem [ref=e48]:
+              - link "Client Libraries" [ref=e49] [cursor=pointer]:
+                - /url: /youtube/v3/libraries
+                - generic [ref=e50]: Client Libraries
+            - listitem [ref=e51]:
+              - generic [ref=e53]: Authorize Requests
+              - list [ref=e54]:
+                - listitem [ref=e55]:
+                  - link "Overview" [ref=e56] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/authentication
+                    - generic [ref=e57]: Overview
+                - listitem [ref=e58]:
+                  - link "Get Auth Credentials" [ref=e59] [cursor=pointer]:
+                    - /url: /youtube/registering_an_application
+                    - generic [ref=e60]: Get Auth Credentials
+                - listitem [ref=e61]:
+                  - link "Server-side Web Apps" [ref=e62] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/auth/server-side-web-apps
+                    - generic [ref=e63]: Server-side Web Apps
+                - listitem [ref=e64]:
+                  - link "Client-side Web Apps" [ref=e65] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/auth/client-side-web-apps
+                    - generic [ref=e66]: Client-side Web Apps
+                - listitem [ref=e67]:
+                  - link "Installed Apps" [ref=e68] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/auth/installed-apps
+                    - generic [ref=e69]: Installed Apps
+                - listitem [ref=e70]:
+                  - link "Devices" [ref=e71] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/auth/devices
+                    - generic [ref=e72]: Devices
+            - listitem [ref=e73]:
+              - generic [ref=e75]: Quickstarts
+              - list [ref=e76]:
+                - listitem [ref=e77]:
+                  - link "Android" [ref=e78] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/android
+                    - generic [ref=e79]: Android
+                - listitem [ref=e80]:
+                  - link "Apps Script" [ref=e81] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/apps-script
+                    - generic [ref=e82]: Apps Script
+                - listitem [ref=e83]:
+                  - link "Go" [ref=e84] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/go
+                    - generic [ref=e85]: Go
+                - listitem [ref=e86]:
+                  - link "iOS" [ref=e87] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/ios
+                    - generic [ref=e88]: iOS
+                - listitem [ref=e89]:
+                  - link "Java" [ref=e90] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/java
+                    - generic [ref=e91]: Java
+                - listitem [ref=e92]:
+                  - link "JavaScript" [ref=e93] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/js
+                    - generic [ref=e94]: JavaScript
+                - listitem [ref=e95]:
+                  - link "Node.js" [ref=e96] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/nodejs
+                    - generic [ref=e97]: Node.js
+                - listitem [ref=e98]:
+                  - link "PHP" [ref=e99] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/php
+                    - generic [ref=e100]: PHP
+                - listitem [ref=e101]:
+                  - link "Python" [ref=e102] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/python
+                    - generic [ref=e103]: Python
+                - listitem [ref=e104]:
+                  - link "Ruby" [ref=e105] [cursor=pointer]:
+                    - /url: /youtube/v3/quickstart/ruby
+                    - generic [ref=e106]: Ruby
+            - listitem [ref=e107]:
+              - generic [ref=e109]: Guides and Tutorials
+              - list [ref=e110]:
+                - listitem [ref=e111]:
+                  - link "Quota costs for API requests" [ref=e112] [cursor=pointer]:
+                    - /url: /youtube/v3/determine_quota_cost
+                    - generic [ref=e113]: Quota costs for API requests
+                - listitem [ref=e114]:
+                  - link "Quota and Compliance Audits" [ref=e115] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/quota_and_compliance_audits
+                    - generic [ref=e116]: Quota and Compliance Audits
+                - listitem [ref=e117]:
+                  - link "Upload a Video" [ref=e118] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/uploading_a_video
+                    - generic [ref=e119]: Upload a Video
+                - listitem [ref=e120]:
+                  - link "Send Resumable Uploads" [ref=e121] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/using_resumable_upload_protocol
+                    - generic [ref=e122]: Send Resumable Uploads
+                - listitem [ref=e123]:
+                  - link "Find MadeForKids video status" [ref=e124] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/made_for_kids_status
+                    - generic [ref=e125]: Find MadeForKids video status
+                - listitem [ref=e126]:
+                  - link "Subscribe to Push Notifications" [ref=e127] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/push_notifications
+                    - generic [ref=e128]: Subscribe to Push Notifications
+                - listitem [ref=e129]:
+                  - link "Work with Channel IDs" [ref=e130] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/working_with_channel_ids
+                    - generic [ref=e131]: Work with Channel IDs
+                - listitem [ref=e132]:
+                  - link "Move from ClientLogin to OAuth" [ref=e133] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/moving_to_oauth
+                    - generic [ref=e134]: Move from ClientLogin to OAuth
+            - listitem [ref=e135]:
+              - link "Sample Requests" [ref=e136] [cursor=pointer]:
+                - /url: /youtube/v3/sample_requests
+                - generic [ref=e137]: Sample Requests
+            - listitem [ref=e138]:
+              - generic [ref=e140]: Implementation Guide
+              - list [ref=e141]:
+                - listitem [ref=e142]:
+                  - link "Overview" [ref=e143] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation
+                    - generic [ref=e144]: Overview
+                - listitem [ref=e145]:
+                  - link "Activities" [ref=e146] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/activities
+                    - generic [ref=e147]: Activities
+                - listitem [ref=e148]:
+                  - link "Captions" [ref=e149] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/captions
+                    - generic [ref=e150]: Captions
+                - listitem [ref=e151]:
+                  - link "Channels" [ref=e152] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/channels
+                    - generic [ref=e153]: Channels
+                - listitem [ref=e154]:
+                  - link "Comments" [ref=e155] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/comments
+                    - generic [ref=e156]: Comments
+                - listitem [ref=e157]:
+                  - link "Pagination" [ref=e158] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/pagination
+                    - generic [ref=e159]: Pagination
+                - listitem [ref=e160]:
+                  - link "Partial responses" [ref=e161] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/partial
+                    - generic [ref=e162]: Partial responses
+                - listitem [ref=e163]:
+                  - link "Playlists" [ref=e164] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/playlists
+                    - generic [ref=e165]: Playlists
+                - listitem [ref=e166]:
+                  - link "Ratings" [ref=e167] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/ratings
+                    - generic [ref=e168]: Ratings
+                - listitem [ref=e169]:
+                  - link "Search requests" [ref=e170] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/search
+                    - generic [ref=e171]: Search requests
+                - listitem [ref=e172]:
+                  - link "Subscriptions" [ref=e173] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/subscriptions
+                    - generic [ref=e174]: Subscriptions
+                - listitem [ref=e175]:
+                  - link "Videos" [ref=e176] [cursor=pointer]:
+                    - /url: /youtube/v3/guides/implementation/videos
+                    - generic [ref=e177]: Videos
+            - listitem [ref=e178]:
+              - generic [ref=e180]: Tools
+              - list [ref=e181]:
+                - listitem [ref=e182]:
+                  - link "APIs Explorer" [ref=e183] [cursor=pointer]:
+                    - /url: https://developers.google.com/apis-explorer/#p/youtube/v3/
+                    - generic [ref=e184]: APIs Explorer
+                    - generic [ref=e185]: open_in_new
+    - button "Hide side navigation" [expanded] [ref=e836] [cursor=pointer]:
+      - generic [ref=e837]: chevron_left
+    - generic [ref=e186]:
+      - main [ref=e187]:
+        - navigation "On this page" [ref=e839]:
+          - list [ref=e840]:
+            - listitem [ref=e841]:
+              - heading "On this page" [level=2] [ref=e842]:
+                - generic [ref=e843]: On this page
+            - listitem [ref=e844]:
+              - link "Introduction" [ref=e845] [cursor=pointer]:
+                - /url: "#intro"
+                - generic [ref=e846]: Introduction
+              - list [ref=e847]:
+                - listitem [ref=e848]:
+                  - link "Before you start" [ref=e849] [cursor=pointer]:
+                    - /url: "#before-you-start"
+                    - generic [ref=e850]: Before you start
+            - listitem [ref=e851]:
+              - link "Resources and resource types" [ref=e852] [cursor=pointer]:
+                - /url: "#resources"
+                - generic [ref=e853]: Resources and resource types
+              - list [ref=e854]:
+                - listitem [ref=e855]:
+                  - link "Supported operations" [ref=e856] [cursor=pointer]:
+                    - /url: "#supported-operations"
+                    - generic [ref=e857]: Supported operations
+            - listitem [ref=e858]:
+              - link "Quota usage" [ref=e859] [cursor=pointer]:
+                - /url: "#quota"
+                - generic [ref=e860]: Quota usage
+              - list [ref=e861]:
+                - listitem [ref=e862]:
+                  - link "Calculating quota usage" [ref=e863] [cursor=pointer]:
+                    - /url: "#calculating-quota-usage"
+                    - generic [ref=e864]: Calculating quota usage
+            - listitem [ref=e865]:
+              - link "Partial resources" [ref=e866] [cursor=pointer]:
+                - /url: "#partial"
+                - generic [ref=e867]: Partial resources
+              - list [ref=e868]:
+                - listitem [ref=e869]:
+                  - link "How to use the part parameter" [ref=e870] [cursor=pointer]:
+                    - /url: "#part"
+                    - generic [ref=e871]: How to use the part parameter
+                - listitem [ref=e872]:
+                  - link "How to use the fields parameter" [ref=e873] [cursor=pointer]:
+                    - /url: "#fields"
+                    - generic [ref=e874]: How to use the fields parameter
+                - listitem [ref=e875]:
+                  - link "Sample partial requests" [ref=e876] [cursor=pointer]:
+                    - /url: "#Sample_Partial_Requests"
+                    - generic [ref=e877]: Sample partial requests
+            - listitem [ref=e878]:
+              - link "Optimizing performance" [ref=e879] [cursor=pointer]:
+                - /url: "#performance"
+                - generic [ref=e880]: Optimizing performance
+              - list [ref=e881]:
+                - listitem [ref=e882]:
+                  - link "Using ETags" [ref=e883] [cursor=pointer]:
+                    - /url: "#etags"
+                    - generic [ref=e884]: Using ETags
+                - listitem [ref=e885]:
+                  - link "Using gzip" [ref=e886] [cursor=pointer]:
+                    - /url: "#gzip"
+                    - generic [ref=e887]: Using gzip
+        - generic [ref=e189]:
+          - article [ref=e190]:
+            - navigation [ref=e191]:
+              - list "Breadcrumb" [ref=e192]:
+                - listitem [ref=e193]:
+                  - link "Home" [ref=e194] [cursor=pointer]:
+                    - /url: https://developers.google.com/
+                - listitem [ref=e195]:
+                  - generic [ref=e196]: chevron_right
+                  - link "Products" [ref=e197] [cursor=pointer]:
+                    - /url: https://developers.google.com/products
+                - listitem [ref=e198]:
+                  - generic [ref=e199]: chevron_right
+                  - link "YouTube" [ref=e200] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube
+                - listitem [ref=e201]:
+                  - generic [ref=e202]: chevron_right
+                  - link "Data API" [ref=e203] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube/v3
+                - listitem [ref=e204]:
+                  - generic [ref=e205]: chevron_right
+                  - link "Guides" [ref=e206] [cursor=pointer]:
+                    - /url: https://developers.google.com/youtube/v3/getting-started
+            - heading "YouTube Data API Overview" [level=1] [ref=e207]:
+              - text: You
+              - text: Tube Data API Overview
+              - listbox "Bookmark collections drop down" [ref=e891] [cursor=pointer]:
+                - button "Open dropdown" [ref=e892]:
+                  - generic:
+                    - generic [ref=e893]: bookmark_border
+                    - text: bookmark
+                  - text: arrow_drop_down
+            - text: expand_more more_horiz
+            - generic [ref=e208]:
+              - region "Page Summary" [ref=e209]:
+                - button "Page Summary" [ref=e210] [cursor=pointer]:
+                  - img "Spark icon" [ref=e211]
+                  - heading "Page Summary" [level=2] [ref=e213]
+                  - generic: expand_more
+              - 'heading "Introduction Copy link to this section: Introduction" [level=2] [ref=e894]':
+                - heading "Introduction" [level=2] [ref=e895]
+                - 'button "Copy link to this section: Introduction" [ref=e896] [cursor=pointer]': link
+              - paragraph [ref=e215]: This document is intended for developers who want to write applications that interact with YouTube. It explains basic concepts of YouTube and of the API itself. It also provides an overview of the different functions that the API supports.
+              - 'heading "Before you start Copy link to this section: Before you start" [level=3] [ref=e897]':
+                - heading "Before you start" [level=3] [ref=e898]
+                - 'button "Copy link to this section: Before you start" [ref=e899] [cursor=pointer]': link
+              - list [ref=e217]:
+                - listitem [ref=e218]:
+                  - paragraph [ref=e219]:
+                    - text: You need a
+                    - link "Google Account" [ref=e220] [cursor=pointer]:
+                      - /url: https://www.google.com/accounts/NewAccount
+                    - text: to access the Google API Console, request an API key, and register your application.
+                - listitem [ref=e221]:
+                  - paragraph [ref=e222]:
+                    - text: Create a project in the
+                    - link "Google Developers Console" [ref=e223] [cursor=pointer]:
+                      - /url: https://console.developers.google.com
+                    - text: and
+                    - link "obtain authorization credentials" [ref=e224] [cursor=pointer]:
+                      - /url: /youtube/registering_an_application
+                    - text: so your application can submit API requests.
+                - listitem [ref=e225]:
+                  - paragraph [ref=e226]: "After creating your project, make sure the YouTube Data API is one of the services that your application is registered to use:"
+                  - paragraph
+                  - list [ref=e227]:
+                    - listitem [ref=e228]:
+                      - text: Go to the
+                      - link "API Console" [ref=e229] [cursor=pointer]:
+                        - /url: https://console.cloud.google.com/
+                      - text: and select the project that you just registered.
+                    - listitem [ref=e230]:
+                      - text: Visit the
+                      - link "Enabled APIs page" [ref=e231] [cursor=pointer]:
+                        - /url: https://console.cloud.google.com/apis/enabled
+                      - text: . In the list of APIs, make sure the status is ON for the YouTube Data API v3.
+                  - paragraph
+                - listitem [ref=e232]:
+                  - paragraph [ref=e233]:
+                    - text: If your application will use any API methods that require user authorization, read the
+                    - link "authentication" [ref=e234] [cursor=pointer]:
+                      - /url: /youtube/v3/guides/authentication
+                    - text: guide to learn how to implement OAuth 2.0 authorization.
+                - listitem [ref=e235]:
+                  - paragraph [ref=e236]:
+                    - text: Select a
+                    - link "client library" [ref=e237] [cursor=pointer]:
+                      - /url: /youtube/v3/libraries
+                    - text: to simplify your API implementation.
+                - listitem [ref=e238]:
+                  - paragraph [ref=e239]:
+                    - text: Familiarize yourself with the core concepts of the JSON (JavaScript Object Notation) data format. JSON is a common, language-independent data format that provides a simple text representation of arbitrary data structures. For more information, see
+                    - link "json.org" [ref=e240] [cursor=pointer]:
+                      - /url: http://json.org
+                    - text: .
+              - 'heading "Resources and resource types Copy link to this section: Resources and resource types" [level=2] [ref=e900]':
+                - heading "Resources and resource types" [level=2] [ref=e901]
+                - 'button "Copy link to this section: Resources and resource types" [ref=e902] [cursor=pointer]': link
+              - paragraph [ref=e242]: A resource is an individual data entity with a unique identifier. The table below describes the different types of resources that you can interact with using the API.
+              - table [ref=e243]:
+                - rowgroup [ref=e244]:
+                  - row "Resources" [ref=e245]:
+                    - columnheader "Resources" [ref=e246]
+                  - row "activity Contains information about an action that a particular user has taken on the YouTube site. User actions that are reported in activity feeds include rating a video, sharing a video, marking a video as a favorite, and posting a channel bulletin, among others." [ref=e247]:
+                    - cell "activity" [ref=e248]:
+                      - code [ref=e249]: activity
+                    - cell "Contains information about an action that a particular user has taken on the YouTube site. User actions that are reported in activity feeds include rating a video, sharing a video, marking a video as a favorite, and posting a channel bulletin, among others." [ref=e250]
+                  - row "channel Contains information about a single YouTube channel." [ref=e251]:
+                    - cell "channel" [ref=e252]:
+                      - code [ref=e253]: channel
+                    - cell "Contains information about a single YouTube channel." [ref=e254]
+                  - row "channelBanner Identifies the URL to use to set a newly uploaded image as the banner image for a channel." [ref=e255]:
+                    - cell "channelBanner" [ref=e256]:
+                      - code [ref=e257]:
+                        - text: channel
+                        - text: Banner
+                    - cell "Identifies the URL to use to set a newly uploaded image as the banner image for a channel." [ref=e258]
+                  - row "channelSection Contains information about a set of videos that a channel has chosen to feature. For example, a section could feature a channel's latest uploads, most popular uploads, or videos from one or more playlists." [ref=e259]:
+                    - cell "channelSection" [ref=e260]:
+                      - code [ref=e261]:
+                        - text: channel
+                        - text: Section
+                    - cell "Contains information about a set of videos that a channel has chosen to feature. For example, a section could feature a channel's latest uploads, most popular uploads, or videos from one or more playlists." [ref=e262]
+                  - row "guideCategory Identifies a category that YouTube associates with channels based on their content or other indicators, such as popularity. Guide categories seek to organize channels in a way that makes it easier for YouTube users to find the content they're looking for. While channels could be associated with one or more guide categories, they are not guaranteed to be in any guide categories." [ref=e263]:
+                    - cell "guideCategory" [ref=e264]:
+                      - code [ref=e265]:
+                        - text: guide
+                        - text: Category
+                    - cell "Identifies a category that YouTube associates with channels based on their content or other indicators, such as popularity. Guide categories seek to organize channels in a way that makes it easier for YouTube users to find the content they're looking for. While channels could be associated with one or more guide categories, they are not guaranteed to be in any guide categories." [ref=e266]
+                  - row "i18nLanguage Identifies an application language that the YouTube website supports. The application language can also be referred to as a UI language." [ref=e267]:
+                    - cell "i18nLanguage" [ref=e268]:
+                      - code [ref=e269]:
+                        - text: i18n
+                        - text: Language
+                    - cell "Identifies an application language that the YouTube website supports. The application language can also be referred to as a UI language." [ref=e270]
+                  - row "i18nRegion Identifies a geographic area that a YouTube user can select as the preferred content region. The content region can also be referred to as a content locale." [ref=e271]:
+                    - cell "i18nRegion" [ref=e272]:
+                      - code [ref=e273]:
+                        - text: i18n
+                        - text: Region
+                    - cell "Identifies a geographic area that a YouTube user can select as the preferred content region. The content region can also be referred to as a content locale." [ref=e274]
+                  - row "playlist Represents a single YouTube playlist. A playlist is a collection of videos that can be viewed sequentially and shared with other users." [ref=e275]:
+                    - cell "playlist" [ref=e276]:
+                      - code [ref=e277]: playlist
+                    - cell "Represents a single YouTube playlist. A playlist is a collection of videos that can be viewed sequentially and shared with other users." [ref=e278]
+                  - row "playlistItem Identifies a resource, such as a video, that is part of a playlist. The playlistItem resource also contains details that explain how the included resource is used in the playlist." [ref=e279]:
+                    - cell "playlistItem" [ref=e280]:
+                      - code [ref=e281]:
+                        - text: playlist
+                        - text: Item
+                    - cell "Identifies a resource, such as a video, that is part of a playlist. The playlistItem resource also contains details that explain how the included resource is used in the playlist." [ref=e282]
+                  - row "search result Contains information about a YouTube video, channel, or playlist that matches the search parameters specified in an API request. While a search result points to a uniquely identifiable resource, like a video, it does not have its own persistent data." [ref=e283]:
+                    - cell "search result" [ref=e284]:
+                      - code [ref=e285]: search result
+                    - cell "Contains information about a YouTube video, channel, or playlist that matches the search parameters specified in an API request. While a search result points to a uniquely identifiable resource, like a video, it does not have its own persistent data." [ref=e286]
+                  - row "subscription Contains information about a YouTube user subscription. A subscription notifies a user when new videos are added to a channel or when another user takes one of several actions on YouTube, such as uploading a video, rating a video, or commenting on a video." [ref=e287]:
+                    - cell "subscription" [ref=e288]:
+                      - code [ref=e289]: subscription
+                    - cell "Contains information about a YouTube user subscription. A subscription notifies a user when new videos are added to a channel or when another user takes one of several actions on YouTube, such as uploading a video, rating a video, or commenting on a video." [ref=e290]
+                  - row "thumbnail Identifies thumbnail images associated with a resource." [ref=e291]:
+                    - cell "thumbnail" [ref=e292]:
+                      - code [ref=e293]: thumbnail
+                    - cell "Identifies thumbnail images associated with a resource." [ref=e294]
+                  - row "video Represents a single YouTube video." [ref=e295]:
+                    - cell "video" [ref=e296]:
+                      - code [ref=e297]: video
+                    - cell "Represents a single YouTube video." [ref=e298]
+                  - row "videoCategory Identifies a category that has been or could be associated with uploaded videos." [ref=e299]:
+                    - cell "videoCategory" [ref=e300]:
+                      - code [ref=e301]:
+                        - text: video
+                        - text: Category
+                    - cell "Identifies a category that has been or could be associated with uploaded videos." [ref=e302]
+                  - row "watermark Identifies an image that displays during playbacks of a specified channel's videos. The channel owner can also specify a target channel to which the image links as well as timing details that determine when the watermark appears during video playbacks and the length of time it is visible." [ref=e303]:
+                    - cell "watermark" [ref=e304]:
+                      - code [ref=e305]: watermark
+                    - cell "Identifies an image that displays during playbacks of a specified channel's videos. The channel owner can also specify a target channel to which the image links as well as timing details that determine when the watermark appears during video playbacks and the length of time it is visible." [ref=e306]
+              - paragraph [ref=e307]:
+                - text: Note that, in many cases, a resource contains references to other resources. For example, a
+                - code [ref=e308]: playlistItem
+                - text: resource's
+                - code [ref=e309]: snippet.resourceId.videoId
+                - text: property identifies a video resource that, in turn, contains complete information about the video. As another example, a search result contains either a
+                - code [ref=e310]: videoId
+                - text: ","
+                - code [ref=e311]: playlistId
+                - text: ", or"
+                - code [ref=e312]: channelId
+                - text: property that identifies a particular video, playlist, or channel resource.
+              - heading "Supported operations" [level=3] [ref=e313]
+              - paragraph [ref=e314]:
+                - text: The following table shows the most common methods that the API supports. Some resources also support other methods that perform functions more specific to those resources. For example, the
+                - code [ref=e315]: videos.rate
+                - text: method associates a user rating with a video, and the
+                - code [ref=e316]: thumbnails.set
+                - text: method uploads a video thumbnail image to YouTube and associates it with a video.
+              - table [ref=e317]:
+                - rowgroup [ref=e318]:
+                  - row "Operations" [ref=e319]:
+                    - columnheader "Operations" [ref=e320]
+                  - row "list Retrieves (GET) a list of zero or more resources." [ref=e321]:
+                    - cell "list" [ref=e322]:
+                      - code [ref=e323]: list
+                    - cell "Retrieves (GET) a list of zero or more resources." [ref=e324]:
+                      - text: Retrieves (
+                      - code [ref=e325]: GET
+                      - text: ) a list of zero or more resources.
+                  - row "insert Creates (POST) a new resource." [ref=e326]:
+                    - cell "insert" [ref=e327]:
+                      - code [ref=e328]: insert
+                    - cell "Creates (POST) a new resource." [ref=e329]:
+                      - text: Creates (
+                      - code [ref=e330]: POST
+                      - text: ) a new resource.
+                  - row "update Modifies (PUT) an existing resource to reflect data in your request." [ref=e331]:
+                    - cell "update" [ref=e332]:
+                      - code [ref=e333]: update
+                    - cell "Modifies (PUT) an existing resource to reflect data in your request." [ref=e334]:
+                      - text: Modifies (
+                      - code [ref=e335]: PUT
+                      - text: ) an existing resource to reflect data in your request.
+                  - row "delete Removes (DELETE) a specific resource." [ref=e336]:
+                    - cell "delete" [ref=e337]:
+                      - code [ref=e338]: delete
+                    - cell "Removes (DELETE) a specific resource." [ref=e339]:
+                      - text: Removes (
+                      - code [ref=e340]: DELETE
+                      - text: ) a specific resource.
+              - paragraph [ref=e341]: The API currently supports methods to list each of the supported resource types, and it supports write operations for many resources as well.
+              - paragraph [ref=e342]:
+                - text: The table below identifies the operations that are supported for different types of resources. Operations that insert, update, or delete resources always require
+                - link "user authorization" [ref=e343] [cursor=pointer]:
+                  - /url: /youtube/v3/guides/authentication
+                - text: . In some cases,
+                - code [ref=e344]: list
+                - text: methods support both authorized and unauthorized requests, where unauthorized requests only retrieve public data while authorized requests can also retrieve information about or private to the currently authenticated user.
+              - table [ref=e345]:
+                - rowgroup [ref=e346]:
+                  - row "Supported Operations" [ref=e347]:
+                    - columnheader "Supported Operations" [ref=e348]
+                - rowgroup [ref=e349]:
+                  - row "list insert update delete" [ref=e350]:
+                    - cell [ref=e351]
+                    - cell "list" [ref=e352]:
+                      - strong [ref=e353]: list
+                    - cell "insert" [ref=e354]:
+                      - strong [ref=e355]: insert
+                    - cell "update" [ref=e356]:
+                      - strong [ref=e357]: update
+                    - cell "delete" [ref=e358]:
+                      - strong [ref=e359]: delete
+                  - row "activity check not_interested not_interested not_interested" [ref=e360]:
+                    - cell "activity" [ref=e361]:
+                      - code [ref=e362]:
+                        - strong [ref=e363]: activity
+                    - cell "check" [ref=e364]:
+                      - generic [ref=e365]: check
+                    - cell "not_interested" [ref=e366]:
+                      - generic [ref=e367]: not_interested
+                    - cell "not_interested" [ref=e368]:
+                      - generic [ref=e369]: not_interested
+                    - cell "not_interested" [ref=e370]:
+                      - generic [ref=e371]: not_interested
+                  - row "caption check check check check" [ref=e372]:
+                    - cell "caption" [ref=e373]:
+                      - code [ref=e374]:
+                        - strong [ref=e375]: caption
+                    - cell "check" [ref=e376]:
+                      - generic [ref=e377]: check
+                    - cell "check" [ref=e378]:
+                      - generic [ref=e379]: check
+                    - cell "check" [ref=e380]:
+                      - generic [ref=e381]: check
+                    - cell "check" [ref=e382]:
+                      - generic [ref=e383]: check
+                  - row "channel check not_interested not_interested not_interested" [ref=e384]:
+                    - cell "channel" [ref=e385]:
+                      - code [ref=e386]:
+                        - strong [ref=e387]: channel
+                    - cell "check" [ref=e388]:
+                      - generic [ref=e389]: check
+                    - cell "not_interested" [ref=e390]:
+                      - generic [ref=e391]: not_interested
+                    - cell "not_interested" [ref=e392]:
+                      - generic [ref=e393]: not_interested
+                    - cell "not_interested" [ref=e394]:
+                      - generic [ref=e395]: not_interested
+                  - row "channelBanner not_interested check not_interested not_interested" [ref=e396]:
+                    - cell "channelBanner" [ref=e397]:
+                      - code [ref=e398]:
+                        - strong [ref=e399]: channelBanner
+                    - cell "not_interested" [ref=e400]:
+                      - generic [ref=e401]: not_interested
+                    - cell "check" [ref=e402]:
+                      - generic [ref=e403]: check
+                    - cell "not_interested" [ref=e404]:
+                      - generic [ref=e405]: not_interested
+                    - cell "not_interested" [ref=e406]:
+                      - generic [ref=e407]: not_interested
+                  - row "channelSection check check check check" [ref=e408]:
+                    - cell "channelSection" [ref=e409]:
+                      - code [ref=e410]:
+                        - strong [ref=e411]: channelSection
+                    - cell "check" [ref=e412]:
+                      - generic [ref=e413]: check
+                    - cell "check" [ref=e414]:
+                      - generic [ref=e415]: check
+                    - cell "check" [ref=e416]:
+                      - generic [ref=e417]: check
+                    - cell "check" [ref=e418]:
+                      - generic [ref=e419]: check
+                  - row "comment check check check check" [ref=e420]:
+                    - cell "comment" [ref=e421]:
+                      - code [ref=e422]:
+                        - strong [ref=e423]: comment
+                    - cell "check" [ref=e424]:
+                      - generic [ref=e425]: check
+                    - cell "check" [ref=e426]:
+                      - generic [ref=e427]: check
+                    - cell "check" [ref=e428]:
+                      - generic [ref=e429]: check
+                    - cell "check" [ref=e430]:
+                      - generic [ref=e431]: check
+                  - row "commentThread check check check not_interested" [ref=e432]:
+                    - cell "commentThread" [ref=e433]:
+                      - code [ref=e434]:
+                        - strong [ref=e435]: commentThread
+                    - cell "check" [ref=e436]:
+                      - generic [ref=e437]: check
+                    - cell "check" [ref=e438]:
+                      - generic [ref=e439]: check
+                    - cell "check" [ref=e440]:
+                      - generic [ref=e441]: check
+                    - cell "not_interested" [ref=e442]:
+                      - generic [ref=e443]: not_interested
+                  - row "guideCategory not_interested not_interested not_interested not_interested" [ref=e444]:
+                    - cell "guideCategory" [ref=e445]:
+                      - code [ref=e446]:
+                        - strong [ref=e447]: guideCategory
+                    - cell "not_interested" [ref=e448]:
+                      - generic [ref=e449]: not_interested
+                    - cell "not_interested" [ref=e450]:
+                      - generic [ref=e451]: not_interested
+                    - cell "not_interested" [ref=e452]:
+                      - generic [ref=e453]: not_interested
+                    - cell "not_interested" [ref=e454]:
+                      - generic [ref=e455]: not_interested
+                  - row "i18nLanguage check not_interested not_interested not_interested" [ref=e456]:
+                    - cell "i18nLanguage" [ref=e457]:
+                      - code [ref=e458]:
+                        - strong [ref=e459]: i18nLanguage
+                    - cell "check" [ref=e460]:
+                      - generic [ref=e461]: check
+                    - cell "not_interested" [ref=e462]:
+                      - generic [ref=e463]: not_interested
+                    - cell "not_interested" [ref=e464]:
+                      - generic [ref=e465]: not_interested
+                    - cell "not_interested" [ref=e466]:
+                      - generic [ref=e467]: not_interested
+                  - row "i18nRegion check not_interested not_interested not_interested" [ref=e468]:
+                    - cell "i18nRegion" [ref=e469]:
+                      - code [ref=e470]:
+                        - strong [ref=e471]: i18nRegion
+                    - cell "check" [ref=e472]:
+                      - generic [ref=e473]: check
+                    - cell "not_interested" [ref=e474]:
+                      - generic [ref=e475]: not_interested
+                    - cell "not_interested" [ref=e476]:
+                      - generic [ref=e477]: not_interested
+                    - cell "not_interested" [ref=e478]:
+                      - generic [ref=e479]: not_interested
+                  - row "playlist check check check check" [ref=e480]:
+                    - cell "playlist" [ref=e481]:
+                      - code [ref=e482]:
+                        - strong [ref=e483]: playlist
+                    - cell "check" [ref=e484]:
+                      - generic [ref=e485]: check
+                    - cell "check" [ref=e486]:
+                      - generic [ref=e487]: check
+                    - cell "check" [ref=e488]:
+                      - generic [ref=e489]: check
+                    - cell "check" [ref=e490]:
+                      - generic [ref=e491]: check
+                  - row "playlistItem check check check check" [ref=e492]:
+                    - cell "playlistItem" [ref=e493]:
+                      - code [ref=e494]:
+                        - strong [ref=e495]: playlistItem
+                    - cell "check" [ref=e496]:
+                      - generic [ref=e497]: check
+                    - cell "check" [ref=e498]:
+                      - generic [ref=e499]: check
+                    - cell "check" [ref=e500]:
+                      - generic [ref=e501]: check
+                    - cell "check" [ref=e502]:
+                      - generic [ref=e503]: check
+                  - row "search result check not_interested not_interested not_interested" [ref=e504]:
+                    - cell "search result" [ref=e505]:
+                      - code [ref=e506]:
+                        - strong [ref=e507]: search result
+                    - cell "check" [ref=e508]:
+                      - generic [ref=e509]: check
+                    - cell "not_interested" [ref=e510]:
+                      - generic [ref=e511]: not_interested
+                    - cell "not_interested" [ref=e512]:
+                      - generic [ref=e513]: not_interested
+                    - cell "not_interested" [ref=e514]:
+                      - generic [ref=e515]: not_interested
+                  - row "subscription check not_interested not_interested not_interested" [ref=e516]:
+                    - cell "subscription" [ref=e517]:
+                      - code [ref=e518]:
+                        - strong [ref=e519]: subscription
+                    - cell "check" [ref=e520]:
+                      - generic [ref=e521]: check
+                    - cell "not_interested" [ref=e522]:
+                      - generic [ref=e523]: not_interested
+                    - cell "not_interested" [ref=e524]:
+                      - generic [ref=e525]: not_interested
+                    - cell "not_interested" [ref=e526]:
+                      - generic [ref=e527]: not_interested
+                  - row "thumbnail not_interested not_interested not_interested not_interested" [ref=e528]:
+                    - cell "thumbnail" [ref=e529]:
+                      - code [ref=e530]:
+                        - strong [ref=e531]: thumbnail
+                    - cell "not_interested" [ref=e532]:
+                      - generic [ref=e533]: not_interested
+                    - cell "not_interested" [ref=e534]:
+                      - generic [ref=e535]: not_interested
+                    - cell "not_interested" [ref=e536]:
+                      - generic [ref=e537]: not_interested
+                    - cell "not_interested" [ref=e538]:
+                      - generic [ref=e539]: not_interested
+                  - row "video check check check check" [ref=e540]:
+                    - cell "video" [ref=e541]:
+                      - code [ref=e542]:
+                        - strong [ref=e543]: video
+                    - cell "check" [ref=e544]:
+                      - generic [ref=e545]: check
+                    - cell "check" [ref=e546]:
+                      - generic [ref=e547]: check
+                    - cell "check" [ref=e548]:
+                      - generic [ref=e549]: check
+                    - cell "check" [ref=e550]:
+                      - generic [ref=e551]: check
+                  - row "videoCategory check not_interested not_interested not_interested" [ref=e552]:
+                    - cell "videoCategory" [ref=e553]:
+                      - code [ref=e554]:
+                        - strong [ref=e555]: videoCategory
+                    - cell "check" [ref=e556]:
+                      - generic [ref=e557]: check
+                    - cell "not_interested" [ref=e558]:
+                      - generic [ref=e559]: not_interested
+                    - cell "not_interested" [ref=e560]:
+                      - generic [ref=e561]: not_interested
+                    - cell "not_interested" [ref=e562]:
+                      - generic [ref=e563]: not_interested
+                  - row "watermark not_interested not_interested not_interested not_interested" [ref=e564]:
+                    - cell "watermark" [ref=e565]:
+                      - code [ref=e566]:
+                        - strong [ref=e567]: watermark
+                    - cell "not_interested" [ref=e568]:
+                      - generic [ref=e569]: not_interested
+                    - cell "not_interested" [ref=e570]:
+                      - generic [ref=e571]: not_interested
+                    - cell "not_interested" [ref=e572]:
+                      - generic [ref=e573]: not_interested
+                    - cell "not_interested" [ref=e574]:
+                      - generic [ref=e575]: not_interested
+              - heading "Quota usage" [level=2] [ref=e576]
+              - paragraph [ref=e577]:
+                - text: The YouTube Data API uses a quota to ensure that developers use the service as intended and do not create applications that unfairly reduce service quality or limit access for others. All API requests, including invalid requests, incur at least a one-point quota cost. You can find the quota available to your application in the
+                - link "API Console" [ref=e578] [cursor=pointer]:
+                  - /url: https://console.cloud.google.com/
+                - text: .
+              - paragraph [ref=e579]:
+                - text: Projects that enable the YouTube Data API have a default quota allocation of 10,000 units per day, an amount sufficient for the overwhelming majority of our API users. Default quota, which is subject to change, helps us optimize quota allocations and scale our infrastructure in a way that is more meaningful to our API users. You can see your quota usage on the
+                - link "Quotas" [ref=e580] [cursor=pointer]:
+                  - /url: https://console.developers.google.com/iam-admin/quotas
+                - text: page in the API Console.
+              - paragraph [ref=e581]:
+                - text: "Note: If you reach the quota limit, you can request additional quota by completing the"
+                - link "Quota extension request form" [ref=e582] [cursor=pointer]:
+                  - /url: https://support.google.com/youtube/contact/yt_api_form
+                - text: for YouTube API Services.
+              - heading "Calculating quota usage" [level=3] [ref=e583]
+              - paragraph [ref=e584]: "Google calculates your quota usage by assigning a cost to each request. Different types of operations have different quota costs. For example:"
+              - list [ref=e585]:
+                - listitem [ref=e586]: A read operation that retrieves a list of resources -- channels, videos, playlists -- usually costs 1 unit.
+                - listitem [ref=e587]:
+                  - text: A write operation that creates, updates, or deletes a resource usually costs
+                  - code [ref=e588]: "50"
+                  - text: units.
+                - listitem [ref=e589]:
+                  - text: A search request costs
+                  - code [ref=e590]: "100"
+                  - text: units.
+                - listitem [ref=e591]:
+                  - text: A video upload costs
+                  - code [ref=e592]: "100"
+                  - text: units.
+              - paragraph [ref=e593]:
+                - text: The
+                - link "Quota costs for API requests" [ref=e594] [cursor=pointer]:
+                  - /url: /youtube/v3/determine_quota_cost
+                - text: table shows the quota cost of each API method. With these rules in mind, you can estimate the number of requests that your application could send per day without exceeding your quota.
+              - heading "Partial resources" [level=2] [ref=e595]
+              - paragraph [ref=e596]: The API allows, and actually requires, the retrieval of partial resources so that applications avoid transferring, parsing, and storing unneeded data. This approach also ensures that the API uses network, CPU, and memory resources more efficiently.
+              - paragraph [ref=e597]: The API supports two request parameters, which are explained in the following sections, that enable you to identify the resource properties that should be included in API responses.
+              - paragraph
+              - list [ref=e598]:
+                - listitem [ref=e599]:
+                  - text: The
+                  - code [ref=e600]:
+                    - link "part" [ref=e601] [cursor=pointer]:
+                      - /url: "#part"
+                  - text: parameter identifies groups of properties that should be returned for a resource.
+                - listitem [ref=e602]:
+                  - text: The
+                  - code [ref=e603]:
+                    - link "fields" [ref=e604] [cursor=pointer]:
+                      - /url: "#fields"
+                  - text: parameter filters the API response to only return specific properties within the requested resource parts.
+              - paragraph
+              - heading "How to use the part parameter" [level=3] [ref=e605]:
+                - text: How to use the
+                - code [ref=e606]: part
+                - text: parameter
+              - paragraph [ref=e607]:
+                - text: The
+                - code [ref=e608]: part
+                - text: parameter is a required parameter for any API request that retrieves or returns a resource. The parameter identifies one or more top-level (non-nested) resource properties that should be included in an API response. For example, a
+                - code [ref=e609]:
+                  - link "video" [ref=e610] [cursor=pointer]:
+                    - /url: /youtube/v3/docs/videos#resource
+                - text: "resource has the following parts:"
+              - list [ref=e611]:
+                - listitem [ref=e612]:
+                  - code [ref=e613]: snippet
+                - listitem [ref=e614]:
+                  - code [ref=e615]: contentDetails
+                - listitem [ref=e616]:
+                  - code [ref=e617]: fileDetails
+                - listitem [ref=e618]:
+                  - code [ref=e619]: player
+                - listitem [ref=e620]:
+                  - code [ref=e621]: processingDetails
+                - listitem [ref=e622]:
+                  - code [ref=e623]: recordingDetails
+                - listitem [ref=e624]:
+                  - code [ref=e625]: statistics
+                - listitem [ref=e626]:
+                  - code [ref=e627]: status
+                - listitem [ref=e628]:
+                  - code [ref=e629]: suggestions
+                - listitem [ref=e630]:
+                  - code [ref=e631]: topicDetails
+              - paragraph [ref=e632]:
+                - text: All of these parts are objects that contain nested properties, and you can think of these objects as groups of metadata fields that the API server might (or might not) retrieve. As such, the
+                - code [ref=e633]: part
+                - text: "parameter requires you to select the resource components that your application actually uses. This requirement serves two key purposes:"
+              - list [ref=e634]:
+                - listitem [ref=e635]: It reduces latency by preventing the API server from spending time retrieving metadata fields that your application doesn't use.
+                - listitem [ref=e636]: It reduces bandwidth usage by reducing (or eliminating) the amount of unnecessary data that your application might retrieve.
+              - paragraph [ref=e637]: Over time, as resources add more parts, these benefits will only increase since your application will not be requesting newly introduced properties that it doesn't support.
+              - heading "How to use the fields parameter" [level=3] [ref=e638]:
+                - text: How to use the
+                - code [ref=e639]: fields
+                - text: parameter
+              - paragraph [ref=e640]:
+                - text: The
+                - code [ref=e641]: fields
+                - text: parameter filters the API response, which only contains the resource parts identified in the
+                - code [ref=e642]: part
+                - text: parameter value, so that the response only includes a specific set of fields. The
+                - code [ref=e643]: fields
+                - text: parameter lets you remove nested properties from an API response and thereby further reduce your bandwidth usage. (The
+                - code [ref=e644]: part
+                - text: parameter cannot be used to filter nested properties from a response.)
+              - paragraph [ref=e645]:
+                - text: The following rules explain the supported syntax for the
+                - code [ref=e646]: fields
+                - text: "parameter value, which is loosely based on XPath syntax:"
+              - paragraph
+              - list [ref=e647]:
+                - listitem [ref=e648]:
+                  - text: Use a comma-separated list (
+                  - code [ref=e649]: fields=a,b
+                  - text: ) to select multiple fields.
+                - listitem [ref=e650]:
+                  - text: Use an asterisk (
+                  - code [ref=e651]: fields=*
+                  - text: ) as a wildcard to identify all fields.
+                - listitem [ref=e652]:
+                  - text: Use parentheses (
+                  - code [ref=e653]: fields=a(b,c)
+                  - text: ) to specify a group of nested properties that will be included in the API response.
+                - listitem [ref=e654]:
+                  - text: Use a forward slash (
+                  - code [ref=e655]: fields=a/b
+                  - text: ) to identify a nested property.
+              - paragraph
+              - paragraph [ref=e656]:
+                - text: In practice, these rules often allow several different
+                - code [ref=e657]: fields
+                - text: "parameter values to retrieve the same API response. For example, if you want to retrieve the playlist item ID, title, and position for every item in a playlist, you could use any of the following values:"
+              - paragraph
+              - list [ref=e658]:
+                - listitem [ref=e659]:
+                  - code [ref=e660]: fields=items/id,playlistItems/snippet/title,playlistItems/snippet/position
+                - listitem [ref=e661]:
+                  - code [ref=e662]: fields=items(id,snippet/title,snippet/position)
+                - listitem [ref=e663]:
+                  - code [ref=e664]: fields=items(id,snippet(title,position))
+              - paragraph
+              - paragraph [ref=e665]:
+                - strong [ref=e666]: "Note:"
+                - text: As with all query parameter values, the
+                - code [ref=e667]: fields
+                - text: parameter value must be URL encoded. For better readability, the examples in this document omit the encoding.
+              - heading "Sample partial requests" [level=3] [ref=e668]
+              - paragraph [ref=e669]:
+                - text: The examples below demonstrate how you can use the
+                - code [ref=e670]: part
+                - text: and
+                - code [ref=e671]: fields
+                - text: "parameters to ensure that API responses only include the data that your application uses:"
+              - list [ref=e672]:
+                - listitem [ref=e673]:
+                  - text: Example 1 returns a video resource that includes four parts as well as
+                  - code [ref=e674]: kind
+                  - text: and
+                  - code [ref=e675]: etag
+                  - text: properties.
+                - listitem [ref=e676]:
+                  - text: Example 2 returns a video resource that includes two parts as well as
+                  - code [ref=e677]: kind
+                  - text: and
+                  - code [ref=e678]: etag
+                  - text: properties.
+                - listitem [ref=e679]:
+                  - text: Example 3 returns a video resource that includes two parts but excludes
+                  - code [ref=e680]: kind
+                  - text: and
+                  - code [ref=e681]: etag
+                  - text: properties.
+                - listitem [ref=e682]:
+                  - text: Example 4 returns a video resource that includes two parts but excludes
+                  - code [ref=e683]: kind
+                  - text: and
+                  - code [ref=e684]: etag
+                  - text: as well as some nested properties in the resource's
+                  - code [ref=e685]: snippet
+                  - text: object.
+              - generic [ref=e906]:
+                - tablist [ref=e907]:
+                  - generic [ref=e908]:
+                    - tab "Example 1" [selected] [ref=e909]:
+                      - button "Example 1" [expanded] [ref=e910] [cursor=pointer]
+                    - tab "Example 2" [ref=e911]:
+                      - button "Example 2" [ref=e912] [cursor=pointer]
+                    - tab "Example 3" [ref=e913]:
+                      - button "Example 3" [ref=e914] [cursor=pointer]
+                    - tab "Example 4" [ref=e915]:
+                      - button "Example 4" [ref=e916] [cursor=pointer]
+                    - text: arrow_drop_down
+                - tabpanel "Example 1" [ref=e917]:
+                  - generic [ref=e919]:
+                    - strong [ref=e920]: "URL:"
+                    - generic [ref=e921]:
+                      - text: "https:"
+                      - generic [ref=e922]:
+                        - text: //www.googleapis.com/youtube/v3/videos?id=7lCDEYXw3mM&key=YOUR_API_KEY
+                        - text: "&part=snippet,contentDetails,statistics,status"
+                    - strong [ref=e923]: "Description:"
+                    - text: This example retrieves a
+                    - code [ref=e924]: video
+                    - text: resource and identifies several resource parts that should be included in the API response.
+                    - strong [ref=e925]: "API response:"
+                    - generic [ref=e926]: "{ \"kind\": \"youtube#videoListResponse\", \"etag\": \"\\\"UCBpFjp2h75_b92t44sqraUcyu0/sDAlsG9NGKfr6v5AlPZKSEZdtqA\\\"\", \"videos\": [ { \"id\": \"7lCDEYXw3mM\", \"kind\": \"youtube#video\", \"etag\": \"\\\"UCBpFjp2h75_b92t44sqraUcyu0/iYynQR8AtacsFUwWmrVaw4Smb_Q\\\"\", \"snippet\": { \"publishedAt\": \"2012-06-20T22:45:24.000Z\", \"channelId\": \"UC_x5XG1OV2P6uZZ5FSM9Ttw\", \"title\": \"Google I/O 101: Q&A On Using Google APIs\", \"description\": \"Antonio Fuentes speaks to us and takes questions on working with Google APIs and OAuth 2.0.\", \"thumbnails\": { \"default\": { \"url\": \"https://i.ytimg.com/vi/7lCDEYXw3mM/default.jpg\" }, \"medium\": { \"url\": \"https://i.ytimg.com/vi/7lCDEYXw3mM/mqdefault.jpg\" }, \"high\": { \"url\": \"https://i.ytimg.com/vi/7lCDEYXw3mM/hqdefault.jpg\" } }, \"categoryId\": \"28\" }, \"contentDetails\": { \"duration\": \"PT15M51S\", \"aspectRatio\": \"RATIO_16_9\" }, \"statistics\": { \"viewCount\": \"3057\", \"likeCount\": \"25\", \"dislikeCount\": \"0\", \"favoriteCount\": \"17\", \"commentCount\": \"12\" }, \"status\": { \"uploadStatus\": \"STATUS_PROCESSED\", \"privacyStatus\": \"PRIVACY_PUBLIC\" } } ] }"
+              - heading "Optimizing performance" [level=2] [ref=e686]
+              - generic [ref=e687]:
+                - heading "Using ETags" [level=3] [ref=e688]
+                - paragraph [ref=e689]:
+                  - text: ETags, a standard part of the
+                  - link "HTTP protocol" [ref=e690] [cursor=pointer]:
+                    - /url: https://www.rfc-editor.org/rfc/rfc9110.html#name-etag
+                  - text: ", allow applications to refer to a specific version of a particular API resource. The resource could be an entire feed or an item in that feed. This functionality supports the following use cases:"
+                - list [ref=e691]:
+                  - listitem [ref=e692]:
+                    - paragraph [ref=e693]:
+                      - strong [ref=e694]: Caching and conditional retrieval
+                      - text: – Your application can cache API resources and their ETags. Then, when your application requests a stored resource again, it specifies the ETag associated with that resource. If the resource has changed, the API returns the modified resource and the ETag associated with that version of the resource. If the resource has not changed, the API returns an HTTP 304 response (
+                      - code [ref=e695]: Not Modified
+                      - text: ), which indicates that the resource has not changed. Your application can reduce latency and bandwidth usage by serving cached resources in this manner.
+                    - paragraph [ref=e696]:
+                      - text: The client libraries for Google APIs differ in their support of ETags. For example, the JavaScript client library supports ETags via a whitelist for allowed request headers that includes
+                      - code [ref=e697]: If-Match
+                      - text: and
+                      - code [ref=e698]: If-None-Match
+                      - text: . The whitelist allows normal browser caching to occur so that if a resource's ETag has not changed, the resource can be served from the browser cache. The Obj-C client, on the other hand, does not support ETags.
+                  - listitem [ref=e699]:
+                    - paragraph [ref=e700]:
+                      - strong [ref=e701]: Protecting against inadvertent overwrites of changes
+                      - text: – ETags help to ensure that multiple API clients don't inadvertently overwrite each other's changes. When updating or deleting a resource, your application can specify the resource's ETag. If the ETag doesn't match the most recent version of that resource, then the API request fails.
+                - paragraph [ref=e702]: "Using ETags in your application provides several benefits:"
+                - list [ref=e703]:
+                  - listitem [ref=e704]: The API responds more quickly to requests for cached but unchanged resources, yielding lower latency and lower bandwidth usage.
+                  - listitem [ref=e705]: Your application will not inadvertently overwrite changes to a resource that were made from another API client.
+                - paragraph [ref=e706]:
+                  - text: The
+                  - link "Google APIs Client Library for JavaScript" [ref=e707] [cursor=pointer]:
+                    - /url: /api-client-library/javascript/start/start-js
+                  - text: supports
+                  - code [ref=e708]: If-Match
+                  - text: and
+                  - code [ref=e709]: If-None-Match
+                  - text: HTTP request headers, thereby enabling ETags to work within the context of normal browser caching.
+              - generic [ref=e710]:
+                - heading "Using gzip" [level=3] [ref=e711]
+                - paragraph [ref=e712]: You can also reduce the bandwidth needed for each API response by enabling gzip compression. While your application will need additional CPU time to uncompress API responses, the benefit of consuming fewer network resources usually outweighs that cost.
+                - paragraph [ref=e713]: "To receive a gzip-encoded response you must do two things:"
+                - paragraph
+                - list [ref=e714]:
+                  - listitem [ref=e715]:
+                    - text: Set the
+                    - code [ref=e716]: Accept-Encoding
+                    - text: HTTP request header to
+                    - code [ref=e717]: gzip
+                    - text: .
+                  - listitem [ref=e718]:
+                    - text: Modify your user agent to contain the string
+                    - code [ref=e719]: gzip
+                    - text: .
+                - paragraph
+                - paragraph [ref=e720]: "The sample HTTP headers below demonstrate these requirements for enabling gzip compression:"
+                - generic [ref=e722]: "Accept-Encoding: gzip User-Agent: my program (gzip)"
+          - generic [ref=e724]:
+            - paragraph [ref=e725]:
+              - text: Except as otherwise noted, the content of this page is licensed under the
+              - link "Creative Commons Attribution 4.0 License" [ref=e726] [cursor=pointer]:
+                - /url: https://creativecommons.org/licenses/by/4.0/
+              - text: ", and code samples are licensed under the"
+              - link "Apache 2.0 License" [ref=e727] [cursor=pointer]:
+                - /url: https://www.apache.org/licenses/LICENSE-2.0
+              - text: . For details, see the
+              - link "Google Developers Site Policies" [ref=e728] [cursor=pointer]:
+                - /url: https://developers.google.com/site-policies
+              - text: . Java is a registered trademark of Oracle and/or its affiliates.
+            - paragraph [ref=e729]: Last updated 2026-02-12 UTC.
+      - navigation "Promotions" [ref=e731]:
+        - list [ref=e732]:
+          - listitem [ref=e733]:
+            - link "Blog Blog" [ref=e734] [cursor=pointer]:
+              - /url: https://blog.youtube
+              - img "Blog" [ref=e736]
+              - text: Blog
+            - generic [ref=e737]: The latest news on the YouTube blog
+          - listitem [ref=e738]:
+            - link "GitHub GitHub" [ref=e739] [cursor=pointer]:
+              - /url: https://github.com/youtube/api-samples
+              - img "GitHub" [ref=e741]
+              - text: GitHub
+            - generic [ref=e742]: Find API code samples and other YouTube open-source projects.
+          - listitem [ref=e743]:
+            - link "Issue Tracker Issue Tracker" [ref=e744] [cursor=pointer]:
+              - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - img "Issue Tracker" [ref=e746]
+              - text: Issue Tracker
+            - generic [ref=e747]: Something wrong? Send us a bug report!
+          - listitem [ref=e748]:
+            - link "Stack Overflow Stack Overflow" [ref=e749] [cursor=pointer]:
+              - /url: http://stackoverflow.com/questions/ask?tags=youtube-api
+              - img "Stack Overflow" [ref=e751]
+              - text: Stack Overflow
+            - generic [ref=e752]: Ask a question under the youtube-api tag
+          - listitem [ref=e753]:
+            - link "Videos Videos" [ref=e754] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/YouTubeDev
+              - img "Videos" [ref=e756]
+              - text: Videos
+            - generic [ref=e757]: Check out the YouTube Developer Relations team's YouTube channel
+      - navigation "Footer links" [ref=e759]:
+        - list [ref=e760]:
+          - listitem [ref=e761]:
+            - heading "Tools" [level=3] [ref=e762]
+            - list [ref=e763]:
+              - listitem [ref=e764]:
+                - link "Google APIs Explorer" [ref=e765] [cursor=pointer]:
+                  - /url: https://developers.google.com/apis-explorer/#p/
+              - listitem [ref=e766]:
+                - link "YouTube Player Demo" [ref=e767] [cursor=pointer]:
+                  - /url: /youtube/youtube_player_demo
+              - listitem [ref=e768]:
+                - link "Configure a Subscribe Button" [ref=e769] [cursor=pointer]:
+                  - /url: /youtube/youtube_subscribe_button
+          - listitem [ref=e770]:
+            - heading "Issue Tracker" [level=3] [ref=e771]
+            - list [ref=e772]:
+              - listitem [ref=e773]:
+                - link "File a bug" [ref=e774] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - listitem [ref=e775]:
+                - link "Request a feature" [ref=e776] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues/new?component=186600&template=874803
+              - listitem [ref=e777]:
+                - link "See open issues" [ref=e778] [cursor=pointer]:
+                  - /url: https://issuetracker.google.com/issues?q=componentid:186600
+          - listitem [ref=e779]:
+            - heading "Product Info" [level=3] [ref=e780]
+            - list [ref=e781]:
+              - listitem [ref=e782]:
+                - link "Terms of Service" [ref=e783] [cursor=pointer]:
+                  - /url: /youtube/terms
+              - listitem [ref=e784]:
+                - link "Branding Guidelines" [ref=e785] [cursor=pointer]:
+                  - /url: /youtube/branding_guidelines
+              - listitem [ref=e786]:
+                - link "Monetization Guidelines" [ref=e787] [cursor=pointer]:
+                  - /url: /youtube/creating_monetizable_applications
+              - listitem [ref=e788]:
+                - link "APIs subject to Deprecation Policy" [ref=e789] [cursor=pointer]:
+                  - /url: /youtube/youtube-api-list
+      - generic [ref=e791]:
+        - navigation "Other Google Developers websites" [ref=e792]:
+          - link "Google Developers" [ref=e793] [cursor=pointer]:
+            - /url: https://developers.google.com/
+            - img "Google Developers" [ref=e795]
+          - list [ref=e796]:
+            - listitem [ref=e797]:
+              - link "Android" [ref=e798] [cursor=pointer]:
+                - /url: //developer.android.com
+            - listitem [ref=e799]:
+              - link "Chrome" [ref=e800] [cursor=pointer]:
+                - /url: //developer.chrome.com/home
+            - listitem [ref=e801]:
+              - link "Firebase" [ref=e802] [cursor=pointer]:
+                - /url: //firebase.google.com
+            - listitem [ref=e803]:
+              - link "Google Cloud Platform" [ref=e804] [cursor=pointer]:
+                - /url: //cloud.google.com
+            - listitem [ref=e805]:
+              - link "Google AI" [ref=e806] [cursor=pointer]:
+                - /url: //ai.google.dev/
+            - listitem [ref=e807]:
+              - link "All products" [ref=e808] [cursor=pointer]:
+                - /url: /products
+        - navigation "Utility links" [ref=e809]:
+          - list [ref=e810]:
+            - listitem [ref=e811]:
+              - link "Terms" [ref=e812] [cursor=pointer]:
+                - /url: /terms/site-terms
+            - listitem [ref=e813]:
+              - text: "|"
+              - link "Privacy" [ref=e814] [cursor=pointer]:
+                - /url: //policies.google.com/privacy
+            - text: "|"
+          - generic "Select your language preference." [ref=e927]:
+            - button "Language" [ref=e928] [cursor=pointer]:
+              - img
+              - generic [ref=e929]: Language
+              - img
+      - toolbar "Side panel menu" [ref=e932]:
+        - button "Info" [ref=e933] [cursor=pointer]:
+          - img [ref=e935]
+          - generic [ref=e938]: Info
+        - button "Chat" [ref=e939] [cursor=pointer]:
+          - img [ref=e941]
+          - generic [ref=e944]: Chat
+        - button "API" [ref=e945] [cursor=pointer]:
+          - img [ref=e947]
+          - generic [ref=e949]: API

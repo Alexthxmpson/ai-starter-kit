@@ -1,0 +1,798 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - link "Meta logo" [ref=e12] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "Meta logo" [ref=e14]
+        - tablist [ref=e23]:
+          - tab "Docs" [selected] [ref=e24] [cursor=pointer]:
+            - generic [ref=e27]: Docs
+          - tab "Tools" [ref=e29] [cursor=pointer]:
+            - generic [ref=e32]: Tools
+          - tab "Support" [ref=e34] [cursor=pointer]:
+            - generic [ref=e37]: Support
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e46]: Search input
+          - textbox "Search input" [ref=e57]:
+            - /placeholder: Search...
+        - link "Login" [ref=e58] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?is_work_accounts=true&login_options[0]=FB&login_options[1]=SSO&config_ref=biz_login_tool_flavor_dfc&app=436761779744620&next=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-platform%2Foverview%3Fnav_ref%3Dbiz_unified_f3_login_page_to_dfc
+          - generic [ref=e61]: Login
+    - generic [ref=e64]:
+      - navigation "Breadcrumb" [ref=e68]:
+        - generic [ref=e69]:
+          - link "Docs" [ref=e70] [cursor=pointer]:
+            - /url: /docs/
+            - heading "Docs" [level=3] [ref=e71]
+          - link "Instagram Platform" [ref=e73] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+            - heading "Instagram Platform" [level=3] [ref=e74]
+          - link "Overview" [ref=e76] [cursor=pointer]:
+            - /url: /docs/instagram-platform/overview
+            - heading "Overview" [level=3] [ref=e77]
+      - generic [ref=e78]:
+        - generic [ref=e824]:
+          - link "Instagram Platform" [ref=e826] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+          - list [ref=e827]:
+            - listitem [ref=e828]:
+              - link "Overview" [ref=e829] [cursor=pointer]:
+                - /url: /docs/instagram-platform/overview
+            - listitem [ref=e830]:
+              - link "Webhooks" [ref=e831] [cursor=pointer]:
+                - /url: /docs/instagram-platform/webhooks
+            - listitem [ref=e832]:
+              - link "Create an App" [ref=e833] [cursor=pointer]:
+                - /url: /docs/instagram-platform/create-an-instagram-app
+            - listitem [ref=e834]:
+              - link "Instagram API with Instagram Login" [ref=e835] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-instagram-login
+            - listitem [ref=e836]:
+              - link "Instagram API with Facebook Login" [ref=e837] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-facebook-login
+            - listitem [ref=e838]:
+              - link "Publish Content" [ref=e839] [cursor=pointer]:
+                - /url: /docs/instagram-platform/content-publishing
+            - listitem [ref=e840]:
+              - link "Comment Moderation" [ref=e841] [cursor=pointer]:
+                - /url: /docs/instagram-platform/comment-moderation
+            - listitem [ref=e842]:
+              - link "Private Replies" [ref=e843] [cursor=pointer]:
+                - /url: /docs/instagram-platform/private-replies
+            - listitem [ref=e844]:
+              - link "Insights" [ref=e845] [cursor=pointer]:
+                - /url: /docs/instagram-platform/insights
+            - listitem [ref=e846]:
+              - link "Sharing to Feed" [ref=e847] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-feed
+            - listitem [ref=e848]:
+              - link "Sharing to Stories" [ref=e849] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-stories
+            - listitem [ref=e850]:
+              - link "oEmbed" [ref=e851] [cursor=pointer]:
+                - /url: /docs/instagram-platform/oembed
+            - listitem [ref=e852]:
+              - link "Embed Button" [ref=e853] [cursor=pointer]:
+                - /url: /docs/instagram-platform/embed-button
+            - listitem [ref=e854]:
+              - link "Self Messaging" [ref=e855] [cursor=pointer]:
+                - /url: /docs/instagram-platform/self-messaging
+            - listitem [ref=e856]:
+              - link "API Reference" [ref=e857] [cursor=pointer]:
+                - /url: /docs/instagram-platform/reference
+            - listitem [ref=e858]:
+              - link "App Review" [ref=e859] [cursor=pointer]:
+                - /url: /docs/instagram-platform/app-review
+            - listitem [ref=e860]:
+              - link "Support" [ref=e861] [cursor=pointer]:
+                - /url: /docs/instagram-platform/support
+            - listitem [ref=e862]:
+              - link "Changelog" [ref=e863] [cursor=pointer]:
+                - /url: /docs/instagram-platform/changelog
+        - generic [ref=e128]:
+          - generic [ref=e130]:
+            - generic [ref=e132]:
+              - heading "Overview" [level=1] [ref=e133]
+              - paragraph [ref=e134]: The Instagram Platform is a collection of APIs that allows your app to access data for Instagram professional accounts including both businesses and creators. You can build an app that only serves your Instagram professional account, or you can build an app that servers other Instagram professional accounts that you do not own or manage.
+              - paragraph [ref=e135]: "There are two Instagram API configurations you can use in your app:"
+              - table [ref=e137]:
+                - rowgroup [ref=e138]:
+                  - row "Instagram API with Facebook Login for Business Instagram API with Business Login for Instagram" [ref=e139]:
+                    - columnheader "Instagram API with Facebook Login for Business" [ref=e140]
+                    - columnheader "Instagram API with Business Login for Instagram" [ref=e141]
+                - rowgroup [ref=e142]:
+                  - row "Your app serves Instagram professional accounts that are linked to a Facebook Page Your app users use their Facebook credentials to log in to your app Your app serves Instagram professional accounts with a presence on Instagram only Your app users use their Instagram credentials to log in to your app" [ref=e143]:
+                    - cell "Your app serves Instagram professional accounts that are linked to a Facebook Page Your app users use their Facebook credentials to log in to your app" [ref=e144]:
+                      - list [ref=e145]:
+                        - listitem [ref=e146]: Your app serves Instagram professional accounts that are linked to a Facebook Page
+                        - listitem [ref=e147]: Your app users use their Facebook credentials to log in to your app
+                    - cell "Your app serves Instagram professional accounts with a presence on Instagram only Your app users use their Instagram credentials to log in to your app" [ref=e148]:
+                      - list [ref=e149]:
+                        - listitem [ref=e150]: Your app serves Instagram professional accounts with a presence on Instagram only
+                        - listitem [ref=e151]: Your app users use their Instagram credentials to log in to your app
+              - paragraph [ref=e152]: Depending on the configuration you choose, your app users will be able to have conversations with their customers or people interested in their Instagram professional account, moderate comments on their media, send private replies, publish content, publish ads, and get insights.
+              - heading "Which API is right for my app?" [level=3] [ref=e153]
+              - table [ref=e156]:
+                - rowgroup [ref=e157]:
+                  - row "Component Instagram API setup with Instagram Login Instagram API setup with Facebook Login" [ref=e158]:
+                    - columnheader "Component" [ref=e159]:
+                      - generic [ref=e160]: Component
+                    - columnheader "Instagram API setup with Instagram Login" [ref=e161]:
+                      - link "Instagram API setup with Instagram Login" [ref=e162] [cursor=pointer]:
+                        - /url: https://developers.facebook.com/docs/instagram/platform/instagram-api
+                    - columnheader "Instagram API setup with Facebook Login" [ref=e163]:
+                      - link "Instagram API setup with Facebook Login" [ref=e164] [cursor=pointer]:
+                        - /url: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api
+                - rowgroup [ref=e165]:
+                  - row "Access token type Instagram User Facebook User or Page" [ref=e166]:
+                    - cell "Access token type" [ref=e167]
+                    - cell "Instagram User" [ref=e168]:
+                      - paragraph [ref=e169]: Instagram User
+                    - cell "Facebook User or Page" [ref=e170]:
+                      - paragraph [ref=e171]: Facebook User or Page
+                  - row "Authorization type Business Login for Instagram Facebook Login for Business" [ref=e172]:
+                    - cell "Authorization type" [ref=e173]
+                    - cell "Business Login for Instagram" [ref=e174]:
+                      - link "Business Login for Instagram" [ref=e175] [cursor=pointer]:
+                        - /url: https://developers.facebook.com/docs/instagram/platform/instagram-api/business-login
+                    - cell "Facebook Login for Business" [ref=e176]:
+                      - link "Facebook Login for Business" [ref=e177] [cursor=pointer]:
+                        - /url: https://developers.facebook.com/docs/facebook-login/facebook-login-for-business/
+                  - row "Comment moderation" [ref=e178]:
+                    - cell "Comment moderation" [ref=e179]
+                    - cell [ref=e180]
+                    - cell [ref=e184]
+                  - row "Content publishing" [ref=e188]:
+                    - cell "Content publishing" [ref=e189]
+                    - cell [ref=e190]
+                    - cell [ref=e194]
+                  - row "Facebook Page x Required" [ref=e198]:
+                    - cell "Facebook Page" [ref=e199]
+                    - cell "x" [ref=e200]:
+                      - generic [ref=e201]: x
+                    - cell "Required" [ref=e202]:
+                      - generic [ref=e203]: Required
+                  - row "Hashtag search x" [ref=e204]:
+                    - cell "Hashtag search" [ref=e205]
+                    - cell "x" [ref=e206]:
+                      - generic [ref=e207]: x
+                    - cell [ref=e208]
+                  - row "Insights" [ref=e212]:
+                    - cell "Insights" [ref=e213]:
+                      - link "Insights" [ref=e214] [cursor=pointer]:
+                        - /url: https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/insights
+                    - cell [ref=e215]
+                    - cell [ref=e219]
+                  - row "Mentions" [ref=e223]:
+                    - cell "Mentions" [ref=e224]
+                    - cell [ref=e225]
+                    - cell [ref=e229]
+                  - row "Messaging via Messenger Platform" [ref=e233]:
+                    - cell "Messaging" [ref=e234]
+                    - cell [ref=e235]
+                    - cell "via Messenger Platform" [ref=e239]:
+                      - link "via Messenger Platform" [ref=e241] [cursor=pointer]:
+                        - /url: https://developers.facebook.com/docs/messenger-platform/instagram
+                  - row "Product tagging x" [ref=e242]:
+                    - cell "Product tagging" [ref=e243]:
+                      - link "Product tagging" [ref=e244] [cursor=pointer]:
+                        - /url: https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/product-tagging
+                    - cell "x" [ref=e245]:
+                      - generic [ref=e246]: x
+                    - cell [ref=e247]
+                  - row "Partnership Ads x" [ref=e251]:
+                    - cell "Partnership Ads" [ref=e252]:
+                      - link "Partnership Ads" [ref=e253] [cursor=pointer]:
+                        - /url: https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/partnership-ads
+                    - cell "x" [ref=e254]:
+                      - generic [ref=e255]: x
+                    - cell [ref=e256]
+            - generic [ref=e261]:
+              - heading "Access levels" [level=2] [ref=e262]
+              - paragraph [ref=e263]: "There are two access levels available to your app: Standard Access and Advanced Access."
+              - paragraph [ref=e264]: Standard Access
+              - paragraph [ref=e265]: Standard Access is the default access level for all apps and limits the data your app can get. It is intended for apps that will only be used by people who have roles on them, during app development, or for testing your app. If your app only serves your Instagram professional account or an account you manage, Standard Access is all your app needs.
+              - paragraph [ref=e266]: Advanced Access
+              - paragraph [ref=e267]: Advanced Access is the access level required if your app serves Instagram professional accounts that you don't own or manage and can be used by app users who do not have a role on your app or a role on a business portfolio that has claimed your app. This access level requires App Review and Business Verification.
+              - paragraph [ref=e268]:
+                - strong [ref=e269]: "Note:"
+                - text: Because of the limited scope of Standard Access, some features might not work properly until your app has been granted Advanced Access. This might limit the functionality of any test apps you use.
+              - paragraph [ref=e270]:
+                - text: Learn more about
+                - link "Advanced and Standard Access." [ref=e271] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/graph-api/overview/access-levels
+              - link [ref=e272] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e275]:
+              - heading "App Review" [level=2] [ref=e276]
+              - paragraph [ref=e277]:
+                - text: Meta App Review enables Meta to verify that your app uses our products and APIs in an approved manner. Your app must complete Meta App Review to be granted Advanced Access. Learn more about
+                - link "Meta App Review." [ref=e278] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/resp-plat-initiatives/individual-processes/app-review
+              - heading "Private apps" [level=4] [ref=e279]
+              - paragraph [ref=e280]: "If reviewers are unable to test your app because it is behind a private intranet, has no user interface, or has not implemented Facebook Login for Business, you can request approval only for the following permissions:"
+              - list [ref=e281]:
+                - listitem [ref=e282]:
+                  - code [ref=e283]: instagram_basic
+                - listitem [ref=e284]:
+                  - code [ref=e285]: instagram_manage_comments
+              - link [ref=e286] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e289]:
+              - heading "App users" [level=2] [ref=e290]
+              - paragraph [ref=e291]:
+                - text: To use the APIs, your app users must have an
+                - link "Instagram professional account" [ref=e292] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fbusiness.instagram.com%2Fgetting-started&h=AT6IUB4VKrWM-T6b-l79vv-vCU40kFvLPjuaSNqcSYkvIQqDU41Nb4EVOp0z_Cak5QsdzmMrgapkaQsXrzYTJNzfdpscipgNz9i6TifI_wk0XRpf9SzeLcB7SegbbtXxUHvDzAU6WGj_EddNiTfvFBXCJiGDwr3RqRghRSa6_FqVn45p6Uk
+                - text: . An Instagram professional account can be for a business or creator. You can build your app so that it serves businesses and creators with Instagram professional accounts that only have a presence on Instagram and use Business Login for Instagram, or businesses and creators with Instagram professional accounts that are linked to a Facebook Page and use Facebook Login for Business. For an Instagram professional account that is linked to a Facebook Page, your app user must also be able to perform admin-equivalent tasks on the linked Facebook Page.
+              - paragraph [ref=e293]: Your app will also interact with Instagram users who interact with your app users' Instagram professional accounts. These interactions can happen through comments and reactions on your app users' Instagram comments, posts, reels, and stories, ads, and Instagram Direct.
+              - link [ref=e294] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e297]:
+              - table [ref=e298]:
+                - rowgroup [ref=e299]:
+                  - row [ref=e300]:
+                    - cell [ref=e301]:
+                      - heading "Authentication and authorization" [level=2] [ref=e302]
+                      - paragraph [ref=e303]:
+                        - text: Endpoint authorization is handled through
+                        - link "permissions and features." [ref=e304] [cursor=pointer]:
+                          - /url: "#features-and-permissions"
+                        - text: Before your app can use an endpoint to access an app user's Instagram professional account data, you must first request all permissions required by those endpoints from the app user. You can request permissions from app users by implementing Business Login for Instagram or Facebook Login for Business. If you implement Business Login for Instagram, your app users log in with their Instagram credentials. If you implement Facebook Login for Business your app users log in with their Facebook credentials.
+                      - paragraph [ref=e305]: To start the log in flow, an app user clicks your embed URL. Meta opens an authorization window where the user grants your app the requested permissions. Meta then redirects the user to your app’s redirect URI and sends your app an Authorization Code. This code is valid for one hour.
+                      - paragraph [ref=e306]: Next, exchange the authorization code for a short-lived access token, an ID for your app user, and a list of permissions granted by your app user. This access token is valid for one hour. Access tokens follow the OAuth 2.0 protocol, are app-scoped (unique to your app and app user), and required for most API calls. Apps using Business Login for Instagram receive Instagram User access tokens and apps using Facebook Login for Business receive Facebook User access tokens.
+                      - paragraph [ref=e307]: Before the short-lived access token expires, your app exchange it for a long-lived access token. This access token is valid for 60 days and can be refreshed before they expire.
+                      - paragraph [ref=e308]: Once permissions have been granted and your app receives an access token, your app can query the endpoints to access the user's data. Note that a permission only allows access to data created by the app user who granted the permission. There are a few endpoints that allow apps to access data not created by the app user, but the accessible data is limited and public.
+                      - paragraph [ref=e309]: If your app serves only your Instagram professional accounts, or accounts you manage, you do not need to implement a login flow. However, you will need to configure the business login settings in the App Dashboard to obtain an Instagram app ID and an Instagram app secret, as well as obtain long-lived access tokens to use in your API calls.
+                    - cell [ref=e310]
+              - heading "Features and permissions" [level=4] [ref=e311]
+              - paragraph [ref=e312]: "The API uses the following permissions and features, which are based on login type:"
+              - table [ref=e314]:
+                - rowgroup [ref=e315]:
+                  - row "Instagram login Facebook login" [ref=e316]:
+                    - columnheader "Instagram login" [ref=e317]
+                    - columnheader "Facebook login" [ref=e318]
+                - rowgroup [ref=e319]:
+                  - row "instagram_business_basic instagram_business_content_publish instagram_business_manage_comments instagram_business_manage_messages Human Agent instagram_basic instagram_content_publish instagram_manage_comments instagram_manage_insights instagram_manage_messages pages_show_list pages_read_engagement Human Agent Instagram Public Content Access" [ref=e320]:
+                    - cell "instagram_business_basic instagram_business_content_publish instagram_business_manage_comments instagram_business_manage_messages Human Agent" [ref=e321]:
+                      - list [ref=e322]:
+                        - listitem [ref=e323]:
+                          - code [ref=e324]: instagram_business_basic
+                        - listitem [ref=e325]:
+                          - code [ref=e326]: instagram_business_content_publish
+                        - listitem [ref=e327]:
+                          - code [ref=e328]: instagram_business_manage_comments
+                        - listitem [ref=e329]:
+                          - code [ref=e330]: instagram_business_manage_messages
+                        - listitem [ref=e331]: Human Agent
+                    - cell "instagram_basic instagram_content_publish instagram_manage_comments instagram_manage_insights instagram_manage_messages pages_show_list pages_read_engagement Human Agent Instagram Public Content Access" [ref=e332]:
+                      - list [ref=e333]:
+                        - listitem [ref=e334]:
+                          - code [ref=e335]: instagram_basic
+                        - listitem [ref=e336]:
+                          - code [ref=e337]: instagram_content_publish
+                        - listitem [ref=e338]:
+                          - code [ref=e339]: instagram_manage_comments
+                        - listitem [ref=e340]:
+                          - code [ref=e341]: instagram_manage_insights
+                        - listitem [ref=e342]:
+                          - code [ref=e343]: instagram_manage_messages
+                        - listitem [ref=e344]:
+                          - code [ref=e345]: pages_show_list
+                        - listitem [ref=e346]:
+                          - code [ref=e347]: pages_read_engagement
+                        - listitem [ref=e348]: Human Agent
+                        - listitem [ref=e349]: Instagram Public Content Access
+              - text: The Human Agent feature allows your app to have a human agent respond to user messages using the human_agent tag within 7 days of a user's message. The allowed usage for this feature is to provide human agent support in cases where a user’s issue cannot be resolved in the standard messaging window. Examples include when the business is closed for the weekend, or if the issue requires more than 24 hours to resolve.
+              - text: The Instagram Public Content Access feature allows your app to access Instagram Graph API's Hashtag Search endpoints. The allowed usages for this feature is to discover content associated with your hashtag campaigns, understand public sentiment around your brand or identify contest, competition and sweepstakes entrants. It can also be used to provide customer support and better understand and manage your audience.
+              - paragraph [ref=e350]:
+                - text: See our
+                - link "API Reference" [ref=e351] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/instagram-platform/reference
+                - text: to determine which permission and features your app will need to request from app users.
+              - link [ref=e352] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e355]:
+              - heading "Base URLs" [level=2] [ref=e356]
+              - paragraph [ref=e357]:
+                - text: For apps using Business Login for Instagram, where your app users log in with their Instagram credentials, all endpoints are accessed via the
+                - strong [ref=e358]:
+                  - code [ref=e359]: graph.instagram.com
+                - text: host.
+              - paragraph [ref=e360]:
+                - text: For apps using Facebook Login for Business, where your app users' Instagram professional account is linked to a Facebook Page and your app users log in with their Facebook credentials, all endpoints are accessed via the
+                - strong [ref=e361]:
+                  - code [ref=e362]: graph.facebook.com
+                - text: host.
+              - link [ref=e363] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e366]:
+              - heading "Business verification" [level=2] [ref=e367]:
+                - link "Business verification" [ref=e368] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/development/release/business-verification
+              - paragraph [ref=e369]: You must complete Business Verification if your app requires Advanced Access; if your app will be used by app users who do not have a Role on the app itself, or a Role in a Business that has claimed the app.
+              - link [ref=e370] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e373]:
+              - heading "Comment moderation" [level=2] [ref=e374]
+              - paragraph [ref=e375]: An Instagram user comments on your app user's Instagram professional account's media. Your app can use the API to get comments, reply to comments, delete comments, hide/unhide comments, and disable/enable comments on Instagram media owned by your app user's Instagram professional account. The API can also identify media where the Instagram professional account has been @mentioned by other Instagram users.
+              - link [ref=e376] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e379]:
+              - heading "Content publishing" [level=2] [ref=e380]
+              - paragraph [ref=e381]: Your app can use the API to publish single images, videos, reels (single media posts), or posts containing multiple images and videos (carousel posts) on behalf of your app user's Instagram professional accounts.
+              - heading "Content Delivery Network URLs" [level=4] [ref=e382]
+              - paragraph [ref=e383]: Instagram Platform leverages Content Delivery Network (CDN) URLs which allow you to retrieve rich media content shared by Instagram users. The CDN URL is privacy-aware and will not return the media when the content has been deleted or has expired.
+              - heading "Collaborators" [level=3] [ref=e384]
+              - paragraph [ref=e385]:
+                - emphasis [ref=e386]: Facebook Login for Business only.
+              - paragraph [ref=e387]:
+                - text: The
+                - link "Instagram Collaborator Tags" [ref=e388] [cursor=pointer]:
+                  - /url: https://www.facebook.com/help/instagram/291200585956732
+                - text: allows Instagram users to co-author content, such as publish media with other accounts (collaborators).
+              - paragraph [ref=e389]: With a few exceptions, data on or about co-authored media can only be accessed through the API by the user who published the media; collaborators are unable to access this data via the API. The only exceptions are when searching for top performing media or recently published media that has been tagged with a specific hashtag.
+              - link [ref=e390] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e393]:
+              - heading "Develop with Meta" [level=2] [ref=e394]:
+                - link "Develop with Meta" [ref=e395] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/development
+              - paragraph [ref=e396]:
+                - text: Before you can integrate a Meta Technologies API into your app, you must
+                - link "register as a Meta developer" [ref=e397] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/development/register
+                - text: and then create an app in the Meta App Dashboard that represents your app.
+              - paragraph [ref=e398]: "When creating an app, you will add the following products depending on login type:"
+              - table [ref=e400]:
+                - rowgroup [ref=e401]:
+                  - row "Business Login for Instagram Facebook Login for Business" [ref=e402]:
+                    - columnheader [ref=e403]
+                    - columnheader "Business Login for Instagram" [ref=e405]
+                    - columnheader "Facebook Login for Business" [ref=e406]
+                - rowgroup [ref=e407]:
+                  - row "Products Required Instagram > Instagram API setup with Instagram login Facebook Login for Business Messenger, including Instagram settings for sending and receiving messages Instagram > Instagram API setup with Facebook login" [ref=e408]:
+                    - cell "Products Required" [ref=e409]
+                    - cell "Instagram > Instagram API setup with Instagram login" [ref=e410]:
+                      - list [ref=e411]:
+                        - listitem [ref=e412]:
+                          - strong [ref=e413]: Instagram
+                          - text: "> Instagram API setup with Instagram login"
+                    - cell "Facebook Login for Business Messenger, including Instagram settings for sending and receiving messages Instagram > Instagram API setup with Facebook login" [ref=e414]:
+                      - list [ref=e415]:
+                        - listitem [ref=e416]:
+                          - generic [ref=e417]: Facebook Login for Business
+                        - listitem [ref=e418]:
+                          - generic [ref=e419]: Messenger, including Instagram settings for sending and receiving messages
+                        - listitem [ref=e420]:
+                          - generic [ref=e421]: Instagram > Instagram API setup with Facebook login
+              - heading "App IDs" [level=3] [ref=e422]
+              - paragraph [ref=e423]:
+                - text: App IDs are required during authentication and can be found in the app's Meta App Dashboard. Apps that use Facebook Login for Business will use the Meta app ID displayed at the top of the Meta App Dashboard for your app. Apps that use Business Login for Instagram will use the Instagram app ID displayed on the
+                - strong [ref=e424]: Instagram > API setup with Instagram login
+                - text: section of the dashboard.
+              - link [ref=e425] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e428]:
+              - heading "Facebook Pages" [level=2] [ref=e429]:
+                - link "Facebook Pages" [ref=e430] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F570895513091465&h=AT4bYJeAuXU-vQgZkUX6HM24gSd2TgjZA_9CCittUbfV8AA_RyYrgnFWMbtnHIkA1-3Od36FF9xfGtNJFIiYGkLJtFxLvqMMIHCPnm3R7WnuoOB3nWGFxa0Pea8qKGId5fgIiOhGRqO-fxy7Q0Kg5yQsg0nF8V8L2LMx1Q
+              - paragraph [ref=e431]: If your app implements Facebook Login for Business, your app users' Instagram professional accounts must be connected to a Facebook Page.
+              - paragraph [ref=e432]:
+                - link "Tasks" [ref=e433] [cursor=pointer]:
+                  - /url: /docs/pages/access-tokens#page-tasks
+              - paragraph [ref=e434]:
+                - text: Your app users must be able to perform tasks on the Facebook Page linked to their Instagram professional account so that they can grant your app permissions related to those tasks. The following table maps the name of the task in our UIs, such as Facebook Page Settings or Meta Business Suite, with task names returned in
+                - link "GET /me/accounts" [ref=e435] [cursor=pointer]:
+                  - /url: /docs/graph-api/reference/user/accounts#Reading
+                  - code [ref=e436]: GET /me/accounts
+                - text: endpoint requests, and the permission the user can grant if they can perform that task.
+              - table [ref=e438]:
+                - rowgroup [ref=e439]:
+                  - row "Task name in UIs Task name in API Grantable Permissions" [ref=e440]:
+                    - columnheader "Task name in UIs" [ref=e441]
+                    - columnheader "Task name in API" [ref=e442]
+                    - columnheader "Grantable Permissions" [ref=e443]
+                - rowgroup [ref=e444]:
+                  - row "Ads PROFILE_PLUS_ADVERTISE instagram_basic" [ref=e445]:
+                    - cell "Ads" [ref=e446]:
+                      - paragraph [ref=e447]: Ads
+                    - cell "PROFILE_PLUS_ADVERTISE" [ref=e448]:
+                      - paragraph [ref=e449]:
+                        - code [ref=e450]: PROFILE_PLUS_ADVERTISE
+                    - cell "instagram_basic" [ref=e451]:
+                      - paragraph [ref=e452]:
+                        - code [ref=e453]: instagram_basic
+                  - row "Content PROFILE_PLUS_CREATE_CONTENT instagram_basic instagram_content_publish" [ref=e454]:
+                    - cell "Content" [ref=e455]:
+                      - paragraph [ref=e456]: Content
+                    - cell "PROFILE_PLUS_CREATE_CONTENT" [ref=e457]:
+                      - paragraph [ref=e458]:
+                        - code [ref=e459]: PROFILE_PLUS_CREATE_CONTENT
+                    - cell "instagram_basic instagram_content_publish" [ref=e460]:
+                      - paragraph [ref=e461]:
+                        - code [ref=e462]: instagram_basic
+                        - code [ref=e463]: instagram_content_publish
+                  - row "Full control PROFILE_PLUS_FULL_CONTROL instagram_basic instagram_content_publish" [ref=e464]:
+                    - cell "Full control" [ref=e465]:
+                      - paragraph [ref=e466]: Full control
+                    - cell "PROFILE_PLUS_FULL_CONTROL" [ref=e467]:
+                      - paragraph [ref=e468]:
+                        - code [ref=e469]: PROFILE_PLUS_FULL_CONTROL
+                    - cell "instagram_basic instagram_content_publish" [ref=e470]:
+                      - paragraph [ref=e471]:
+                        - code [ref=e472]: instagram_basic
+                        - code [ref=e473]: instagram_content_publish
+                  - row "Insights PROFILE_PLUS_ANALYZE instagram_basic instagram_manage_insights" [ref=e474]:
+                    - cell "Insights" [ref=e475]:
+                      - paragraph [ref=e476]: Insights
+                    - cell "PROFILE_PLUS_ANALYZE" [ref=e477]:
+                      - paragraph [ref=e478]:
+                        - code [ref=e479]: PROFILE_PLUS_ANALYZE
+                    - cell "instagram_basic instagram_manage_insights" [ref=e480]:
+                      - paragraph [ref=e481]:
+                        - code [ref=e482]: instagram_basic
+                        - code [ref=e483]: instagram_manage_insights
+                  - row "Messages PROFILE_PLUS_MESSAGING instagram_basic instagram_manage_messages" [ref=e484]:
+                    - cell "Messages" [ref=e485]:
+                      - paragraph [ref=e486]: Messages
+                    - cell "PROFILE_PLUS_MESSAGING" [ref=e487]:
+                      - paragraph [ref=e488]:
+                        - code [ref=e489]: PROFILE_PLUS_MESSAGING
+                    - cell "instagram_basic instagram_manage_messages" [ref=e490]:
+                      - paragraph [ref=e491]:
+                        - code [ref=e492]: instagram_basic
+                        - code [ref=e493]: instagram_manage_messages
+                  - row "Community Activity PROFILE_PLUS_MODERATE instagram_basic instagram_manage_comments" [ref=e494]:
+                    - cell "Community Activity" [ref=e495]:
+                      - paragraph [ref=e496]: Community Activity
+                    - cell "PROFILE_PLUS_MODERATE" [ref=e497]:
+                      - paragraph [ref=e498]:
+                        - code [ref=e499]: PROFILE_PLUS_MODERATE
+                    - cell "instagram_basic instagram_manage_comments" [ref=e500]:
+                      - paragraph [ref=e501]:
+                        - code [ref=e502]: instagram_basic
+                        - code [ref=e503]: instagram_manage_comments
+              - paragraph [ref=e504]:
+                - text: See our
+                - link "Instagram API Reference" [ref=e505] [cursor=pointer]:
+                  - /url: /docs/instagram-platform/reference
+                - text: to see which permissions each endpoint requires.
+              - link [ref=e506] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e509]:
+              - heading "Scoped User IDs" [level=2] [ref=e510]
+              - paragraph [ref=e511]: Instagram-scoped User IDs
+              - paragraph [ref=e512]: When an Instagram user comments on a post, reel, or story, or sends a message to an Instagram professional account, an Instagram-scoped User ID is created that represents that person on that app. This ID is specific to the person and the Instagram account they are interacting with. This allows your app users, businesses and creators, to map interactions for the same person across multiple apps.
+              - paragraph [ref=e513]: Page-scoped User IDs
+              - paragraph [ref=e514]: When an Instagram user comments on a post, reel, or story, or sends a message to an Instagram professional account, an Page-scoped User ID is created that represents that person on that app. This ID is specific to the person and the Instagram account they are interacting with. This allows your app users, businesses and creators, to map interactions for the same person across multiple apps.
+              - link [ref=e515] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e518]:
+              - heading "/me endpoint" [level=2] [ref=e519]:
+                - code [ref=e520]: /me
+                - text: endpoint
+              - paragraph [ref=e521]:
+                - text: The
+                - code [ref=e522]: /me
+                - text: endpoint is a special endpoint that translates to the object ID of the account, Facebook Page or Instagram professional account, whose access token is currently being used to make the API calls. This special endpoint can also represent any ID, comments, conversations, media, posts, reels, and stories owned by your app user's Instagram professional account.
+              - link [ref=e523] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e526]:
+              - heading "Messaging" [level=2] [ref=e527]
+              - paragraph [ref=e528]: An Instagram user sends a message to your app user's Instagram professional account while logged in to Instagram. The message is delivered to your app user's Instagram inbox and a webhook notification is sent to your server. Your app can use the API to respond within 24 hours. If more time is needed to allow a human agent to respond, you can use the human agent tag to send a response within 7 days.
+              - paragraph [ref=e529]:
+                - text: If your app uses Facebook Login for Business, your app will use the
+                - link "Messenger Platform's Instagram Messaging API" [ref=e530] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/messenger-platform/instagram
+                - text: to send and receive messages.
+              - paragraph [ref=e531]: Instagram Inbox
+              - paragraph [ref=e532]:
+                - text: An Instagram professional account has a messaging inbox that allows you to control notifications and organize messages. By default notifications are off. You can turn notifications on in the Inbox Settings. The inbox is organized into different categories,
+                - strong [ref=e533]: Primary
+                - text: ","
+                - strong [ref=e534]: General
+                - text: ", and"
+                - strong [ref=e535]: Requests
+                - text: . By default, all new conversations from followers will appear in the Primary folder. Conversations that existed before you implemented Instagram Messaging will be in the folders you have placed them within.
+              - paragraph [ref=e536]: Messages that you receive from people who are not followers of your account are in Requests folder. You can choose to accept or deny these requests, and request messages aren’t marked as Seen until you accept them. Once a request is accepted you can move the conversation to the Primary or General folder. All message requests that you answer using a third-party app will be moved to the General folder.
+              - paragraph [ref=e537]: Inbox Limitations
+              - list [ref=e538]:
+                - listitem [ref=e539]:
+                  - text: If you reply to a message using a third-party app, the conversation will be moved to the
+                  - strong [ref=e540]: General
+                  - text: folder regardless of your Setting configuration
+                - listitem [ref=e541]: Inbox folders are not supported and messages delivered by the Messenger Platform do not include folder information that is shown in the Instagram from Meta app inbox folder
+                - listitem [ref=e542]:
+                  - text: Webhooks notifications or messages delivered via the API will not be considered as
+                  - strong [ref=e543]: Read
+                  - text: in the Instagram app inbox. Only after a reply is sent will a message be considered
+                  - strong [ref=e544]: Read
+                  - text: .
+              - heading "Automated Experiences" [level=3] [ref=e545]
+              - paragraph [ref=e546]: "You can provide an escalation path for automated messaging experiences using one of the following:"
+              - list [ref=e547]:
+                - listitem [ref=e548]:
+                  - generic [ref=e549]: A Single App – You can create a custom inbox to receive or reply to messages from a person. This custom inbox is powered by the same messaging app that also provides the automated experience
+                - listitem [ref=e550]:
+                  - generic [ref=e551]:
+                    - text: Multiple Apps –
+                    - link "Handover Protocol" [ref=e552] [cursor=pointer]:
+                      - /url: https://developers.facebook.com/docs/messenger-platform/handover-protocol
+                    - text: allows you pass the conversation from one app or inbox to another. For example, one app would handle the conversation with an automated experience and, when needed, would pass the conversation to another app to continue the conversation with a human agent.
+              - generic [ref=e554]:
+                - heading "Informing Users About Your Automated Experience" [level=4] [ref=e555]
+                - paragraph [ref=e557]: "When required by applicable law, automated chat experiences must disclose that a person is interacting with an automated service:"
+                - list [ref=e558]:
+                  - listitem [ref=e559]: at the beginning of any conversation or message thread,
+                  - listitem [ref=e560]: after a significant lapse of time, or
+                  - listitem [ref=e561]: when a chat moves from human interaction to automated experience.
+                - paragraph [ref=e562]: "Automated chat experiences that serve the following groups should pay special attention to this requirement:"
+                - list [ref=e563]:
+                  - listitem [ref=e564]: California market or California users
+                  - listitem [ref=e565]: German market or German users
+                - paragraph [ref=e566]: "Disclosures may include but are not limited to: “I’m the [Page Name] bot,”“You are interacting with an automated experience,” “You are talking to a bot,” or “I am an automated chatbot.”"
+                - paragraph [ref=e567]: Even where not legally required, we recommend informing users when they’re interacting with an automated chat as best practice, as this helps manage user expectations about their interaction with your messaging experience.
+                - paragraph [ref=e568]:
+                  - text: Visit our
+                  - link "Developer Policies" [ref=e569] [cursor=pointer]:
+                    - /url: https://developers.facebook.com/devpolicy/#messengerplatform
+                  - text: for more information.
+              - link [ref=e570] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e573]:
+              - heading "Policies" [level=2] [ref=e574]
+              - paragraph [ref=e575]: "To gain and retain access to the Meta social graph you must adhere to the following:"
+              - list [ref=e576]:
+                - listitem [ref=e577]:
+                  - link "Automated chats on Instagram" [ref=e579] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F655277382759165&h=AT6fcNo7b59EqNsdvoIBRLFfSnWy3s1bDUSz9Yo98r-1kELsSipE3nVbAMu54MksIkroC1qVDgR6oTgSvpE6tQXGbgvlYYYE5FRTdrfBVCNV5cqOfUN-2SYU6obuGKPQAXpXcJvL967dmWjY4jJ0WF4Aql9JMjE5ouE92pkfVYx81QhqjEs
+                - listitem [ref=e580]:
+                  - link "Meta Platform Terms" [ref=e582] [cursor=pointer]:
+                    - /url: https://developers.facebook.com/terms/
+                - listitem [ref=e583]:
+                  - link "Developer Policies" [ref=e585] [cursor=pointer]:
+                    - /url: https://developers.facebook.com/devpolicy
+                - listitem [ref=e586]:
+                  - link "Community Standards" [ref=e588] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftransparency.meta.com%2Fpolicies%2Fcommunity-standards%2F&h=AT4Vh8fxqUDeEfnk84x2aRlOR8zenkykpPGtz-lORkCd9wJ1wwBUiJrVXL-4ZqmNEXE-0SnSL0fw2O9HLWMVkxp5Yckj_o9ihvAClMBORNHGd6y5yumSoixB1VB2U7dVhepH5yrstTfkMsYIp4WLzoEGoubkjTe2SGQd4A
+                - listitem [ref=e589]:
+                  - link "Responsible Platform Initiatives" [ref=e591] [cursor=pointer]:
+                    - /url: https://developers.facebook.com/docs/resp-plat-initiatives
+              - link [ref=e592] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e595]:
+              - heading "Rate Limiting" [level=2] [ref=e596]
+              - paragraph [ref=e597]:
+                - text: All endpoints are subject to
+                - link "Instagram Business Use Case rate limiting" [ref=e598] [cursor=pointer]:
+                  - /url: /docs/graph-api/overview/rate-limiting#instagram-graph-api
+                - text: except for
+                - link "Business Discovery" [ref=e599] [cursor=pointer]:
+                  - /url: /docs/instagram-api/guides/business-discovery
+                - text: and
+                - link "Hashtag Search" [ref=e600] [cursor=pointer]:
+                  - /url: /docs/instagram-api/guides/hashtag-search
+                - text: endpoints, which are subject to
+                - link "Platform Rate limiting." [ref=e601] [cursor=pointer]:
+                  - /url: /docs/graph-api/overview/rate-limiting#platform-rate-limits
+              - generic [ref=e603]:
+                - paragraph [ref=e604]: "Calls to the Instagram Platform endpoints, excluding messaging, are counted against the calling app's call count. An app's call count is unique for each app and app user pair, and is the number of calls the app has made in a rolling 24 hour window. It is calculated as follows:"
+                - code [ref=e606]: Calls within 24 hours = 4800 * Number of Impressions
+                - paragraph [ref=e608]: The Number of Impressions is the number of times any content from the app user's Instagram professional account has entered a person's screen within the last 24 hours.
+                - heading "Notes" [level=4] [ref=e609]
+                - listitem [ref=e610]:
+                  - text: Business Discovery and Hashtag Search API are subject to
+                  - link "Platform Rate Limits" [ref=e611] [cursor=pointer]:
+                    - /url: /docs/graph-api/overview/rate-limiting#platform-rate-limits
+                  - text: .
+                - heading "Messaging Rate Limits" [level=3] [ref=e612]
+                - paragraph [ref=e613]: Calls to the Instagram messaging endpoints are counted against the number of calls your app can make per Instagram professional account and the API used.
+                - heading "Conversations API" [level=4] [ref=e614]
+                - list [ref=e615]:
+                  - listitem [ref=e616]: Your app can make 2 calls per second per Instagram professional account.
+                - heading "Private Replies API" [level=4] [ref=e617]
+                - list [ref=e618]:
+                  - listitem [ref=e619]: Your app can make 100 calls per second per Instagram professional account for private replies to Instagram Live comments
+                  - listitem [ref=e620]: Your app can make 750 calls per hour per Instagram professional account for private replies to comments on Instagram posts and reels
+                - heading "Send API" [level=4] [ref=e621]
+                - list [ref=e622]:
+                  - listitem [ref=e623]: Your app can make 100 calls per second per Instagram professional account for messages that contain text, links, reactions, and stickers
+                  - listitem [ref=e624]: Your app can make 10 calls per second per Instagram professional account for messages that contain audio or video content
+              - link [ref=e625] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e628]:
+              - heading "Webhooks" [level=2] [ref=e629]
+              - paragraph [ref=e630]: We strongly recommend using webhooks to receive notifications about your app users' media objects or messages. Using webhooks will reduce the number of needed API calls made by your app and hence, reducing the risk of being rate limited.
+              - link [ref=e631] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e634]:
+              - heading "Next steps" [level=2] [ref=e635]
+              - paragraph [ref=e636]:
+                - text: Now that you are familiar with the components of this API, set up your
+                - link "webhooks server and subscribe to events" [ref=e637] [cursor=pointer]:
+                  - /url: /docs/instagram-platform/webhooks
+                - text: .
+              - link [ref=e638] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e641]:
+              - heading "See also" [level=2] [ref=e642]
+              - paragraph [ref=e643]:
+                - text: Learn more about
+                - link "Meta's Graph API" [ref=e644] [cursor=pointer]:
+                  - /url: https://developers.facebook.com/docs/graph-api
+                - text: and the
+                - link "Messenger Platform" [ref=e645] [cursor=pointer]:
+                  - /url: /docs/messenger-platform
+                - text: .
+              - link [ref=e646] [cursor=pointer]:
+                - /url: "#"
+          - link [ref=e650] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e655]:
+          - generic [ref=e656]: On This Page
+          - link "Overview" [ref=e658] [cursor=pointer]:
+            - /url: "#overview"
+          - link "Access levels" [ref=e660] [cursor=pointer]:
+            - /url: "#access-levels"
+          - link "App Review" [ref=e662] [cursor=pointer]:
+            - /url: "#app-review"
+          - link "App users" [ref=e664] [cursor=pointer]:
+            - /url: "#app-users"
+          - link "Authentication and authorization" [ref=e666] [cursor=pointer]:
+            - /url: "#authentication-and-authorization"
+          - link "Base URLs" [ref=e668] [cursor=pointer]:
+            - /url: "#base-urls"
+          - link "Business verification" [ref=e670] [cursor=pointer]:
+            - /url: "#business-verification"
+          - link "Comment moderation" [ref=e672] [cursor=pointer]:
+            - /url: "#comment-moderation"
+          - link "Content publishing" [ref=e674] [cursor=pointer]:
+            - /url: "#content-publishing"
+          - link "Collaborators" [ref=e678] [cursor=pointer]:
+            - /url: "#collaborators"
+          - link "Develop with Meta" [ref=e680] [cursor=pointer]:
+            - /url: "#develop-with-meta"
+          - link "App IDs" [ref=e684] [cursor=pointer]:
+            - /url: "#app-ids"
+          - link "Facebook Pages" [ref=e686] [cursor=pointer]:
+            - /url: "#facebook-pages"
+          - link "Scoped User IDs" [ref=e688] [cursor=pointer]:
+            - /url: "#scoped-user-ids"
+          - link "/me endpoint" [ref=e690] [cursor=pointer]:
+            - /url: "#-me-endpoint"
+          - link "Messaging" [ref=e692] [cursor=pointer]:
+            - /url: "#messaging"
+          - link "Automated Experiences" [ref=e696] [cursor=pointer]:
+            - /url: "#automated-experiences"
+          - link "Policies" [ref=e698] [cursor=pointer]:
+            - /url: "#policies"
+          - link "Rate Limiting" [ref=e700] [cursor=pointer]:
+            - /url: "#rate-limiting"
+          - link "Messaging Rate Limits" [ref=e704] [cursor=pointer]:
+            - /url: "#messaging-rate-limits"
+          - link "Webhooks" [ref=e706] [cursor=pointer]:
+            - /url: "#webhooks"
+          - link "Next steps" [ref=e708] [cursor=pointer]:
+            - /url: "#next-steps"
+          - link "See also" [ref=e710] [cursor=pointer]:
+            - /url: "#see-also"
+    - contentinfo [ref=e714]:
+      - generic [ref=e715]:
+        - separator [ref=e716]
+        - generic [ref=e718]:
+          - generic [ref=e720]:
+            - generic [ref=e722]:
+              - generic [ref=e723]:
+                - img "Meta"
+              - list [ref=e725]:
+                - listitem:
+                  - link "Facebook":
+                    - /url: https://www.facebook.com/MetaforDevelopers
+                    - img "Facebook"
+                - listitem:
+                  - link "Instagram":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                    - img "Instagram"
+                - listitem:
+                  - link "X":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                    - img "X"
+                - listitem:
+                  - link "LinkedIn":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                    - img "LinkedIn"
+                - listitem:
+                  - link "YouTube":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                    - img "YouTube"
+            - generic [ref=e727]:
+              - generic [ref=e730]:
+                - heading "Build with Meta" [level=2] [ref=e731]:
+                  - generic [ref=e732]: Build with Meta
+                - list [ref=e733]:
+                  - listitem [ref=e734]:
+                    - link "AI" [ref=e736] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                  - listitem [ref=e737]:
+                    - link "Meta Horizon" [ref=e739] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                  - listitem [ref=e740]:
+                    - link "Social technologies" [ref=e742] [cursor=pointer]:
+                      - /url: /social-technologies/
+                  - listitem [ref=e743]:
+                    - link "Wearables" [ref=e745] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+              - generic [ref=e748]:
+                - heading "News" [level=2] [ref=e749]:
+                  - generic [ref=e750]: News
+                - list [ref=e751]:
+                  - listitem [ref=e752]:
+                    - link "Meta for Developers" [ref=e754] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                  - listitem [ref=e755]:
+                    - link "Blog" [ref=e757] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=e758]:
+                    - link "Success stories" [ref=e760] [cursor=pointer]:
+                      - /url: /success-stories/
+              - generic [ref=e763]:
+                - heading "Support" [level=2] [ref=e764]:
+                  - generic [ref=e765]: Support
+                - list [ref=e766]:
+                  - listitem [ref=e767]:
+                    - link "Developer Support" [ref=e769] [cursor=pointer]:
+                      - /url: /support/
+                  - listitem [ref=e770]:
+                    - link "Bug tool" [ref=e772] [cursor=pointer]:
+                      - /url: /support/bugs/
+                  - listitem [ref=e773]:
+                    - link "Platform status" [ref=e775] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                  - listitem [ref=e776]:
+                    - link "Developer community forum" [ref=e778] [cursor=pointer]:
+                      - /url: https://www.facebook.com/groups/fbdevelopers/
+                  - listitem [ref=e779]:
+                    - link "Report an incident" [ref=e781] [cursor=pointer]:
+                      - /url: /incident/report/
+              - generic [ref=e784]:
+                - heading "About us" [level=2] [ref=e785]:
+                  - generic [ref=e786]: About us
+                - list [ref=e787]:
+                  - listitem [ref=e788]:
+                    - link "About" [ref=e790] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AT6hCKdtrug2T2GwpOoZMdBLgQzpphwwdhT2uXLvZn3-o7oXRMye4hRRzpPsIflE-MHYr1oNVnqnFSS2w2xeC2M4od-F0BtanEvm_iwTxsKdHpG6nLUNJhtbzp5urvFxPUuphVEBeWNvp0gSQSfxvR1mJSmeBoxyMx61KQ
+                  - listitem [ref=e791]:
+                    - link "Careers" [ref=e793] [cursor=pointer]:
+                      - /url: https://www.facebook.com/careers
+              - generic [ref=e796]:
+                - heading "Terms and policies" [level=2] [ref=e797]:
+                  - generic [ref=e798]: Terms and policies
+                - list [ref=e799]:
+                  - listitem [ref=e800]:
+                    - link "Responsible platform initiatives" [ref=e802] [cursor=pointer]:
+                      - /url: /products/responsible-platform-initiatives/
+                  - listitem [ref=e803]:
+                    - link "Platform terms" [ref=e805] [cursor=pointer]:
+                      - /url: /terms/dfc_platform_terms/
+                  - listitem [ref=e806]:
+                    - link "Developer policies" [ref=e808] [cursor=pointer]:
+                      - /url: /devpolicy/
+                  - listitem [ref=e809]:
+                    - link "Privacy policy" [ref=e811] [cursor=pointer]:
+                      - /url: https://www.facebook.com/about/privacy
+                  - listitem [ref=e812]:
+                    - link "Cookies" [ref=e814] [cursor=pointer]:
+                      - /url: https://www.facebook.com/help/cookies
+          - button "Change language" [ref=e819] [cursor=pointer]:
+            - generic [ref=e821]: English (US)

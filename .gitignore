@@ -9,8 +9,6 @@ context/handoffs/*
 !context/handoffs/.gitkeep
 projects/*
 !projects/.gitkeep
-docs/apis/*
-!docs/apis/.gitkeep
 
 # System
 node_modules/

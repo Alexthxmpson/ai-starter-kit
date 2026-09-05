@@ -1,0 +1,1194 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - link "Meta logo" [ref=e12] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "Meta logo" [ref=e14]
+        - tablist [ref=e23]:
+          - tab "Docs" [selected] [ref=e24] [cursor=pointer]:
+            - generic [ref=e27]: Docs
+          - tab "Tools" [ref=e29] [cursor=pointer]:
+            - generic [ref=e32]: Tools
+          - tab "Support" [ref=e34] [cursor=pointer]:
+            - generic [ref=e37]: Support
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e46]: Search input
+          - textbox "Search input" [ref=e57]:
+            - /placeholder: Search...
+        - link "Login" [ref=e58] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?is_work_accounts=true&login_options[0]=FB&login_options[1]=SSO&config_ref=biz_login_tool_flavor_dfc&app=436761779744620&next=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-platform%2Freference%2Finstagram-media%3Fnav_ref%3Dbiz_unified_f3_login_page_to_dfc
+          - generic [ref=e61]: Login
+    - generic [ref=e64]:
+      - navigation "Breadcrumb" [ref=e68]:
+        - generic [ref=e69]:
+          - link "Docs" [ref=e70] [cursor=pointer]:
+            - /url: /docs/
+            - heading "Docs" [level=3] [ref=e71]
+          - link "Instagram Platform" [ref=e73] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+            - heading "Instagram Platform" [level=3] [ref=e74]
+          - link "API Reference" [ref=e76] [cursor=pointer]:
+            - /url: /docs/instagram-platform/reference
+            - heading "API Reference" [level=3] [ref=e77]
+          - link "IG Media" [ref=e79] [cursor=pointer]:
+            - /url: /docs/instagram-platform/reference/instagram-media
+            - heading "IG Media" [level=3] [ref=e80]
+      - generic [ref=e81]:
+        - generic [ref=e972]:
+          - link "Instagram Platform" [ref=e974] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+          - list [ref=e975]:
+            - listitem [ref=e976]:
+              - link "Overview" [ref=e977] [cursor=pointer]:
+                - /url: /docs/instagram-platform/overview
+            - listitem [ref=e978]:
+              - link "Webhooks" [ref=e979] [cursor=pointer]:
+                - /url: /docs/instagram-platform/webhooks
+            - listitem [ref=e980]:
+              - link "Create an App" [ref=e981] [cursor=pointer]:
+                - /url: /docs/instagram-platform/create-an-instagram-app
+            - listitem [ref=e982]:
+              - link "Instagram API with Instagram Login" [ref=e983] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-instagram-login
+            - listitem [ref=e984]:
+              - link "Instagram API with Facebook Login" [ref=e985] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-facebook-login
+            - listitem [ref=e986]:
+              - link "Publish Content" [ref=e987] [cursor=pointer]:
+                - /url: /docs/instagram-platform/content-publishing
+            - listitem [ref=e988]:
+              - link "Comment Moderation" [ref=e989] [cursor=pointer]:
+                - /url: /docs/instagram-platform/comment-moderation
+            - listitem [ref=e990]:
+              - link "Private Replies" [ref=e991] [cursor=pointer]:
+                - /url: /docs/instagram-platform/private-replies
+            - listitem [ref=e992]:
+              - link "Insights" [ref=e993] [cursor=pointer]:
+                - /url: /docs/instagram-platform/insights
+            - listitem [ref=e994]:
+              - link "Sharing to Feed" [ref=e995] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-feed
+            - listitem [ref=e996]:
+              - link "Sharing to Stories" [ref=e997] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-stories
+            - listitem [ref=e998]:
+              - link "oEmbed" [ref=e999] [cursor=pointer]:
+                - /url: /docs/instagram-platform/oembed
+            - listitem [ref=e1000]:
+              - link "Embed Button" [ref=e1001] [cursor=pointer]:
+                - /url: /docs/instagram-platform/embed-button
+            - listitem [ref=e1002]:
+              - link "Self Messaging" [ref=e1003] [cursor=pointer]:
+                - /url: /docs/instagram-platform/self-messaging
+            - listitem [ref=e1004]:
+              - link "API Reference" [ref=e1005] [cursor=pointer]:
+                - /url: /docs/instagram-platform/reference
+              - list [ref=e1007]:
+                - listitem [ref=e1008]:
+                  - link "Error Codes" [ref=e1009] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/error-codes
+                - listitem [ref=e1010]:
+                  - link "Access Token" [ref=e1011] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/access_token
+                - listitem [ref=e1012]:
+                  - link "IG Comment" [ref=e1013] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-comment
+                - listitem [ref=e1014]:
+                  - link "IG Container" [ref=e1015] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-container
+                - listitem [ref=e1016]:
+                  - link "IG Hashtag Search" [ref=e1017] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-hashtag-search
+                - listitem [ref=e1018]:
+                  - link "IG Hashtag" [ref=e1019] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-hashtag
+                - listitem [ref=e1020]:
+                  - link "IG Media" [ref=e1021] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/instagram-media
+                  - list [ref=e1023]:
+                    - listitem [ref=e1024]:
+                      - link "Children" [ref=e1025] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-media/children
+                    - listitem [ref=e1026]:
+                      - link "Collaborators" [ref=e1027] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-media/collaborators
+                    - listitem [ref=e1028]:
+                      - link "Comments" [ref=e1029] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-media/comments
+                    - listitem [ref=e1030]:
+                      - link "Insights" [ref=e1031] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/reference/instagram-media/insights
+                    - listitem [ref=e1032]:
+                      - link "Product Tags" [ref=e1033] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-media/product_tags
+                - listitem [ref=e1034]:
+                  - link "IG User" [ref=e1035] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user
+                - listitem [ref=e1036]:
+                  - link "/me" [ref=e1037] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/me
+                - listitem [ref=e1038]:
+                  - link "Oauth Authorize" [ref=e1039] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/oauth-authorize
+                - listitem [ref=e1040]:
+                  - link "Page" [ref=e1041] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/page
+                - listitem [ref=e1042]:
+                  - link "Refresh Access Token" [ref=e1043] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/refresh_access_token
+            - listitem [ref=e1044]:
+              - link "App Review" [ref=e1045] [cursor=pointer]:
+                - /url: /docs/instagram-platform/app-review
+            - listitem [ref=e1046]:
+              - link "Support" [ref=e1047] [cursor=pointer]:
+                - /url: /docs/instagram-platform/support
+            - listitem [ref=e1048]:
+              - link "Changelog" [ref=e1049] [cursor=pointer]:
+                - /url: /docs/instagram-platform/changelog
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - generic [ref=e135]:
+              - heading "IG Media" [level=1] [ref=e136]
+              - paragraph [ref=e137]: Represents an Instagram album, photo, or video (uploaded video, live video, reel, or story).
+              - paragraph [ref=e141]: If you are migrating from Marketing API Instagram Ads endpoints to Instagram Platform endpoints, be aware that some field names are different.
+              - paragraph [ref=e142]: "Introducing the following field:"
+              - list [ref=e143]:
+                - listitem [ref=e144]:
+                  - code [ref=e145]: legacy_instagram_media_id
+              - paragraph [ref=e146]: "The following Marketing API Instagram Ads endpoint fields are not supported:"
+              - list [ref=e147]:
+                - listitem [ref=e148]:
+                  - code [ref=e149]: filter_name
+                - listitem [ref=e150]:
+                  - code [ref=e151]: location
+                - listitem [ref=e152]:
+                  - code [ref=e153]: location_name
+                - listitem [ref=e154]:
+                  - code [ref=e155]: latitude
+                - listitem [ref=e156]:
+                  - code [ref=e157]: longitude
+            - generic [ref=e159]:
+              - heading "Creating" [level=2] [ref=e160]
+              - paragraph [ref=e161]: This operation is not supported.
+              - link [ref=e162] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e165]:
+              - heading "Reading" [level=2] [ref=e166]
+              - paragraph [ref=e167]:
+                - strong [ref=e168]:
+                  - code [ref=e169]: GET /<IG_MEDIA_ID>
+              - paragraph [ref=e170]:
+                - text: Gets
+                - link "fields" [ref=e171] [cursor=pointer]:
+                  - /url: "#fields"
+                - text: and
+                - link "edges" [ref=e172] [cursor=pointer]:
+                  - /url: "#edges"
+                - text: on Instagram media.
+              - heading "Requirements" [level=3] [ref=e173]
+              - table [ref=e175]:
+                - rowgroup [ref=e176]:
+                  - row "Instagram API with Instagram Login Instagram API with Facebook Login" [ref=e177]:
+                    - columnheader [ref=e178]
+                    - columnheader "Instagram API with Instagram Login" [ref=e179]
+                    - columnheader "Instagram API with Facebook Login" [ref=e180]
+                - rowgroup [ref=e181]:
+                  - row "Access Tokens Instagram User access token Facebook User access token" [ref=e182]:
+                    - cell "Access Tokens" [ref=e183]:
+                      - paragraph [ref=e184]:
+                        - strong [ref=e185]: Access Tokens
+                    - cell "Instagram User access token" [ref=e186]:
+                      - list [ref=e187]:
+                        - listitem [ref=e188]: Instagram User access token
+                    - cell "Facebook User access token" [ref=e189]:
+                      - list [ref=e190]:
+                        - listitem [ref=e191]:
+                          - link "Facebook User access token" [ref=e192] [cursor=pointer]:
+                            - /url: /docs/facebook-login/access-tokens/#usertokens
+                  - row "Host URL graph.instagram.com graph.facebook.com" [ref=e193]:
+                    - cell "Host URL" [ref=e194]:
+                      - paragraph [ref=e195]:
+                        - strong [ref=e196]: Host URL
+                    - cell "graph.instagram.com" [ref=e197]:
+                      - paragraph [ref=e198]:
+                        - code [ref=e199]: graph.instagram.com
+                    - cell "graph.facebook.com" [ref=e200]:
+                      - paragraph [ref=e201]:
+                        - code [ref=e202]: graph.facebook.com
+                  - row "Login Type Business Login for Instagram Facebook Login for Business" [ref=e203]:
+                    - cell "Login Type" [ref=e204]:
+                      - paragraph [ref=e205]:
+                        - strong [ref=e206]: Login Type
+                    - cell "Business Login for Instagram" [ref=e207]:
+                      - paragraph [ref=e208]: Business Login for Instagram
+                    - cell "Facebook Login for Business" [ref=e209]:
+                      - paragraph [ref=e210]: Facebook Login for Business
+                  - 'row "Permissions instagram_business_basic instagram_basic pages_read_engagement If the app user was granted a role via the Business Manager on the Page connected to your app user''s Instagram professional account, your app will also need one of: ads_management ads_read" [ref=e211]':
+                    - cell "Permissions" [ref=e212]:
+                      - link "Permissions" [ref=e213] [cursor=pointer]:
+                        - /url: /docs/permissions/reference#i
+                    - cell "instagram_business_basic" [ref=e214]:
+                      - list [ref=e215]:
+                        - listitem [ref=e216]:
+                          - code [ref=e217]: instagram_business_basic
+                    - 'cell "instagram_basic pages_read_engagement If the app user was granted a role via the Business Manager on the Page connected to your app user''s Instagram professional account, your app will also need one of: ads_management ads_read" [ref=e218]':
+                      - list [ref=e219]:
+                        - listitem [ref=e220]:
+                          - code [ref=e221]: instagram_basic
+                        - listitem [ref=e222]:
+                          - code [ref=e223]: pages_read_engagement
+                      - paragraph [ref=e224]:
+                        - text: If the app user was granted a role via the Business Manager on the
+                        - link "Page" [ref=e225] [cursor=pointer]:
+                          - /url: /docs/instagram-api/overview#pages
+                        - text: "connected to your app user's Instagram professional account, your app will also need one of:"
+                      - list [ref=e226]:
+                        - listitem [ref=e227]:
+                          - code [ref=e228]: ads_management
+                        - listitem [ref=e229]:
+                          - code [ref=e230]: ads_read
+              - heading "Limitations" [level=3] [ref=e231]
+              - list [ref=e232]:
+                - listitem [ref=e233]:
+                  - text: Fields that return aggregated values don't include ads-driven data. For example,
+                  - code [ref=e234]: comments_count
+                  - text: returns the number of comments on a photo, but not comments on ads that contain that photo.
+                - listitem [ref=e235]:
+                  - text: Captions don't include the
+                  - code [ref=e236]: "@"
+                  - text: symbol unless the app user is also able to perform admin-equivalent
+                  - link "tasks" [ref=e237] [cursor=pointer]:
+                    - /url: /docs/pages/overview#tasks
+                  - text: on the app.
+                - listitem [ref=e238]:
+                  - text: Some fields, such as
+                  - code [ref=e239]: permalink
+                  - text: ", cannot be used on photos within albums (children)."
+                - listitem [ref=e240]: Live video Instagram Media can only be read while they are being broadcast.
+                - listitem [ref=e241]: This API returns only data for media owned by Instagram professional accounts. It can not be used to get data for media owned by personal Instagram accounts.
+              - heading "Request Syntax" [level=3] [ref=e242]
+              - generic [ref=e243]: GET https://<HOST_URL>/<API_VERSION>/<IG_MEDIA_ID> \ ?fields=<LIST_OF_FIELDS> \ &access_token=<ACCESS_TOKEN>
+              - heading "Path Parameters" [level=3] [ref=e244]
+              - table [ref=e246]:
+                - rowgroup [ref=e247]:
+                  - row "Placeholder Value" [ref=e248]:
+                    - columnheader "Placeholder" [ref=e249]
+                    - columnheader "Value" [ref=e250]
+                - rowgroup [ref=e251]:
+                  - 'row "<API_VERSION> The latest version is: v25.0 The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.Learn more about versioning." [ref=e252]':
+                    - 'cell "<API_VERSION> The latest version is: v25.0" [ref=e253]':
+                      - paragraph [ref=e254]:
+                        - code [ref=e255]: <API_VERSION>
+                      - generic [ref=e256]:
+                        - paragraph [ref=e257]:
+                          - strong [ref=e258]: "The latest version is:"
+                        - code [ref=e259]: v25.0
+                    - cell "The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.Learn more about versioning." [ref=e260]:
+                      - paragraph [ref=e261]:
+                        - text: The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.
+                        - link "Learn more about versioning." [ref=e262] [cursor=pointer]:
+                          - /url: /docs/graph-api/guides/versioning
+                  - row "<HOST_URL> The host URL your app is using to query the endpoint." [ref=e263]:
+                    - cell "<HOST_URL>" [ref=e264]:
+                      - paragraph [ref=e265]:
+                        - code [ref=e266]: <HOST_URL>
+                    - cell "The host URL your app is using to query the endpoint." [ref=e267]:
+                      - paragraph [ref=e268]:
+                        - text: The
+                        - link "host URL" [ref=e269] [cursor=pointer]:
+                          - /url: "#requirements"
+                        - text: your app is using to query the endpoint.
+                  - row "<IG_MEDIA_ID> Required. ID for the media to be published." [ref=e270]:
+                    - cell "<IG_MEDIA_ID>" [ref=e271]:
+                      - paragraph [ref=e272]:
+                        - code [ref=e273]: <IG_MEDIA_ID>
+                    - cell "Required. ID for the media to be published." [ref=e274]:
+                      - paragraph [ref=e275]:
+                        - strong [ref=e276]: Required.
+                        - text: ID for the media to be published.
+              - heading "Query String Parameters" [level=3] [ref=e277]
+              - table [ref=e279]:
+                - rowgroup [ref=e280]:
+                  - row "Key Placeholder Value" [ref=e281]:
+                    - columnheader "Key" [ref=e282]
+                    - columnheader "Placeholder" [ref=e283]
+                    - columnheader "Value" [ref=e284]
+                - rowgroup [ref=e285]:
+                  - row "access_token <ACCESS_TOKEN> Required. The app user's Facebook or Instagram User access token." [ref=e286]:
+                    - cell "access_token" [ref=e287]:
+                      - paragraph [ref=e288]:
+                        - code [ref=e289]: access_token
+                    - cell "<ACCESS_TOKEN>" [ref=e290]:
+                      - paragraph [ref=e291]:
+                        - code [ref=e292]: <ACCESS_TOKEN>
+                    - cell "Required. The app user's Facebook or Instagram User access token." [ref=e293]:
+                      - paragraph [ref=e294]:
+                        - strong [ref=e295]: Required.
+                        - text: The app user's Facebook or Instagram User access token.
+                  - row "fields <LIST_OF_FIELDS> Comma-separated list of fields you want returned." [ref=e296]:
+                    - cell "fields" [ref=e297]:
+                      - paragraph [ref=e298]:
+                        - code [ref=e299]: fields
+                    - cell "<LIST_OF_FIELDS>" [ref=e300]:
+                      - paragraph [ref=e301]:
+                        - code [ref=e302]: <LIST_OF_FIELDS>
+                    - cell "Comma-separated list of fields you want returned." [ref=e303]:
+                      - paragraph [ref=e304]:
+                        - text: Comma-separated list of
+                        - link "fields" [ref=e305] [cursor=pointer]:
+                          - /url: "#fields"
+                        - text: you want returned.
+              - heading "Fields" [level=3] [ref=e306]
+              - paragraph [ref=e307]: Public fields can be read via field expansion.
+              - table [ref=e309]:
+                - rowgroup [ref=e310]:
+                  - row "Field Description" [ref=e311]:
+                    - columnheader "Field" [ref=e312]
+                    - columnheader "Description" [ref=e313]
+                - rowgroup [ref=e314]:
+                  - row "alt_text Public Descriptive text for images, for accessibility." [ref=e315]:
+                    - cell "alt_text Public" [ref=e316]:
+                      - paragraph [ref=e317]:
+                        - code [ref=e318]: alt_text
+                        - text: Public
+                    - cell "Descriptive text for images, for accessibility." [ref=e319]:
+                      - paragraph [ref=e320]: Descriptive text for images, for accessibility.
+                  - row "boost_ads_list Offers an overview of all Instagram ad information associated with the organic media for ads with ACTIVE status. It includes relative ad ID and ad delivery status. Available for Instagram API with Facebook Login only." [ref=e321]:
+                    - cell "boost_ads_list" [ref=e322]:
+                      - paragraph [ref=e323]:
+                        - code [ref=e324]: boost_ads_list
+                    - cell "Offers an overview of all Instagram ad information associated with the organic media for ads with ACTIVE status. It includes relative ad ID and ad delivery status. Available for Instagram API with Facebook Login only." [ref=e325]:
+                      - paragraph [ref=e326]:
+                        - text: Offers an overview of all Instagram ad information associated with the organic media for ads with
+                        - code [ref=e327]: ACTIVE
+                        - text: status. It includes relative ad ID and ad delivery status. Available for Instagram API with Facebook Login only.
+                  - row "boost_eligibility_info The field provides information about boosting eligibility of a Instagram instagram media as an ad and additional details if not eligible. Available for Instagram API with Facebook Login only." [ref=e328]:
+                    - cell "boost_eligibility_info" [ref=e329]:
+                      - paragraph [ref=e330]:
+                        - code [ref=e331]: boost_eligibility_info
+                    - cell "The field provides information about boosting eligibility of a Instagram instagram media as an ad and additional details if not eligible. Available for Instagram API with Facebook Login only." [ref=e332]:
+                      - paragraph [ref=e333]: The field provides information about boosting eligibility of a Instagram instagram media as an ad and additional details if not eligible. Available for Instagram API with Facebook Login only.
+                  - row "caption Public Caption. Excludes album children. The @ symbol is excluded, unless the app user can perform admin-equivalent tasks on the Facebook Page connected to the Instagram account used to create the caption. Available for Instagram API with Facebook Login only." [ref=e334]:
+                    - cell "caption Public" [ref=e335]:
+                      - paragraph [ref=e336]:
+                        - code [ref=e337]: caption
+                        - text: Public
+                    - cell "Caption. Excludes album children. The @ symbol is excluded, unless the app user can perform admin-equivalent tasks on the Facebook Page connected to the Instagram account used to create the caption. Available for Instagram API with Facebook Login only." [ref=e338]:
+                      - paragraph [ref=e339]:
+                        - text: Caption. Excludes album children. The
+                        - code [ref=e340]: "@"
+                        - text: symbol is excluded, unless the app user can perform admin-equivalent
+                        - link "tasks" [ref=e341] [cursor=pointer]:
+                          - /url: /docs/pages/overview#tasks
+                        - text: on the Facebook Page connected to the Instagram account used to create the caption. Available for Instagram API with Facebook Login only.
+                  - row "comments_count Public Count of comments on the media. Excludes comments on album child media and the media's caption. Includes replies on comments." [ref=e342]:
+                    - cell "comments_count Public" [ref=e343]:
+                      - paragraph [ref=e344]:
+                        - code [ref=e345]: comments_count
+                        - text: Public
+                    - cell "Count of comments on the media. Excludes comments on album child media and the media's caption. Includes replies on comments." [ref=e346]:
+                      - paragraph [ref=e347]: Count of comments on the media. Excludes comments on album child media and the media's caption. Includes replies on comments.
+                  - row [ref=e348]:
+                    - cell "copyright_check_information.status" [ref=e349]:
+                      - paragraph [ref=e350]:
+                        - code [ref=e351]: copyright_check_information.status
+                    - cell [ref=e352]:
+                      - paragraph [ref=e353]:
+                        - text: Returns
+                        - code [ref=e354]: status
+                        - text: and
+                        - code [ref=e355]: matches_found
+                        - text: objects
+                      - table [ref=e357]:
+                        - rowgroup [ref=e358]:
+                          - row "status objects Description" [ref=e359]:
+                            - columnheader "status objects" [ref=e360]
+                            - columnheader "Description" [ref=e361]
+                        - rowgroup [ref=e362]:
+                          - row "status completed – the detection process has finished error – an error occurred during the detection process in_progress – the detection process is ongoing not_started – the detection process has not started" [ref=e363]:
+                            - cell "status" [ref=e364]:
+                              - paragraph [ref=e365]:
+                                - code [ref=e366]: status
+                            - cell "completed – the detection process has finished error – an error occurred during the detection process in_progress – the detection process is ongoing not_started – the detection process has not started" [ref=e367]:
+                              - list [ref=e368]:
+                                - listitem [ref=e369]:
+                                  - code [ref=e370]: completed
+                                  - text: – the detection process has finished
+                                - listitem [ref=e371]:
+                                  - code [ref=e372]: error
+                                  - text: – an error occurred during the detection process
+                                - listitem [ref=e373]:
+                                  - code [ref=e374]: in_progress
+                                  - text: – the detection process is ongoing
+                                - listitem [ref=e375]:
+                                  - code [ref=e376]: not_started
+                                  - text: – the detection process has not started
+                          - 'row "matches_found Set to one of the following: false if the video does not violate copyright, true if the video does violate copyright" [ref=e377]':
+                            - cell "matches_found" [ref=e378]:
+                              - paragraph [ref=e379]:
+                                - code [ref=e380]: matches_found
+                            - 'cell "Set to one of the following: false if the video does not violate copyright, true if the video does violate copyright" [ref=e381]':
+                              - paragraph [ref=e382]: "Set to one of the following:"
+                              - list [ref=e383]:
+                                - listitem [ref=e384]:
+                                  - code [ref=e385]: "false"
+                                  - text: if the video
+                                  - strong [ref=e386]: does not violate
+                                  - text: copyright,
+                                - listitem [ref=e387]:
+                                  - code [ref=e388]: "true"
+                                  - text: if the video
+                                  - strong [ref=e389]: does violate
+                                  - text: copyright
+                      - paragraph [ref=e390]:
+                        - text: If a video
+                        - strong [ref=e391]: is violating copyright
+                        - text: ", the"
+                        - code [ref=e392]: copyright_matches
+                        - text: is returned with an array of objects about the copyrighted material, when the violation is occurring in the video, and the actions take to mitigate the violation.
+                      - table [ref=e394]:
+                        - rowgroup [ref=e395]:
+                          - row "copyright_matches objects Description" [ref=e396]:
+                            - columnheader "copyright_matches objects" [ref=e397]
+                            - columnheader "Description" [ref=e398]
+                        - rowgroup [ref=e399]:
+                          - row "author the author of the copyrighted video" [ref=e400]:
+                            - cell "author" [ref=e401]:
+                              - paragraph [ref=e402]:
+                                - code [ref=e403]: author
+                            - cell "the author of the copyrighted video" [ref=e404]:
+                              - paragraph [ref=e405]: the author of the copyrighted video
+                          - row "content_title the name of the copyrighted video" [ref=e406]:
+                            - cell "content_title" [ref=e407]:
+                              - paragraph [ref=e408]:
+                                - code [ref=e409]: content_title
+                            - cell "the name of the copyrighted video" [ref=e410]:
+                              - paragraph [ref=e411]: the name of the copyrighted video
+                          - 'row "matched_segments An array of objects with the following key-value pairs: duration_in_seconds – the number of seconds the content violates copyright segment_type – either AUDIO or VIDEO start_time_in_seconds – set to the start time of the video" [ref=e412]':
+                            - cell "matched_segments" [ref=e413]:
+                              - paragraph [ref=e414]:
+                                - code [ref=e415]: matched_segments
+                            - 'cell "An array of objects with the following key-value pairs: duration_in_seconds – the number of seconds the content violates copyright segment_type – either AUDIO or VIDEO start_time_in_seconds – set to the start time of the video" [ref=e416]':
+                              - paragraph [ref=e417]: "An array of objects with the following key-value pairs:"
+                              - list [ref=e418]:
+                                - listitem [ref=e419]:
+                                  - code [ref=e420]: duration_in_seconds
+                                  - text: – the number of seconds the content violates copyright
+                                - listitem [ref=e421]:
+                                  - code [ref=e422]: segment_type
+                                  - text: – either
+                                  - code [ref=e423]: AUDIO
+                                  - text: or
+                                  - code [ref=e424]: VIDEO
+                                - listitem [ref=e425]:
+                                  - code [ref=e426]: start_time_in_seconds
+                                  - text: – set to the start time of the video
+                          - 'row "owner_copyright_policy Objects returned include: name – The name for the copyright owners'' policy actions – An array of action objects with the mitigations steps taken defined by the copyright owner''s policy. May include different mitigations steps for different locations. action – The mitigation action taken against the video violating copyright. Different mitigation steps can be taken for different countries. Can be one of the following values: BLOCK – The video is blocked from the audiences listed in the geos array MUTE - The video is muted for audiences listed in the geos array" [ref=e427]':
+                            - cell "owner_copyright_policy" [ref=e428]:
+                              - paragraph [ref=e429]:
+                                - code [ref=e430]: owner_copyright_policy
+                            - 'cell "Objects returned include: name – The name for the copyright owners'' policy actions – An array of action objects with the mitigations steps taken defined by the copyright owner''s policy. May include different mitigations steps for different locations. action – The mitigation action taken against the video violating copyright. Different mitigation steps can be taken for different countries. Can be one of the following values: BLOCK – The video is blocked from the audiences listed in the geos array MUTE - The video is muted for audiences listed in the geos array" [ref=e431]':
+                              - paragraph [ref=e432]: "Objects returned include:"
+                              - list [ref=e433]:
+                                - listitem [ref=e434]:
+                                  - code [ref=e435]: name
+                                  - text: – The name for the copyright owners' policy
+                                - listitem [ref=e436]:
+                                  - code [ref=e437]: actions
+                                  - text: – An array of
+                                  - code [ref=e438]: action
+                                  - text: objects with the mitigations steps taken defined by the copyright owner's policy. May include different mitigations steps for different locations.
+                                  - list [ref=e439]:
+                                    - listitem [ref=e440]:
+                                      - code [ref=e441]: action
+                                      - text: "– The mitigation action taken against the video violating copyright. Different mitigation steps can be taken for different countries. Can be one of the following values:"
+                                      - list [ref=e442]:
+                                        - listitem [ref=e443]:
+                                          - code [ref=e444]: BLOCK
+                                          - text: – The video is blocked from the audiences listed in the
+                                          - code [ref=e445]: geos
+                                          - text: array
+                                        - listitem [ref=e446]:
+                                          - code [ref=e447]: MUTE
+                                          - text: "- The video is muted for audiences listed in the"
+                                          - code [ref=e448]: geos
+                                          - text: array
+                  - row "id Public Media ID." [ref=e449]:
+                    - cell "id Public" [ref=e450]:
+                      - paragraph [ref=e451]:
+                        - code [ref=e452]: id
+                        - text: Public
+                    - cell "Media ID." [ref=e453]:
+                      - paragraph [ref=e454]: Media ID.
+                  - row "is_comment_enabled Indicates if comments are enabled or disabled. Excludes album children." [ref=e455]:
+                    - cell "is_comment_enabled" [ref=e456]:
+                      - paragraph [ref=e457]:
+                        - code [ref=e458]: is_comment_enabled
+                    - cell "Indicates if comments are enabled or disabled. Excludes album children." [ref=e459]:
+                      - paragraph [ref=e460]: Indicates if comments are enabled or disabled. Excludes album children.
+                  - row "is_shared_to_feed Public For Reels only. When true, indicates that the reel can appear in both the Feed and Reels tabs. When false, indicates that the reel can only appear in the Reels tab. Neither value determines whether the reel actually appears in the Reels tab because the reel may not meet eligibilty requirements or may not be selected by our algorithm. See reel specifications for eligibility critera." [ref=e461]:
+                    - cell "is_shared_to_feed Public" [ref=e462]:
+                      - paragraph [ref=e463]:
+                        - code [ref=e464]: is_shared_to_feed
+                        - text: Public
+                    - cell "For Reels only. When true, indicates that the reel can appear in both the Feed and Reels tabs. When false, indicates that the reel can only appear in the Reels tab. Neither value determines whether the reel actually appears in the Reels tab because the reel may not meet eligibilty requirements or may not be selected by our algorithm. See reel specifications for eligibility critera." [ref=e465]:
+                      - paragraph [ref=e466]:
+                        - text: For Reels only. When
+                        - code [ref=e467]: "true"
+                        - text: ", indicates that the reel can appear in both the"
+                        - strong [ref=e468]: Feed
+                        - text: and
+                        - strong [ref=e469]: Reels
+                        - text: tabs. When
+                        - code [ref=e470]: "false"
+                        - text: ", indicates that the reel can only appear in the"
+                        - strong [ref=e471]: Reels
+                        - text: tab.
+                      - paragraph [ref=e474]:
+                        - text: Neither value determines whether the reel actually appears in the
+                        - strong [ref=e475]: Reels
+                        - text: tab because the reel may not meet eligibilty requirements or may not be selected by our algorithm. See
+                        - link "reel specifications" [ref=e476] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/media#reel-specifications
+                        - text: for eligibility critera.
+                  - row "legacy_instagram_media_id The ID for Instagram media that was created for Marketing API endpoints for v21.0 and older." [ref=e477]:
+                    - cell "legacy_instagram_media_id" [ref=e478]:
+                      - paragraph [ref=e479]:
+                        - code [ref=e480]: legacy_instagram_media_id
+                    - cell "The ID for Instagram media that was created for Marketing API endpoints for v21.0 and older." [ref=e481]:
+                      - paragraph [ref=e482]: The ID for Instagram media that was created for Marketing API endpoints for v21.0 and older.
+                  - row "like_count Count of likes on the media, including replies on comments. Excludes likes on album child media and likes on promoted posts created from the media. If queried indirectly through another endpoint or field expansion the like_count field is omitted if the media owner has hidden like counts." [ref=e483]:
+                    - cell "like_count" [ref=e484]:
+                      - paragraph [ref=e485]:
+                        - code [ref=e486]: like_count
+                    - cell "Count of likes on the media, including replies on comments. Excludes likes on album child media and likes on promoted posts created from the media. If queried indirectly through another endpoint or field expansion the like_count field is omitted if the media owner has hidden like counts." [ref=e487]:
+                      - paragraph [ref=e488]: Count of likes on the media, including replies on comments. Excludes likes on album child media and likes on promoted posts created from the media.
+                      - paragraph [ref=e489]:
+                        - text: If queried indirectly through another endpoint or field expansion the
+                        - code [ref=e490]: like_count
+                        - text: field is omitted if the media owner has hidden like counts.
+                  - row "media_product_type Public Surface where the media is published. Can be AD, FEED, STORY or REELS. Available for Instagram API with Facebook Login only." [ref=e491]:
+                    - cell "media_product_type Public" [ref=e492]:
+                      - paragraph [ref=e493]:
+                        - code [ref=e494]: media_product_type
+                        - text: Public
+                    - cell "Surface where the media is published. Can be AD, FEED, STORY or REELS. Available for Instagram API with Facebook Login only." [ref=e495]:
+                      - paragraph [ref=e496]:
+                        - text: Surface where the media is published. Can be
+                        - code [ref=e497]: AD
+                        - text: ","
+                        - code [ref=e498]: FEED
+                        - text: ","
+                        - code [ref=e499]: STORY
+                        - text: or
+                        - code [ref=e500]: REELS
+                        - text: . Available for Instagram API with Facebook Login only.
+                  - row "media_type Public Media type. Can be CAROUSEL_ALBUM, IMAGE, or VIDEO." [ref=e501]:
+                    - cell "media_type Public" [ref=e502]:
+                      - paragraph [ref=e503]:
+                        - code [ref=e504]: media_type
+                        - text: Public
+                    - cell "Media type. Can be CAROUSEL_ALBUM, IMAGE, or VIDEO." [ref=e505]:
+                      - paragraph [ref=e506]:
+                        - text: Media type. Can be
+                        - code [ref=e507]: CAROUSEL_ALBUM
+                        - text: ","
+                        - code [ref=e508]: IMAGE
+                        - text: ", or"
+                        - code [ref=e509]: VIDEO
+                        - text: .
+                  - row "media_url Public The URL for the media. The media_url field is omitted from responses if the media contains copyrighted material or has been flagged for a copyright violation. Examples of copyrighted material can include audio on reels." [ref=e510]:
+                    - cell "media_url Public" [ref=e511]:
+                      - paragraph [ref=e512]:
+                        - code [ref=e513]: media_url
+                        - text: Public
+                    - cell "The URL for the media. The media_url field is omitted from responses if the media contains copyrighted material or has been flagged for a copyright violation. Examples of copyrighted material can include audio on reels." [ref=e514]:
+                      - paragraph [ref=e515]: The URL for the media.
+                      - paragraph [ref=e518]:
+                        - text: The
+                        - code [ref=e519]: media_url
+                        - text: field is omitted from responses if the media contains copyrighted material or has been flagged for a copyright violation. Examples of copyrighted material can include audio on reels.
+                  - row "owner Public Instagram user ID who created the media. Only returned if the app user making the query also created the media; otherwise, username field is returned instead." [ref=e520]:
+                    - cell "owner Public" [ref=e521]:
+                      - paragraph [ref=e522]:
+                        - code [ref=e523]: owner
+                        - text: Public
+                    - cell "Instagram user ID who created the media. Only returned if the app user making the query also created the media; otherwise, username field is returned instead." [ref=e524]:
+                      - paragraph [ref=e525]:
+                        - text: Instagram user ID who created the media. Only returned if the app user making the query also created the media; otherwise,
+                        - code [ref=e526]: username
+                        - text: field is returned instead.
+                  - row "permalink Public Permanent URL to the media." [ref=e527]:
+                    - cell "permalink Public" [ref=e528]:
+                      - paragraph [ref=e529]:
+                        - code [ref=e530]: permalink
+                        - text: Public
+                    - cell "Permanent URL to the media." [ref=e531]:
+                      - paragraph [ref=e532]: Permanent URL to the media.
+                  - row "shortcode Public Shortcode to the media." [ref=e533]:
+                    - cell "shortcode Public" [ref=e534]:
+                      - paragraph [ref=e535]:
+                        - code [ref=e536]: shortcode
+                        - text: Public
+                    - cell "Shortcode to the media." [ref=e537]:
+                      - paragraph [ref=e538]: Shortcode to the media.
+                  - row "thumbnail_url Public Media thumbnail URL. Only available on VIDEO media." [ref=e539]:
+                    - cell "thumbnail_url Public" [ref=e540]:
+                      - paragraph [ref=e541]:
+                        - code [ref=e542]: thumbnail_url
+                        - text: Public
+                    - cell "Media thumbnail URL. Only available on VIDEO media." [ref=e543]:
+                      - paragraph [ref=e544]:
+                        - text: Media thumbnail URL. Only available on
+                        - code [ref=e545]: VIDEO
+                        - text: media.
+                  - row "timestamp Public ISO 8601-formatted creation date in UTC (default is UTC ±00:00)." [ref=e546]:
+                    - cell "timestamp Public" [ref=e547]:
+                      - paragraph [ref=e548]:
+                        - code [ref=e549]: timestamp
+                        - text: Public
+                    - cell "ISO 8601-formatted creation date in UTC (default is UTC ±00:00)." [ref=e550]:
+                      - paragraph [ref=e551]:
+                        - link "ISO 8601" [ref=e552] [cursor=pointer]:
+                          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FISO_8601&h=AT4i-_1TXKzmPxQgRGvfefD36ARScydYBhwbkFRIeQiUMTr5tJ8xEpnmQi9UztZThzGs7HBmYv454-jwTUOxjyaCGnJr6OT6cPpG7NbKgGHovRq1U8M9aI8BXJYmAXhf2KAcvRUduT_uwRhn69QmLBsLvYZHF7JdkJe6eQ
+                        - text: "-formatted creation date in UTC (default is UTC ±00:00)."
+                  - row "username Public Username of user who created the media." [ref=e553]:
+                    - cell "username Public" [ref=e554]:
+                      - paragraph [ref=e555]:
+                        - code [ref=e556]: username
+                        - text: Public
+                    - cell "Username of user who created the media." [ref=e557]:
+                      - paragraph [ref=e558]: Username of user who created the media.
+                  - row "view_count Public View count for Instagram reels, which includes both paid and organic metrics. Available for Business Discovery API only." [ref=e559]:
+                    - cell "view_count Public" [ref=e560]:
+                      - paragraph [ref=e561]:
+                        - code [ref=e562]: view_count
+                        - text: Public
+                    - cell "View count for Instagram reels, which includes both paid and organic metrics. Available for Business Discovery API only." [ref=e563]:
+                      - paragraph [ref=e564]:
+                        - text: View count for Instagram reels, which includes both
+                        - strong [ref=e565]: paid and organic metrics.
+                      - paragraph [ref=e566]:
+                        - text: Available for
+                        - link "Business Discovery API" [ref=e567] [cursor=pointer]:
+                          - /url: https://developers.facebook.com/docs/instagram-platform/instagram-api-with-facebook-login/business-discovery
+                        - text: only.
+              - heading "Edges" [level=3] [ref=e568]
+              - paragraph [ref=e569]: Public edges can be returned through field expansion.
+              - table [ref=e571]:
+                - rowgroup [ref=e572]:
+                  - row "Edge Description" [ref=e573]:
+                    - columnheader "Edge" [ref=e574]
+                    - columnheader "Description" [ref=e575]
+                - rowgroup [ref=e576]:
+                  - row "children Public. Represents a collection of Instagram Media objects on an album Instagram Media." [ref=e577]:
+                    - cell "children Public." [ref=e578]:
+                      - paragraph [ref=e579]:
+                        - link "children" [ref=e580] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media/children
+                          - code [ref=e581]: children
+                        - text: Public.
+                    - cell "Represents a collection of Instagram Media objects on an album Instagram Media." [ref=e582]:
+                      - paragraph [ref=e583]:
+                        - text: Represents a collection of
+                        - link "Instagram Media" [ref=e584] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: objects on an album
+                        - link "Instagram Media" [ref=e585] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: .
+                  - row "collaborators Represents a list of users who are added as collaborators on an Instagram Media object. Available for Instagram API with Facebook Login only." [ref=e586]:
+                    - cell "collaborators" [ref=e587]:
+                      - paragraph [ref=e588]:
+                        - link "collaborators" [ref=e589] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media/collaborators
+                          - code [ref=e590]: collaborators
+                    - cell "Represents a list of users who are added as collaborators on an Instagram Media object. Available for Instagram API with Facebook Login only." [ref=e591]:
+                      - paragraph [ref=e592]:
+                        - text: Represents a list of users who are added as collaborators on an
+                        - link "Instagram Media" [ref=e593] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: object. Available for Instagram API with Facebook Login only.
+                  - row "comments Represents a collection of Instagram Comments on an Instagram Media object." [ref=e594]:
+                    - cell "comments" [ref=e595]:
+                      - paragraph [ref=e596]:
+                        - link "comments" [ref=e597] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media/comments
+                          - code [ref=e598]: comments
+                    - cell "Represents a collection of Instagram Comments on an Instagram Media object." [ref=e599]:
+                      - paragraph [ref=e600]:
+                        - text: Represents a collection of
+                        - link "Instagram Comments" [ref=e601] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-comment
+                        - text: on an
+                        - link "Instagram Media" [ref=e602] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: object.
+                  - row "insights Represents social interaction metrics on an Instagram Media object." [ref=e603]:
+                    - cell "insights" [ref=e604]:
+                      - paragraph [ref=e605]:
+                        - link "insights" [ref=e606] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media/insights
+                          - code [ref=e607]: insights
+                    - cell "Represents social interaction metrics on an Instagram Media object." [ref=e608]:
+                      - paragraph [ref=e609]:
+                        - text: Represents social interaction metrics on an
+                        - link "Instagram Media" [ref=e610] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-media
+                        - text: object.
+              - heading "cURL Example" [level=3] [ref=e611]
+              - heading "Example request" [level=4] [ref=e612]
+              - generic [ref=e613]:
+                - text: curl -X GET \ 'https://graph.instagram.com/
+                - code [ref=e614]: v25.0
+                - text: /17895695668004550?fields=id,media_type,media_url,owner,timestamp&access_token=IGQVJ...'
+              - heading "Example response" [level=4] [ref=e615]
+              - generic [ref=e616]: "{ \"id\": \"17918920912340654\", \"media_type\": \"IMAGE\", \"media_url\": \"https://sconten...\", \"owner\": { \"id\": \"17841405309211844\" }, \"timestamp\": \"2019-09-26T22:36:43+0000\" }"
+              - link [ref=e617] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e620]:
+              - heading "Updating" [level=2] [ref=e621]
+              - paragraph [ref=e622]:
+                - strong [ref=e623]:
+                  - code [ref=e624]: POST /<IG_MEDIA_ID>
+              - paragraph [ref=e625]: Enable or disable comments on an Instagram Media.
+              - generic [ref=e627]:
+                - heading "Requirements" [level=3] [ref=e628]
+                - table [ref=e630]:
+                  - rowgroup [ref=e631]:
+                    - row "Instagram API with Instagram Login Instagram API with Facebook Login" [ref=e632]:
+                      - columnheader [ref=e633]
+                      - columnheader "Instagram API with Instagram Login" [ref=e634]
+                      - columnheader "Instagram API with Facebook Login" [ref=e635]
+                  - rowgroup [ref=e636]:
+                    - row "Access Tokens Instagram User access token Facebook User access token" [ref=e637]:
+                      - cell "Access Tokens" [ref=e638]:
+                        - paragraph [ref=e639]:
+                          - strong [ref=e640]: Access Tokens
+                      - cell "Instagram User access token" [ref=e641]:
+                        - list [ref=e642]:
+                          - listitem [ref=e643]: Instagram User access token
+                      - cell "Facebook User access token" [ref=e644]:
+                        - list [ref=e645]:
+                          - listitem [ref=e646]:
+                            - link "Facebook User access token" [ref=e647] [cursor=pointer]:
+                              - /url: /docs/facebook-login/access-tokens/#usertokens
+                    - row "Host URL graph.instagram.com graph.facebook.com" [ref=e648]:
+                      - cell "Host URL" [ref=e649]:
+                        - paragraph [ref=e650]:
+                          - strong [ref=e651]: Host URL
+                      - cell "graph.instagram.com" [ref=e652]:
+                        - paragraph [ref=e653]:
+                          - code [ref=e654]: graph.instagram.com
+                      - cell "graph.facebook.com" [ref=e655]:
+                        - paragraph [ref=e656]:
+                          - code [ref=e657]: graph.facebook.com
+                    - row "Login Type Business Login for Instagram Facebook Login for Business" [ref=e658]:
+                      - cell "Login Type" [ref=e659]:
+                        - paragraph [ref=e660]:
+                          - strong [ref=e661]: Login Type
+                      - cell "Business Login for Instagram" [ref=e662]:
+                        - paragraph [ref=e663]: Business Login for Instagram
+                      - cell "Facebook Login for Business" [ref=e664]:
+                        - paragraph [ref=e665]: Facebook Login for Business
+                    - 'row "Permissions instagram_business_basic instagram_business_manage_comments instagram_basic instagram_manage_comments pages_read_engagement If the app user was granted a role via the Business Manager on the Page connected to the targeted IG User, you will also need one of: ads_management ads_read" [ref=e666]':
+                      - cell "Permissions" [ref=e667]:
+                        - link "Permissions" [ref=e668] [cursor=pointer]:
+                          - /url: /docs/permissions/reference#i
+                      - cell "instagram_business_basic instagram_business_manage_comments" [ref=e669]:
+                        - list [ref=e670]:
+                          - listitem [ref=e671]:
+                            - code [ref=e672]: instagram_business_basic
+                          - listitem [ref=e673]:
+                            - code [ref=e674]: instagram_business_manage_comments
+                      - 'cell "instagram_basic instagram_manage_comments pages_read_engagement If the app user was granted a role via the Business Manager on the Page connected to the targeted IG User, you will also need one of: ads_management ads_read" [ref=e675]':
+                        - list [ref=e676]:
+                          - listitem [ref=e677]:
+                            - code [ref=e678]: instagram_basic
+                          - listitem [ref=e679]:
+                            - code [ref=e680]: instagram_manage_comments
+                          - listitem [ref=e681]:
+                            - code [ref=e682]: pages_read_engagement
+                        - paragraph [ref=e683]:
+                          - text: If the app user was granted a role via the Business Manager on the
+                          - link "Page" [ref=e684] [cursor=pointer]:
+                            - /url: /docs/instagram-api/overview#pages
+                          - text: "connected to the targeted IG User, you will also need one of:"
+                        - list [ref=e685]:
+                          - listitem [ref=e686]:
+                            - code [ref=e687]: ads_management
+                          - listitem [ref=e688]:
+                            - code [ref=e689]: ads_read
+              - heading "Limitations" [level=3] [ref=e690]
+              - paragraph [ref=e691]: Live video Instagram Media not supported.
+              - heading "Request Syntax" [level=3] [ref=e692]
+              - generic [ref=e693]: POST https://<HOST_URL>/<API_VERSION>/<IG_MEDIA_ID> ?comment_enabled=<BOOL> &access_token=<ACCESS_TOKEN>
+              - heading "Path Parameters" [level=3] [ref=e694]
+              - table [ref=e696]:
+                - rowgroup [ref=e697]:
+                  - row "Placeholder Value" [ref=e698]:
+                    - columnheader "Placeholder" [ref=e699]
+                    - columnheader "Value" [ref=e700]
+                - rowgroup [ref=e701]:
+                  - 'row "<API_VERSION> The latest version is: v25.0 The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.Learn more about versioning." [ref=e702]':
+                    - 'cell "<API_VERSION> The latest version is: v25.0" [ref=e703]':
+                      - paragraph [ref=e704]:
+                        - code [ref=e705]: <API_VERSION>
+                      - generic [ref=e706]:
+                        - paragraph [ref=e707]:
+                          - strong [ref=e708]: "The latest version is:"
+                        - code [ref=e709]: v25.0
+                    - cell "The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.Learn more about versioning." [ref=e710]:
+                      - paragraph [ref=e711]:
+                        - text: The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.
+                        - link "Learn more about versioning." [ref=e712] [cursor=pointer]:
+                          - /url: /docs/graph-api/guides/versioning
+                  - row "<HOST_URL> The host URL your app is using to query the endpoint." [ref=e713]:
+                    - cell "<HOST_URL>" [ref=e714]:
+                      - paragraph [ref=e715]:
+                        - code [ref=e716]: <HOST_URL>
+                    - cell "The host URL your app is using to query the endpoint." [ref=e717]:
+                      - paragraph [ref=e718]:
+                        - text: The
+                        - link "host URL" [ref=e719] [cursor=pointer]:
+                          - /url: "#requirements"
+                        - text: your app is using to query the endpoint.
+                  - row "<IG_MEDIA_ID> Required. ID for the media to be published." [ref=e720]:
+                    - cell "<IG_MEDIA_ID>" [ref=e721]:
+                      - paragraph [ref=e722]:
+                        - code [ref=e723]: <IG_MEDIA_ID>
+                    - cell "Required. ID for the media to be published." [ref=e724]:
+                      - paragraph [ref=e725]:
+                        - strong [ref=e726]: Required.
+                        - text: ID for the media to be published.
+              - heading "Query String Parameters" [level=3] [ref=e727]
+              - table [ref=e729]:
+                - rowgroup [ref=e730]:
+                  - row "Key Placeholder Value" [ref=e731]:
+                    - columnheader "Key" [ref=e732]
+                    - columnheader "Placeholder" [ref=e733]
+                    - columnheader "Value" [ref=e734]
+                - rowgroup [ref=e735]:
+                  - row "access_token <ACCESS_TOKEN> Required. App user's user access token." [ref=e736]:
+                    - cell "access_token" [ref=e737]:
+                      - paragraph [ref=e738]:
+                        - code [ref=e739]: access_token
+                    - cell "<ACCESS_TOKEN>" [ref=e740]:
+                      - paragraph [ref=e741]:
+                        - code [ref=e742]: <ACCESS_TOKEN>
+                    - cell "Required. App user's user access token." [ref=e743]:
+                      - paragraph [ref=e744]:
+                        - strong [ref=e745]: Required.
+                        - text: App user's
+                        - link "user access token" [ref=e746] [cursor=pointer]:
+                          - /url: /docs/facebook-login/access-tokens#usertokens
+                        - text: .
+                  - row "comment_enabled <BOOL> Required. Set to true to enable comments or false to disable comments." [ref=e747]:
+                    - cell "comment_enabled" [ref=e748]:
+                      - paragraph [ref=e749]:
+                        - code [ref=e750]: comment_enabled
+                    - cell "<BOOL>" [ref=e751]:
+                      - paragraph [ref=e752]:
+                        - code [ref=e753]: <BOOL>
+                    - cell "Required. Set to true to enable comments or false to disable comments." [ref=e754]:
+                      - paragraph [ref=e755]:
+                        - strong [ref=e756]: Required.
+                        - text: Set to
+                        - code [ref=e757]: "true"
+                        - text: to enable comments or
+                        - code [ref=e758]: "false"
+                        - text: to disable comments.
+              - heading "cURL Example" [level=3] [ref=e759]
+              - heading "Example request" [level=4] [ref=e760]
+              - generic [ref=e761]:
+                - text: curl -i -X POST \ "https://graph.instagram.com/
+                - code [ref=e762]: v25.0
+                - text: /17918920912340654?comment_enabled=true&access_token=EAAOc..."
+              - heading "Example response" [level=4] [ref=e763]
+              - generic [ref=e764]: "{ \"success\": true }"
+              - link [ref=e765] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e768]:
+              - heading "Deleting" [level=2] [ref=e769]
+              - paragraph [ref=e770]:
+                - strong [ref=e771]:
+                  - code [ref=e772]: DELETE /<IG_MEDIA_ID>
+              - paragraph [ref=e773]: Delete Instagram Media.
+              - heading "Requirements" [level=3] [ref=e774]
+              - table [ref=e776]:
+                - rowgroup [ref=e777]:
+                  - row "Instagram API with Facebook Login" [ref=e778]:
+                    - columnheader [ref=e779]
+                    - columnheader "Instagram API with Facebook Login" [ref=e780]
+                - rowgroup [ref=e781]:
+                  - row "Access Tokens Facebook User access token" [ref=e782]:
+                    - cell "Access Tokens" [ref=e783]:
+                      - paragraph [ref=e784]:
+                        - strong [ref=e785]: Access Tokens
+                    - cell "Facebook User access token" [ref=e786]:
+                      - list [ref=e787]:
+                        - listitem [ref=e788]:
+                          - link "Facebook User access token" [ref=e789] [cursor=pointer]:
+                            - /url: /docs/facebook-login/access-tokens/#usertokens
+                  - row "Host URL graph.facebook.com" [ref=e790]:
+                    - cell "Host URL" [ref=e791]:
+                      - paragraph [ref=e792]:
+                        - strong [ref=e793]: Host URL
+                    - cell "graph.facebook.com" [ref=e794]:
+                      - paragraph [ref=e795]:
+                        - code [ref=e796]: graph.facebook.com
+                  - row "Login Type Facebook Login for Business" [ref=e797]:
+                    - cell "Login Type" [ref=e798]:
+                      - paragraph [ref=e799]:
+                        - strong [ref=e800]: Login Type
+                    - cell "Facebook Login for Business" [ref=e801]:
+                      - paragraph [ref=e802]: Facebook Login for Business
+                  - row "Permissions instagram_basic instagram_manage_contents" [ref=e803]:
+                    - cell "Permissions" [ref=e804]:
+                      - link "Permissions" [ref=e805] [cursor=pointer]:
+                        - /url: /docs/permissions/reference#i
+                    - cell "instagram_basic instagram_manage_contents" [ref=e806]:
+                      - list [ref=e807]:
+                        - listitem [ref=e808]:
+                          - code [ref=e809]: instagram_basic
+                        - listitem [ref=e810]:
+                          - code [ref=e811]: instagram_manage_contents
+              - heading "Limitations" [level=3] [ref=e812]
+              - paragraph [ref=e813]: This api only supports Instagram API with Facebook login only. Non-ad posts, stories, reels and entire carousel albums are supported. To delete media inside carousel albums, the entire carousel album must be deleted by specifying the carousel container media id. Individually deleting media within a carousel is not supported.
+              - heading "Request Syntax" [level=3] [ref=e814]
+              - generic [ref=e815]: POST https://graph.facebook.com/<API_VERSION>/<IG_MEDIA_ID> ?access_token=<ACCESS_TOKEN>
+              - heading "Path Parameters" [level=3] [ref=e816]
+              - table [ref=e818]:
+                - rowgroup [ref=e819]:
+                  - row "Placeholder Value" [ref=e820]:
+                    - columnheader "Placeholder" [ref=e821]
+                    - columnheader "Value" [ref=e822]
+                - rowgroup [ref=e823]:
+                  - 'row "<API_VERSION> The latest version is: v25.0 The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.Learn more about versioning." [ref=e824]':
+                    - 'cell "<API_VERSION> The latest version is: v25.0" [ref=e825]':
+                      - paragraph [ref=e826]:
+                        - code [ref=e827]: <API_VERSION>
+                      - generic [ref=e828]:
+                        - paragraph [ref=e829]:
+                          - strong [ref=e830]: "The latest version is:"
+                        - code [ref=e831]: v25.0
+                    - cell "The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.Learn more about versioning." [ref=e832]:
+                      - paragraph [ref=e833]:
+                        - text: The API version your app is using. If not specified in your API calls this will be the latest version at the time you created your Meta app or, if that version is no longer available, the oldest version available.
+                        - link "Learn more about versioning." [ref=e834] [cursor=pointer]:
+                          - /url: /docs/graph-api/guides/versioning
+                  - row "<IG_MEDIA_ID> Required. ID for the media to be published." [ref=e835]:
+                    - cell "<IG_MEDIA_ID>" [ref=e836]:
+                      - paragraph [ref=e837]:
+                        - code [ref=e838]: <IG_MEDIA_ID>
+                    - cell "Required. ID for the media to be published." [ref=e839]:
+                      - paragraph [ref=e840]:
+                        - strong [ref=e841]: Required.
+                        - text: ID for the media to be published.
+              - heading "Query String Parameters" [level=3] [ref=e842]
+              - table [ref=e844]:
+                - rowgroup [ref=e845]:
+                  - row "Key Placeholder Value" [ref=e846]:
+                    - columnheader "Key" [ref=e847]
+                    - columnheader "Placeholder" [ref=e848]
+                    - columnheader "Value" [ref=e849]
+                - rowgroup [ref=e850]:
+                  - row "access_token <ACCESS_TOKEN> Required. App user's user access token." [ref=e851]:
+                    - cell "access_token" [ref=e852]:
+                      - paragraph [ref=e853]:
+                        - code [ref=e854]: access_token
+                    - cell "<ACCESS_TOKEN>" [ref=e855]:
+                      - paragraph [ref=e856]:
+                        - code [ref=e857]: <ACCESS_TOKEN>
+                    - cell "Required. App user's user access token." [ref=e858]:
+                      - paragraph [ref=e859]:
+                        - strong [ref=e860]: Required.
+                        - text: App user's
+                        - link "user access token" [ref=e861] [cursor=pointer]:
+                          - /url: /docs/facebook-login/access-tokens#usertokens
+                        - text: .
+              - heading "cURL Example" [level=3] [ref=e862]
+              - heading "Example request" [level=4] [ref=e863]
+              - generic [ref=e864]:
+                - text: curl -i -X DELETE \ "https://graph.facebook.com/
+                - code [ref=e865]: v25.0
+                - text: /17918920912340654?comment_enabled=true&access_token=EAAOc..."
+              - heading "Example response (Success)" [level=4] [ref=e866]
+              - generic [ref=e867]: "{ \"success\": true, \"deleted_id\": \"17918920912340654\" }"
+              - heading "Example response (Failure, Media Type Not Supported)" [level=4] [ref=e868]
+              - generic [ref=e869]: "{ \"error\": { \"message\": \"Fatal\", \"type\": \"OAuthException\", \"code\": -1, \"error_subcode\": 2207073, \"is_transient\": false, \"error_user_title\": \"Media Type Not Supported\", \"error_user_msg\": \"The media type is not supported for this endpoint\", \"fbtrace_id\": \"Api-OlNdfcpOwIu6hNaT5Kw\" }, }"
+              - link [ref=e870] [cursor=pointer]:
+                - /url: "#"
+          - link [ref=e874] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e879]:
+          - generic [ref=e880]: On This Page
+          - link "IG Media" [ref=e882] [cursor=pointer]:
+            - /url: "#ig-media"
+          - link "Creating" [ref=e884] [cursor=pointer]:
+            - /url: "#creating"
+          - link "Reading" [ref=e886] [cursor=pointer]:
+            - /url: "#reading"
+          - link "Requirements" [ref=e890] [cursor=pointer]:
+            - /url: "#requirements"
+          - link "Limitations" [ref=e894] [cursor=pointer]:
+            - /url: "#limitations"
+          - link "Request Syntax" [ref=e898] [cursor=pointer]:
+            - /url: "#request-syntax"
+          - link "Path Parameters" [ref=e902] [cursor=pointer]:
+            - /url: "#path-parameters"
+          - link "Query String Parameters" [ref=e906] [cursor=pointer]:
+            - /url: "#query-string-parameters"
+          - link "Fields" [ref=e910] [cursor=pointer]:
+            - /url: "#fields"
+          - link "Edges" [ref=e914] [cursor=pointer]:
+            - /url: "#edges"
+          - link "cURL Example" [ref=e918] [cursor=pointer]:
+            - /url: "#curl-example"
+          - link "Updating" [ref=e920] [cursor=pointer]:
+            - /url: "#updating"
+          - link "Requirements" [ref=e924] [cursor=pointer]:
+            - /url: "#requirements-2"
+          - link "Limitations" [ref=e928] [cursor=pointer]:
+            - /url: "#limitations-2"
+          - link "Request Syntax" [ref=e932] [cursor=pointer]:
+            - /url: "#request-syntax-2"
+          - link "Path Parameters" [ref=e936] [cursor=pointer]:
+            - /url: "#path-parameters-2"
+          - link "Query String Parameters" [ref=e940] [cursor=pointer]:
+            - /url: "#query-string-parameters-2"
+          - link "cURL Example" [ref=e944] [cursor=pointer]:
+            - /url: "#curl-example-2"
+          - link "Deleting" [ref=e946] [cursor=pointer]:
+            - /url: "#delete"
+          - link "Requirements" [ref=e950] [cursor=pointer]:
+            - /url: "#requirements-3"
+          - link "Limitations" [ref=e954] [cursor=pointer]:
+            - /url: "#limitations-3"
+          - link "Request Syntax" [ref=e958] [cursor=pointer]:
+            - /url: "#request-syntax-3"
+          - link "Path Parameters" [ref=e962] [cursor=pointer]:
+            - /url: "#path-parameters-3"
+          - link "Query String Parameters" [ref=e966] [cursor=pointer]:
+            - /url: "#query-string-parameters-3"
+          - link "cURL Example" [ref=e970] [cursor=pointer]:
+            - /url: "#curl-example-3"
+    - contentinfo [ref=e1053]:
+      - generic [ref=e1054]:
+        - separator [ref=e1055]
+        - generic [ref=e1057]:
+          - generic [ref=e1059]:
+            - generic [ref=e1061]:
+              - generic [ref=e1062]:
+                - img "Meta"
+              - list [ref=e1064]:
+                - listitem:
+                  - link "Facebook":
+                    - /url: https://www.facebook.com/MetaforDevelopers
+                    - img "Facebook"
+                - listitem:
+                  - link "Instagram":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                    - img "Instagram"
+                - listitem:
+                  - link "X":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                    - img "X"
+                - listitem:
+                  - link "LinkedIn":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                    - img "LinkedIn"
+                - listitem:
+                  - link "YouTube":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                    - img "YouTube"
+            - generic [ref=e1066]:
+              - generic [ref=e1069]:
+                - heading "Build with Meta" [level=2] [ref=e1070]:
+                  - generic [ref=e1071]: Build with Meta
+                - list [ref=e1072]:
+                  - listitem [ref=e1073]:
+                    - link "AI" [ref=e1075] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                  - listitem [ref=e1076]:
+                    - link "Meta Horizon" [ref=e1078] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                  - listitem [ref=e1079]:
+                    - link "Social technologies" [ref=e1081] [cursor=pointer]:
+                      - /url: /social-technologies/
+                  - listitem [ref=e1082]:
+                    - link "Wearables" [ref=e1084] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+              - generic [ref=e1087]:
+                - heading "News" [level=2] [ref=e1088]:
+                  - generic [ref=e1089]: News
+                - list [ref=e1090]:
+                  - listitem [ref=e1091]:
+                    - link "Meta for Developers" [ref=e1093] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                  - listitem [ref=e1094]:
+                    - link "Blog" [ref=e1096] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=e1097]:
+                    - link "Success stories" [ref=e1099] [cursor=pointer]:
+                      - /url: /success-stories/
+              - generic [ref=e1102]:
+                - heading "Support" [level=2] [ref=e1103]:
+                  - generic [ref=e1104]: Support
+                - list [ref=e1105]:
+                  - listitem [ref=e1106]:
+                    - link "Developer Support" [ref=e1108] [cursor=pointer]:
+                      - /url: /support/
+                  - listitem [ref=e1109]:
+                    - link "Bug tool" [ref=e1111] [cursor=pointer]:
+                      - /url: /support/bugs/
+                  - listitem [ref=e1112]:
+                    - link "Platform status" [ref=e1114] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                  - listitem [ref=e1115]:
+                    - link "Developer community forum" [ref=e1117] [cursor=pointer]:
+                      - /url: https://www.facebook.com/groups/fbdevelopers/
+                  - listitem [ref=e1118]:
+                    - link "Report an incident" [ref=e1120] [cursor=pointer]:
+                      - /url: /incident/report/
+              - generic [ref=e1123]:
+                - heading "About us" [level=2] [ref=e1124]:
+                  - generic [ref=e1125]: About us
+                - list [ref=e1126]:
+                  - listitem [ref=e1127]:
+                    - link "About" [ref=e1129] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AT5glVXXBXN28NtlEB1dkRSn2Pc9ZLzW4AIQkv_pq-on-E932LN_TbwbUMH108nNEfbf8a89m3ZzOwXjC_GLJjaeQZP6DkhMqsTcBRK7EkhjWlQn-e9O0jg5-Qj1Bncbopd0MaB7EM55KNJjbu9KCiDeGF8_G4SZEB0L5Q
+                  - listitem [ref=e1130]:
+                    - link "Careers" [ref=e1132] [cursor=pointer]:
+                      - /url: https://www.facebook.com/careers
+              - generic [ref=e1135]:
+                - heading "Terms and policies" [level=2] [ref=e1136]:
+                  - generic [ref=e1137]: Terms and policies
+                - list [ref=e1138]:
+                  - listitem [ref=e1139]:
+                    - link "Responsible platform initiatives" [ref=e1141] [cursor=pointer]:
+                      - /url: /products/responsible-platform-initiatives/
+                  - listitem [ref=e1142]:
+                    - link "Platform terms" [ref=e1144] [cursor=pointer]:
+                      - /url: /terms/dfc_platform_terms/
+                  - listitem [ref=e1145]:
+                    - link "Developer policies" [ref=e1147] [cursor=pointer]:
+                      - /url: /devpolicy/
+                  - listitem [ref=e1148]:
+                    - link "Privacy policy" [ref=e1150] [cursor=pointer]:
+                      - /url: https://www.facebook.com/about/privacy
+                  - listitem [ref=e1151]:
+                    - link "Cookies" [ref=e1153] [cursor=pointer]:
+                      - /url: https://www.facebook.com/help/cookies
+          - button "Change language" [ref=e1158] [cursor=pointer]:
+            - generic [ref=e1160]: English (US)

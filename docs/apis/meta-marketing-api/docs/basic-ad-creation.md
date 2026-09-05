@@ -1,0 +1,65 @@
+# Basic Ad Creation - Marketing API
+
+**Source:** https://developers.facebook.com/docs/marketing-api/get-started/basic-ad-creation
+**Date:** 2026-03-01
+
+---
+
+## Basic Ad Creation
+
+Creating ads using the Marketing API involves a systematic approach that includes setting up campaigns, ad sets, and ad creatives. This document provides detailed guidance on programmatically creating these components, along with code samples to illustrate the implementation process.
+
+## Ad Creation Endpoints
+
+The Marketing API offers a variety of key endpoints that serve as essential tools for developers to create, manage, and analyze advertising campaigns. The primary creation endpoints include `campaigns`, `adsets`, and `ads`. Understanding these endpoints and their functionalities is crucial for both new and experienced developers looking to optimize their advertising strategies.
+
+### The `campaigns` endpoint
+
+The [campaigns endpoint](https://developers.facebook.com/docs/marketing-api/reference/ad-account/campaigns) is used to create and manage advertising campaigns. This endpoint allows users to set the overall objectives for their marketing efforts, such as brand awareness or conversions.
+
+**Example API Request:**
+
+```bash
+curl -X POST \
+  https://graph.facebook.com/v25.0/act_<AD_ACCOUNT_ID>/campaigns \
+  -F 'name=My Campaign' \
+  -F 'objective=LINK_CLICKS' \
+  -F 'status=PAUSED' \
+  -F 'access_token=<ACCESS_TOKEN>'
+```
+
+### The `adsets` endpoint
+
+The [adsets endpoint](https://developers.facebook.com/docs/marketing-api/reference/ad-account/adsets) organizes ads within campaigns based on specific targeting criteria and budget allocation. This allows for more granular control over audience targeting and spending.
+
+**Example API Request:**
+
+```bash
+curl -X POST \
+  https://graph.facebook.com/v25.0/act_<AD_ACCOUNT_ID>/adsets \
+  -F 'name=My Ad Set' \
+  -F 'campaign_id=<CAMPAIGN_ID>' \
+  -F 'daily_budget=1000' \
+  -F 'targeting={"geo_locations":{"countries":["US"]}}' \
+  -F 'access_token=<ACCESS_TOKEN>'
+```
+
+### The `ads` endpoint
+
+The [ads endpoint](https://developers.facebook.com/docs/marketing-api/reference/ad-account/ads) is where the actual advertisements are created, allowing you to define creative elements and link them to the appropriate ad set.
+
+**Example API Request:**
+
+```bash
+curl -X POST \
+  https://graph.facebook.com/v25.0/act_<AD_ACCOUNT_ID>/ads \
+  -F 'name=My Ad' \
+  -F 'adset_id=<AD_SET_ID>' \
+  -F 'creative={"creative_id": "<CREATIVE_ID>"}' \
+  -F 'status=ACTIVE' \
+  -F 'access_token=<ACCESS_TOKEN>'
+```
+
+## Next Steps
+
+- [Create an Ad Campaign](https://developers.facebook.com/docs/marketing-api/get-started/basic-ad-creation/create-an-ad-campaign)

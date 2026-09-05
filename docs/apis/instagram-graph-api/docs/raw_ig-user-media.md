@@ -1,0 +1,1196 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - link "Meta logo" [ref=e12] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "Meta logo" [ref=e14]
+        - tablist [ref=e23]:
+          - tab "Docs" [selected] [ref=e24] [cursor=pointer]:
+            - generic [ref=e27]: Docs
+          - tab "Tools" [ref=e29] [cursor=pointer]:
+            - generic [ref=e32]: Tools
+          - tab "Support" [ref=e34] [cursor=pointer]:
+            - generic [ref=e37]: Support
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e46]: Search input
+          - textbox "Search input" [ref=e57]:
+            - /placeholder: Search...
+        - link "Login" [ref=e58] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?is_work_accounts=true&login_options[0]=FB&login_options[1]=SSO&config_ref=biz_login_tool_flavor_dfc&app=436761779744620&next=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-platform%2Finstagram-graph-api%2Freference%2Fig-user%2Fmedia%3Fnav_ref%3Dbiz_unified_f3_login_page_to_dfc
+          - generic [ref=e61]: Login
+    - generic [ref=e64]:
+      - navigation "Breadcrumb" [ref=e68]:
+        - generic [ref=e69]:
+          - link "Docs" [ref=e70] [cursor=pointer]:
+            - /url: /docs/
+            - heading "Docs" [level=3] [ref=e71]
+          - link "Instagram Platform" [ref=e73] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+            - heading "Instagram Platform" [level=3] [ref=e74]
+          - link "API Reference" [ref=e76] [cursor=pointer]:
+            - /url: /docs/instagram-platform/reference
+            - heading "API Reference" [level=3] [ref=e77]
+          - link "IG User" [ref=e79] [cursor=pointer]:
+            - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user
+            - heading "IG User" [level=3] [ref=e80]
+          - link "Media" [ref=e82] [cursor=pointer]:
+            - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/media
+            - heading "Media" [level=3] [ref=e83]
+      - generic [ref=e84]:
+        - generic [ref=e982]:
+          - link "Instagram Platform" [ref=e984] [cursor=pointer]:
+            - /url: /docs/instagram-platform
+          - list [ref=e985]:
+            - listitem [ref=e986]:
+              - link "Overview" [ref=e987] [cursor=pointer]:
+                - /url: /docs/instagram-platform/overview
+            - listitem [ref=e988]:
+              - link "Webhooks" [ref=e989] [cursor=pointer]:
+                - /url: /docs/instagram-platform/webhooks
+            - listitem [ref=e990]:
+              - link "Create an App" [ref=e991] [cursor=pointer]:
+                - /url: /docs/instagram-platform/create-an-instagram-app
+            - listitem [ref=e992]:
+              - link "Instagram API with Instagram Login" [ref=e993] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-instagram-login
+            - listitem [ref=e994]:
+              - link "Instagram API with Facebook Login" [ref=e995] [cursor=pointer]:
+                - /url: /docs/instagram-platform/instagram-api-with-facebook-login
+            - listitem [ref=e996]:
+              - link "Publish Content" [ref=e997] [cursor=pointer]:
+                - /url: /docs/instagram-platform/content-publishing
+            - listitem [ref=e998]:
+              - link "Comment Moderation" [ref=e999] [cursor=pointer]:
+                - /url: /docs/instagram-platform/comment-moderation
+            - listitem [ref=e1000]:
+              - link "Private Replies" [ref=e1001] [cursor=pointer]:
+                - /url: /docs/instagram-platform/private-replies
+            - listitem [ref=e1002]:
+              - link "Insights" [ref=e1003] [cursor=pointer]:
+                - /url: /docs/instagram-platform/insights
+            - listitem [ref=e1004]:
+              - link "Sharing to Feed" [ref=e1005] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-feed
+            - listitem [ref=e1006]:
+              - link "Sharing to Stories" [ref=e1007] [cursor=pointer]:
+                - /url: /docs/instagram-platform/sharing-to-stories
+            - listitem [ref=e1008]:
+              - link "oEmbed" [ref=e1009] [cursor=pointer]:
+                - /url: /docs/instagram-platform/oembed
+            - listitem [ref=e1010]:
+              - link "Embed Button" [ref=e1011] [cursor=pointer]:
+                - /url: /docs/instagram-platform/embed-button
+            - listitem [ref=e1012]:
+              - link "Self Messaging" [ref=e1013] [cursor=pointer]:
+                - /url: /docs/instagram-platform/self-messaging
+            - listitem [ref=e1014]:
+              - link "API Reference" [ref=e1015] [cursor=pointer]:
+                - /url: /docs/instagram-platform/reference
+              - list [ref=e1017]:
+                - listitem [ref=e1018]:
+                  - link "Error Codes" [ref=e1019] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/error-codes
+                - listitem [ref=e1020]:
+                  - link "Access Token" [ref=e1021] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/access_token
+                - listitem [ref=e1022]:
+                  - link "IG Comment" [ref=e1023] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-comment
+                - listitem [ref=e1024]:
+                  - link "IG Container" [ref=e1025] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-container
+                - listitem [ref=e1026]:
+                  - link "IG Hashtag Search" [ref=e1027] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-hashtag-search
+                - listitem [ref=e1028]:
+                  - link "IG Hashtag" [ref=e1029] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-hashtag
+                - listitem [ref=e1030]:
+                  - link "IG Media" [ref=e1031] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/instagram-media
+                - listitem [ref=e1032]:
+                  - link "IG User" [ref=e1033] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user
+                  - list [ref=e1035]:
+                    - listitem [ref=e1036]:
+                      - link "Available Catalogs" [ref=e1037] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/available_catalogs
+                    - listitem [ref=e1038]:
+                      - link "Business Discovery" [ref=e1039] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/business_discovery
+                    - listitem [ref=e1040]:
+                      - link "Catalog Product Search" [ref=e1041] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/catalog_product_search
+                    - listitem [ref=e1042]:
+                      - link "Connected Threads User" [ref=e1043] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/connected_threads_user
+                    - listitem [ref=e1044]:
+                      - link "Content Publishing Limit" [ref=e1045] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/content_publishing_limit
+                    - listitem [ref=e1046]:
+                      - link "Insights" [ref=e1047] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/api-reference/instagram-user/insights
+                    - listitem [ref=e1048]:
+                      - link "Instagram-Backed Threads User" [ref=e1049] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/instagram_backed_threads_user
+                    - listitem [ref=e1050]:
+                      - link "Live Media" [ref=e1051] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/live_media
+                    - listitem [ref=e1052]:
+                      - link "Media" [ref=e1053] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/media
+                    - listitem [ref=e1054]:
+                      - link "Media Publish" [ref=e1055] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/media_publish
+                    - listitem [ref=e1056]:
+                      - link "Mentions" [ref=e1057] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentions
+                    - listitem [ref=e1058]:
+                      - link "Mentioned Comment" [ref=e1059] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentioned_comment
+                    - listitem [ref=e1060]:
+                      - link "Mentioned Media" [ref=e1061] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/mentioned_media
+                    - listitem [ref=e1062]:
+                      - link "Product Appeal" [ref=e1063] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/product_appeal
+                    - listitem [ref=e1064]:
+                      - link "Recently Searched Hashtags" [ref=e1065] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/recently_searched_hashtags
+                    - listitem [ref=e1066]:
+                      - link "Stories" [ref=e1067] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/stories
+                    - listitem [ref=e1068]:
+                      - link "Tags" [ref=e1069] [cursor=pointer]:
+                        - /url: /docs/instagram-platform/instagram-graph-api/reference/ig-user/tags
+                - listitem [ref=e1070]:
+                  - link "/me" [ref=e1071] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/me
+                - listitem [ref=e1072]:
+                  - link "Oauth Authorize" [ref=e1073] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/oauth-authorize
+                - listitem [ref=e1074]:
+                  - link "Page" [ref=e1075] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/instagram-graph-api/reference/page
+                - listitem [ref=e1076]:
+                  - link "Refresh Access Token" [ref=e1077] [cursor=pointer]:
+                    - /url: /docs/instagram-platform/reference/refresh_access_token
+            - listitem [ref=e1078]:
+              - link "App Review" [ref=e1079] [cursor=pointer]:
+                - /url: /docs/instagram-platform/app-review
+            - listitem [ref=e1080]:
+              - link "Support" [ref=e1081] [cursor=pointer]:
+                - /url: /docs/instagram-platform/support
+            - listitem [ref=e1082]:
+              - link "Changelog" [ref=e1083] [cursor=pointer]:
+                - /url: /docs/instagram-platform/changelog
+        - generic [ref=e134]:
+          - generic [ref=e136]:
+            - generic [ref=e138]:
+              - heading "IG User Media" [level=1] [ref=e139]
+              - paragraph [ref=e140]:
+                - text: Represents a collection of
+                - link "IG Media" [ref=e141] [cursor=pointer]:
+                  - /url: /docs/instagram-api/reference/ig-media
+                - text: objects on an
+                - link "IG User" [ref=e142] [cursor=pointer]:
+                  - /url: /docs/instagram-api/reference/ig-user
+                - text: .
+              - paragraph [ref=e146]:
+                - text: On July 9, 2025, we added support for the existing
+                - code [ref=e147]: user_tags
+                - text: field for image and video stories on the
+                - code [ref=e148]: /<IG_ID>/media
+                - text: endpoint. You can mention users in a story and optionally specify x, y coordinates to tag them at a particular coordinate in the media.
+              - paragraph [ref=e152]:
+                - text: On March 24, 2025, we introduced the new
+                - code [ref=e153]: alt_text
+                - text: field for image posts on the
+                - code [ref=e154]: /<INSTAGRAM_PROFESSIONAL_ACCOUNT_ID>/media
+                - text: endpoint. Reels and stories are not supported.
+            - generic [ref=e156]:
+              - heading "Creating" [level=2] [ref=e157]
+              - paragraph [ref=e158]:
+                - strong [ref=e159]:
+                  - code [ref=e160]: POST /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media
+              - list [ref=e161]:
+                - listitem [ref=e162]:
+                  - text: Create an image, carousel, story or reel
+                  - link "IG Container" [ref=e163] [cursor=pointer]:
+                    - /url: /docs/instagram-api/reference/ig-container
+                  - text: for use in the post publishing process. See the
+                  - link "Content Publishing" [ref=e164] [cursor=pointer]:
+                    - /url: /docs/instagram-api/guides/content-publishing
+                  - text: guide for complete publishing steps.
+              - paragraph [ref=e165]: "Steps to publish a media object include the following:"
+              - list [ref=e166]:
+                - listitem [ref=e167]: Create a container
+                - listitem [ref=e168]: Upload the media to the container
+                - listitem [ref=e169]: Publish the container
+              - heading "Limitations" [level=3] [ref=e170]
+              - heading "General Limitations" [level=4] [ref=e171]
+              - list [ref=e172]:
+                - listitem [ref=e173]: Containers expire after 24 hours
+                - listitem [ref=e174]: An Instagram account can only create 400 containers within a rolling 24 hour period
+                - listitem [ref=e175]:
+                  - text: If the
+                  - link "Page" [ref=e176] [cursor=pointer]:
+                    - /url: /docs/instagram-api/overview#pages
+                  - text: connected to the targeted Instagram professional account requires
+                  - link "Page Publishing Authorization" [ref=e177] [cursor=pointer]:
+                    - /url: https://www.facebook.com/help/www/1939753742723975
+                  - text: (PPA), PPA must be completed or the request will fail
+                - listitem [ref=e178]: If the Page connected to the targeted Instagram professional account requires two-factor authentication, the Facebook User must also have performed two-factor authentication or the request will fail
+                - listitem [ref=e179]: We strongly recommended the HTTP IETF standard character set for URLs, URLs that contain only US ASCII characters, or the request will fail
+              - heading "Reels Limitations" [level=4] [ref=e180]
+              - list [ref=e181]:
+                - listitem [ref=e182]: Reels cannot appear in carousels
+                - listitem [ref=e183]:
+                  - text: Account privacy settings are respected upon publish. For example, if
+                  - strong [ref=e184]: Allow remixing
+                  - text: is enabled, published reels will have remixing enabled upon publish but remixing can be disabled on published reels manually through the Instagram app.
+                - listitem [ref=e185]: Music tagging is only available for original audio.
+              - heading "Story Limitations" [level=4] [ref=e186]
+              - list [ref=e187]:
+                - listitem [ref=e188]: Stories expire after 24 hours.
+                - listitem [ref=e189]: Support either video URL or Reels URL but not both.
+                - listitem [ref=e190]: Publishing stickers (i.e., link, poll, location) is not supported; however mentioning users without a sticker is supported.
+              - heading "Requirements" [level=3] [ref=e191]
+              - table [ref=e193]:
+                - rowgroup [ref=e194]:
+                  - row "Type Description" [ref=e195]:
+                    - columnheader "Type" [ref=e196]
+                    - columnheader "Description" [ref=e197]
+                - rowgroup [ref=e198]:
+                  - row "Access Tokens User" [ref=e199]:
+                    - cell "Access Tokens" [ref=e200]:
+                      - paragraph [ref=e201]:
+                        - link "Access Tokens" [ref=e202] [cursor=pointer]:
+                          - /url: /docs/facebook-login/access-tokens#usertokens
+                    - cell "User" [ref=e203]:
+                      - paragraph [ref=e204]:
+                        - link "User" [ref=e205] [cursor=pointer]:
+                          - /url: /docs/facebook-login/access-tokens#usertokens
+                  - row "Business Roles If creating containers for product tagging, the app user must have an admin role on the Business Manager that owns the IG User's Instagram Shop." [ref=e206]:
+                    - cell "Business Roles" [ref=e207]:
+                      - paragraph [ref=e208]:
+                        - link "Business Roles" [ref=e209] [cursor=pointer]:
+                          - /url: https://www.facebook.com/business/help/442345745885606
+                    - cell "If creating containers for product tagging, the app user must have an admin role on the Business Manager that owns the IG User's Instagram Shop." [ref=e210]:
+                      - paragraph [ref=e211]:
+                        - text: If creating containers for
+                        - link "product tagging" [ref=e212] [cursor=pointer]:
+                          - /url: /docs/instagram-api/guides/product-tagging
+                        - text: ", the app user must have an admin role on the"
+                        - link "Business Manager" [ref=e213] [cursor=pointer]:
+                          - /url: https://business.facebook.com/
+                        - text: that owns the IG User's
+                        - link "Instagram Shop" [ref=e214] [cursor=pointer]:
+                          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhelp.instagram.com%2F1187859655048322&h=AT5nwCu-RINC5bztQ7gP36NsIX8jQQNILhYvcZxr0UrhAS6pr0-FeBwGyVXDSehnctEt802tjlhDM-Stslnuuxy1TOycZjZ8NHWyAhGM_yo6GzflYIDEPHX92ya5cfBfmzo8NUPWfBv2kDhf5tjBAccbWXcPlYZCPrYY5A
+                        - text: .
+                  - 'row "Permissions instagram_basic instagram_content_publish pages_read_engagement If the app user was granted a role on the Page via the Business Manager, you will also need one of: ads_management ads_read If creating containers for product tagging, you will also need: catalog_management instagram_shopping_tag_products" [ref=e215]':
+                    - cell "Permissions" [ref=e216]:
+                      - paragraph [ref=e217]:
+                        - link "Permissions" [ref=e218] [cursor=pointer]:
+                          - /url: /docs/apps/review/login-permissions
+                    - 'cell "instagram_basic instagram_content_publish pages_read_engagement If the app user was granted a role on the Page via the Business Manager, you will also need one of: ads_management ads_read If creating containers for product tagging, you will also need: catalog_management instagram_shopping_tag_products" [ref=e219]':
+                      - paragraph [ref=e220]:
+                        - link "instagram_basic" [ref=e221] [cursor=pointer]:
+                          - /url: /docs/facebook-login/permissions#reference-instagram_basic
+                          - code [ref=e222]: instagram_basic
+                        - link "instagram_content_publish" [ref=e223] [cursor=pointer]:
+                          - /url: /docs/permissions/reference/instagram_content_publish
+                          - code [ref=e224]: instagram_content_publish
+                        - link "pages_read_engagement" [ref=e225] [cursor=pointer]:
+                          - /url: /docs/facebook-login/permissions#reference-pages_read_engagement
+                          - code [ref=e226]: pages_read_engagement
+                        - text: "If the app user was granted a role on the Page via the Business Manager, you will also need one of:"
+                      - paragraph [ref=e227]:
+                        - link "ads_management" [ref=e228] [cursor=pointer]:
+                          - /url: /docs/permissions/reference/ads_management
+                          - code [ref=e229]: ads_management
+                        - code [ref=e230]: ads_read
+                      - paragraph [ref=e231]:
+                        - text: If creating containers for
+                        - link "product tagging" [ref=e232] [cursor=pointer]:
+                          - /url: /docs/instagram-api/guides/product-tagging
+                        - text: ", you will also need:"
+                      - paragraph [ref=e233]:
+                        - link "catalog_management" [ref=e234] [cursor=pointer]:
+                          - /url: /docs/permissions/reference/catalog_management
+                          - code [ref=e235]: catalog_management
+                        - link "instagram_shopping_tag_products" [ref=e236] [cursor=pointer]:
+                          - /url: /docs/permissions/reference/instagram_shopping_tag_products
+                          - code [ref=e237]: instagram_shopping_tag_products
+                  - row "Tasks Your app user must be able to perform the MANAGE or CREATE_CONTENT tasks on the Page linked to their Instagram professional account." [ref=e238]:
+                    - cell "Tasks" [ref=e239]:
+                      - paragraph [ref=e240]:
+                        - link "Tasks" [ref=e241] [cursor=pointer]:
+                          - /url: /docs/instagram-api/overview#tasks
+                    - cell "Your app user must be able to perform the MANAGE or CREATE_CONTENT tasks on the Page linked to their Instagram professional account." [ref=e242]:
+                      - paragraph [ref=e243]:
+                        - text: Your app user must be able to perform the
+                        - code [ref=e244]: MANAGE
+                        - text: or
+                        - code [ref=e245]: CREATE_CONTENT
+                        - text: tasks on the Page linked to their Instagram professional account.
+              - heading "Image Specifications" [level=3] [ref=e246]
+              - list [ref=e247]:
+                - listitem [ref=e248]: "Format: JPEG"
+                - listitem [ref=e249]: "File size: 8 MB maximum."
+                - listitem [ref=e250]: "Aspect ratio: Must be within a 4:5 to 1.91:1 range"
+                - listitem [ref=e251]: "Minimum width: 320 (will be scaled up to the minimum if necessary)"
+                - listitem [ref=e252]: "Maximum width: 1440 (will be scaled down to the maximum if necessary)"
+                - listitem [ref=e253]: "Height: Varies, depending on width and aspect ratio"
+                - listitem [ref=e254]: "Color Space: sRGB. Images using other color spaces will have their color spaces converted to sRGB."
+              - heading "Reel Specifications" [level=3] [ref=e255]
+              - paragraph [ref=e256]: "The following are the specifications for Reels:"
+              - list [ref=e257]:
+                - listitem [ref=e258]:
+                  - generic [ref=e259]: "Container: MOV or MP4 (MPEG-4 Part 14), no edit lists, moov atom at the front of the file."
+                - listitem [ref=e260]:
+                  - generic [ref=e261]: "Audio codec: AAC, 48khz sample rate maximum, 1 or 2 channels (mono or stereo)."
+                - listitem [ref=e262]:
+                  - generic [ref=e263]: "Video codec: HEVC or H264, progressive scan, closed GOP, 4:2:0 chroma subsampling."
+                - listitem [ref=e264]:
+                  - generic [ref=e265]: "Frame rate: 23-60 FPS."
+                - listitem [ref=e266]:
+                  - generic [ref=e267]:
+                    - text: "Picture size:"
+                    - list [ref=e268]:
+                      - listitem [ref=e269]:
+                        - generic [ref=e270]: "Maximum columns (horizontal pixels): 1920"
+                      - listitem [ref=e271]:
+                        - generic [ref=e272]: Required aspect ratio is between 0.01:1 and 10:1 but we recommend 9:16 to avoid cropping or blank space.
+                - listitem [ref=e273]:
+                  - generic [ref=e274]: "Video bitrate: VBR, 25Mbps maximum"
+                - listitem [ref=e275]:
+                  - generic [ref=e276]: "Audio bitrate: 128kbps"
+                - listitem [ref=e277]:
+                  - generic [ref=e278]: "Duration: 15 mins maximum, 3 seconds minimum"
+                - listitem [ref=e279]:
+                  - generic [ref=e280]: "File size: 300MB maximum"
+              - paragraph [ref=e281]: "The following are the specifications for a Reels cover photo:"
+              - list [ref=e282]:
+                - listitem [ref=e283]:
+                  - generic [ref=e284]: "Format: JPEG"
+                - listitem [ref=e285]:
+                  - generic [ref=e286]: "File size: 8MB maximum"
+                - listitem [ref=e287]:
+                  - generic [ref=e288]: "Color Space: sRGB. Images that use other color spaces will be converted to sRGB."
+                - listitem [ref=e289]:
+                  - generic [ref=e290]: "Aspect ratio: We recommend 9:16 to avoid cropping or blank space. If the aspect ratio of the original image is not 9:16, we crop the image and use the middle most 9:16 rectangle as the cover photo for the reel. If you share a reel to your feed, we crop the image and use the middle most 1:1 square as the cover photo for your feed post."
+              - heading "Story Image Specifications" [level=3] [ref=e291]
+              - list [ref=e292]:
+                - listitem [ref=e293]: "Format: JPEG"
+                - listitem [ref=e294]: "File size: 8 MB maximum."
+                - listitem [ref=e295]: "Aspect ratio: We recommended 9:16 to avoid cropping or blank space"
+                - listitem [ref=e296]: "Color Space: sRGB. Images using other color spaces will have their color spaces converted to sRGB"
+              - heading "Story Video Specifications" [level=3] [ref=e297]
+              - list [ref=e298]:
+                - listitem [ref=e299]:
+                  - generic [ref=e300]: "Container: MOV or MP4 (MPEG-4 Part 14), no edit lists, moov atom at the front of the file."
+                - listitem [ref=e301]:
+                  - generic [ref=e302]: "Audio codec: AAC, 48khz sample rate maximum, 1 or 2 channels (mono or stereo)."
+                - listitem [ref=e303]:
+                  - generic [ref=e304]: "Video codec: HEVC or H264, progressive scan, closed GOP, 4:2:0 chroma subsampling."
+                - listitem [ref=e305]:
+                  - generic [ref=e306]: "Frame rate: 23-60 FPS."
+                - listitem [ref=e307]:
+                  - generic [ref=e308]:
+                    - text: "Picture size:"
+                    - list [ref=e309]:
+                      - listitem [ref=e310]:
+                        - generic [ref=e311]: "Maximum columns (horizontal pixels): 1920"
+                      - listitem [ref=e312]:
+                        - generic [ref=e313]: Required aspect ratio is between 0.1:1 and 10:1 but we recommend 9:16 to avoid cropping or blank space
+                - listitem [ref=e314]:
+                  - generic [ref=e315]: "Video bitrate: VBR, 25Mbps maximum"
+                - listitem [ref=e316]:
+                  - generic [ref=e317]: "Audio bitrate: 128kbps"
+                - listitem [ref=e318]:
+                  - generic [ref=e319]: "Duration: 60 seconds maximum, 3 seconds minimum"
+                - listitem [ref=e320]:
+                  - generic [ref=e321]: "File size: 100MB maximum"
+              - heading "Request Syntax" [level=3] [ref=e322]
+              - heading "Image Containers" [level=4] [ref=e323]
+              - generic [ref=e324]:
+                - text: POST https://graph.facebook.com/
+                - code [ref=e325]: v25.0
+                - text: /<YOUR_APP_USERS_IG_USER_ID>/media ?image_url=<IMAGE_URL> &is_carousel_item=<TRUE_OR_FALSE> &alt_text=<IMAGE_ALTERNATIVE_TEXT> &caption=<IMAGE_CAPTION> &location_id=<LOCATION_PAGE_ID> &user_tags=<ARRAY_OF_USERS_FOR_TAGGING>> &product_tags=<ARRAY_OF_PRODUCTS_FOR_TAGGING> &access_token=<USER_ACCESS_TOKEN>
+              - heading "Reel Containers" [level=4] [ref=e326]
+              - heading "Standard upload" [level=5] [ref=e327]
+              - generic [ref=e328]:
+                - text: POST https://graph.facebook.com/
+                - code [ref=e329]: v25.0
+                - text: /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media ?media_type=REELS &video_url=<REEL_URL> &caption=<IMAGE_CAPTION> &share_to_feed=<TRUE_OR_FALSE> &collaborators=<COLLABORATOR_USERNAMES> &cover_url=<COVER_URL> &audio_name=<AUDIO_NAME> &user_tags=<ARRAY_OF_USERS_FOR_TAGGING>> &location_id=<LOCATION_PAGE_ID> &thumb_offset=<THUMB_OFFSET> &share_to_feed=<TRUE_OR_FALSE> &trial_params=<TRIAL_PARAM> &access_token=<USER_ACCESS_TOKEN>
+              - heading "Resumable upload session" [level=5] [ref=e330]
+              - generic [ref=e331]:
+                - text: POST https://graph.facebook.com/
+                - code [ref=e332]: v25.0
+                - text: /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media ?media_type=REELS &upload_type=resumable &caption=<IMAGE_CAPTION> &collaborators=<COLLABORATOR_USERNAMES> &cover_url=<COVER_URL> &audio_name=<AUDIO_NAME> &user_tags=<ARRAY_OF_USERS_FOR_TAGGING>> &location_id=<LOCATION_PAGE_ID> &thumb_offset=<THUMB_OFFSET> &access_token=<USER_ACCESS_TOKEN>
+              - paragraph [ref=e333]:
+                - text: On success, an
+                - code [ref=e334]: ig-container-id
+                - text: and a
+                - code [ref=e335]: uri
+                - text: "is returned in the response, which will be used in subsequent steps, such as:"
+              - generic [ref=e336]:
+                - text: "{ \"id\": \"<IG_CONTAINER_ID>\", \"uri\": \"https://rupload.facebook.com/ig-api-upload/"
+                - code [ref=e337]: v25.0
+                - text: "/<IG_CONTAINER_ID>\" }"
+              - heading "Carousel Containers" [level=4] [ref=e338]
+              - paragraph [ref=e339]:
+                - text: Carousel containers only. To create carousel item containers, create image or video containers instead (reels are not supported). See
+                - link "Carousel Posts" [ref=e340] [cursor=pointer]:
+                  - /url: /docs/instagram-api/guides/content-publishing#carousel-posts
+                - text: for complete publishing steps.
+              - heading "Standard upload" [level=5] [ref=e341]
+              - generic [ref=e342]:
+                - text: POST https://graph.facebook.com/
+                - code [ref=e343]: v25.0
+                - text: /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media ?media_type=CAROUSEL &caption=<IMAGE_CAPTION> &share_to_feed=<TRUE_OR_FALSE> &collaborators=<COLLABORATOR_USERNAMES> &location_id=<LOCATION_PAGE_ID> &product_tags=<ARRAY_OF_PRODUCTS_FOR_TAGGING> &children=<ARRAY_OF_CAROUSEL_CONTAINTER_IDS> &access_token=<USER_ACCESS_TOKEN>
+              - heading "Resumable upload session" [level=5] [ref=e344]
+              - generic [ref=e345]:
+                - text: POST https://graph.facebook.com/
+                - code [ref=e346]: v25.0
+                - text: /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media ?media_type=VIDEO &is_carousel_item=true &upload_type=resumable &access_token=<USER_ACCESS_TOKEN>
+              - paragraph [ref=e347]:
+                - text: On success, an
+                - code [ref=e348]: ig-container-id
+                - text: and a
+                - code [ref=e349]: uri
+                - text: is returned in the response, which will be used in subsequent steps.
+              - heading "Image Story Containers" [level=4] [ref=e350]
+              - generic [ref=e351]:
+                - text: POST https://graph.facebook.com/
+                - code [ref=e352]: v25.0
+                - text: /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media ?image_url=<IMAGE_URL> &media_type=STORIES &user_tags=<ARRAY_OF_USERS_FOR_TAGGING> &access_token=<USER_ACCESS_TOKEN>
+              - heading "Video Story Containers" [level=4] [ref=e353]
+              - heading "Standard upload" [level=5] [ref=e354]
+              - generic [ref=e355]:
+                - text: POST https://graph.facebook.com/
+                - code [ref=e356]: v25.0
+                - text: /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media ?video_url=<VIDEO_URL> &media_type=STORIES &user_tags=<ARRAY_OF_USERS_FOR_TAGGING> &access_token=<USER_ACCESS_TOKEN>
+              - heading "Resumable upload session" [level=5] [ref=e357]
+              - generic [ref=e358]:
+                - text: POST https://graph.facebook.com/
+                - code [ref=e359]: v25.0
+                - text: /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media ?media_type=STORIES &upload_type=resumable &access_token=<USER_ACCESS_TOKEN>
+              - paragraph [ref=e360]: On success, an Instagram container ID and a URI is returned in the response, which will be used in subsequent steps.
+              - heading "Upload a video through resumable upload protocol" [level=4] [ref=e361]
+              - generic [ref=e362]:
+                - paragraph [ref=e363]:
+                  - text: Once the Instagram container ID returns from a resumable upload session call, send a
+                  - code [ref=e364]: POST
+                  - text: request to the
+                  - code [ref=e365]: https://rupload.facebook.com/ig-api-upload/
+                - code [ref=e366]: v25.0
+                - paragraph [ref=e367]:
+                  - code [ref=e368]: /<IG_CONTAINER_ID>
+                  - text: endpoint.
+              - list [ref=e369]:
+                - listitem [ref=e370]: All media_type shares the same flow to upload the video.
+                - listitem [ref=e371]:
+                  - code [ref=e372]: ig-container-id
+                  - text: is the ID from the resumable reels, carousel and video container upload session examples above.
+                - listitem [ref=e373]:
+                  - code [ref=e374]: access-token
+                  - text: is the same one used in other steps.
+                - listitem [ref=e375]:
+                  - code [ref=e376]: offset
+                  - text: is set to the first byte being upload, generally
+                  - code [ref=e377]: "0"
+                  - text: .
+                - listitem [ref=e378]:
+                  - code [ref=e379]: file_size
+                  - text: is set to the size of your file in bytes.
+                - listitem [ref=e380]:
+                  - code [ref=e381]: Your_file_local_path
+                  - text: sets to the file path of your local file, for example, if uploading a file from the
+                  - strong [ref=e382]: Downloads
+                  - text: folder on macOS, the path is
+                  - strong [ref=e383]: "@Downloads/example.mov"
+                  - text: .
+              - generic [ref=e384]:
+                - text: curl -X POST "https://rupload.facebook.com/ig-api-upload/
+                - code [ref=e385]: v25.0
+                - text: "/<IG_CONTAINER_ID>\" \\ -H \"Authorization: OAuth <USER_ACCESS_TOKEN>\" \\ -H \"offset: 0\" \\ -H \"file_size: Your_file_size_in_bytes\" \\ --data-binary \"@Your_local_file_path.extension\""
+              - paragraph [ref=e386]: "On success, you should see response like this example:"
+              - generic [ref=e387]: "{ \"success\":true, \"message\":\"Upload successful. ...\" }"
+              - heading "Upload a video from a hosted URL" [level=4] [ref=e388]
+              - paragraph [ref=e389]: This service can also support video upload from a hosted URL.
+              - generic [ref=e390]:
+                - text: curl -X POST "https://rupload.facebook.com/ig-api-upload/
+                - code [ref=e391]: v25.0
+                - text: "/<IG_CONTAINER_ID>\" \\ -H \"Authorization: OAuth <USER_ACCESS_TOKEN>\" \\ -H \"file_url: <VIDEO_URL>\""
+              - heading "Path Parameters" [level=3] [ref=e392]
+              - table [ref=e394]:
+                - rowgroup [ref=e395]:
+                  - row "Placeholder Value" [ref=e396]:
+                    - columnheader "Placeholder" [ref=e397]
+                    - columnheader "Value" [ref=e398]
+                - rowgroup [ref=e399]:
+                  - 'row "<LATEST_API_VERSION> The lastest API version is: v25.0 API version." [ref=e400]':
+                    - 'cell "<LATEST_API_VERSION> The lastest API version is: v25.0" [ref=e401]':
+                      - paragraph [ref=e402]:
+                        - code [ref=e403]: <LATEST_API_VERSION>
+                      - generic [ref=e404]:
+                        - paragraph [ref=e405]: "The lastest API version is:"
+                        - code [ref=e406]: v25.0
+                    - cell "API version." [ref=e407]:
+                      - paragraph [ref=e408]:
+                        - text: API
+                        - link "version" [ref=e409] [cursor=pointer]:
+                          - /url: /docs/graph-api/guides/versioning
+                        - text: .
+                  - row "<YOUR_APP_USERS_INSTAGRAM_USER_ID> Required App user's app-scoped user ID." [ref=e410]:
+                    - cell "<YOUR_APP_USERS_INSTAGRAM_USER_ID> Required" [ref=e411]:
+                      - paragraph [ref=e412]:
+                        - code [ref=e413]: <YOUR_APP_USERS_INSTAGRAM_USER_ID>
+                        - text: Required
+                    - cell "App user's app-scoped user ID." [ref=e414]:
+                      - paragraph [ref=e415]: App user's app-scoped user ID.
+              - heading "Query String Parameters" [level=3] [ref=e416]
+              - table [ref=e418]:
+                - rowgroup [ref=e419]:
+                  - row "Key Placeholder Description" [ref=e420]:
+                    - columnheader "Key" [ref=e421]
+                    - columnheader "Placeholder" [ref=e422]
+                    - columnheader "Description" [ref=e423]
+                - rowgroup [ref=e424]:
+                  - row "access_token <USER_ACCESS_TOKEN> Required. App user's User access token." [ref=e425]:
+                    - cell "access_token" [ref=e426]:
+                      - paragraph [ref=e427]:
+                        - code [ref=e428]: access_token
+                    - cell "<USER_ACCESS_TOKEN>" [ref=e429]:
+                      - paragraph [ref=e430]:
+                        - code [ref=e431]: <USER_ACCESS_TOKEN>
+                    - cell "Required. App user's User access token." [ref=e432]:
+                      - paragraph [ref=e433]:
+                        - text: Required. App user's
+                        - link "User" [ref=e434] [cursor=pointer]:
+                          - /url: /docs/facebook-login/access-tokens#usertokens
+                        - text: access token.
+                  - row "alt_text <IMAGE_ALTERNATIVE_TEXT> For image posts only. Alternative text, up to 1000 character, for an image. Only supported on a single image or image media in a carousel. Reels and stories are not supported." [ref=e435]:
+                    - cell "alt_text" [ref=e436]:
+                      - paragraph [ref=e437]:
+                        - code [ref=e438]: alt_text
+                    - cell "<IMAGE_ALTERNATIVE_TEXT>" [ref=e439]:
+                      - paragraph [ref=e440]:
+                        - code [ref=e441]: <IMAGE_ALTERNATIVE_TEXT>
+                    - cell "For image posts only. Alternative text, up to 1000 character, for an image. Only supported on a single image or image media in a carousel. Reels and stories are not supported." [ref=e442]:
+                      - paragraph [ref=e443]:
+                        - strong [ref=e444]: For image posts only.
+                        - text: Alternative text, up to 1000 character, for an image. Only supported on a single image or image media in a carousel.
+                      - paragraph [ref=e445]:
+                        - strong [ref=e446]: Reels and stories are not supported.
+                  - row "audio_name <AUDIO_NAME> For Reels only. Name of the audio of your Reels media. You can only rename once, either while creating a reel or after from the audio page." [ref=e447]:
+                    - cell "audio_name" [ref=e448]:
+                      - paragraph [ref=e449]:
+                        - code [ref=e450]: audio_name
+                    - cell "<AUDIO_NAME>" [ref=e451]:
+                      - paragraph [ref=e452]:
+                        - code [ref=e453]: <AUDIO_NAME>
+                    - cell "For Reels only. Name of the audio of your Reels media. You can only rename once, either while creating a reel or after from the audio page." [ref=e454]:
+                      - paragraph [ref=e455]:
+                        - strong [ref=e456]: For Reels only.
+                        - text: Name of the audio of your Reels media. You can only rename once, either while creating a reel or after from the audio page.
+                  - 'row "caption <IMAGE_CAPTION> A caption for the image, video, or carousel. Can include hashtags (example: #crazywildebeest) and usernames of Instagram users (example: @natgeo). @Mentioned Instagram users receive a notification when the container is published. Maximum 2200 characters, 30 hashtags, and 20 @ tags. Not supported on images or videos in carousels." [ref=e457]':
+                    - cell "caption" [ref=e458]:
+                      - paragraph [ref=e459]:
+                        - code [ref=e460]: caption
+                    - cell "<IMAGE_CAPTION>" [ref=e461]:
+                      - paragraph [ref=e462]:
+                        - code [ref=e463]: <IMAGE_CAPTION>
+                    - 'cell "A caption for the image, video, or carousel. Can include hashtags (example: #crazywildebeest) and usernames of Instagram users (example: @natgeo). @Mentioned Instagram users receive a notification when the container is published. Maximum 2200 characters, 30 hashtags, and 20 @ tags. Not supported on images or videos in carousels." [ref=e464]':
+                      - paragraph [ref=e465]:
+                        - text: "A caption for the image, video, or carousel. Can include hashtags (example:"
+                        - code [ref=e466]: "#crazywildebeest"
+                        - text: ") and usernames of Instagram users (example:"
+                        - code [ref=e467]: "@natgeo"
+                        - text: ). @Mentioned Instagram users receive a notification when the container is published. Maximum 2200 characters, 30 hashtags, and 20 @ tags.
+                      - paragraph [ref=e468]:
+                        - strong [ref=e469]: Not supported on images or videos in carousels
+                        - text: .
+                  - row "collaborators <LIST_OF_COLLABORATORS> For Feed image, Reels and Carousels only. A list of up to 3 instagram usernames as collaborators on an ig media. Not supported for Stories." [ref=e470]:
+                    - cell "collaborators" [ref=e471]:
+                      - paragraph [ref=e472]:
+                        - code [ref=e473]: collaborators
+                    - cell "<LIST_OF_COLLABORATORS>" [ref=e474]:
+                      - paragraph [ref=e475]:
+                        - code [ref=e476]: <LIST_OF_COLLABORATORS>
+                    - cell "For Feed image, Reels and Carousels only. A list of up to 3 instagram usernames as collaborators on an ig media. Not supported for Stories." [ref=e477]:
+                      - paragraph [ref=e478]: For Feed image, Reels and Carousels only. A list of up to 3 instagram usernames as collaborators on an ig media.
+                      - paragraph [ref=e479]:
+                        - strong [ref=e480]: Not supported for Stories.
+                  - row "children <ARRAY_OF_CAROUSEL_CONTAINTER_IDS Required for carousels. Applies only to carousels. An array of up to 10 container IDs of each image and video that should appear in the published carousel. Carousels can have up to 10 total images, vidoes, or a mix of the two." [ref=e481]:
+                    - cell "children" [ref=e482]:
+                      - paragraph [ref=e483]:
+                        - code [ref=e484]: children
+                    - cell "<ARRAY_OF_CAROUSEL_CONTAINTER_IDS" [ref=e485]:
+                      - paragraph [ref=e486]:
+                        - code [ref=e487]: <ARRAY_OF_CAROUSEL_CONTAINTER_IDS
+                    - cell "Required for carousels. Applies only to carousels. An array of up to 10 container IDs of each image and video that should appear in the published carousel. Carousels can have up to 10 total images, vidoes, or a mix of the two." [ref=e488]:
+                      - paragraph [ref=e489]:
+                        - strong [ref=e490]: Required for carousels. Applies only to carousels
+                        - text: . An array of up to 10 container IDs of each image and video that should appear in the published carousel. Carousels can have up to 10 total images, vidoes, or a mix of the two.
+                  - row "cover_url <COVER_URL> For Reels only. The path to an image to use as the cover image for the Reels tab. We will cURL the image using the URL that you specify so the image must be on a public server. If you specify both cover_url and thumb_offset, we use cover_url and ignore thumb_offset. The image must conform to the specifications for a Reels cover photo." [ref=e491]:
+                    - cell "cover_url" [ref=e492]:
+                      - paragraph [ref=e493]:
+                        - code [ref=e494]: cover_url
+                    - cell "<COVER_URL>" [ref=e495]:
+                      - paragraph [ref=e496]:
+                        - code [ref=e497]: <COVER_URL>
+                    - cell "For Reels only. The path to an image to use as the cover image for the Reels tab. We will cURL the image using the URL that you specify so the image must be on a public server. If you specify both cover_url and thumb_offset, we use cover_url and ignore thumb_offset. The image must conform to the specifications for a Reels cover photo." [ref=e498]:
+                      - paragraph [ref=e499]:
+                        - text: For Reels only. The path to an image to use as the cover image for the Reels tab. We will cURL the image using the URL that you specify so the image must be on a public server. If you specify both
+                        - code [ref=e500]: cover_url
+                        - text: and
+                        - code [ref=e501]: thumb_offset
+                        - text: ", we use"
+                        - code [ref=e502]: cover_url
+                        - text: and ignore
+                        - code [ref=e503]: thumb_offset
+                        - text: . The image must conform to the
+                        - link "specifications for a Reels cover photo" [ref=e504] [cursor=pointer]:
+                          - /url: "#reels-specs"
+                        - text: .
+                  - row "image_url <IMAGE_URL> For images only and required for images. The path to the image. We will cURL the image using the URL that you specify so the image must be on a public server." [ref=e505]:
+                    - cell "image_url" [ref=e506]:
+                      - paragraph [ref=e507]:
+                        - code [ref=e508]: image_url
+                    - cell "<IMAGE_URL>" [ref=e509]:
+                      - paragraph [ref=e510]:
+                        - code [ref=e511]: <IMAGE_URL>
+                    - cell "For images only and required for images. The path to the image. We will cURL the image using the URL that you specify so the image must be on a public server." [ref=e512]:
+                      - paragraph [ref=e513]: For images only and required for images. The path to the image. We will cURL the image using the URL that you specify so the image must be on a public server.
+                  - row "is_carousel_item <TRUE_OR_FALSE> Applies only to images and video. Set to true. Indicates image or video appears in a carousel." [ref=e514]:
+                    - cell "is_carousel_item" [ref=e515]:
+                      - paragraph [ref=e516]:
+                        - code [ref=e517]: is_carousel_item
+                    - cell "<TRUE_OR_FALSE>" [ref=e518]:
+                      - paragraph [ref=e519]:
+                        - code [ref=e520]: <TRUE_OR_FALSE>
+                    - cell "Applies only to images and video. Set to true. Indicates image or video appears in a carousel." [ref=e521]:
+                      - paragraph [ref=e522]:
+                        - strong [ref=e523]: Applies only to images and video
+                        - text: . Set to
+                        - code [ref=e524]: "true"
+                        - text: . Indicates image or video appears in a carousel.
+                  - row "location_id <LOCATION_PAGE_ID> The ID of a Page associated with a location that you want to tag the image or video with. Use the Pages Search API to search for Pages whose names match a search string, then parse the results to identify any Pages that have been created for a physical location. Include the location field in your query and verify that the Page you want to use has location data. Attempting to create a container using a Page that has no location data will fail with coded exception INSTAGRAM_PLATFORM_API__INVALID_LOCATION_ID. Not supported on images or videos in carousels." [ref=e525]:
+                    - cell "location_id" [ref=e526]:
+                      - paragraph [ref=e527]:
+                        - code [ref=e528]: location_id
+                    - cell "<LOCATION_PAGE_ID>" [ref=e529]:
+                      - paragraph [ref=e530]:
+                        - code [ref=e531]: <LOCATION_PAGE_ID>
+                    - cell "The ID of a Page associated with a location that you want to tag the image or video with. Use the Pages Search API to search for Pages whose names match a search string, then parse the results to identify any Pages that have been created for a physical location. Include the location field in your query and verify that the Page you want to use has location data. Attempting to create a container using a Page that has no location data will fail with coded exception INSTAGRAM_PLATFORM_API__INVALID_LOCATION_ID. Not supported on images or videos in carousels." [ref=e532]:
+                      - paragraph [ref=e533]:
+                        - text: The ID of a
+                        - link "Page" [ref=e534] [cursor=pointer]:
+                          - /url: /docs/graph-api/reference/page
+                        - text: associated with a location that you want to tag the image or video with.
+                      - paragraph [ref=e535]:
+                        - text: Use the
+                        - link "Pages Search API" [ref=e536] [cursor=pointer]:
+                          - /url: /docs/pages/searching
+                        - text: to search for
+                        - link "Pages" [ref=e537] [cursor=pointer]:
+                          - /url: /docs/graph-api/reference/page
+                        - text: whose names match a search string, then parse the results to identify any Pages that have been created for a physical location. Include the
+                        - code [ref=e538]: location
+                        - text: field in your query and verify that the Page you want to use has location data. Attempting to create a container using a Page that has no location data will fail with coded exception
+                        - code [ref=e539]: INSTAGRAM_PLATFORM_API__INVALID_LOCATION_ID
+                        - text: .
+                      - paragraph [ref=e540]:
+                        - strong [ref=e541]: Not supported on images or videos in carousels
+                        - text: .
+                  - 'row "media_type <MEDIA_TYPE> Required for carousels, stories, and reels. Indicates container is for a carousel, story or reel. Value can be: CAROUSEL REELS STORIES" [ref=e542]':
+                    - cell "media_type" [ref=e543]:
+                      - paragraph [ref=e544]:
+                        - code [ref=e545]: media_type
+                    - cell "<MEDIA_TYPE>" [ref=e546]:
+                      - paragraph [ref=e547]:
+                        - code [ref=e548]: <MEDIA_TYPE>
+                    - 'cell "Required for carousels, stories, and reels. Indicates container is for a carousel, story or reel. Value can be: CAROUSEL REELS STORIES" [ref=e549]':
+                      - paragraph [ref=e550]:
+                        - strong [ref=e551]: Required for carousels, stories, and reels.
+                        - text: "Indicates container is for a carousel, story or reel. Value can be:"
+                      - list [ref=e552]:
+                        - listitem [ref=e553]:
+                          - code [ref=e554]: CAROUSEL
+                        - listitem [ref=e555]:
+                          - code [ref=e556]: REELS
+                        - listitem [ref=e557]:
+                          - code [ref=e558]: STORIES
+                  - 'row "product_tags <ARRAY_OF_PRODUCTS_FOR_TAGGING> Required for product tagging. Applies only to images and videos. An array of objects specifying which product tags to tag the image or video with (maximum of 5; tags and product IDs must be unique). Each object should have the following information: product_id — Required. Product ID. x — Images only. An optional float that indicates percentage distance from left edge of the published media image. Value must be within 0.0–1.0 range. y — Images only. An optional float that indicates percentage distance from top edge of the published media image. Value must be within 0.0–1.0 range. For example: [{product_id:''3231775643511089'',x: 0.5,y: 0.8}]" [ref=e559]':
+                    - cell "product_tags" [ref=e560]:
+                      - paragraph [ref=e561]:
+                        - code [ref=e562]: product_tags
+                    - cell "<ARRAY_OF_PRODUCTS_FOR_TAGGING>" [ref=e563]:
+                      - paragraph [ref=e564]:
+                        - code [ref=e565]: <ARRAY_OF_PRODUCTS_FOR_TAGGING>
+                    - 'cell "Required for product tagging. Applies only to images and videos. An array of objects specifying which product tags to tag the image or video with (maximum of 5; tags and product IDs must be unique). Each object should have the following information: product_id — Required. Product ID. x — Images only. An optional float that indicates percentage distance from left edge of the published media image. Value must be within 0.0–1.0 range. y — Images only. An optional float that indicates percentage distance from top edge of the published media image. Value must be within 0.0–1.0 range. For example: [{product_id:''3231775643511089'',x: 0.5,y: 0.8}]" [ref=e566]':
+                      - paragraph [ref=e567]:
+                        - strong [ref=e568]: Required for product tagging. Applies only to images and videos
+                        - text: ". An array of objects specifying which product tags to tag the image or video with (maximum of 5; tags and product IDs must be unique). Each object should have the following information:"
+                      - list [ref=e569]:
+                        - listitem [ref=e570]:
+                          - code [ref=e571]: product_id
+                          - text: —
+                          - strong [ref=e572]: Required.
+                          - text: Product ID.
+                        - listitem [ref=e573]:
+                          - code [ref=e574]: x
+                          - text: —
+                          - strong [ref=e575]: Images only.
+                          - text: An optional float that indicates percentage distance from left edge of the published media image. Value must be within
+                          - code [ref=e576]: "0.0"
+                          - text: –
+                          - code [ref=e577]: "1.0"
+                          - text: range.
+                        - listitem [ref=e578]:
+                          - code [ref=e579]: "y"
+                          - text: —
+                          - strong [ref=e580]: Images only.
+                          - text: An optional float that indicates percentage distance from top edge of the published media image. Value must be within
+                          - code [ref=e581]: "0.0"
+                          - text: –
+                          - code [ref=e582]: "1.0"
+                          - text: range.
+                      - paragraph [ref=e583]: "For example:"
+                      - paragraph [ref=e584]:
+                        - code [ref=e585]: "[{product_id:'3231775643511089',x: 0.5,y: 0.8}]"
+                  - row "share_to_feed <TRUE_OR_FALSE> For Reels only. When true, indicates that the reel can appear in both the Feed and Reels tabs. When false, indicates the reel can only appear in the Reels tab. Neither value determines whether the reel actually appears in the Reels tab because the reel may not meet eligibilty requirements or may not be selected by our algorithm. See reel specifications for eligibility critera." [ref=e586]:
+                    - cell "share_to_feed" [ref=e587]:
+                      - paragraph [ref=e588]:
+                        - code [ref=e589]: share_to_feed
+                    - cell "<TRUE_OR_FALSE>" [ref=e590]:
+                      - paragraph [ref=e591]:
+                        - code [ref=e592]: <TRUE_OR_FALSE>
+                    - cell "For Reels only. When true, indicates that the reel can appear in both the Feed and Reels tabs. When false, indicates the reel can only appear in the Reels tab. Neither value determines whether the reel actually appears in the Reels tab because the reel may not meet eligibilty requirements or may not be selected by our algorithm. See reel specifications for eligibility critera." [ref=e593]:
+                      - paragraph [ref=e594]:
+                        - text: For Reels only. When
+                        - code [ref=e595]: "true"
+                        - text: ", indicates that the reel can appear in both the"
+                        - strong [ref=e596]: Feed
+                        - text: and
+                        - strong [ref=e597]: Reels
+                        - text: tabs. When
+                        - code [ref=e598]: "false"
+                        - text: ", indicates the reel can only appear in the"
+                        - strong [ref=e599]: Reels
+                        - text: tab.
+                      - paragraph [ref=e602]:
+                        - text: Neither value determines whether the reel actually appears in the
+                        - strong [ref=e603]: Reels
+                        - text: tab because the reel may not meet eligibilty requirements or may not be selected by our algorithm. See
+                        - link "reel specifications" [ref=e604] [cursor=pointer]:
+                          - /url: /docs/instagram-api/reference/ig-user/media#reel-specifications
+                        - text: for eligibility critera.
+                  - row "thumb_offset <THUMB_OFFSET> For videos and reels. Location, in milliseconds, of the video or reel frame to be used as the cover thumbnail image. The default value is 0, which is the first frame of the video or reel. For reels, if you specify both cover_url and thumb_offset, we use cover_url and ignore thumb_offset." [ref=e605]:
+                    - cell "thumb_offset" [ref=e606]:
+                      - paragraph [ref=e607]:
+                        - code [ref=e608]: thumb_offset
+                    - cell "<THUMB_OFFSET>" [ref=e609]:
+                      - paragraph [ref=e610]:
+                        - code [ref=e611]: <THUMB_OFFSET>
+                    - cell "For videos and reels. Location, in milliseconds, of the video or reel frame to be used as the cover thumbnail image. The default value is 0, which is the first frame of the video or reel. For reels, if you specify both cover_url and thumb_offset, we use cover_url and ignore thumb_offset." [ref=e612]:
+                      - paragraph [ref=e613]:
+                        - text: For videos and reels. Location, in milliseconds, of the video or reel frame to be used as the cover thumbnail image. The default value is
+                        - code [ref=e614]: "0"
+                        - text: ", which is the first frame of the video or reel. For reels, if you specify both"
+                        - code [ref=e615]: cover_url
+                        - text: and
+                        - code [ref=e616]: thumb_offset
+                        - text: ", we use"
+                        - code [ref=e617]: cover_url
+                        - text: and ignore
+                        - code [ref=e618]: thumb_offset
+                        - text: .
+                  - 'row "upload_type <UPLOAD_TYPE> An optional parameter for users want to upload video through the rupload protocol, values can be set to lowercase string value: resumable." [ref=e619]':
+                    - cell "upload_type" [ref=e620]:
+                      - paragraph [ref=e621]:
+                        - code [ref=e622]: upload_type
+                    - cell "<UPLOAD_TYPE>" [ref=e623]:
+                      - paragraph [ref=e624]:
+                        - code [ref=e625]: <UPLOAD_TYPE>
+                    - 'cell "An optional parameter for users want to upload video through the rupload protocol, values can be set to lowercase string value: resumable." [ref=e626]':
+                      - paragraph [ref=e627]:
+                        - text: "An optional parameter for users want to upload video through the rupload protocol, values can be set to lowercase string value:"
+                        - code [ref=e628]: resumable
+                        - text: .
+                  - 'row "user_tags <ARRAY_OF_USERS_FOR_TAGGING>> Required for user tagging in images, videos, and stories. Videos in carousels are not supported. An array of public usernames and x/y coordinates for any public Instagram users who you want to tag in the image. Each object in the array should have the following information: username — Required. Username. x — Required for images, optional for stories. Applies only to images and stories. A float that indicates percentage distance from left edge of the published media image. Value must be within 0.0–1.0 range. y — Required for images, optional for stories. Applies only to images and stories. A float that indicates percentage distance from top edge of the published media image. Value must be within 0.0–1.0 range." [ref=e629]':
+                    - cell "user_tags" [ref=e630]:
+                      - paragraph [ref=e631]:
+                        - code [ref=e632]: user_tags
+                    - cell "<ARRAY_OF_USERS_FOR_TAGGING>>" [ref=e633]:
+                      - paragraph [ref=e634]:
+                        - code [ref=e635]: <ARRAY_OF_USERS_FOR_TAGGING>>
+                    - 'cell "Required for user tagging in images, videos, and stories. Videos in carousels are not supported. An array of public usernames and x/y coordinates for any public Instagram users who you want to tag in the image. Each object in the array should have the following information: username — Required. Username. x — Required for images, optional for stories. Applies only to images and stories. A float that indicates percentage distance from left edge of the published media image. Value must be within 0.0–1.0 range. y — Required for images, optional for stories. Applies only to images and stories. A float that indicates percentage distance from top edge of the published media image. Value must be within 0.0–1.0 range." [ref=e636]':
+                      - paragraph [ref=e637]:
+                        - strong [ref=e638]: Required for user tagging in images, videos, and stories.
+                        - text: Videos in carousels are not supported. An array of public usernames and
+                        - code [ref=e639]: x
+                        - text: /
+                        - code [ref=e640]: "y"
+                        - text: "coordinates for any public Instagram users who you want to tag in the image. Each object in the array should have the following information:"
+                      - list [ref=e641]:
+                        - listitem [ref=e642]:
+                          - code [ref=e643]: username
+                          - text: —
+                          - strong [ref=e644]: Required.
+                          - text: Username.
+                        - listitem [ref=e645]:
+                          - code [ref=e646]: x
+                          - text: —
+                          - strong [ref=e647]: Required for images, optional for stories. Applies only to images and stories.
+                          - text: A float that indicates percentage distance from left edge of the published media image. Value must be within
+                          - code [ref=e648]: "0.0"
+                          - text: –
+                          - code [ref=e649]: "1.0"
+                          - text: range.
+                        - listitem [ref=e650]:
+                          - code [ref=e651]: "y"
+                          - text: —
+                          - strong [ref=e652]: Required for images, optional for stories. Applies only to images and stories.
+                          - text: A float that indicates percentage distance from top edge of the published media image. Value must be within
+                          - code [ref=e653]: "0.0"
+                          - text: –
+                          - code [ref=e654]: "1.0"
+                          - text: range.
+                  - row "video_url <VIDEO_URL> Required for videos and reels. Applies only to videos and reels. Path to the video. We cURL the video using the passed-in URL, so it must be on a public server." [ref=e655]:
+                    - cell "video_url" [ref=e656]:
+                      - paragraph [ref=e657]:
+                        - code [ref=e658]: video_url
+                    - cell "<VIDEO_URL>" [ref=e659]:
+                      - paragraph [ref=e660]:
+                        - code [ref=e661]: <VIDEO_URL>
+                    - cell "Required for videos and reels. Applies only to videos and reels. Path to the video. We cURL the video using the passed-in URL, so it must be on a public server." [ref=e662]:
+                      - paragraph [ref=e663]:
+                        - strong [ref=e664]: Required for videos and reels. Applies only to videos and reels.
+                        - text: Path to the video. We cURL the video using the passed-in URL, so it must be on a public server.
+                  - 'row "trial_params <TRIAL_PARAM> An optional parameter for publishing trial reels. The media_type must be REELS if this parameter is included in the request. Each object should have the following information: graduation_strategy - Required. The graduation strategy specifies the conditions to graduate a reel (convert the trial reel to a reel, sharing it to followers). The value should be either MANUAL or SS_PERFORMANCE. When MANUAL, the trial reel can be manually graduated in the native app. When SS_PERFORMANCE, the trial reel will be automatically graduated if the trial reel performs well." [ref=e665]':
+                    - cell "trial_params" [ref=e666]:
+                      - paragraph [ref=e667]:
+                        - code [ref=e668]: trial_params
+                    - cell "<TRIAL_PARAM>" [ref=e669]:
+                      - paragraph [ref=e670]:
+                        - code [ref=e671]: <TRIAL_PARAM>
+                    - 'cell "An optional parameter for publishing trial reels. The media_type must be REELS if this parameter is included in the request. Each object should have the following information: graduation_strategy - Required. The graduation strategy specifies the conditions to graduate a reel (convert the trial reel to a reel, sharing it to followers). The value should be either MANUAL or SS_PERFORMANCE. When MANUAL, the trial reel can be manually graduated in the native app. When SS_PERFORMANCE, the trial reel will be automatically graduated if the trial reel performs well." [ref=e672]':
+                      - paragraph [ref=e673]:
+                        - text: An optional parameter for publishing trial reels. The
+                        - code [ref=e674]: media_type
+                        - text: must be
+                        - code [ref=e675]: REELS
+                        - text: "if this parameter is included in the request. Each object should have the following information:"
+                      - list [ref=e676]:
+                        - listitem [ref=e677]:
+                          - code [ref=e678]: graduation_strategy
+                          - text: "-"
+                          - strong [ref=e679]: Required
+                          - text: . The graduation strategy specifies the conditions to graduate a reel (convert the trial reel to a reel, sharing it to followers). The value should be either
+                          - code [ref=e680]: MANUAL
+                          - text: or
+                          - code [ref=e681]: SS_PERFORMANCE
+                          - text: . When
+                          - code [ref=e682]: MANUAL
+                          - text: ", the trial reel can be manually graduated in the native app. When"
+                          - code [ref=e683]: SS_PERFORMANCE
+                          - text: ", the trial reel will be automatically graduated if the trial reel performs well."
+              - heading "Response" [level=3] [ref=e684]
+              - paragraph [ref=e685]:
+                - text: A JSON-formatted object containing an
+                - link "IG Container" [ref=e686] [cursor=pointer]:
+                  - /url: /docs/instagram-api/reference/ig-container
+                - text: ID which you can use to
+                - link "publish" [ref=e687] [cursor=pointer]:
+                  - /url: /docs/instagram-api/reference/ig-user/media_publish
+                - text: the container.
+              - paragraph [ref=e688]:
+                - text: Video uploads are asynchronous, so receiving a container ID does not guarantee that the upload was successful. To verify that a video has been uploaded, request the
+                - link "status_code" [ref=e689] [cursor=pointer]:
+                  - /url: /docs/instagram-api/reference/ig-container#fields
+                  - code [ref=e690]: status_code
+                - text: field on the IG Container. If its value is
+                - code [ref=e691]: FINISHED
+                - text: ", the video was uploaded successfully."
+              - generic [ref=e692]: "{ \"id\":\"<IG_CONTAINER_ID>\" }"
+              - heading "Sample Request" [level=3] [ref=e693]
+              - generic [ref=e694]: "POST graph.facebook.com/17841400008460056/media ?image_url=curls//www.example.com/images/bronzed-fonzes.jpg &caption=#BronzedFonzes! &collaborators= [‘username1’,’username2’] &user_tags=[ { username:'kevinhart4real', x: 0.5, y: 0.8 }, { username:'therock', x: 0.3, y: 0.2 } ]"
+              - heading "Sample Response" [level=3] [ref=e695]
+              - generic [ref=e696]: "{ \"id\": \"17889455560051444\" }"
+              - link [ref=e697] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e700]:
+              - heading "Reading" [level=2] [ref=e701]
+              - paragraph [ref=e702]:
+                - strong [ref=e703]:
+                  - code [ref=e704]: GET /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/media
+              - paragraph [ref=e705]:
+                - text: Get all
+                - link "IG Media" [ref=e706] [cursor=pointer]:
+                  - /url: /docs/instagram-api/reference/ig-media
+                - text: on an
+                - link "IG User" [ref=e707] [cursor=pointer]:
+                  - /url: /docs/instagram-api/reference/ig-user
+                - text: .
+              - heading "Limitations" [level=3] [ref=e708]
+              - list [ref=e709]:
+                - listitem [ref=e710]: Returns a maximum of 10K of the most recently created media.
+                - listitem [ref=e711]:
+                  - text: Story IG Media not supported, use the
+                  - link "GET /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/stories" [ref=e712] [cursor=pointer]:
+                    - /url: /docs/instagram-api/reference/ig-user/stories
+                    - code [ref=e713]: GET /<YOUR_APP_USERS_INSTAGRAM_USER_ID>/stories
+                  - text: endpoint instead.
+              - heading "Requirements" [level=3] [ref=e714]
+              - table [ref=e716]:
+                - rowgroup [ref=e717]:
+                  - row "Type Description" [ref=e718]:
+                    - columnheader "Type" [ref=e719]
+                    - columnheader "Description" [ref=e720]
+                - rowgroup [ref=e721]:
+                  - row "Access Tokens User" [ref=e722]:
+                    - cell "Access Tokens" [ref=e723]:
+                      - paragraph [ref=e724]:
+                        - link "Access Tokens" [ref=e725] [cursor=pointer]:
+                          - /url: /docs/facebook-login/access-tokens#usertokens
+                    - cell "User" [ref=e726]:
+                      - paragraph [ref=e727]:
+                        - link "User" [ref=e728] [cursor=pointer]:
+                          - /url: /docs/facebook-login/access-tokens#usertokens
+                  - 'row "Permissions instagram_basic pages_read_engagement or pages_show_list If the app user was granted a role on the Page via the Business Manager, you will also need one of: ads_management business_management" [ref=e729]':
+                    - cell "Permissions" [ref=e730]:
+                      - paragraph [ref=e731]:
+                        - link "Permissions" [ref=e732] [cursor=pointer]:
+                          - /url: /docs/apps/review/login-permissions
+                    - 'cell "instagram_basic pages_read_engagement or pages_show_list If the app user was granted a role on the Page via the Business Manager, you will also need one of: ads_management business_management" [ref=e733]':
+                      - paragraph [ref=e734]:
+                        - link "instagram_basic" [ref=e735] [cursor=pointer]:
+                          - /url: /docs/facebook-login/permissions#reference-instagram_basic
+                          - code [ref=e736]: instagram_basic
+                        - link "pages_read_engagement" [ref=e737] [cursor=pointer]:
+                          - /url: /docs/facebook-login/permissions#reference-pages_read_engagement
+                          - code [ref=e738]: pages_read_engagement
+                        - text: or
+                        - link "pages_show_list" [ref=e739] [cursor=pointer]:
+                          - /url: /docs/facebook-login/permissions#reference-pages_show_list
+                          - code [ref=e740]: pages_show_list
+                      - paragraph [ref=e741]: "If the app user was granted a role on the Page via the Business Manager, you will also need one of:"
+                      - paragraph [ref=e742]:
+                        - link "ads_management" [ref=e743] [cursor=pointer]:
+                          - /url: /docs/permissions/reference/ads_management
+                          - code [ref=e744]: ads_management
+                        - link "business_management" [ref=e745] [cursor=pointer]:
+                          - /url: /docs/permissions/reference/business_management
+                          - code [ref=e746]: business_management
+              - heading "Time-based Pagination" [level=3] [ref=e747]
+              - paragraph [ref=e748]:
+                - text: This endpoint supports
+                - link "time-based pagination" [ref=e749] [cursor=pointer]:
+                  - /url: /docs/graph-api/results#time
+                - text: . Include
+                - code [ref=e750]: since
+                - text: and
+                - code [ref=e751]: until
+                - text: query-string parameters with Unix timestamp or
+                - code [ref=e752]: strtotime
+                - text: data values to define a time range.
+              - heading "Sample Request" [level=3] [ref=e753]
+              - generic [ref=e754]:
+                - text: GET graph.facebook.com/
+                - code [ref=e755]: v25.0
+                - text: /17841405822304914/media
+              - heading "Sample Response" [level=3] [ref=e756]
+              - generic [ref=e757]: "{ \"data\": [ { \"id\": \"17895695668004550\" }, { \"id\": \"17899305451014820\" }, { \"id\": \"17896450804038745\" }, { \"id\": \"17881042411086627\" }, { \"id\": \"17869102915168123\" } ] }"
+              - link [ref=e758] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e761]:
+              - heading "Updating" [level=2] [ref=e762]
+              - paragraph [ref=e763]: This operation is not supported.
+              - link [ref=e764] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e767]:
+              - heading "Deleting" [level=2] [ref=e768]
+              - paragraph [ref=e769]: This operation is not supported.
+              - link [ref=e770] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e773]:
+              - heading "See Also" [level=2] [ref=e774]
+              - list [ref=e775]:
+                - listitem [ref=e776]:
+                  - link "Error Codes" [ref=e777] [cursor=pointer]:
+                    - /url: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/error-codes
+              - link [ref=e778] [cursor=pointer]:
+                - /url: "#"
+          - link [ref=e782] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e787]:
+          - generic [ref=e788]: On This Page
+          - link "IG User Media" [ref=e790] [cursor=pointer]:
+            - /url: "#ig-user-media"
+          - link "Creating" [ref=e792] [cursor=pointer]:
+            - /url: "#creating"
+          - link "Limitations" [ref=e796] [cursor=pointer]:
+            - /url: "#limitations"
+          - link "Requirements" [ref=e800] [cursor=pointer]:
+            - /url: "#requirements"
+          - link "Image Specifications" [ref=e804] [cursor=pointer]:
+            - /url: "#image-specifications"
+          - link "Reel Specifications" [ref=e808] [cursor=pointer]:
+            - /url: "#reels-specs"
+          - link "Story Image Specifications" [ref=e812] [cursor=pointer]:
+            - /url: "#story-image-specifications"
+          - link "Story Video Specifications" [ref=e816] [cursor=pointer]:
+            - /url: "#story-video-specifications"
+          - link "Request Syntax" [ref=e820] [cursor=pointer]:
+            - /url: "#request-syntax"
+          - link "Path Parameters" [ref=e824] [cursor=pointer]:
+            - /url: "#path-parameters"
+          - link "Query String Parameters" [ref=e828] [cursor=pointer]:
+            - /url: "#query-string-parameters"
+          - link "Response" [ref=e832] [cursor=pointer]:
+            - /url: "#response"
+          - link "Sample Request" [ref=e836] [cursor=pointer]:
+            - /url: "#sample-request"
+          - link "Sample Response" [ref=e840] [cursor=pointer]:
+            - /url: "#sample-response"
+          - link "Reading" [ref=e842] [cursor=pointer]:
+            - /url: "#reading"
+          - link "Limitations" [ref=e846] [cursor=pointer]:
+            - /url: "#limitations-2"
+          - link "Requirements" [ref=e850] [cursor=pointer]:
+            - /url: "#requirements-2"
+          - link "Time-based Pagination" [ref=e854] [cursor=pointer]:
+            - /url: "#time-based-pagination"
+          - link "Sample Request" [ref=e858] [cursor=pointer]:
+            - /url: "#sample-request-2"
+          - link "Sample Response" [ref=e862] [cursor=pointer]:
+            - /url: "#sample-response-2"
+          - link "Updating" [ref=e864] [cursor=pointer]:
+            - /url: "#updating"
+          - link "Deleting" [ref=e866] [cursor=pointer]:
+            - /url: "#deleting"
+          - link "See Also" [ref=e868] [cursor=pointer]:
+            - /url: "#see-also"
+    - contentinfo [ref=e872]:
+      - generic [ref=e873]:
+        - separator [ref=e874]
+        - generic [ref=e876]:
+          - generic [ref=e878]:
+            - generic [ref=e880]:
+              - generic [ref=e881]:
+                - img "Meta"
+              - list [ref=e883]:
+                - listitem:
+                  - link "Facebook":
+                    - /url: https://www.facebook.com/MetaforDevelopers
+                    - img "Facebook"
+                - listitem:
+                  - link "Instagram":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                    - img "Instagram"
+                - listitem:
+                  - link "X":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                    - img "X"
+                - listitem:
+                  - link "LinkedIn":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                    - img "LinkedIn"
+                - listitem:
+                  - link "YouTube":
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                    - img "YouTube"
+            - generic [ref=e885]:
+              - generic [ref=e888]:
+                - heading "Build with Meta" [level=2] [ref=e889]:
+                  - generic [ref=e890]: Build with Meta
+                - list [ref=e891]:
+                  - listitem [ref=e892]:
+                    - link "AI" [ref=e894] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                  - listitem [ref=e895]:
+                    - link "Meta Horizon" [ref=e897] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                  - listitem [ref=e898]:
+                    - link "Social technologies" [ref=e900] [cursor=pointer]:
+                      - /url: /social-technologies/
+                  - listitem [ref=e901]:
+                    - link "Wearables" [ref=e903] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+              - generic [ref=e906]:
+                - heading "News" [level=2] [ref=e907]:
+                  - generic [ref=e908]: News
+                - list [ref=e909]:
+                  - listitem [ref=e910]:
+                    - link "Meta for Developers" [ref=e912] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                  - listitem [ref=e913]:
+                    - link "Blog" [ref=e915] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=e916]:
+                    - link "Success stories" [ref=e918] [cursor=pointer]:
+                      - /url: /success-stories/
+              - generic [ref=e921]:
+                - heading "Support" [level=2] [ref=e922]:
+                  - generic [ref=e923]: Support
+                - list [ref=e924]:
+                  - listitem [ref=e925]:
+                    - link "Developer Support" [ref=e927] [cursor=pointer]:
+                      - /url: /support/
+                  - listitem [ref=e928]:
+                    - link "Bug tool" [ref=e930] [cursor=pointer]:
+                      - /url: /support/bugs/
+                  - listitem [ref=e931]:
+                    - link "Platform status" [ref=e933] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                  - listitem [ref=e934]:
+                    - link "Developer community forum" [ref=e936] [cursor=pointer]:
+                      - /url: https://www.facebook.com/groups/fbdevelopers/
+                  - listitem [ref=e937]:
+                    - link "Report an incident" [ref=e939] [cursor=pointer]:
+                      - /url: /incident/report/
+              - generic [ref=e942]:
+                - heading "About us" [level=2] [ref=e943]:
+                  - generic [ref=e944]: About us
+                - list [ref=e945]:
+                  - listitem [ref=e946]:
+                    - link "About" [ref=e948] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AT45vp0AlV6D0cs3d7pZis1G45oVwpkcEMYmoZPpQnrqfv8tGgrpOQBbSTt3TB7lq0k6MXoyfm-MNSUZtyXIULwQQEikLuh9cCRVyS2sOsiaau4F20wJ_e4C6rZuHLUiRQftAVUvvOAcLtP2gdPusRQqFJH25GIlqy7gTQ
+                  - listitem [ref=e949]:
+                    - link "Careers" [ref=e951] [cursor=pointer]:
+                      - /url: https://www.facebook.com/careers
+              - generic [ref=e954]:
+                - heading "Terms and policies" [level=2] [ref=e955]:
+                  - generic [ref=e956]: Terms and policies
+                - list [ref=e957]:
+                  - listitem [ref=e958]:
+                    - link "Responsible platform initiatives" [ref=e960] [cursor=pointer]:
+                      - /url: /products/responsible-platform-initiatives/
+                  - listitem [ref=e961]:
+                    - link "Platform terms" [ref=e963] [cursor=pointer]:
+                      - /url: /terms/dfc_platform_terms/
+                  - listitem [ref=e964]:
+                    - link "Developer policies" [ref=e966] [cursor=pointer]:
+                      - /url: /devpolicy/
+                  - listitem [ref=e967]:
+                    - link "Privacy policy" [ref=e969] [cursor=pointer]:
+                      - /url: https://www.facebook.com/about/privacy
+                  - listitem [ref=e970]:
+                    - link "Cookies" [ref=e972] [cursor=pointer]:
+                      - /url: https://www.facebook.com/help/cookies
+          - button "Change language" [ref=e977] [cursor=pointer]:
+            - generic [ref=e979]: English (US)

@@ -1,0 +1,375 @@
+# ClickUp API v2 — Source Registry
+# Research Date: 2026-03-18
+# Scoring: Authority, Recency, Objectivity, Methodology, Relevance (1-5 each)
+
+sources:
+
+  - name: "ClickUp Authentication Docs"
+    url: "https://developer.clickup.com/docs/authentication"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "Primary auth reference. Personal token, OAuth flow, header formats."
+
+  - name: "ClickUp Get Access Token Reference"
+    url: "https://developer.clickup.com/reference/getaccesstoken"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "OAuth token exchange endpoint OpenAPI spec."
+
+  - name: "ClickUp Rate Limits"
+    url: "https://developer.clickup.com/docs/rate-limits"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "Per-plan rate limit table, headers, 429 behavior."
+
+  - name: "ClickUp Common Errors"
+    url: "https://developer.clickup.com/docs/common_errors"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "ECODE values, error response format."
+
+  - name: "ClickUp Tasks Documentation"
+    url: "https://developer.clickup.com/docs/tasks"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "Task fields, priorities, subtasks, markdown, relationships."
+
+  - name: "ClickUp Create Task Reference"
+    url: "https://developer.clickup.com/reference/createtask"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "Full OpenAPI schema for POST /list/{id}/task."
+
+  - name: "ClickUp Update Task Reference"
+    url: "https://developer.clickup.com/reference/updatetask"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "Full OpenAPI schema for PUT /task/{id}. Assignee add/rem difference."
+
+  - name: "ClickUp Get Tasks Reference"
+    url: "https://developer.clickup.com/reference/gettasks"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "All query params for list-scoped task retrieval."
+
+  - name: "ClickUp Get Filtered Team Tasks"
+    url: "https://developer.clickup.com/reference/getfilteredteamtasks"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "Workspace-scoped task search with space_ids, project_ids, list_ids filters."
+
+  - name: "ClickUp Custom Fields Docs"
+    url: "https://developer.clickup.com/docs/customfields"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "All 17 custom field types, type_config, value formats per type."
+
+  - name: "ClickUp Set Custom Field Value"
+    url: "https://developer.clickup.com/reference/setcustomfieldvalue"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "OpenAPI schema for POST /task/{id}/field/{field_id}."
+
+  - name: "ClickUp Get Accessible Custom Fields"
+    url: "https://developer.clickup.com/reference/getaccessiblecustomfields"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "GET /list/{id}/field response format with type_config per field."
+
+  - name: "ClickUp Task Filters"
+    url: "https://developer.clickup.com/docs/taskfilters"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "Custom field filter operators: =, ==, >, ANY, IS NULL, RANGE, etc."
+
+  - name: "ClickUp Webhook Signature"
+    url: "https://developer.clickup.com/docs/webhooksignature"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "HMAC-SHA256 verification. Raw body requirement. Hex encoding."
+
+  - name: "ClickUp Webhook Health"
+    url: "https://developer.clickup.com/docs/webhookhealth"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 5
+    composite: 5.0
+    status: PASS
+    notes: "fail_count thresholds, 401/410 suspension behavior, reactivation."
+
+  - name: "ClickUp v2 vs v3 Terminology"
+    url: "https://developer.clickup.com/docs/general-v2-v3-api"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite: 4.8
+    status: PASS
+    notes: "team_id vs workspace_id mapping. v2 legacy naming explanation."
+
+  - name: "ClickUp FAQ"
+    url: "https://developer.clickup.com/docs/faq"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 4
+    relevance: 4
+    composite: 4.6
+    status: PASS
+    notes: "OAuth token expiry, subtask rules, role numbers, team vs workspace."
+
+  - name: "ClickUp Views Documentation"
+    url: "https://developer.clickup.com/docs/views"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite: 4.8
+    status: PASS
+    notes: "View types, hierarchy levels, parent type codes."
+
+  - name: "ClickUp APIv2 Demo Repository"
+    url: "https://github.com/clickup/clickup-APIv2-demo"
+    type: official_github
+    authority: 5
+    recency: 4
+    objectivity: 5
+    methodology: 4
+    relevance: 4
+    composite: 4.4
+    status: PASS
+    notes: "Official ClickUp Node.js demo. Webhook handler patterns."
+
+  - name: "ConsultEvo Rate Limits Guide"
+    url: "https://consultevo.com/clickup-api-rate-limits-guide/"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 3
+    relevance: 5
+    composite: 3.8
+    status: PASS
+    notes: "Confirms official rate limit tiers. Notes undocumented legacy behavior."
+
+  - name: "ConsultEvo Webhooks Guide"
+    url: "https://consultevo.com/clickup-webhooks-api-guide/"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 3
+    relevance: 5
+    composite: 3.8
+    status: PASS
+    notes: "Implementation guide with Python examples. Confirms 7-second timeout."
+
+  - name: "ConsultEvo Custom Fields Guide"
+    url: "https://consultevo.com/clickup-custom-fields-api-guide/"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 3
+    relevance: 5
+    composite: 3.8
+    status: PASS
+    notes: "Practical custom field workflow. Confirms UI-only creation."
+
+  - name: "ConsultEvo Create Task Guide"
+    url: "https://consultevo.com/clickup-create-task-api-guide/"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 3
+    relevance: 5
+    composite: 3.8
+    status: PASS
+    notes: "Task creation patterns with Python examples."
+
+  - name: "Rollout ClickUp Python Integration Guide"
+    url: "https://rollout.com/integration-guides/clickup/sdk/step-by-step-guide-to-building-a-clickup-api-integration-in-python"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 4
+    relevance: 5
+    composite: 4.0
+    status: PASS
+    notes: "Step-by-step Python SDK integration. Practical code examples."
+
+  - name: "Rollout ClickUp Webhooks Quick Guide"
+    url: "https://rollout.com/integration-guides/clickup/quick-guide-to-implementing-webhooks-in-clickup"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 4
+    relevance: 5
+    composite: 4.0
+    status: PASS
+    notes: "Webhook implementation patterns. HMAC verification in Node.js."
+
+  - name: "ClickUp Feedback — Bulk Update Tasks"
+    url: "https://feedback.clickup.com/public-api/p/update-multiple-task-fields-in-a-single-api-call"
+    type: community_feedback
+    authority: 3
+    recency: 4
+    objectivity: 5
+    methodology: 3
+    relevance: 4
+    composite: 3.8
+    status: PASS
+    notes: "Confirms no bulk endpoint exists, marked 'not on roadmap'. 76+ votes."
+
+  - name: "dltHub ClickUp Python Docs"
+    url: "https://dlthub.com/context/source/clickup"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 4
+    relevance: 4
+    composite: 3.8
+    status: PASS
+    notes: "Data extraction patterns. Pagination behavior confirmation."
+
+  - name: "ConsultEvo Threaded Comments Guide"
+    url: "https://consultevo.com/clickup-threaded-comments-api-guide/"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 3
+    relevance: 4
+    composite: 3.6
+    status: PASS
+    notes: "Threaded comments API (shipped May 2024). Flat array behavior."
+
+  - name: "ClickUp Time Tracking Reference"
+    url: "https://developer.clickup.com/reference/createatimeentry"
+    type: official
+    authority: 5
+    recency: 5
+    objectivity: 5
+    methodology: 5
+    relevance: 4
+    composite: 4.8
+    status: PASS
+    notes: "Time Tracking 2.0 endpoints. Negative duration = running timer."
+
+  - name: "ConsultEvo AI Agents Workflow"
+    url: "https://consultevo.com/clickup-ai-agents-workflow-integration/"
+    type: community
+    authority: 3
+    recency: 4
+    objectivity: 4
+    methodology: 3
+    relevance: 5
+    composite: 3.8
+    status: PASS
+    notes: "AI automation integration patterns. Webhook + AI patterns."
+
+# Sources discarded (composite < 3.0):
+# None — all sources passed the 3.0 threshold.
+
+# Summary
+total_sources: 29
+passed: 29
+failed: 0
+minimum_composite_score: 3.6
+average_composite_score: 4.4
