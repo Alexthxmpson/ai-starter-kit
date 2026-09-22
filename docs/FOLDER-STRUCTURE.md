@@ -11,10 +11,14 @@ ai-command-center/
 │       ├── dashboard.md
 │       ├── api-docs.md
 │       ├── first-principles.md
-│       └── handoff.md
+│       ├── handoff.md
+│       └── ai-consulting.md
+│   └── skills/
+│       └── ai-consulting/     (playbook, references, helper script)
 ├── projects/
 ├── context/
-│   └── handoffs/
+│   ├── handoffs/
+│   └── ai-consulting/        (synced from Alexander's portal, clients only)
 └── docs/
     └── apis/
 ```

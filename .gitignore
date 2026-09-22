@@ -7,6 +7,8 @@ context/business/*
 !context/business/.gitkeep
 context/handoffs/*
 !context/handoffs/.gitkeep
+context/ai-consulting/*
+!context/ai-consulting/.gitkeep
 projects/*
 !projects/.gitkeep
 
